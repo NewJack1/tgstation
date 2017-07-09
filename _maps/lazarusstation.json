@@ -1,0 +1,7 @@
+{
+    "map_name": "Lazarus Station",
+    "map_path": "map_files/LazarusStation",
+    "map_file": "LazarusStation.dmm",
+    "minetype": "lavaland",
+    "transition_config": "default"
+}
