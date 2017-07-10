@@ -17,11 +17,11 @@
 	admin_sound.wait = 1
 	admin_sound.repeat = 0
 	admin_sound.status = SOUND_STREAM
-		
+
 	var/res = alert(usr, "Show the title of this song to the players?",, "No", "Yes", "Cancel")
 	switch(res)
 		if("Yes")
-			to_chat(world, "<span class='boldannounce'>An admin played: [S]</span>")
+			to_chat(world, "<span class='boldannounce'>Сейчас на сервере играет: [S]</span>")
 		if("Cancel")
 			return
 

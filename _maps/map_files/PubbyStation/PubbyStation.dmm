@@ -6525,6 +6525,7 @@
 	port_angle = 180;
 	width = 5
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/pod_1)
 "aoh" = (
@@ -6624,6 +6625,7 @@
 	name = "Labor Shuttle Airlock";
 	req_access_txt = "2"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/labor)
 "aos" = (
@@ -6631,6 +6633,7 @@
 	name = "Labor Camp Shuttle Airlock";
 	req_access_txt = "2"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/black,
 /area/security/brig)
 "aot" = (
@@ -6645,6 +6648,7 @@
 	pixel_y = -25;
 	req_access_txt = "2"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/black,
 /area/security/brig)
 "aou" = (
@@ -6930,6 +6934,7 @@
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/crew_quarters/dorms)
 "ape" = (
@@ -7676,6 +7681,7 @@
 	req_access = null;
 	req_access_txt = "10;13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/bridge)
 "aqK" = (
@@ -8238,12 +8244,14 @@
 	name = "fore bay 1";
 	width = 9
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/labor)
 "arS" = (
 /obj/machinery/door/airlock/external{
 	name = "Labor Camp Shuttle Airlock"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/black,
 /area/security/brig)
 "arT" = (
@@ -8496,6 +8504,7 @@
 	req_access = null;
 	req_access_txt = "10;13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/bridge)
 "asD" = (
@@ -8759,6 +8768,7 @@
 	name = "Labor Camp Shuttle Airlock";
 	req_access_txt = "0"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/black,
 /area/security/brig)
 "ate" = (
@@ -18282,10 +18292,12 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/item/weapon/reagent_containers/spray/cleaner,
 /turf/open/floor/plasteel/hydrofloor,
 /area/hydroponics)
 "aNL" = (
 /obj/structure/closet/secure_closet/hydroponics,
+/obj/item/weapon/reagent_containers/spray/cleaner,
 /turf/open/floor/plasteel/hydrofloor,
 /area/hydroponics)
 "aNM" = (
@@ -18885,10 +18897,20 @@
 /turf/open/floor/plasteel/hydrofloor,
 /area/hydroponics)
 "aOW" = (
-/obj/structure/kitchenspike,
-/obj/item/device/assembly/mousetrap,
-/obj/item/trash/deadmouse,
-/turf/open/floor/plasteel/showroomfloor,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/window/northleft{
+	dir = 2;
+	icon_state = "left";
+	name = "Animal Window";
+	req_access_txt = "28"
+	},
+/obj/item/weapon/reagent_containers/food/snacks/grown/wheat,
+/mob/living/simple_animal/hostile/retaliate/goat{
+	name = "Pete"
+	},
+/turf/open/floor/grass,
 /area/crew_quarters/kitchen)
 "aOX" = (
 /obj/structure/cable{
@@ -19107,6 +19129,7 @@
 	name = "Supply Dock Airlock";
 	req_access_txt = "31"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "aPx" = (
@@ -19129,6 +19152,7 @@
 	name = "Cargo Bay";
 	width = 12
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "aPz" = (
@@ -19385,6 +19409,7 @@
 	dir = 8;
 	pixel_x = 23
 	},
+/obj/machinery/icecream_vat,
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
 "aQa" = (
@@ -19774,6 +19799,15 @@
 /obj/item/weapon/crowbar,
 /obj/item/stack/packageWrap,
 /obj/item/weapon/hand_labeler,
+/obj/item/weapon/reagent_containers/food/snacks/grown/wheat,
+/obj/item/weapon/reagent_containers/food/snacks/grown/wheat,
+/obj/item/weapon/reagent_containers/food/snacks/grown/wheat,
+/obj/item/weapon/reagent_containers/food/snacks/grown/wheat,
+/obj/item/weapon/paper{
+	desc = "";
+	info = "<b>–уководство по уходу за домашним козлом ѕит.</b><br><br>ѕриветствую тебя, уважаемый владелец замечательного рогатого друга и товарища по кличке ѕит.¬ этой записке мы бы хотели убедить тебя в том, почему этого приятеля стоит держать в загоне в мирное время.<br><br>¬о-первых, ѕит достаточно нервный тип. ≈сли будешь с ним очень невежлив, он забодает тебя до смерти, будь уверен. Ќе обижай его и не забывай подкармливать сеном.¬ некоторых ситуациях ѕит может быть очень полезен для экипажа. » вот одна из них.<br>≈сли вдруг на борту резко будет распространяться опасный  удзу и экипаж не будет знать, как его победить - просто освободи ѕита и притащи его к растению.“ы сам увидишь, как от него ничего не останется, а ѕит только скажет тебе спасибо.<br>¬от и все в целом. Ќе забывай заботиться о своем новом друге, но помни - он опасное нервное животное. » бодается - будь здоров. ”дачной смены.<br><br><b><i>Logan Green</i></b> - эксперт в области ведения сельского хозяйства.";
+	name = "Pete Guide"
+	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
 "aQQ" = (
@@ -20097,6 +20131,7 @@
 	name = "Supply Shuttle Airlock";
 	req_access_txt = "31"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "aRx" = (
@@ -22906,7 +22941,7 @@
 /area/crew_quarters/kitchen)
 "aXC" = (
 /obj/structure/table,
-/obj/item/weapon/reagent_containers/food/snacks/grown/tomato,
+/obj/item/weapon/reagent_containers/spray/cleaner,
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
 "aXD" = (
@@ -23888,6 +23923,7 @@
 	req_access = null;
 	req_access_txt = "48"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/quartermaster/miningdock)
 "aZK" = (
@@ -23898,6 +23934,7 @@
 	name = "Mining Shuttle Airlock";
 	req_access_txt = "48"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/labor)
 "aZM" = (
@@ -23971,10 +24008,14 @@
 /area/maintenance/department/chapel/monastery)
 "aZU" = (
 /obj/structure/closet/wardrobe/black,
+/obj/item/weapon/tank/internals/emergency_oxygen,
+/obj/item/clothing/mask/breath,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "aZV" = (
 /obj/structure/closet/wardrobe/mixed,
+/obj/item/weapon/tank/internals/emergency_oxygen,
+/obj/item/clothing/mask/breath,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "aZW" = (
@@ -24960,10 +25001,8 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/labor)
 "bbP" = (
-/obj/structure/closet/emcloset,
 /obj/item/weapon/storage/firstaid/o2,
-/obj/item/weapon/tank/internals/emergency_oxygen,
-/obj/item/clothing/mask/breath,
+/obj/structure/table,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "bbQ" = (
@@ -53015,6 +53054,16 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/chapel/main/monastery)
+"cnq" = (
+/obj/structure/kitchenspike,
+/turf/open/floor/plasteel/showroomfloor,
+/area/crew_quarters/kitchen)
+"cnr" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/crew_quarters/kitchen)
 
 (1,1,1) = {"
 aaa
@@ -80882,7 +80931,7 @@ aMe
 aNa
 aNa
 aOW
-aPV
+cnr
 aQP
 aNa
 aSN
@@ -81396,8 +81445,8 @@ aMg
 aNa
 aNa
 aOY
-aPX
 aNS
+cnq
 aNa
 aNa
 aNa

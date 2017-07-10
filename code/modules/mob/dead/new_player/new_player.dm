@@ -110,7 +110,7 @@
 		if(SSticker)
 			var/tready = text2num(href_list["ready"])
 			//Avoid updating ready if we're after PREGAME (they should use latejoin instead)
-			//This is likely not an actual issue but I don't have time to prove that this 
+			//This is likely not an actual issue but I don't have time to prove that this
 			//no longer is required
 			if(SSticker.current_state <= GAME_STATE_PREGAME)
 				ready = tready
@@ -408,7 +408,7 @@
 			available_job_count++;
 
 	if(length(SSjob.prioritized_jobs))
-		dat += "<div class='notice red'>The station has flagged these jobs as high priority:<br>"
+		dat += "<div class='notice red'>Следующие профессии в данный момент крайне приоритетны:<br>"
 		var/amt = length(SSjob.prioritized_jobs)
 		var/amt_count
 		for(var/datum/job/a in SSjob.prioritized_jobs)
