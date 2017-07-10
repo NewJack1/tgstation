@@ -4,6 +4,13 @@
 		return "slurs"
 	else
 		. = ..()
+/mob/living/carbon/human/say(message, bubble_type)
+	. = ..(message)
+	if(.)
+		if(gender == FEMALE)
+			playsound(loc, 'sound/voice/male_say.ogg', 15, 1, 1)
+		else
+			playsound(loc, 'sound/voice/female_say.ogg', 25, 1, 1)
 
 /mob/living/carbon/human/treat_message(message)
 	message = dna.species.handle_speech(message,src)
