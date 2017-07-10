@@ -503,6 +503,17 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = 0
 
+/obj/item/clothing/under/red_maid
+	name = "red maid costume"
+	desc = "Lazarus-branded maid costume."
+	icon_state = "maid"
+	item_state = "redmaid"
+	item_color = "maid"
+	body_parts_covered = CHEST|GROIN
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = 0
+
+
 /obj/item/clothing/under/maid/Initialize()
 	. = ..()
 	var/obj/item/clothing/accessory/maidapron/A = new (src)

@@ -187,7 +187,7 @@
 			if(src.authenticated)
 				src.state = STATE_CALLSHUTTLE
 		if("callshuttle2")
-			if(src.authenticated)
+			if(src.authenticated==2)
 				SSshuttle.requestEvac(usr, href_list["call"])
 				if(SSshuttle.emergency.timer)
 					post_status("shuttle")
@@ -268,7 +268,7 @@
 
 		// OMG CENTCOM LETTERHEAD
 		if("MessageCentcomm")
-			if(src.authenticated==2)
+			if(src.authenticated)
 				if(!checkCCcooldown())
 					to_chat(usr, "<span class='warning'>Arrays recycling.  Please stand by.</span>")
 					return
