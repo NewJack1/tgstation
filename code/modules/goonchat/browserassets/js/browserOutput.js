@@ -4,11 +4,82 @@
 * FUNCTION AND VAR DECLARATIONS
 *
 ******************************************/
+var Utf8 = {
+
+    // public method for url encoding
+    encode : function (string) {
+        string = string.replace(/rn/g,"n");
+        var utftext = "";
+
+        for (var n = 0; n < string.length; n++) {
+
+            var c = string.charCodeAt(n);
+
+            if (c < 128) {
+                utftext += String.fromCharCode(c);
+            }
+            else if((c > 127) && (c < 2048)) {
+                utftext += String.fromCharCode((c >> 6) | 192);
+                utftext += String.fromCharCode((c & 63) | 128);
+            }
+            else {
+                utftext += String.fromCharCode((c >> 12) | 224);
+                utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+                utftext += String.fromCharCode((c & 63) | 128);
+            }
+
+        }
+
+        return utftext;
+    },
+
+    // public method for url decoding
+    decode : function (utftext) {
+        var string = "";
+        var i = 0;
+        var c = c1 = c2 = 0;
+
+        while ( i < utftext.length ) {
+
+            c = utftext.charCodeAt(i);
+
+            if (c < 128) {
+                string += String.fromCharCode(c);
+                i++;
+            }
+            else if((c > 191) && (c < 224)) {
+                c2 = utftext.charCodeAt(i+1);
+                string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+                i += 2;
+            }
+            else {
+                c2 = utftext.charCodeAt(i+1);
+                c3 = utftext.charCodeAt(i+2);
+                string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+                i += 3;
+            }
+
+        }
+
+        return string;
+    }
+
+}
+
+function encode_utf8( s )
+{
+  return unescape( encodeURIComponent( s ) );
+}
+
+function decode_utf8( s )
+{
+  return decodeURIComponent( escape( s ) );
+}
 
 //DEBUG STUFF
 var triggerError = attachErrorHandler('chatDebug', true);
-var escaper = encodeURIComponent || escape;
-var decoder = decodeURIComponent || unescape;
+var escaper = encode_utf8( s ) || escape;
+var decoder = decode_utf8( s ) || unescape;
 window.onerror = function(msg, url, line, col, error) {
 	if (document.location.href.indexOf("proc=debug") <= 0) {
 		var extra = !col ? '' : ' | column: ' + col;
@@ -19,6 +90,7 @@ window.onerror = function(msg, url, line, col, error) {
 	}
 	return true;
 };
+
 
 //Globals
 window.status = 'Output';
