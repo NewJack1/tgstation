@@ -1855,6 +1855,7 @@
 	req_access = null;
 	req_access_txt = "65"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat_interior)
 "aeA" = (
@@ -2096,6 +2097,7 @@
 	req_access = null;
 	req_access_txt = "65"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/aisat_interior)
 "aeZ" = (
@@ -2138,6 +2140,7 @@
 	name = "Transfer Room";
 	req_access_txt = "2"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -3989,6 +3992,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/dorms)
 "aiS" = (
@@ -5913,6 +5917,7 @@
 	name = "Security External Airlock";
 	req_access_txt = "63"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/fore)
 "amP" = (
@@ -5927,6 +5932,7 @@
 	name = "Security External Airlock";
 	req_access_txt = "63"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/fore)
 "amR" = (
@@ -10170,6 +10176,7 @@
 	req_access = null;
 	req_access_txt = "10; 13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/solars/port)
 "awl" = (
@@ -10192,6 +10199,7 @@
 	req_access = null;
 	req_access_txt = "10; 13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/solars/port)
 "awn" = (
@@ -14812,6 +14820,7 @@
 	turf_type = /turf/open/space;
 	width = 35
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/black,
 /area/shuttle/abandoned)
 "aGg" = (
@@ -14840,6 +14849,7 @@
 	name = "Emergency Shuttle Airlock";
 	req_access_txt = "2"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/escape)
 "aGl" = (
@@ -14847,6 +14857,7 @@
 	cyclelinkeddir = 4;
 	name = "Escape Airlock"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/exit/departure_lounge)
 "aGm" = (
@@ -14857,6 +14868,7 @@
 	cyclelinkeddir = 8;
 	name = "Escape Airlock"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/exit/departure_lounge)
 "aGo" = (
@@ -18787,6 +18799,7 @@
 	port_angle = 90;
 	width = 18
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "aON" = (
@@ -22299,6 +22312,7 @@
 	cyclelinkeddir = 2;
 	name = "Port Docking Bay 1"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "aWm" = (
@@ -22683,6 +22697,7 @@
 	req_access = null;
 	req_access_txt = "10; 13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard)
 "aXb" = (
@@ -22705,6 +22720,7 @@
 	req_access = null;
 	req_access_txt = "10; 13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard)
 "aXd" = (
@@ -23521,6 +23537,7 @@
 /obj/machinery/door/airlock/titanium{
 	name = "Arrivals Shuttle Airlock"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/arrival)
 "aYY" = (
@@ -30067,6 +30084,7 @@
 	turf_type = /turf/open/space;
 	width = 5
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/pod/light,
 /area/shuttle/transport)
 "bmO" = (
@@ -30076,6 +30094,7 @@
 	name = "Port Docking Bay 2";
 	req_access_txt = "0"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "bmP" = (
@@ -30085,6 +30104,7 @@
 	name = "Port Docking Bay 2";
 	req_access_txt = "0"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "bmQ" = (
@@ -37456,6 +37476,7 @@
 	req_access_txt = "8";
 	req_one_access_txt = "0"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/science/mineral_storeroom)
 "bBN" = (
@@ -37850,6 +37871,7 @@
 	id = "chapelgun";
 	name = "mass driver door"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/chapel/main/monastery)
 "bCL" = (
@@ -37987,6 +38009,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/science/mineral_storeroom)
 "bDa" = (
@@ -38613,6 +38636,7 @@
 	req_access_txt = "8";
 	req_one_access_txt = "0"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/science/mineral_storeroom)
 "bEz" = (
@@ -42451,6 +42475,7 @@
 	req_access = null;
 	req_access_txt = "24"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/engine/atmos)
 "bMU" = (
@@ -42988,6 +43013,7 @@
 	req_access = null;
 	req_access_txt = "24"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/engine/atmos)
 "bNR" = (
@@ -43922,6 +43948,7 @@
 	req_access_txt = "10;13"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "bPY" = (
@@ -43989,6 +44016,7 @@
 	req_access = null;
 	req_access_txt = "10;13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "bQf" = (
@@ -44206,6 +44234,7 @@
 	req_access_txt = "10;13"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "bQF" = (
@@ -44260,6 +44289,7 @@
 	req_access = null;
 	req_access_txt = "10;13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "bQL" = (
@@ -44384,6 +44414,7 @@
 	req_access = null;
 	req_access_txt = "61"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "bRb" = (
@@ -44535,6 +44566,7 @@
 	req_access = null;
 	req_access_txt = "61"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/engine/engineering)
 "bRr" = (
@@ -44905,6 +44937,7 @@
 	req_access = null;
 	req_access_txt = "61"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "bSn" = (
@@ -44934,6 +44967,7 @@
 	req_access = null;
 	req_access_txt = "61"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "bSr" = (
@@ -45873,6 +45907,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/dorms)
 "bUB" = (
@@ -46102,6 +46137,7 @@
 	cyclelinkeddir = 4;
 	req_access_txt = "13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
 "bVe" = (
@@ -46109,6 +46145,7 @@
 	cyclelinkeddir = 8;
 	req_access_txt = "13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
 "bVf" = (
@@ -47477,6 +47514,7 @@
 /obj/machinery/door/airlock/external{
 	name = "Pod Docking Bay"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/chapel/dock)
 "bYH" = (
@@ -48278,6 +48316,7 @@
 /obj/machinery/door/airlock/external{
 	cyclelinkeddir = 4
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
@@ -48294,6 +48333,7 @@
 /obj/machinery/door/airlock/external{
 	cyclelinkeddir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
@@ -48303,6 +48343,7 @@
 	cyclelinkeddir = 4;
 	req_access_txt = "13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
 "caP" = (
@@ -48320,6 +48361,7 @@
 	cyclelinkeddir = 8;
 	req_access_txt = "13"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
 "caR" = (
@@ -49990,6 +50032,7 @@
 /obj/machinery/door/airlock/glass{
 	name = "Shuttle Airlock"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/black,
 /area/shuttle/abandoned)
 "ceX" = (
@@ -51408,10 +51451,12 @@
 /area/shuttle/transport)
 "cig" = (
 /obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
 /turf/open/floor/pod/light,
 /area/shuttle/transport)
 "cih" = (
 /obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
 /turf/open/floor/pod/dark,
 /area/shuttle/transport)
 "cii" = (
@@ -51437,6 +51482,7 @@
 	cyclelinkeddir = 1;
 	name = "Port Docking Bay 1"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "cil" = (
@@ -52940,6 +52986,35 @@
 /obj/structure/grille,
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
+"cnm" = (
+/obj/machinery/door/poddoor{
+	id = "trash";
+	name = "disposal bay door"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/maintenance/disposal)
+"cnn" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Emergency Shuttle Airlock"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"cno" = (
+/obj/machinery/door/airlock/external{
+	cyclelinkeddir = 4
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/chapel/main/monastery)
+"cnp" = (
+/obj/machinery/door/airlock/external{
+	cyclelinkeddir = 8
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/chapel/main/monastery)
 
 (1,1,1) = {"
 aaa
@@ -64690,7 +64765,7 @@ aaa
 aaa
 cds
 cca
-cdm
+cno
 cca
 cds
 aaa
@@ -65461,7 +65536,7 @@ ceG
 cax
 cax
 cca
-cdo
+cnp
 cca
 cax
 cds
@@ -70524,7 +70599,7 @@ aCh
 aCi
 aCi
 aCh
-aMQ
+cnn
 aCh
 aOM
 aCh
@@ -75915,8 +75990,8 @@ aDa
 aDF
 aEA
 cnj
-cnk
-cnl
+cnj
+cnj
 aIA
 aJS
 aKP
@@ -98531,7 +98606,7 @@ aaa
 aaa
 aaa
 aaa
-aHb
+cnm
 aHb
 aJD
 aKH

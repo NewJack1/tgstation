@@ -237,6 +237,7 @@
 /obj/machinery/door/airlock{
 	name = "Labor Camp External Access"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -358,6 +359,7 @@
 	name = "Labor Camp Shuttle Security Airlock";
 	req_access_txt = "2"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -575,6 +577,7 @@
 	name = "Labor Camp Shuttle Prisoner Airlock";
 	req_access_txt = "0"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -856,6 +859,7 @@
 	opacity = 0;
 	req_access_txt = "54"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -37991,8 +37995,8 @@ aa
 mS
 mV
 mq
-na
-nd
+mV
+nc
 aa
 aa
 fV
@@ -38500,9 +38504,9 @@ aj
 "}
 (127,1,1) = {"
 mQ
-mR
+mQ
 fW
-mT
+mQ
 mW
 hg
 ac
@@ -39016,7 +39020,7 @@ aj
 aa
 aa
 aa
-mU
+mS
 mY
 ms
 hJ
