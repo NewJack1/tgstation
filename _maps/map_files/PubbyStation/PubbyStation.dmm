@@ -3199,7 +3199,6 @@
 /turf/open/floor/plasteel/black,
 /area/security/armory)
 "ahk" = (
-/obj/effect/landmark/start/security_officer,
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden,
 /turf/open/floor/plasteel/red,
 /area/security/main)
@@ -3484,7 +3483,6 @@
 /area/security/main)
 "ahR" = (
 /obj/structure/chair/stool,
-/obj/effect/landmark/start/security_officer,
 /turf/open/floor/plasteel,
 /area/security/main)
 "ahS" = (
@@ -4708,7 +4706,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/landmark/start/head_of_security,
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/hos)
 "ako" = (
@@ -4730,6 +4727,7 @@
 /obj/structure/chair/comfy/black{
 	dir = 8
 	},
+/obj/effect/landmark/start/head_of_security,
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/hos)
 "akr" = (
@@ -16743,12 +16741,22 @@
 	},
 /area/hallway/primary/central)
 "aKo" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/westright{
+	dir = 4;
+	name = "Security Checkpoint";
+	req_access_txt = "1"
+	},
+/obj/machinery/door/window/northleft{
+	dir = 8;
+	icon_state = "left";
+	name = "Reception Window";
+	req_access_txt = "0"
 	},
 /turf/open/floor/plating,
 /area/security/checkpoint/supply)
@@ -18622,6 +18630,7 @@
 	dir = 8;
 	id = "QMLoad"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "aOy" = (
@@ -18641,6 +18650,7 @@
 	dir = 8;
 	id = "QMLoad"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "aOA" = (
@@ -20545,6 +20555,7 @@
 	dir = 8;
 	id = "QMLoad2"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "aSt" = (
@@ -20564,6 +20575,7 @@
 	dir = 8;
 	id = "QMLoad2"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "aSv" = (
@@ -21971,6 +21983,7 @@
 /obj/structure/chair/office/dark,
 /obj/effect/landmark/event_spawn,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/plasteel/red/side,
 /area/security/checkpoint/customs)
 "aVv" = (
@@ -22820,6 +22833,10 @@
 "aXl" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/stripes/line,
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-10";
+	layer = 4.1
+	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "aXm" = (
@@ -23993,6 +24010,9 @@
 	pixel_y = 4
 	},
 /obj/item/weapon/storage/toolbox/emergency,
+/obj/machinery/newscaster{
+	pixel_x = -32
+	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "aZS" = (
@@ -24007,15 +24027,11 @@
 /turf/open/floor/plating,
 /area/maintenance/department/chapel/monastery)
 "aZU" = (
-/obj/structure/closet/wardrobe/black,
-/obj/item/weapon/tank/internals/emergency_oxygen,
-/obj/item/clothing/mask/breath,
+/obj/machinery/vending/coffee,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "aZV" = (
-/obj/structure/closet/wardrobe/mixed,
-/obj/item/weapon/tank/internals/emergency_oxygen,
-/obj/item/clothing/mask/breath,
+/obj/structure/closet/firecloset,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "aZW" = (
@@ -24026,6 +24042,9 @@
 	},
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-21"
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
@@ -24339,7 +24358,7 @@
 /obj/structure/chair{
 	dir = 8
 	},
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/carpet,
 /area/shuttle/arrival)
 "baF" = (
 /obj/effect/landmark/start{
@@ -24384,6 +24403,11 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-05";
+	layer = 4.1;
+	pixel_y = 10
 	},
 /turf/open/floor/plasteel/grimy,
 /area/crew_quarters/lounge)
@@ -24858,9 +24882,6 @@
 /turf/open/floor/plating,
 /area/maintenance/department/chapel/monastery)
 "bbz" = (
-/obj/structure/chair/comfy/beige{
-	dir = 8
-	},
 /obj/machinery/camera{
 	c_tag = "Lounge";
 	dir = 8
@@ -25001,8 +25022,7 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/labor)
 "bbP" = (
-/obj/item/weapon/storage/firstaid/o2,
-/obj/structure/table,
+/obj/structure/closet/crate/bin,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "bbQ" = (
@@ -25752,7 +25772,7 @@
 "bdz" = (
 /obj/machinery/computer/security,
 /turf/open/floor/plasteel/red/side{
-	dir = 5
+	dir = 1
 	},
 /area/security/checkpoint/medical)
 "bdA" = (
@@ -26087,6 +26107,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/machinery/vending/coffee,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "bes" = (
@@ -26802,14 +26823,17 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/structure/table,
+/obj/item/weapon/paper_bin{
+	layer = 2.9
+	},
+/obj/item/weapon/pen,
 /turf/open/floor/plasteel/red/side,
 /area/security/checkpoint/medical)
 "bfY" = (
 /obj/structure/table,
 /obj/item/weapon/book/manual/wiki/security_space_law,
-/turf/open/floor/plasteel/red/side{
-	dir = 6
-	},
+/turf/open/floor/plasteel/red/side,
 /area/security/checkpoint/medical)
 "bfZ" = (
 /obj/structure/disposalpipe/segment,
@@ -30764,6 +30788,10 @@
 /turf/open/floor/pod/dark,
 /area/shuttle/transport)
 "bob" = (
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-21";
+	layer = 4.1
+	},
 /turf/open/floor/plasteel/neutral/corner,
 /area/hallway/secondary/entry)
 "boc" = (
@@ -32103,10 +32131,12 @@
 	},
 /area/medical/genetics)
 "bqD" = (
-/obj/structure/chair/stool,
 /obj/effect/landmark/start/geneticist,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/structure/chair/office/dark{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics)
@@ -33175,11 +33205,11 @@
 	},
 /area/medical/genetics)
 "bsK" = (
-/obj/structure/chair/stool,
 /obj/effect/landmark/start/geneticist,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+/obj/structure/chair/office/dark,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics)
 "bsL" = (
@@ -40809,8 +40839,6 @@
 /turf/closed/wall/r_wall,
 /area/storage/tech)
 "bJr" = (
-/obj/structure/table,
-/obj/item/weapon/book/manual/wiki/security_space_law,
 /obj/machinery/camera{
 	c_tag = "Engineering Security Post";
 	dir = 4;
@@ -40820,18 +40848,22 @@
 	dir = 4;
 	pixel_x = -23
 	},
+/obj/machinery/computer/secure_data,
 /turf/open/floor/plasteel/red/side{
 	dir = 9
 	},
 /area/security/checkpoint/engineering)
 "bJs" = (
-/obj/machinery/computer/secure_data,
+/obj/structure/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/landmark/start/depsec/engineering,
 /turf/open/floor/plasteel/red/side{
 	dir = 1
 	},
 /area/security/checkpoint/engineering)
 "bJt" = (
-/obj/machinery/computer/secure_data,
+/obj/structure/filingcabinet,
 /turf/open/floor/plasteel/red/side{
 	dir = 5
 	},
@@ -41183,8 +41215,6 @@
 /turf/closed/wall/r_wall,
 /area/engine/engine_smes)
 "bKh" = (
-/obj/structure/table,
-/obj/item/weapon/pen,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -41193,23 +41223,17 @@
 	departmentType = 5;
 	pixel_x = -32
 	},
-/obj/item/weapon/paper_bin{
-	layer = 2.9
-	},
+/obj/machinery/computer/secure_data,
 /turf/open/floor/plasteel/red/side{
 	dir = 8
 	},
 /area/security/checkpoint/engineering)
 "bKi" = (
-/obj/structure/chair/office/dark{
-	dir = 1
-	},
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/landmark/start/depsec/engineering,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -41591,9 +41615,6 @@
 /area/engine/engine_smes)
 "bKU" = (
 /obj/structure/table,
-/obj/machinery/recharger{
-	pixel_y = 4
-	},
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "Engineering Security APC";
@@ -41603,6 +41624,11 @@
 	icon_state = "0-4";
 	d2 = 4
 	},
+/obj/item/weapon/paper_bin{
+	layer = 2.9
+	},
+/obj/item/weapon/pen,
+/obj/item/weapon/book/manual/wiki/security_space_law,
 /turf/open/floor/plasteel/red/side{
 	dir = 8
 	},
@@ -41939,13 +41965,16 @@
 	},
 /area/engine/engine_smes)
 "bLA" = (
-/obj/structure/filingcabinet,
 /obj/machinery/computer/security/telescreen{
 	desc = "Used for watching the engine containment area.";
 	dir = 4;
 	name = "Engine Monitor";
 	network = list("Engine");
 	pixel_x = -32
+	},
+/obj/structure/table,
+/obj/machinery/recharger{
+	pixel_y = 4
 	},
 /turf/open/floor/plasteel/red/side{
 	dir = 10
@@ -45892,14 +45921,12 @@
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/dorms)
 "bUw" = (
-/obj/effect/landmark/start/security_officer,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/security/main)
 "bUx" = (
-/obj/effect/landmark/start/security_officer,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -46994,7 +47021,8 @@
 /area/shuttle/arrival)
 "bXc" = (
 /obj/machinery/door/airlock/titanium{
-	name = "Arrivals Shuttle Airlock"
+	name = "Arrivals Shuttle Airlock";
+	req_one_access_txt = "20"
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
@@ -47048,6 +47076,11 @@
 	pixel_y = -29
 	},
 /obj/machinery/light,
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-05";
+	layer = 4.1;
+	pixel_y = 10
+	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "bXk" = (
@@ -47290,7 +47323,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/structure/chair/stool,
+/obj/structure/chair/office/dark,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics)
 "bXW" = (
@@ -51536,14 +51569,14 @@
 	dir = 4
 	},
 /obj/docking_port/mobile/arrivals{
-	height = 13;
+	height = 14;
 	name = "pubby arrivals shuttle";
 	width = 6
 	},
 /obj/docking_port/stationary{
 	dir = 8;
 	dwidth = 3;
-	height = 13;
+	height = 14;
 	id = "arrivals_stationary";
 	name = "pubby arrivals";
 	width = 6
@@ -51986,6 +52019,10 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-16";
+	layer = 4.1
+	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "cjL" = (
@@ -51996,8 +52033,7 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/labor)
 "cjM" = (
-/obj/machinery/light/small,
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/pod/light,
 /area/shuttle/arrival)
 "cjN" = (
 /obj/machinery/light{
@@ -52817,6 +52853,7 @@
 /obj/structure/chair/office/dark{
 	dir = 1
 	},
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/plasteel/red/side{
 	dir = 1
 	},
@@ -53064,6 +53101,184 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
+"cns" = (
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-21"
+	},
+/turf/open/floor/plasteel/arrival{
+	dir = 1
+	},
+/area/hallway/secondary/entry)
+"cnt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-16";
+	layer = 4.1
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
+"cnu" = (
+/obj/machinery/computer/communications,
+/turf/open/floor/pod/light,
+/area/shuttle/arrival)
+"cnv" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/pod/light,
+/area/shuttle/arrival)
+"cnw" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/arrival)
+"cnx" = (
+/obj/structure/table,
+/obj/item/weapon/paper_bin{
+	layer = 2.9
+	},
+/obj/item/weapon/pen,
+/turf/open/floor/pod/light,
+/area/shuttle/arrival)
+"cny" = (
+/turf/open/floor/pod/light,
+/area/shuttle/arrival)
+"cnz" = (
+/turf/open/floor/carpet,
+/area/shuttle/arrival)
+"cnA" = (
+/turf/open/floor/carpet,
+/area/shuttle/arrival)
+"cnB" = (
+/obj/structure/table,
+/obj/machinery/recharger{
+	pixel_y = 4
+	},
+/turf/open/floor/pod/light,
+/area/shuttle/arrival)
+"cnC" = (
+/turf/open/floor/carpet,
+/area/shuttle/arrival)
+"cnD" = (
+/turf/open/floor/carpet,
+/area/shuttle/arrival)
+"cnE" = (
+/obj/machinery/computer/shuttle/ferry/request{
+	name = "arrival console";
+	possible_destinations = "arrivals_stationary;ferry_away";
+	shuttleId = "arrival"
+	},
+/turf/open/floor/pod/light,
+/area/shuttle/arrival)
+"cnF" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/pod/light,
+/area/shuttle/arrival)
+"cnG" = (
+/obj/item/weapon/twohanded/required/kirbyplants,
+/turf/open/floor/mineral/titanium/blue,
+/area/shuttle/arrival)
+"cnH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-04";
+	layer = 4.1
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
+"cnI" = (
+/turf/open/floor/plasteel,
+/area/security/checkpoint/medical)
+"cnJ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/westright{
+	dir = 8;
+	name = "Security Checkpoint";
+	req_access_txt = "1"
+	},
+/obj/machinery/door/window/northleft{
+	dir = 4;
+	icon_state = "left";
+	name = "Reception Window";
+	req_access_txt = "0"
+	},
+/turf/open/floor/plasteel/red/side{
+	dir = 4
+	},
+/area/medical/medbay/central)
+"cnK" = (
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/shuttle/auxillary_base)
+"cnL" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/shuttle/auxillary_base)
+"cnM" = (
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-21"
+	},
+/turf/open/floor/plasteel/arrival,
+/area/hallway/secondary/entry)
+"cnN" = (
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/shuttle/auxillary_base)
+"cnO" = (
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/shuttle/auxillary_base)
+"cnP" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-10";
+	layer = 4.1
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
+"cnQ" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/shuttle/auxillary_base)
+"cnR" = (
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/shuttle/auxillary_base)
+"cnS" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/shuttle/auxillary_base)
+"cnT" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/westright{
+	dir = 2;
+	name = "Security Checkpoint";
+	req_access_txt = "1"
+	},
+/obj/machinery/door/window/northleft{
+	dir = 1;
+	icon_state = "left";
+	name = "Reception Window";
+	req_access_txt = "0"
+	},
+/turf/open/floor/plating,
+/area/security/checkpoint/engineering)
 
 (1,1,1) = {"
 aaa
@@ -70661,12 +70876,12 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aYW
+aYW
+bXb
+bXb
+aYW
+aYW
 aaa
 aaa
 aaa
@@ -70918,12 +71133,12 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aYW
 bXb
+cnu
+cnx
+cnB
+cnE
 bXb
-aYW
-aaa
 aaa
 aaa
 aaa
@@ -71175,12 +71390,12 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aYW
-aZS
+bXb
+cnv
+cny
 cjM
-aYW
-aaa
+cnF
+bXb
 aaa
 aaa
 aaa
@@ -71684,7 +71899,7 @@ aHf
 aHf
 aHf
 aTs
-aUh
+cns
 aVl
 aTr
 aXi
@@ -71699,7 +71914,7 @@ aTr
 aTr
 aTr
 aVl
-bhz
+cnM
 aTr
 bkb
 blv
@@ -72205,8 +72420,8 @@ aTr
 aTr
 aYW
 cjK
-aZS
-aZS
+cnz
+cnC
 bXj
 aYW
 aTr
@@ -72719,8 +72934,8 @@ aXl
 aTr
 aYY
 aZV
-aZS
-aZS
+cnA
+cnD
 aZS
 aYY
 aTr
@@ -72975,10 +73190,10 @@ aWn
 aXm
 aTr
 aYY
-aZS
+cnw
 baE
 baE
-aZS
+cnG
 aYY
 aTr
 bes
@@ -74000,7 +74215,7 @@ aTs
 aUj
 aVp
 aWm
-aWm
+cnt
 aTs
 aYW
 aYZ
@@ -74009,12 +74224,12 @@ baG
 bbR
 aYW
 aTs
-aWm
+cnH
 aWm
 aXs
 aVm
 aWm
-aWm
+cnP
 aTr
 aXj
 aTr
@@ -75297,8 +75512,8 @@ aZZ
 beu
 bfD
 bfD
-bfD
-bfD
+cnN
+cnO
 bfD
 beu
 bXX
@@ -75556,7 +75771,7 @@ bfD
 bgI
 bhF
 biH
-bfD
+cnQ
 beu
 bmT
 btF
@@ -75813,7 +76028,7 @@ bfD
 bgJ
 bhG
 biI
-bfD
+cnR
 beu
 bmU
 bof
@@ -76066,11 +76281,11 @@ bbw
 cnh
 bdm
 beu
-bfD
-bfD
+cnK
+cnL
 bhH
 bfD
-bfD
+cnS
 beu
 bmS
 bog
@@ -77295,8 +77510,8 @@ afS
 bUr
 aeW
 ahl
-ahQ
-ahQ
+ajt
+ajt
 ajr
 akf
 ajr
@@ -77553,7 +77768,7 @@ afk
 aeW
 ahm
 ahR
-ahQ
+ajt
 ajs
 akg
 akP
@@ -77810,7 +78025,7 @@ afk
 aeW
 ahn
 ahR
-ahQ
+ajt
 ajt
 akh
 bUF
@@ -78067,7 +78282,7 @@ afk
 aeW
 aho
 bUw
-ahQ
+ajt
 ajr
 akf
 ajr
@@ -78324,7 +78539,7 @@ bUs
 aeW
 ahp
 bUx
-ahQ
+ajt
 aju
 aki
 akQ
@@ -81719,7 +81934,7 @@ aAs
 bXm
 bcG
 bdy
-beJ
+cnI
 bfX
 bgQ
 bhT
@@ -81976,7 +82191,7 @@ aAs
 bXm
 bcG
 bdz
-beK
+beJ
 bfY
 bcG
 bcI
@@ -82233,7 +82448,7 @@ aAs
 bXm
 bcI
 bdA
-bdA
+cnJ
 bdA
 bcI
 bhU
@@ -85604,7 +85819,7 @@ bGl
 bAq
 bHx
 bIl
-bIT
+cnT
 bJs
 bKi
 bKV
