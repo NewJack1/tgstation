@@ -100,7 +100,7 @@
 	id = "slime"
 	default_color = "00FFFF"
 	species_traits = list(MUTCOLORS,EYECOLOR,HAIR,FACEHAIR,NOBLOOD,VIRUSIMMUNE, TOXINLOVER)
-	say_mod = "says"
+	say_mod = "говорит"
 	hair_color = "mutcolor"
 	hair_alpha = 150
 	ignored_by = list(/mob/living/simple_animal/slime)
