@@ -179,6 +179,18 @@ macro "default"
 		name = "CTRL+SHIFT+F1+REP"
 		command = ".options"
 		is-disabled = false
+	elem
+		name = "F2"
+		command = "OOC"
+		is-disabled = false
+	elem
+		name = "F3"
+		command = "say"
+		is-disabled = false
+	elem
+		name = "F4"
+		command = "me"
+		is-disabled = false
 	elem 
 		name = "F2+REP"
 		command = ".screenshot auto"
@@ -695,6 +707,18 @@ macro "robot-default"
 		name = "CTRL+SHIFT+F1+REP"
 		command = ".options"
 		is-disabled = false
+	elem
+		name = "F2"
+		command = "OOC"
+		is-disabled = false
+	elem
+		name = "F3"
+		command = "say"
+		is-disabled = false
+	elem
+		name = "F4"
+		command = "me"
+		is-disabled = false
 	elem 
 		name = "F2+REP"
 		command = ".screenshot auto"
@@ -960,6 +984,18 @@ macro "robot-hotkeys"
 	elem 
 		name = "CTRL+SHIFT+F1+REP"
 		command = ".options"
+		is-disabled = false
+	elem
+		name = "F2"
+		command = "OOC"
+		is-disabled = false
+	elem
+		name = "F3"
+		command = "say"
+		is-disabled = false
+	elem
+		name = "F4"
+		command = "me"
 		is-disabled = false
 	elem 
 		name = "F2+REP"
