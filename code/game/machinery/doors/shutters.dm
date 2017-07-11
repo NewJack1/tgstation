@@ -18,7 +18,6 @@
 	..()
 	layer = CLOSED_DOOR_LAYER	//to handle /obj/machinery/door/New() resetting the layer.
 
-
 /obj/machinery/door/poddoor/shutters/open(ignorepower = 0)
 	..()
 	layer = CLOSED_DOOR_LAYER

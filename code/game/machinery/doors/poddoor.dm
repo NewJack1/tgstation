@@ -50,8 +50,10 @@
 	switch(animation)
 		if("opening")
 			flick("opening", src)
+			playsound(loc, 'sound/machines/shutters_open.ogg', 25, 1, 1)
 		if("closing")
 			flick("closing", src)
+			playsound(loc, 'sound/machines/shutters_close.ogg', 25, 1, 1)
 
 /obj/machinery/door/poddoor/update_icon()
 	if(density)
