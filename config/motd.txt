@@ -5,7 +5,7 @@
 Правила сервера:		В разработке.
 Вики TGStation13:		https://tgstation13.org/wiki/Main_Page
 Код сервера:			https://github.com/NeinCat/tgstation
-Дискорд-сервер:                https://discord.gg/q8zgKYn
+Дискорд-сервер:         https://discord.gg/q8zgKYn
 
 <span style="color: #ff0000;"><big>Не забудьте прочитать правила сервера перед игрой!<big></span>
 
