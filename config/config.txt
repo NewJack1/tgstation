@@ -1,5 +1,5 @@
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME RedLazarus 13
+SERVERNAME RedLazarus 13
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
@@ -8,7 +8,7 @@
 STATIONNAME RedLazarus Station 13
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
-#HUB
+HUB
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
 LOBBY_COUNTDOWN 120
@@ -121,7 +121,7 @@ NORESPAWN
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY Yournamehere
+HOSTEDBY ExecutiveCancer
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -162,16 +162,16 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL http://tgstation13.org/phpBB/index.php
+FORUMURL http://redlazarus.com
 
 ## Wiki address
-# WIKIURL http://www.tgstation13.org/wiki
+WIKIURL http://www.tgstation13.org/wiki
 
 ## Rules address
-# RULESURL http://www.tgstation13.org/wiki/Rules
+RULESURL https://discord.gg/q8zgKYn
 
 ## Github address
-# GITHUBURL https://www.github.com/tgstation/-tg-station
+GITHUBURL https://github.com/NeinCat/tgstation
 
 ## Github repo id
 ##This can be found by going to https://api.github.com/users/<user name here>/repos
@@ -179,7 +179,7 @@ CHECK_RANDOMIZER
 # GITHUBREPOID 3234987
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-# BANAPPEALS http://justanotherday.example.com
+BANAPPEALS https://discord.gg/q8zgKYn
 
 ## In-game features
 ##Toggle for having jobs load up from the .txt
@@ -203,7 +203,7 @@ ALLOW_HOLIDAYS
 TICK_LIMIT_MC_INIT 500
 
 ##Defines the ticklag for the world.  0.9 is the normal one, 0.5 is smoother.
-TICKLAG 0.5
+TICKLAG 0.7
 
 ## Comment this out to disable automuting
 #AUTOMUTE_ON
