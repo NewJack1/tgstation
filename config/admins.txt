@@ -11,3 +11,4 @@ ExecutiveCancer = Host
 NeinCat = Lead Admin
 Viton = Game Master
 RedKnightHero = Game Master
+Cryptman = Game Master
