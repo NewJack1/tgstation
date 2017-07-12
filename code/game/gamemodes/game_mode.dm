@@ -277,9 +277,8 @@
 
 
 /datum/game_mode/proc/send_intercept()
-	var/intercepttext = "<b><i>Central Command Status Summary</i></b><hr>"
-	intercepttext += "<b>Central Command has intercepted and partially decoded a Syndicate transmission with vital information regarding their movements. The following report outlines the most \
-	likely threats to appear in your sector.</b>"
+	var/intercepttext = "<b><i>Отчет деятельности Центрального Командования</i></b><hr>"
+	intercepttext += "<b>Центральное командование перехватило и частично расшифровало передачу Syndicate с жизненно важной информацией об их передвижениях. В следующем отчете описываются наиболее вероятные угрозы для вашего сектора.</b>"
 	var/list/possible_modes = list()
 	possible_modes.Add("blob", "changeling", "clock_cult", "cult", "extended", "gang", "malf", "nuclear", "revolution", "traitor", "wizard")
 	possible_modes -= name //remove the current gamemode to prevent it from being randomly deleted, it will be readded later
@@ -301,7 +300,7 @@
 			intercepttext += G.get_report()
 
 	print_command_report(intercepttext, "Central Command Status Summary", announce=FALSE)
-	priority_announce("A summary has been copied and printed to all communications consoles.", "Enemy communication intercepted. Security level elevated.", 'sound/ai/intercept.ogg')
+	priority_announce("Сводка была скопирована и распечатана на всех коммуникационных консолях.", "Замечена враждебная активность. Уровень угрозы повышен.", 'sound/ai/intercept.ogg')
 	if(GLOB.security_level < SEC_LEVEL_BLUE)
 		set_security_level(SEC_LEVEL_BLUE)
 

@@ -6,7 +6,7 @@
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "disco0"
 	anchored = FALSE
-	verb_say = "states"
+	verb_say = "констатирует"
 	density = TRUE
 	req_access = list(GLOB.access_engine)
 	var/active = FALSE

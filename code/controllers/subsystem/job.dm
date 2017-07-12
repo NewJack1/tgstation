@@ -398,13 +398,13 @@ SUBSYSTEM_DEF(job)
 			else
 				M = H
 
-	to_chat(M, "<b>You are the [rank].</b>")
-	to_chat(M, "<b>As the [rank] you answer directly to [job.supervisors]. Special circumstances may change this.</b>")
-	to_chat(M, "<b>To speak on your departments radio, use the :h button. To see others, look closely at your headset.</b>")
+	to_chat(M, "<b>Ваша профессия - [rank].</b>")
+	to_chat(M, "<b>Как [rank] вы подчиняетесь [job.supervisors]. Некоторые ситуации могут это изменить</b>")
+	to_chat(M, "<b>Чтобы использовать рабочий канал радиосвязи, используйте префикс :h. Чтобы посмотреть другие каналы, изучите Вашу гарнитуру.</b>")
 	if(job.req_admin_notify)
-		to_chat(M, "<b>You are playing a job that is important for Game Progression. If you have to disconnect, please notify the admins via adminhelp.</b>")
+		to_chat(M, "<b>Вы играете за профессию, которая очень важна для общего хода игры. Если вы обнаружили, что не можете выполнять эту работу из-за обстоятельств, происходящих в вашей реальной жизни, просто дайте знать об этом администрации (Adminhelp) ДО того, как вы уйдёте, пожалуйста.</b>")
 	if(config.minimal_access_threshold)
-		to_chat(M, "<FONT color='blue'><B>As this station was initially staffed with a [config.jobs_have_minimal_access ? "full crew, only your job's necessities" : "skeleton crew, additional access may"] have been added to your ID card.</B></font>")
+		to_chat(M, "<FONT color='blue'><B>Изначально, станция укомплектована [config.jobs_have_minimal_access ? "полным экипажем. У вашего персонажа есть только минимально-необходимый доступ в ID-карте и знания только данной профессии" : "неполным экипажем. У вашего персонажа, возможно, есть дополнительный доступ на ID-карте и дополнительные (только касающиеся вашего отдела) знания для данной профессии"]</B></font>")
 
 	if(job && H)
 		job.after_spawn(H, M)
