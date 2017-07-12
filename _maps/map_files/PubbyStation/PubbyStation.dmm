@@ -52690,13 +52690,17 @@
 	},
 /area/ruin/powered/syndicate_lava_base)
 "cmo" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/card/emag,
+/obj/item/weapon/card/emag,
+/obj/item/weapon/card/emag,
+/obj/item/weapon/card/emag,
 /obj/item/stack/sheet/mineral/plastitanium{
 	amount = 30
 	},
 /obj/item/stack/rods{
 	amount = 50
 	},
-/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/podhatch{
 	dir = 9
 	},
@@ -56078,6 +56082,7 @@
 /obj/structure/sign/nosmoking_2{
 	pixel_x = 32
 	},
+/obj/machinery/autolathe,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -75072,7 +75077,7 @@ cak
 caO
 cbj
 cbN
-cci
+cch
 ccJ
 cch
 cbM
@@ -115023,7 +115028,7 @@ cAD
 csh
 cEB
 clf
-cjf
+cji
 cji
 cji
 cjf
@@ -115280,7 +115285,7 @@ cmn
 cDV
 coy
 clf
-cjf
+cji
 cji
 cji
 cjf
@@ -115763,7 +115768,7 @@ aaa
 cjf
 cjf
 cjf
-cjf
+cji
 cjf
 clf
 clL
@@ -116018,9 +116023,9 @@ aaa
 "}
 (227,1,1) = {"
 cjf
-cjf
 cji
-cjf
+cji
+cji
 cjf
 clf
 clM
@@ -116277,7 +116282,7 @@ aaa
 cjf
 cjf
 cjf
-cjf
+cji
 cji
 clj
 clN
@@ -116820,7 +116825,7 @@ cCa
 clj
 cjf
 cji
-cjf
+cji
 cji
 cji
 cjf
@@ -117045,7 +117050,7 @@ aaa
 aaa
 "}
 (231,1,1) = {"
-cjf
+cji
 cjf
 cjf
 cjf
@@ -117302,7 +117307,7 @@ aaa
 aaa
 "}
 (232,1,1) = {"
-cjf
+cji
 cji
 cjf
 cji
@@ -117559,7 +117564,7 @@ aaa
 aaa
 "}
 (233,1,1) = {"
-cjf
+cji
 cjf
 cjf
 cjf
@@ -118108,7 +118113,7 @@ cEg
 cmn
 clf
 cjf
-cjf
+cji
 cji
 cjf
 cjf
@@ -118356,16 +118361,16 @@ cxF
 clN
 clN
 clN
-clN
-cyp
-clN
-clN
+clf
+clf
+clf
+clf
 clf
 clf
 clf
 clf
 cjf
-cjf
+cji
 cjf
 cjf
 cjf
@@ -118613,11 +118618,11 @@ cmn
 cmn
 czj
 czX
-clN
-cmn
-cCh
-cCh
 clf
+cjf
+cji
+cji
+cjf
 cjf
 cjf
 cjf
@@ -118868,14 +118873,14 @@ clN
 cwS
 cmn
 cmn
-cmn
-czY
-clN
 cBx
-cCh
-cCS
+czY
 clf
 cjf
+cji
+cjf
+cjf
+cji
 cjf
 cji
 cji
@@ -119109,7 +119114,7 @@ cjf
 cjf
 cjf
 cjf
-cjf
+cji
 cji
 cjf
 clf
@@ -119127,11 +119132,11 @@ cxI
 cwT
 czl
 czZ
-clN
-cmn
-cCj
-cCh
 clf
+cji
+cjf
+cji
+cjf
 cjf
 cji
 cjf
@@ -119385,11 +119390,11 @@ clf
 clf
 clf
 clf
-clf
-clf
-clf
-clf
 cjf
+cjf
+cjf
+cji
+cji
 cjf
 cji
 cjf
@@ -119645,7 +119650,7 @@ cjf
 cjf
 cji
 cjf
-cjf
+cji
 cjf
 cji
 cjf
@@ -119883,8 +119888,8 @@ cjf
 cjf
 cjf
 cji
-cjf
-cjf
+cji
+cji
 cjf
 cjf
 cjf
@@ -120141,13 +120146,13 @@ aaa
 cjf
 cjf
 cjf
-cjf
-cjf
+cji
+cji
 cji
 cji
 cjf
-cjf
-cjf
+cji
+cji
 cjf
 cji
 cjf
@@ -120402,10 +120407,10 @@ cjf
 cjf
 cjf
 cjf
+cji
+cji
 cjf
-cjf
-cjf
-cjf
+cji
 cji
 cjf
 cjf
