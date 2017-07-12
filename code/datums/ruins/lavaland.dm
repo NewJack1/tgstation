@@ -40,7 +40,7 @@
 	id = "seed-vault"
 	description = "The creators of these vaults were a highly advanced and benevolent race, and launched many into the stars, hoping to aid fledgling civilizations. \
 	However, all the inhabitants seem to do is grow drugs and guns."
-	suffix = "lavaland_surface_seed_vault.dmm"
+	suffix = "I_lavaland_surface_seed_vault.dmm"
 	cost = 10
 	allow_duplicates = FALSE
 
@@ -49,7 +49,7 @@
 	id = "ash-walker"
 	description = "A race of unbreathing lizards live here, that run faster than a human can, worship a broken dead city, and are capable of reproducing by something involving tentacles? \
 	Probably best to stay clear."
-	suffix = "lavaland_surface_ash_walker1.dmm"
+	suffix = "I_lavaland_surface_ash_walker1.dmm"
 	cost = 20
 	allow_duplicates = FALSE
 
@@ -57,7 +57,7 @@
 	name = "Syndicate Lava Base"
 	id = "lava-base"
 	description = "A secret base researching illegal bioweapons, it is closely guarded by an elite team of syndicate agents."
-	suffix = "lavaland_surface_syndicate_base1.dmm"
+	suffix = "I_lavaland_surface_syndicate_base1.dmm"
 	cost = 20
 	allow_duplicates = FALSE
 
@@ -67,7 +67,7 @@
 	description = "Lumbering humanoids, made out of precious metals, move inside this ship. They frequently leave to mine more minerals, which they somehow turn into more of them. \
 	Seem very intent on research and individual liberty, and also geology based naming?"
 	cost = 20
-	suffix = "lavaland_surface_golem_ship.dmm"
+	suffix = "I_lavaland_surface_golem_ship.dmm"
 	allow_duplicates = FALSE
 
 /datum/map_template/ruin/lavaland/animal_hospital
@@ -196,7 +196,7 @@
 	name = "Crashed Shuttle"
 	id = "swarmerboss"
 	description = "A Syndicate shuttle had an unfortunate stowaway..."
-	suffix = "lavaland_surface_swarmer_crash.dmm"
+	suffix = "I_lavaland_surface_swarmer_crash.dmm"
 	allow_duplicates = FALSE
 	cost = 20
 
