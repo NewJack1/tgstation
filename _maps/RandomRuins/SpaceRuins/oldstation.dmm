@@ -764,6 +764,7 @@
 /obj/machinery/door/poddoor{
 	id = "ancient"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/floorgrime,
 /area/ruin/ancientstation/powered)
 "cl" = (
@@ -818,6 +819,7 @@
 /obj/machinery/door/poddoor{
 	id = "ancient"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/floorgrime,
 /area/ruin/ancientstation/powered)
 "cs" = (
@@ -2152,6 +2154,7 @@
 /obj/machinery/door/poddoor{
 	id = "ancient"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/floorgrime,
 /area/ruin/ancientstation/powered)
 "fH" = (
@@ -2409,6 +2412,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/visible{
 	dir = 4
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/ruin/ancientstation/engi)
 "gh" = (
