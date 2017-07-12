@@ -16,6 +16,7 @@
 #include "_maps\basemap.dm"
 #include "_maps\pubbystation.dm"
 #include "code\_compile_options.dm"
+#include "code\hub.dm"
 #include "code\world.dm"
 #include "code\__DATASTRUCTURES\globals.dm"
 #include "code\__DATASTRUCTURES\heap.dm"

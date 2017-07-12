@@ -6,7 +6,7 @@
 	cache_lifespan = 7
 	hub = "Exadv1.spacestation13"
 	hub_password = "kMZy3U5jJHSiBQjr"
-	name = "/tg/ Station 13"
+	name = "Red Lazarus - RUS"
 	fps = 20
 	visibility = 0
 #ifdef GC_FAILURE_HARD_LOOKUP
@@ -107,10 +107,10 @@
 
 /world/Topic(T, addr, master, key)
 	var/list/input = params2list(T)
-	
+
 	var/pinging = ("ping" in input)
 	var/playing = ("players" in input)
-	
+
 	if(!pinging && !playing && config && config.log_world_topic)
 		GLOB.world_game_log << "TOPIC: \"[T]\", from:[addr], master:[master], key:[key]"
 
