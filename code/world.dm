@@ -280,6 +280,8 @@
 		features += "closed"
 
 	features += GLOB.abandon_allowed ? "respawn" : "no respawn"
+	features += "tgstation"
+	features += "pubby station"
 
 	if (config && config.allow_vote_mode)
 		features += "vote"
