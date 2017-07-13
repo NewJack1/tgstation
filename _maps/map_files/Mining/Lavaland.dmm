@@ -82,6 +82,7 @@
 /area/lavaland/surface/outdoors)
 "ap" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -429,6 +430,7 @@
 /area/mine/eva)
 "bg" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -512,6 +514,7 @@
 /area/mine/production)
 "br" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -664,6 +667,7 @@
 /area/mine/production)
 "bF" = (
 /obj/effect/spawner/structure/window,
+/obj/structure/grille,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -746,6 +750,7 @@
 	name = "KEEP CLEAR: DOCKING AREA"
 	},
 /obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -1162,6 +1167,7 @@
 /area/mine/production)
 "cG" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -1243,6 +1249,7 @@
 /area/mine/maintenance)
 "cR" = (
 /obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -1774,6 +1781,7 @@
 /area/mine/maintenance)
 "dQ" = (
 /obj/effect/spawner/structure/window,
+/obj/structure/grille,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -1822,6 +1830,7 @@
 /area/mine/production)
 "dV" = (
 /obj/effect/spawner/structure/window,
+/obj/structure/grille,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
@@ -6119,6 +6128,19 @@
 	dir = 1
 	},
 /turf/open/indestructible/boss,
+/area/lavaland/surface/outdoors)
+"nh" = (
+/obj/docking_port/stationary{
+	area_type = /area/lavaland/surface/outdoors;
+	dir = 8;
+	dwidth = 4;
+	height = 5;
+	id = "syndicate_lavaland_lava";
+	name = "Lavaland: lava";
+	turf_type = /turf/open/floor/plating/asteroid/basalt/lava_land_surface;
+	width = 9
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 
 (1,1,1) = {"
@@ -18187,8 +18209,8 @@ aj
 ab
 aj
 aj
-ab
-ab
+aj
+aj
 aj
 ab
 ab
@@ -18444,8 +18466,8 @@ aj
 aj
 aj
 aj
-ab
-ab
+aj
+aj
 ab
 ai
 ad
@@ -19472,7 +19494,7 @@ aj
 aj
 aj
 aj
-aj
+ab
 ab
 ad
 ad
@@ -19482,7 +19504,7 @@ ad
 ad
 ad
 ab
-aj
+ab
 aj
 "}
 (53,1,1) = {"
@@ -19729,8 +19751,8 @@ aj
 aj
 aj
 aj
-aj
-aj
+ab
+ab
 ab
 ab
 ad
@@ -19739,8 +19761,8 @@ ai
 ad
 ab
 ab
-aj
-aj
+ab
+ab
 "}
 (54,1,1) = {"
 aa
@@ -19986,18 +20008,18 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
 ab
 ab
 ab
 ab
 ab
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 "}
 (55,1,1) = {"
 aa
@@ -20243,18 +20265,18 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
 ab
 ab
 ab
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 "}
 (56,1,1) = {"
 aa
@@ -20501,17 +20523,17 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
 ab
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 "}
 (57,1,1) = {"
 aa
@@ -20758,17 +20780,17 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
 ab
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 "}
 (58,1,1) = {"
 aa
@@ -21015,17 +21037,17 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 "}
 (59,1,1) = {"
 aa
@@ -21272,17 +21294,17 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
 ab
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+nh
+ab
+ab
+ab
+ab
+ab
 "}
 (60,1,1) = {"
 aa
@@ -21529,17 +21551,17 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 "}
 (61,1,1) = {"
 aa
@@ -21786,17 +21808,17 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 "}
 (62,1,1) = {"
 aa
@@ -22044,16 +22066,16 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 "}
 (63,1,1) = {"
 aa
@@ -22302,14 +22324,14 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 aj
 "}
 (64,1,1) = {"
@@ -22560,13 +22582,13 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
+ab
 aj
 "}
 (65,1,1) = {"
@@ -22817,12 +22839,12 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
+ab
+ab
 aj
 aj
 "}
@@ -23074,11 +23096,11 @@ aj
 aj
 aj
 aj
-aj
-aj
 ab
-aj
-aj
+ab
+ab
+ab
+ab
 aj
 aj
 aj
@@ -23332,10 +23354,10 @@ aj
 aj
 aj
 aj
-aj
 ab
-aj
-aj
+ab
+ab
+ab
 aj
 aj
 aj
@@ -23589,10 +23611,10 @@ aj
 aj
 aj
 aj
-aj
 ab
-aj
-aj
+ab
+ab
+ab
 aj
 aj
 aj
@@ -23846,9 +23868,9 @@ aj
 aj
 aj
 aj
-aj
-aj
-aj
+ab
+ab
+ab
 aj
 aj
 aj
@@ -24102,10 +24124,10 @@ ab
 aj
 aj
 aj
-aj
-aj
 ab
-aj
+ab
+ab
+ab
 aj
 aj
 aj
@@ -24359,10 +24381,10 @@ ab
 aj
 aj
 aj
-aj
-aj
-aj
-aj
+ab
+ab
+ab
+ab
 aj
 aj
 aj
@@ -24616,10 +24638,10 @@ ab
 aj
 aj
 aj
-aj
-aj
 ab
-aj
+ab
+ab
+ab
 aj
 aj
 aj
@@ -24873,7 +24895,7 @@ ab
 aj
 aj
 aj
-aj
+ab
 ab
 ab
 ab
@@ -25130,7 +25152,7 @@ ab
 aj
 aj
 aj
-aj
+ab
 ab
 ab
 ab
@@ -25386,8 +25408,8 @@ ab
 ab
 ab
 aj
-aj
-aj
+ab
+ab
 ab
 ab
 ab
@@ -26417,7 +26439,7 @@ ab
 ab
 ab
 ab
-aj
+ab
 ab
 aj
 aj
@@ -26674,7 +26696,7 @@ ab
 ab
 ab
 ab
-aj
+ab
 aj
 aj
 aj
@@ -26931,7 +26953,7 @@ ab
 ab
 ab
 ab
-aj
+ab
 aj
 aj
 aj
@@ -27188,7 +27210,7 @@ ab
 ab
 ab
 ab
-aj
+ab
 aj
 aj
 aj

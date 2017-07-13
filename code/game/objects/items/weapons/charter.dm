@@ -45,7 +45,7 @@
 	if(response_timer_id)
 		to_chat(user, "You're still waiting for approval from your employers about your proposed name change, it'd be best to wait for now.")
 		return
-		
+
 	if(!new_name)
 		return
 	log_game("[key_name(user)] has proposed to name the station as \
@@ -80,7 +80,7 @@
 /obj/item/weapon/station_charter/proc/rename_station(designation, uname, ureal_name, ukey)
 	set_station_name(designation)
 	minor_announce("[ureal_name] has designated your station as [station_name()]", "Captain's Charter", 0)
-	log_game("[ukey] has renamed the station as [station_name()].")
+	log_game("[ukey] изменило название станции на [station_name()].")
 
 	name = "station charter for [station_name()]"
 	desc = "An official document entrusting the governance of \

@@ -282,6 +282,8 @@ GLOBAL_VAR_CONST(access_away_generic4, 208)
 			return list(GLOB.access_mailsorting, GLOB.access_mining, GLOB.access_mining_station, GLOB.access_mineral_storeroom, GLOB.access_cargo, GLOB.access_qm)
 		if(7) //command
 			return list(GLOB.access_heads, GLOB.access_RC_announce, GLOB.access_keycard_auth, GLOB.access_change_ids, GLOB.access_ai_upload, GLOB.access_teleporter, GLOB.access_eva, GLOB.access_gateway, GLOB.access_all_personal_lockers, GLOB.access_heads_vault, GLOB.access_hop, GLOB.access_captain)
+		if(8) //syndicate
+			return list(GLOB.access_syndicate, GLOB.access_syndicate)
 
 /proc/get_region_accesses_name(code)
 	switch(code)
