@@ -14,7 +14,6 @@ Format:
 endmap
 
 map metastation
-	default
 	#voteweight 0.5
 endmap
 
@@ -29,6 +28,8 @@ map lazarusstation
 endmap
 
 map pubbystation
+	default
+	#voteweight 1.5
 endmap
 
 map omegastation
