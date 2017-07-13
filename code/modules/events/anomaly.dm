@@ -25,7 +25,7 @@
 		setup(safety_loop)
 
 /datum/round_event/anomaly/announce()
-	priority_announce("Localized energetic flux wave detected on long range scanners. Expected location of impact: [impact_area.name].", "Anomaly Alert")
+	priority_announce("Сканеры дальнего радиуса действия обнаружили волны гипер-энергетического потока. Место ожидаемого воздействия: [impact_area.name].", "Тревога! Аномалия!")
 
 /datum/round_event/anomaly/start()
 	var/turf/T = safepick(get_area_turfs(impact_area))
