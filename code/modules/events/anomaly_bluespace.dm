@@ -10,7 +10,7 @@
 
 
 /datum/round_event/anomaly/anomaly_bluespace/announce()
-	priority_announce("Unstable bluespace anomaly detected on long range scanners. Expected location: [impact_area.name].", "Anomaly Alert")
+	priority_announce("—канеры дальнего радиуса действи€ обнаружили нестабильную BlueSpace аномалию. предположительное место: [impact_area.name].", "У“ревога! јномали€!")
 
 
 /datum/round_event/anomaly/anomaly_bluespace/start()

@@ -12,7 +12,7 @@
 	announceWhen	= 1
 
 /datum/round_event/electrical_storm/announce()
-	priority_announce("An electrical storm has been detected in your area, please repair potential electronic overloads.", "Electrical Storm Alert")
+	priority_announce("В вашей области космического пространства был обнаружен электрический шторм. Пожалуйста, проверьте и отремонтируйте ваше оборудование.", "Тревога! Электрический шторм!")
 
 
 /datum/round_event/electrical_storm/start()

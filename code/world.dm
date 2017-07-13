@@ -263,8 +263,8 @@
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
-	s += "<a href=\"http://\">" //Change this to wherever you want the hub to link to.
-	s += "Default"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
+	s += "<a href=\"https://discord.gg/q8zgKYn\">" //Change this to wherever you want the hub to link to.
+	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 	s += ")"
 
@@ -280,6 +280,8 @@
 		features += "closed"
 
 	features += GLOB.abandon_allowed ? "respawn" : "no respawn"
+	features += "tgstation"
+	features += "pubby station"
 
 	if (config && config.allow_vote_mode)
 		features += "vote"

@@ -2,10 +2,10 @@
 	gender = NEUTER
 	voice_name = "synthesized voice"
 	has_unlimited_silicon_privilege = 1
-	verb_say = "states"
-	verb_ask = "queries"
-	verb_exclaim = "declares"
-	verb_yell = "alarms"
+	verb_say = "констатирует"
+	verb_ask = "запрашивают"
+	verb_exclaim = "провозглашает"
+	verb_yell = "сигнализирует"
 	initial_language_holder = /datum/language_holder/synthetic
 	see_in_dark = 8
 	bubble_icon = "machine"

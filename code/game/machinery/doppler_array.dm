@@ -9,7 +9,7 @@ GLOBAL_LIST_EMPTY(doppler_arrays)
 	anchored = 1
 	var/integrated = 0
 	var/max_dist = 100
-	verb_say = "states coldly"
+	verb_say = "констатирует"
 
 /obj/machinery/doppler_array/New()
 	..()

@@ -9,7 +9,7 @@
 	announceWhen = 10
 
 /datum/round_event/anomaly/anomaly_pyro/announce()
-	priority_announce("Pyroclastic anomaly detected on long range scanners. Expected location: [impact_area.name].", "Anomaly Alert")
+	priority_announce("Сканеры дальнего радиуса действия обнаружили пирокластическую аномалию. Предположительное место воздействия: [impact_area.name].", "Тревога! Аномалия!")
 
 /datum/round_event/anomaly/anomaly_pyro/start()
 	var/turf/T = safepick(get_area_turfs(impact_area))

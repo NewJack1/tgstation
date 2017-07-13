@@ -139,7 +139,7 @@
 	assignedrole = "Lavaland Syndicate"
 
 /datum/outfit/lavaland_syndicate
-	name = "Lavaland Syndicate Agent"
+	name = "Syndicate Bioweapon Scientist"
 	r_hand = /obj/item/weapon/gun/ballistic/automatic/sniper_rifle
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/toggle/labcoat
@@ -148,6 +148,7 @@
 	ears = /obj/item/device/radio/headset/syndicate/alt
 	back = /obj/item/weapon/storage/backpack
 	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
+	l_pocket = /obj/item/weapon/card/emag
 	id = /obj/item/weapon/card/id
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
@@ -157,10 +158,19 @@
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms
 	name = "Syndicate Comms Agent"
 	flavour_text = "<font size=3>Вы являетесь агентом синдиката, который работает в секретном исследовательском центре, разрабатывающем биологическое оружие. К сожалению, ваш ненавистный враг, Нанотрасен, начал работу в этом секторе. Контролируйте активность противника как можно лучше и старайтесь сохранять анонимность. <font size=6><b>НЕ</b></font> оставляйте базу без уважительной причины. Используйте оборудование связи, чтобы следить за деятельностью экипажа НТ, но не расскрывайте себя в любом случаи. Не позволяйте базе попасть в руки врага!</b>"
+	outfit = /datum/outfit/lavaland_syndicate/comms
 
 /datum/outfit/lavaland_syndicate/comms
-	name = "Lavaland Syndicate Comms Agent"
+	name = "Syndicate Comms Agent"
 	r_hand = /obj/item/weapon/melee/energy/sword/saber
 	mask = /obj/item/clothing/mask/chameleon
+	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/armor/vest
-	l_pocket = /obj/item/weapon/card/id/syndicate/anyone
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/combat
+	ears = /obj/item/device/radio/headset/syndicate/alt
+	back = /obj/item/weapon/storage/backpack
+	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
+	l_pocket = /obj/item/weapon/door_remote/syndicate
+	id = /obj/item/weapon/card/id
+	implants = list(/obj/item/weapon/implant/weapons_auth)

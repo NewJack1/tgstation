@@ -61,10 +61,10 @@
 
 		spawned_mobs += SA
 
-		to_chat(SA, "<span class='userdanger'>Hello world!</span>")
-		to_chat(SA, "<span class='warning'>Due to freak radiation and/or chemicals \
-			and/or lucky chance, you have gained human level intelligence \
-			and the ability to speak and understand human language!</span>")
+		to_chat(SA, "<span class='userdanger'>ѕривет, мир!</span>")
+		to_chat(SA, "<span class='warning'>Из-за проклятой радиации или химикатов в воздухе \
+			and/or по счастливой случайности ваш мозг стал развиваться \
+			and у вас появилась возможность понимать человеческий язык!</span>")
 
 	return SUCCESSFUL_SPAWN
 

@@ -84,6 +84,11 @@
 	icon_state = "gangtool-red"
 	region_access = 2
 
+/obj/item/weapon/door_remote/syndicate
+	name = "syndicate door remote"
+	icon_state = "gangtool-red"
+	region_access = 8
+
 /obj/item/weapon/door_remote/quartermaster
 	name = "supply door remote"
 	icon_state = "gangtool-green"

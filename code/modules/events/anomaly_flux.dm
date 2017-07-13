@@ -11,7 +11,7 @@
 	announceWhen = 3
 
 /datum/round_event/anomaly/anomaly_flux/announce()
-	priority_announce("Localized hyper-energetic flux wave detected on long range scanners. Expected location: [impact_area.name].", "Anomaly Alert")
+	priority_announce("Сканеры дальнего радиуса действия обнаружили волны гипер-энергетического потока. Место ожидаемого воздействия: [impact_area.name].", "Тревога! Аномалия!")
 
 
 /datum/round_event/anomaly/anomaly_flux/start()

@@ -27,7 +27,7 @@
 
 /datum/round_event/ion_storm/announce()
 	if(announceEvent == ION_ANNOUNCE || (announceEvent == ION_RANDOM && prob(ionAnnounceChance)))
-		priority_announce("Ion storm detected near the station. Please check all AI-controlled equipment for errors.", "Anomaly Alert", 'sound/ai/ionstorm.ogg')
+		priority_announce("Обнаружен ионный шторм в районе станции. Пожалуйста, проверьте всё оборудование, к которому есть доступ у ИИ, на предмет ошибок.", "Тревога! Аномалия!", 'sound/ai/ionstorm.ogg')
 
 
 /datum/round_event/ion_storm/start()
