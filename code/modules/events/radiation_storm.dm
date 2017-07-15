@@ -12,7 +12,7 @@
 	announceWhen	= 1
 
 /datum/round_event/radiation_storm/announce()
-	priority_announce("Ц–€дом со станцией обнаружен высокий уровень радиации. Ћучшим укрытием от радиации €вл€ютс€ технические тоннели.", "У“ревога! јномали€!", 'sound/ai/radiation.ogg')
+	priority_announce("–€дом со станцией обнаружен высокий уровень радиации. Ћучшим укрытием от радиации €вл€ютс€ технические тоннели.", "“ревога! јномали€!", 'sound/ai/radiation.ogg')
 	//sound not longer matches the text, but an audible warning is probably good
 
 /datum/round_event/radiation_storm/start()

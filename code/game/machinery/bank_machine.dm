@@ -48,7 +48,7 @@
 			SSshuttle.points -= 200
 			if(next_warning < world.time && prob(15))
 				var/area/A = get_area(loc)
-				var/message = "ÐÐµÑÐ°Ð½ÐºÑ†Ð¸Ð¾Ð½Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð¾Ðµ ÑÐ½ÑÑ‚Ð¸Ðµ Ð´ÐµÐ½ÐµÐ¶Ð½Ñ‹Ñ… ÑÑ€ÐµÐ´ÑÑ‚Ð² Ð² [A.map_name]!!!"
+				var/message = "Íåñàíêöèîíèðîâàííîå ñíÿòèå äåíåæíûõ ñðåäñòâ â [A.map_name]!!!"
 				radio.talk_into(src, message, radio_channel, get_spans())
 				next_warning = world.time + minimum_time_between_warnings
 

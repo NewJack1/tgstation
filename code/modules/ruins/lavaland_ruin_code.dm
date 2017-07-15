@@ -140,7 +140,7 @@
 
 /datum/outfit/lavaland_syndicate
 	name = "Syndicate Bioweapon Scientist"
-	r_hand = /obj/item/weapon/gun/ballistic/automatic/sniper_rifle
+	r_hand = /obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/toggle/labcoat
 	shoes = /obj/item/clothing/shoes/combat
@@ -172,5 +172,62 @@
 	back = /obj/item/weapon/storage/backpack
 	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
 	l_pocket = /obj/item/weapon/door_remote/syndicate
-	id = /obj/item/weapon/card/id
+	id = /obj/item/weapon/card/id/syndicate/comms
+	implants = list(/obj/item/weapon/implant/weapons_auth)
+
+/obj/effect/mob_spawn/human/lavaland_syndicate/botanist
+	name = "Syndicate Botanist"
+	flavour_text = "<font size=3>¬ы €вл€етесь агентом синдиката, который работает в секретном исследовательском центре, разрабатывающем биологическое оружие.   сожалению, ваш ненавистный враг, Ќанотрасен, начал работу в этом секторе. <font size=6><b>Ќ≈</b></font> оставл€йте базу без уважительной причины. ¬ыращивайте полезные и смертоносные растени€, эксперементируйте, обеспечивайте базу сытными фруктами и овощами высшего качества. Ќе позвол€йте базе попасть в руки врага!</b>"
+	outfit = /datum/outfit/lavaland_syndicate/botanist
+
+/datum/outfit/lavaland_syndicate/botanist
+	name = "Syndicate Botanist"
+	r_hand = /obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r
+	uniform = /obj/item/clothing/under/rank/hydroponics
+	suit = /obj/item/clothing/suit/toggle/labcoat
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/botanic_leather
+	ears = /obj/item/device/radio/headset/syndicate/alt
+	back = /obj/item/weapon/storage/backpack
+	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
+	l_pocket = /obj/item/weapon/card/emag
+	id = /obj/item/weapon/card/id/syndicate/botanist
+	implants = list(/obj/item/weapon/implant/weapons_auth)
+
+/obj/effect/mob_spawn/human/lavaland_syndicate/chemist
+	name = "Syndicate Chemist"
+	flavour_text = "<font size=3>¬ы €вл€етесь агентом синдиката, который работает в секретном исследовательском центре, разрабатывающем биологическое оружие.   сожалению, ваш ненавистный враг, Ќанотрасен, начал работу в этом секторе. —оздавайте различные полезные и не очень зель€ и лекарства. —обирайте гранаты, эксперементируйте! <font size=6><b>Ќ≈</b></font> оставл€йте базу без уважительной причины. Ќе позвол€йте базе попасть в руки врага!</b>"
+	outfit = /datum/outfit/lavaland_syndicate/chemist
+
+/datum/outfit/lavaland_syndicate/chemist
+	name = "Syndicate Chemist"
+	r_hand = /obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r
+	uniform = /obj/item/clothing/under/rank/chemist
+	suit = /obj/item/clothing/suit/toggle/labcoat
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/color/latex
+	ears = /obj/item/device/radio/headset/syndicate/alt
+	back = /obj/item/weapon/storage/backpack
+	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
+	l_pocket = /obj/item/weapon/card/emag
+	id = /obj/item/weapon/card/id/syndicate/chemist
+	implants = list(/obj/item/weapon/implant/weapons_auth)
+
+/obj/effect/mob_spawn/human/lavaland_syndicate/virologist
+	name = "Syndicate Virologist"
+	flavour_text = "<font size=3>¬ы €вл€етесь агентом синдиката, который работает в секретном исследовательском центре, разрабатывающем биологическое оружие.   сожалению, ваш ненавистный враг, Ќанотрасен, начал работу в этом секторе. ¬ыводите самые опасные и полезные вирусы —облюдайте стирильность и предельную аккуратность в своей работе! <font size=6><b>Ќ≈</b></font> оставл€йте базу без уважительной причины. Ќе позвол€йте базе попасть в руки врага!</b>"
+	outfit = /datum/outfit/lavaland_syndicate/virologist
+
+/datum/outfit/lavaland_syndicate/virologist
+	name = "Syndicate Virologist"
+	r_hand = /obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r
+	uniform = /obj/item/clothing/under/rank/virologist
+	suit = /obj/item/clothing/suit/toggle/labcoat
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/color/latex
+	ears = /obj/item/device/radio/headset/syndicate/alt
+	back = /obj/item/weapon/storage/backpack
+	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
+	l_pocket = /obj/item/weapon/card/emag
+	id = /obj/item/weapon/card/id/syndicate/virologist
 	implants = list(/obj/item/weapon/implant/weapons_auth)
