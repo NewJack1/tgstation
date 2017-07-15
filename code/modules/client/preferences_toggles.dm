@@ -333,6 +333,15 @@ GLOBAL_LIST_INIT(ghost_orbits, list(GHOST_ORBIT_CIRCLE,GHOST_ORBIT_TRIANGLE,GHOS
 	prefs.save_preferences()
 	SSblackbox.add_details("preferences_verb","Toggle Intent Selection|[prefs.toggles & INTENT_STYLE]") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
+/client/verb/listen_looc()
+	set name = "Show/Hide LOOC"
+	set category = "Preferences"
+	set desc = "Toggles seeing Local OutOfCharacter chat"
+	prefs.chat_toggles ^= CHAT_LOOC
+	prefs.save_preferences(src)
+	src << "You will [(prefs.chat_toggles & CHAT_LOOC) ? "now" : "no longer"] see messages on the LOOC channel."
+	SSblackbox.add_details("admin_verb","TLOOC") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
+
 /client/verb/toggle_ghost_hud_pref()
 	set name = "Toggle Ghost HUD"
 	set category = "Preferences"
