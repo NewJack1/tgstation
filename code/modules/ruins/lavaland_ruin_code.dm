@@ -231,3 +231,24 @@
 	l_pocket = /obj/item/weapon/card/emag
 	id = /obj/item/weapon/card/id/syndicate/virologist
 	implants = list(/obj/item/weapon/implant/weapons_auth)
+
+/obj/effect/mob_spawn/human/lavaland_syndicate/engineer
+	name = "Syndicate Engineer"
+	flavour_text = "<font size=3>¬ы €вл€етесь агентом синдиката, который работает в секретном исследовательском центре, разрабатывающем биологическое оружие.   сожалению, ваш ненавистный враг, Ќанотрасен, начал работу в этом секторе. Ќастройте подачу энергии на базе! —ледите за ее целостностью! <font size=6><b>Ќ≈</b></font> оставл€йте базу без уважительной причины. Ќе позвол€йте базе попасть в руки врага!</b>"
+	outfit = /datum/outfit/lavaland_syndicate/engineer
+
+/datum/outfit/lavaland_syndicate/engineer
+	name = "Syndicate Engineer"
+	r_hand = /obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r
+	uniform = /obj/item/clothing/under/rank/engineer
+	suit = /obj/item/clothing/suit/toggle/labcoat
+	belt = /obj/item/weapon/storage/belt/utility/full
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/combat
+	ears = /obj/item/device/radio/headset/syndicate/alt
+	back = /obj/item/weapon/storage/backpack
+	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
+	l_pocket = /obj/item/weapon/card/emag
+	id = /obj/item/weapon/card/id/syndicate/engineer
+	implants = list(/obj/item/weapon/implant/weapons_auth)
+

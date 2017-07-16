@@ -1459,6 +1459,66 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Telecommunications Satellite Lounge"
 	icon_state = "tcomsatlounge"
 
+
+
+// Syndicate Asteroid Base
+
+/area/syndicate/bar
+	name = "Syndicate Bar"
+	icon_state = "bar"
+
+/area/syndicate/storage
+	name = "Syndicate Storage"
+	icon_state = "storage"
+
+/area/syndicate/solars
+	name = "Syndicate Solar"
+	icon_state = "SolarcontrolP"
+
+/area/syndicate/primary_central
+	name = "Syndicate Central Primary Hallway"
+	icon_state = "hallC"
+
+/area/syndicate/shooting_gallery
+	name = "Syndicate Shooting Gallery"
+	icon_state = "dk_yellow"
+
+/area/syndicate/chemistry
+	name = "Syndicate Chemistry"
+	icon_state = "chem"
+
+/area/syndicate/sleeproom
+	name = "Sleep Room"
+	icon_state = "Sleep"
+
+/area/syndicate/virology
+	name = "Syndicate Virology"
+	icon_state = "virology"
+
+/area/syndicate/entry
+	name = "Syndicate Arrival Hallway"
+	icon_state = "entry"
+
+/area/syndicate/test_area
+	name = "Syndicate Test Area"
+	icon_state = "toxtest"
+
+/area/syndicate/infirmary_room
+	name = "Infirmary Room"
+	icon_state = "yellow"
+
+/area/syndicate/self_destruct_control
+	name = "Syndicate Self Destruct Control"
+	icon_state = "nuke_storage"
+
+/area/syndicate/hydroponics
+	name = "Syndicate Hydroponics"
+	icon_state = "hydro"
+
+/area/syndicate/gravity_generator
+	name = "Syndicate Gravity Generator Room"
+	icon_state = "grav_gen"
+
 /////////////////////////////////////////////////////////////////////
 /*
  Lists of areas to be used with is_type_in_list.

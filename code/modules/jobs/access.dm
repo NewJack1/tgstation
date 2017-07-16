@@ -87,6 +87,7 @@ GLOBAL_VAR_CONST(access_syndicate_hydroponics, 152)
 GLOBAL_VAR_CONST(access_syndicate_chemistry, 153)
 GLOBAL_VAR_CONST(access_syndicate_virology, 154)
 GLOBAL_VAR_CONST(access_syndicate_comms, 155)
+GLOBAL_VAR_CONST(access_syndicate_engineering, 156)
 
 	//Away Missions or Ruins
 	/*For generic away-mission/ruin access. Why would normal crew have access to a long-abandoned derelict
