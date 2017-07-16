@@ -2932,15 +2932,15 @@
 "ago" = (
 /obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agp" = (
 /obj/item/weapon/bombcore/large/underwall,
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agq" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agr" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -2949,12 +2949,12 @@
 	name = "Boss Shutters"
 	},
 /turf/open/floor/plating,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ags" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agt" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Infirmary";
@@ -2963,13 +2963,13 @@
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agu" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/sign/bluecross_2,
 /turf/open/floor/plating,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agv" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -3145,10 +3145,10 @@
 /obj/structure/fireplace,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agN" = (
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agO" = (
 /obj/machinery/light{
 	dir = 1
@@ -3161,13 +3161,13 @@
 	req_access_txt = "155"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agP" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/mineral/wood/fifty,
 /obj/item/stack/sheet/mineral/wood/fifty,
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agQ" = (
 /obj/structure/table,
 /obj/item/weapon/storage/firstaid/regular{
@@ -3183,12 +3183,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/vault,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agR" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agS" = (
 /obj/machinery/sleeper{
 	dir = 8
@@ -3196,7 +3196,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "agT" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -3311,12 +3311,12 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahf" = (
 /obj/item/device/flashlight/lamp,
 /obj/structure/table/wood,
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahg" = (
 /obj/item/device/radio/intercom{
 	broadcasting = 0;
@@ -3327,17 +3327,17 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahh" = (
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahi" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/structure/filingcabinet/medical,
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahj" = (
 /obj/structure/bed/roller,
 /obj/machinery/iv_drip,
@@ -3345,7 +3345,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahk" = (
 /turf/open/floor/plating,
 /area/syndicate/entry)
@@ -3506,7 +3506,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahw" = (
 /obj/structure/disposalpipe/junction{
 	dir = 1
@@ -3517,7 +3517,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -3528,7 +3528,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahy" = (
 /obj/item/device/radio/intercom{
 	broadcasting = 1;
@@ -3544,7 +3544,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahz" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
@@ -3553,7 +3553,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahA" = (
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms{
 	dir = 8;
@@ -3563,7 +3563,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahB" = (
 /obj/structure/closet/secure_closet/personal/cabinet{
 	req_access = null;
@@ -3579,13 +3579,13 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahD" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -3594,7 +3594,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahE" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light{
@@ -3710,7 +3710,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahS" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -3718,16 +3718,16 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahT" = (
 /obj/machinery/computer/camera_advanced,
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahU" = (
 /obj/machinery/computer/message_monitor,
 /obj/item/weapon/paper/monitorkey,
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahV" = (
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
@@ -3737,7 +3737,7 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahW" = (
 /obj/item/weapon/surgicaldrill,
 /obj/item/weapon/circular_saw,
@@ -3748,13 +3748,13 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahX" = (
 /obj/effect/baseturf_helper,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahY" = (
 /obj/structure/sink{
 	dir = 4;
@@ -3766,7 +3766,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ahZ" = (
 /turf/open/space/basic,
 /turf/closed/wall/mineral/plastitanium{
@@ -3891,7 +3891,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "aim" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -3899,7 +3899,7 @@
 	icon_state = "1-4"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ain" = (
 /obj/machinery/power/apc{
 	cell_type = 15000;
@@ -3917,7 +3917,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "aio" = (
 /obj/machinery/light,
 /obj/structure/cable{
@@ -3926,7 +3926,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "aip" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -3934,11 +3934,11 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "aiq" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "air" = (
 /obj/item/weapon/cautery,
 /obj/item/weapon/scalpel,
@@ -3947,14 +3947,14 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ais" = (
 /obj/structure/table/optable,
 /obj/item/weapon/surgical_drapes,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "ait" = (
 /obj/item/weapon/retractor,
 /obj/item/weapon/hemostat,
@@ -3965,7 +3965,7 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "aiu" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 8
@@ -4092,7 +4092,7 @@
 	name = "BOMB RANGE"
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/infirmary_room)
+/area/syndicate/communications_room)
 "aiJ" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Self Destruct Control";

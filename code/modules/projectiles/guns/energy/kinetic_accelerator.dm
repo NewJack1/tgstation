@@ -20,7 +20,7 @@
 	knife_x_offset = 15
 	knife_y_offset = 13
 
-	var/max_mod_capacity = 100
+	var/max_mod_capacity = 200
 	var/list/modkits = list()
 
 	var/empty_state = "kineticgun_empty"

@@ -1503,8 +1503,8 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Syndicate Test Area"
 	icon_state = "toxtest"
 
-/area/syndicate/infirmary_room
-	name = "Infirmary Room"
+/area/syndicate/communications_room
+	name = "Communications Room"
 	icon_state = "yellow"
 
 /area/syndicate/self_destruct_control
@@ -1518,6 +1518,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/syndicate/gravity_generator
 	name = "Syndicate Gravity Generator Room"
 	icon_state = "grav_gen"
+
+/area/syndicate/medbay
+	name = "Syndicate Medbay Central"
+	icon_state = "medbay"
+
+/area/syndicate/fore
+	name = "Syndicate Fore Maintenance"
+	icon_state = "fmaint"
 
 /////////////////////////////////////////////////////////////////////
 /*

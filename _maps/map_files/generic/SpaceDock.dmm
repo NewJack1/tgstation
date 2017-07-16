@@ -46,74 +46,91 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/sleeproom)
 "al" = (
-/obj/structure/lattice,
+/obj/machinery/camera{
+	c_tag = "Disposal";
+	dir = 1;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/space/basic,
-/area/space)
+/area/syndicate/fore)
 "am" = (
 /obj/structure/lattice,
-/obj/structure/lattice,
 /turf/open/space/basic,
-/area/space)
+/area/syndicate/solars)
 "an" = (
+/obj/structure/lattice,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"ao" = (
+/obj/structure/lattice,
+/obj/structure/lattice,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"ap" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/shooting_gallery)
-"ao" = (
+"aq" = (
 /obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/storage)
-"ap" = (
+"ar" = (
 /obj/structure/closet/secure_closet/bar{
 	req_access = null;
 	req_access_txt = "150"
 	},
+/obj/item/weapon/reagent_containers/food/snacks/syndicake,
+/obj/item/weapon/reagent_containers/food/snacks/syndicake,
+/obj/item/weapon/reagent_containers/food/snacks/syndicake,
 /turf/open/floor/plasteel/podhatch{
 	dir = 10
 	},
 /area/syndicate/bar)
-"aq" = (
+"as" = (
 /obj/structure/table/wood,
-/obj/item/weapon/reagent_containers/food/snacks/syndicake,
-/obj/item/weapon/reagent_containers/food/snacks/syndicake,
-/obj/item/weapon/reagent_containers/food/snacks/syndicake,
 /obj/structure/sign/barsign{
 	pixel_y = 32;
 	req_access = null;
 	req_access_txt = "150"
 	},
-/obj/machinery/light/small{
-	dir = 1
-	},
+/obj/machinery/chem_dispenser/drinks/beer,
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/bar)
-"ar" = (
+"at" = (
 /obj/structure/table/wood,
-/obj/item/weapon/reagent_containers/food/snacks/salad/validsalad,
+/obj/machinery/chem_dispenser/drinks,
 /turf/open/floor/plasteel/podhatch{
 	dir = 6
 	},
 /area/syndicate/bar)
-"as" = (
+"au" = (
 /obj/structure/rack{
 	icon = 'icons/obj/stationobjs.dmi';
 	icon_state = "minibar_left";
 	name = "skeletal minibar"
 	},
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka,
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/item/weapon/storage/box/drinkingglasses,
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"at" = (
+"av" = (
 /obj/structure/rack{
 	icon = 'icons/obj/stationobjs.dmi';
 	icon_state = "minibar_right";
 	name = "skeletal minibar"
 	},
-/obj/item/weapon/reagent_containers/food/drinks/bottle/gin,
+/obj/item/weapon/book/manual/nuclear,
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"au" = (
+"aw" = (
 /obj/structure/dresser,
 /obj/structure/mirror{
 	desc = "Mirror mirror on the wall, who is the most robust of them all?";
@@ -121,37 +138,46 @@
 	},
 /turf/open/floor/plasteel/vault,
 /area/syndicate/sleeproom)
-"av" = (
+"ax" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
 	layer = 4.1
 	},
 /turf/open/floor/plasteel/vault,
 /area/syndicate/sleeproom)
-"aw" = (
+"ay" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
 	},
 /turf/open/floor/plasteel/vault,
 /area/syndicate/sleeproom)
-"ax" = (
+"az" = (
 /obj/structure/table/wood,
 /obj/item/weapon/clipboard,
 /obj/item/toy/figure/syndie,
 /turf/open/floor/plasteel/vault,
 /area/syndicate/sleeproom)
-"ay" = (
+"aA" = (
+/obj/structure/disposalpipe/trunk,
+/obj/structure/disposaloutlet{
+	dir = 1
+	},
+/obj/structure/lattice,
+/turf/open/floor/plating,
+/area/syndicate/fore)
+"aB" = (
+/turf/closed/mineral,
+/area/syndicate/fore)
+"aC" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"az" = (
+"aD" = (
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/open/floor/plasteel/podhatch{
-	dir = 5
-	},
+/turf/open/floor/mineral/plastitanium/airless,
 /area/syndicate/storage)
-"aA" = (
+"aE" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen";
 	opened = 1
@@ -176,9 +202,19 @@
 	icon_state = "0-2";
 	d2 = 2
 	},
-/turf/open/floor/plasteel/black,
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 30
+	},
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 30
+	},
+/obj/item/stack/rods{
+	amount = 50
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium/airless,
 /area/syndicate/storage)
-"aB" = (
+"aF" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen";
 	opened = 1
@@ -195,26 +231,21 @@
 /obj/item/stack/sheet/cardboard/fifty,
 /obj/item/stack/sheet/plasteel/fifty,
 /obj/item/stack/sheet/mineral/wood/fifty,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium/airless,
 /area/syndicate/storage)
-"aC" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/sheet/mineral/plastitanium{
-	amount = 30
+"aG" = (
+/obj/machinery/vending/boozeomat{
+	pixel_x = 0;
+	products = list(/obj/item/weapon/reagent_containers/food/drinks/bottle/whiskey = 1, /obj/item/weapon/reagent_containers/food/drinks/bottle/absinthe = 1, /obj/item/weapon/reagent_containers/food/drinks/bottle/limejuice = 1, /obj/item/weapon/reagent_containers/food/drinks/bottle/cream = 1, /obj/item/weapon/reagent_containers/food/drinks/soda_cans/tonic = 1, /obj/item/weapon/reagent_containers/food/drinks/drinkingglass = 10, /obj/item/weapon/reagent_containers/food/drinks/ice = 3, /obj/item/weapon/reagent_containers/food/drinks/drinkingglass/shotglass = 6, /obj/item/weapon/reagent_containers/food/drinks/flask = 1);
+	req_access_txt = "150"
 	},
-/obj/item/stack/rods{
-	amount = 50
-	},
-/turf/open/floor/plasteel/podhatch{
-	dir = 9
-	},
+/turf/closed/wall/mineral/plastitanium,
 /area/syndicate/storage)
-"aD" = (
+"aH" = (
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"aE" = (
+"aI" = (
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "Syndicate Bar APC";
@@ -226,7 +257,7 @@
 	},
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"aF" = (
+"aJ" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -234,34 +265,46 @@
 	},
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"aG" = (
+"aK" = (
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"aH" = (
+"aL" = (
 /obj/structure/bed,
 /obj/item/weapon/bedsheet/syndie,
 /turf/open/floor/plasteel/grimy,
 /area/syndicate/sleeproom)
-"aI" = (
+"aM" = (
 /turf/open/floor/plasteel/grimy,
 /area/syndicate/sleeproom)
-"aJ" = (
+"aN" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/syndicate/sleeproom)
-"aK" = (
+"aO" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/mineral,
+/area/syndicate/fore)
+"aP" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/shooting_gallery)
+"aQ" = (
 /obj/item/target,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/shooting_gallery)
-"aL" = (
+"aR" = (
 /obj/machinery/light{
 	dir = 4
 	},
@@ -269,13 +312,14 @@
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"aM" = (
+"aS" = (
 /obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/plasteel/podhatch{
+/obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/turf/open/floor/mineral/plastitanium/airless,
 /area/syndicate/storage)
-"aN" = (
+"aT" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -285,10 +329,10 @@
 	dir = 5
 	},
 /area/syndicate/storage)
-"aO" = (
+"aU" = (
 /turf/open/floor/plasteel/black,
 /area/syndicate/storage)
-"aP" = (
+"aV" = (
 /obj/item/stack/cable_coil/white,
 /obj/item/stack/cable_coil/white,
 /obj/item/stack/packageWrap,
@@ -299,17 +343,18 @@
 	},
 /obj/item/weapon/storage/box/lights,
 /obj/item/weapon/storage/box/lights,
-/turf/open/floor/plasteel/podhatch{
+/obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/turf/open/floor/mineral/plastitanium/airless,
 /area/syndicate/storage)
-"aQ" = (
+"aW" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"aR" = (
+"aX" = (
 /obj/machinery/light{
 	dir = 4
 	},
@@ -320,7 +365,7 @@
 	},
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"aS" = (
+"aY" = (
 /obj/structure/table/wood,
 /obj/item/ammo_box/magazine/m10mm,
 /obj/item/ammo_box/magazine/m10mm,
@@ -333,7 +378,7 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/syndicate/sleeproom)
-"aT" = (
+"aZ" = (
 /obj/structure/table/wood,
 /obj/item/ammo_box/magazine/m10mm,
 /obj/item/ammo_box/magazine/m10mm,
@@ -345,30 +390,39 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/syndicate/sleeproom)
-"aU" = (
+"ba" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/lattice,
+/turf/closed/mineral,
+/area/syndicate/fore)
+"bb" = (
+/obj/structure/lattice,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"bc" = (
 /obj/structure/lattice,
 /obj/structure/grille,
 /turf/open/space/basic,
 /area/syndicate/solars)
-"aV" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/syndicate/solars)
-"aW" = (
+"bd" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/solars)
-"aX" = (
+"be" = (
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/shooting_gallery)
-"aY" = (
+"bf" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/open/floor/plasteel/podhatch{
-	dir = 6
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
+/turf/open/floor/mineral/plastitanium/airless,
 /area/syndicate/storage)
-"aZ" = (
+"bg" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -376,12 +430,12 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/storage)
-"ba" = (
+"bh" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/storage)
-"bb" = (
+"bi" = (
 /obj/item/stack/sheet/metal{
 	amount = 50
 	},
@@ -390,11 +444,12 @@
 	},
 /obj/structure/table/reinforced,
 /obj/item/weapon/wrench,
-/turf/open/floor/plasteel/podhatch{
-	dir = 10
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
+/turf/open/floor/mineral/plastitanium/airless,
 /area/syndicate/storage)
-"bc" = (
+"bj" = (
 /obj/structure/table/wood,
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
@@ -402,31 +457,30 @@
 	icon_state = "wood-broken4"
 	},
 /area/syndicate/bar)
-"bd" = (
+"bk" = (
 /obj/structure/table/wood,
-/obj/item/weapon/storage/box/drinkingglasses,
+/obj/item/weapon/reagent_containers/glass/rag,
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"be" = (
+"bl" = (
 /obj/structure/table/wood,
 /obj/item/toy/nuke,
-/obj/item/weapon/book/manual/nuclear,
+/obj/item/toy/cards/deck/syndicate,
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"bf" = (
+"bm" = (
 /obj/structure/table/wood,
 /obj/item/weapon/lighter{
 	pixel_y = 3
 	},
-/obj/item/weapon/storage/fancy/cigarettes/cigpack_syndicate,
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"bg" = (
+"bn" = (
 /obj/structure/table/wood,
 /obj/item/weapon/storage/fancy/donut_box,
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"bh" = (
+"bo" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 26
 	},
@@ -442,31 +496,68 @@
 	},
 /turf/open/floor/wood,
 /area/syndicate/bar)
-"bi" = (
+"bp" = (
+/obj/structure/bed,
+/obj/item/weapon/bedsheet/syndie,
+/obj/machinery/camera{
+	c_tag = "Sleep Rooms Beds";
+	dir = 4;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
+/turf/open/floor/plasteel/grimy,
+/area/syndicate/sleeproom)
+"bq" = (
 /turf/open/floor/plasteel/podhatch{
 	dir = 8
 	},
 /area/syndicate/shooting_gallery)
-"bj" = (
+"br" = (
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
 /area/syndicate/shooting_gallery)
-"bk" = (
+"bs" = (
 /obj/structure/sign/nosmoking_2,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/storage)
-"bl" = (
+"bt" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/camera{
+	c_tag = "Storage";
+	dir = 4;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage)
+"bu" = (
 /obj/structure/chair/stool/bar,
+/obj/machinery/camera{
+	c_tag = "Bar";
+	dir = 4;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
-"bm" = (
+"bv" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/bar)
-"bn" = (
+"bw" = (
+/obj/structure/chair/stool/bar,
+/turf/open/floor/plasteel/black,
+/area/syndicate/bar)
+"bx" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -476,7 +567,7 @@
 	dir = 5
 	},
 /area/syndicate/bar)
-"bo" = (
+"by" = (
 /obj/structure/table/wood,
 /obj/item/weapon/lipstick/random{
 	pixel_x = 3;
@@ -492,12 +583,12 @@
 	dir = 8
 	},
 /area/syndicate/sleeproom)
-"bp" = (
+"bz" = (
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/sleeproom)
-"bq" = (
+"bA" = (
 /obj/structure/dresser,
 /obj/structure/mirror{
 	desc = "Mirror mirror on the wall, who is the most robust of them all?";
@@ -507,11 +598,7 @@
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"br" = (
-/obj/structure/lattice,
-/turf/open/space,
-/area/syndicate/solars)
-"bs" = (
+"bB" = (
 /obj/structure/cable{
 	icon_state = "0-4";
 	d2 = 4
@@ -522,7 +609,7 @@
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/syndicate/solars)
-"bt" = (
+"bC" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	d1 = 2;
@@ -534,9 +621,9 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/open/space,
+/turf/open/space/basic,
 /area/syndicate/solars)
-"bu" = (
+"bD" = (
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
@@ -547,7 +634,7 @@
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/syndicate/solars)
-"bv" = (
+"bE" = (
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
@@ -558,11 +645,11 @@
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/syndicate/solars)
-"bw" = (
+"bF" = (
 /obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/solars)
-"bx" = (
+"bG" = (
 /obj/machinery/light{
 	dir = 8
 	},
@@ -570,18 +657,19 @@
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"by" = (
+"bH" = (
 /obj/structure/closet/emcloset{
 	anchored = 1
 	},
 /obj/item/weapon/tank/internals/emergency_oxygen/engi,
 /obj/item/device/flashlight/seclite,
 /obj/item/clothing/mask/gas,
-/turf/open/floor/plasteel/podhatch{
-	dir = 5
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
+/turf/open/floor/mineral/plastitanium/airless,
 /area/syndicate/storage)
-"bz" = (
+"bI" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
 	layer = 4.1
@@ -590,15 +678,15 @@
 	dir = 5
 	},
 /area/syndicate/storage)
-"bA" = (
+"bJ" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/bar)
-"bB" = (
+"bK" = (
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
-"bC" = (
+"bL" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -606,7 +694,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
-"bD" = (
+"bM" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Dormitories";
 	req_access_txt = "150"
@@ -615,12 +703,12 @@
 	dir = 8
 	},
 /area/syndicate/sleeproom)
-"bE" = (
+"bN" = (
 /obj/structure/lattice,
 /obj/structure/grille/broken,
-/turf/open/space,
+/turf/open/space/basic,
 /area/syndicate/solars)
-"bF" = (
+"bO" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	d1 = 2;
@@ -637,9 +725,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/open/space,
+/turf/open/space/basic,
 /area/syndicate/solars)
-"bG" = (
+"bP" = (
 /obj/structure/closet/emcloset,
 /obj/item/weapon/tank/internals/emergency_oxygen/engi,
 /obj/item/device/flashlight/seclite,
@@ -647,11 +735,12 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/podhatch{
+/obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/turf/open/floor/mineral/plastitanium/airless,
 /area/syndicate/storage)
-"bH" = (
+"bQ" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 4;
@@ -659,7 +748,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/storage)
-"bI" = (
+"bR" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -669,7 +758,7 @@
 	dir = 5
 	},
 /area/syndicate/storage)
-"bJ" = (
+"bS" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Storage Closet";
 	req_access_txt = "150"
@@ -683,7 +772,7 @@
 	dir = 8
 	},
 /area/syndicate/storage)
-"bK" = (
+"bT" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -691,7 +780,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
-"bL" = (
+"bU" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -701,7 +790,7 @@
 	dir = 5
 	},
 /area/syndicate/bar)
-"bM" = (
+"bV" = (
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
@@ -719,7 +808,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
-"bN" = (
+"bW" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 8;
@@ -734,7 +823,7 @@
 	dir = 5
 	},
 /area/syndicate/bar)
-"bO" = (
+"bX" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Dormitories";
 	req_access_txt = "150"
@@ -748,7 +837,7 @@
 	dir = 8
 	},
 /area/syndicate/sleeproom)
-"bP" = (
+"bY" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -758,22 +847,28 @@
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"bQ" = (
+"bZ" = (
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/machinery/camera{
+	c_tag = "Sleep Rooms";
+	dir = 2;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"bR" = (
+"ca" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"bS" = (
+"cb" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Restroom";
 	req_access_txt = "150"
@@ -782,7 +877,7 @@
 	dir = 8
 	},
 /area/syndicate/sleeproom)
-"bT" = (
+"cc" = (
 /obj/structure/mirror{
 	desc = "Mirror mirror on the wall, who is the most robust of them all?";
 	pixel_x = 28
@@ -795,24 +890,19 @@
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"bU" = (
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/open/space,
-/area/syndicate/solars)
-"bV" = (
+"cd" = (
 /obj/structure/window/reinforced,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"bW" = (
+"ce" = (
 /obj/machinery/door/window/brigdoor,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/shooting_gallery)
-"bX" = (
+"cf" = (
 /obj/structure/closet/emcloset{
 	anchored = 1
 	},
@@ -822,11 +912,12 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -26
 	},
-/turf/open/floor/plasteel/podhatch{
-	dir = 6
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
+/turf/open/floor/mineral/plastitanium/airless,
 /area/syndicate/storage)
-"bY" = (
+"cg" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
 	},
@@ -834,21 +925,24 @@
 	dir = 5
 	},
 /area/syndicate/storage)
-"bZ" = (
+"ch" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/bar)
-"ca" = (
+"ci" = (
 /obj/machinery/light/small,
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
+/obj/structure/sign/deathsposal{
+	pixel_y = -35
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
-"cb" = (
+"cj" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -861,13 +955,13 @@
 	dir = 5
 	},
 /area/syndicate/bar)
-"cc" = (
+"ck" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
-"cd" = (
+"cl" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
 	},
@@ -879,20 +973,21 @@
 	dir = 5
 	},
 /area/syndicate/bar)
-"ce" = (
+"cm" = (
 /obj/structure/bookcase/random,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/item/weapon/book/manual/nuclear,
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
-"cf" = (
+"cn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/sleeproom)
-"cg" = (
+"co" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
 	layer = 4.1
@@ -904,7 +999,7 @@
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"ch" = (
+"cp" = (
 /obj/machinery/light/small,
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -914,7 +1009,7 @@
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"ci" = (
+"cq" = (
 /obj/machinery/power/apc{
 	cell_type = 15000;
 	dir = 2;
@@ -926,13 +1021,13 @@
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"cj" = (
+"cr" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"ck" = (
+"cs" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
 	layer = 4.1
@@ -941,7 +1036,7 @@
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"cl" = (
+"ct" = (
 /obj/structure/toilet{
 	dir = 8
 	},
@@ -952,7 +1047,14 @@
 	dir = 5
 	},
 /area/syndicate/sleeproom)
-"cm" = (
+"cu" = (
+/obj/structure/lattice,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"cv" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/gun/ballistic/automatic/c20r/toy/unrestricted,
 /obj/item/weapon/gun/ballistic/automatic/c20r/toy/unrestricted,
@@ -960,16 +1062,27 @@
 	dir = 8
 	},
 /area/syndicate/shooting_gallery)
-"cn" = (
+"cw" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
 	layer = 4.1
+	},
+/obj/machinery/camera{
+	c_tag = "Shooting Gallery";
+	dir = 8;
+	name = "syndicate camera";
+	network = list("Syndi Base")
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/shooting_gallery)
-"co" = (
+"cx" = (
+/obj/item/weapon/bombcore/large/underwall,
+/obj/machinery/smartfridge/chemistry/preloaded,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/storage)
+"cy" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Lounge";
 	req_access_txt = "150"
@@ -983,7 +1096,7 @@
 	dir = 8
 	},
 /area/syndicate/bar)
-"cp" = (
+"cz" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Lounge";
 	req_access_txt = "150"
@@ -992,27 +1105,32 @@
 	dir = 8
 	},
 /area/syndicate/bar)
-"cq" = (
+"cA" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/sleeproom)
-"cr" = (
+"cB" = (
 /obj/structure/lattice,
 /obj/structure/disposalpipe/segment,
-/obj/structure/grille,
 /turf/open/floor/plating,
-/area/space)
-"cs" = (
+/area/syndicate/fore)
+"cC" = (
 /obj/structure/lattice,
-/obj/structure/disposaloutlet{
+/obj/structure/grille,
+/turf/open/space/basic,
+/area/syndicate/fore)
+"cD" = (
+/obj/structure/lattice,
+/obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/space)
-"ct" = (
+/turf/open/space/basic,
+/area/syndicate/fore)
+"cE" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/syndicate/fore)
+"cF" = (
 /obj/machinery/vending/toyliberationstation{
 	req_access_txt = "150"
 	},
@@ -1023,22 +1141,25 @@
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"cu" = (
+"cG" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
+	},
+/obj/structure/sign/deathsposal{
+	pixel_x = 33
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"cv" = (
+"cH" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/shooting_gallery)
-"cw" = (
+"cI" = (
 /obj/machinery/chem_dispenser,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1047,7 +1168,7 @@
 	dir = 8
 	},
 /area/syndicate/chemistry)
-"cx" = (
+"cJ" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/reagent_containers/glass/beaker/large,
 /obj/item/weapon/reagent_containers/glass/beaker,
@@ -1066,7 +1187,7 @@
 	dir = 1
 	},
 /area/syndicate/chemistry)
-"cy" = (
+"cK" = (
 /obj/machinery/chem_master,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1075,7 +1196,7 @@
 	dir = 4
 	},
 /area/syndicate/chemistry)
-"cz" = (
+"cL" = (
 /obj/structure/noticeboard{
 	pixel_y = 32
 	},
@@ -1087,11 +1208,17 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/camera{
+	c_tag = "Chemistry";
+	dir = 2;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/chemistry)
-"cA" = (
+"cM" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/clipboard,
 /obj/item/weapon/folder/white,
@@ -1111,7 +1238,7 @@
 	dir = 8
 	},
 /area/syndicate/chemistry)
-"cB" = (
+"cN" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/box/beakers{
 	pixel_x = 3;
@@ -1127,13 +1254,13 @@
 	dir = 8
 	},
 /area/syndicate/chemistry)
-"cC" = (
+"cO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/chemistry)
-"cD" = (
+"cP" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -1149,7 +1276,7 @@
 	dir = 9
 	},
 /area/syndicate/primary_central)
-"cE" = (
+"cQ" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
@@ -1161,10 +1288,10 @@
 	dir = 5
 	},
 /area/syndicate/primary_central)
-"cF" = (
+"cR" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/virology)
-"cG" = (
+"cS" = (
 /obj/structure/table/reinforced,
 /obj/machinery/reagentgrinder{
 	desc = "Used to grind things up into raw materials and liquids.";
@@ -1175,7 +1302,7 @@
 	},
 /turf/open/floor/plasteel/podhatch/corner,
 /area/syndicate/virology)
-"cH" = (
+"cT" = (
 /obj/structure/reagent_dispensers/virusfood{
 	pixel_y = 32;
 	tank_volume = 2000
@@ -1188,14 +1315,14 @@
 	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/virology)
-"cI" = (
+"cU" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 32
 	},
 /obj/machinery/computer/pandemic,
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/virology)
-"cJ" = (
+"cV" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/box/beakers{
 	pixel_x = 3;
@@ -1208,18 +1335,24 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/virology)
-"cK" = (
+"cW" = (
 /obj/machinery/smartfridge/chemistry/virology/preloaded,
+/obj/machinery/camera{
+	c_tag = "Virology";
+	dir = 2;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 6
 	},
 /area/syndicate/virology)
-"cL" = (
+"cX" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/syndicate/virology)
-"cM" = (
+"cY" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -1228,13 +1361,13 @@
 	dir = 8
 	},
 /area/syndicate/virology)
-"cN" = (
+"cZ" = (
 /obj/structure/bed/roller,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/virology)
-"cO" = (
+"da" = (
 /obj/structure/bed/roller,
 /obj/machinery/light/small{
 	dir = 1
@@ -1243,23 +1376,18 @@
 	dir = 8
 	},
 /area/syndicate/virology)
-"cP" = (
+"db" = (
 /mob/living/carbon/monkey,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/virology)
-"cQ" = (
+"dc" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/lattice,
 /turf/open/floor/plating,
-/area/space)
-"cR" = (
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/open/space/basic,
-/area/space)
-"cS" = (
+/area/syndicate/fore)
+"dd" = (
 /obj/machinery/power/apc{
 	cell_type = 5000;
 	dir = 8;
@@ -1278,7 +1406,7 @@
 	dir = 8
 	},
 /area/syndicate/shooting_gallery)
-"cT" = (
+"de" = (
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
@@ -1288,7 +1416,7 @@
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"cU" = (
+"df" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/suppressor/specialoffer,
 /obj/item/weapon/gun/ballistic/automatic/toy/pistol/unrestricted,
@@ -1297,27 +1425,27 @@
 	dir = 8
 	},
 /area/syndicate/shooting_gallery)
-"cV" = (
+"dg" = (
 /obj/machinery/chem_heater,
 /turf/open/floor/plasteel/podhatch{
 	dir = 10
 	},
 /area/syndicate/chemistry)
-"cW" = (
+"dh" = (
 /obj/structure/chair/office/dark{
 	dir = 1
 	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/chemistry)
-"cX" = (
+"di" = (
 /turf/open/floor/plasteel/podhatch{
 	dir = 6
 	},
 /area/syndicate/chemistry)
-"cY" = (
+"dj" = (
 /turf/open/floor/plasteel/vault,
 /area/syndicate/chemistry)
-"cZ" = (
+"dk" = (
 /obj/item/device/assembly/igniter,
 /obj/item/device/assembly/igniter,
 /obj/item/device/assembly/igniter,
@@ -1339,12 +1467,12 @@
 	dir = 8
 	},
 /area/syndicate/chemistry)
-"da" = (
+"dl" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/syndicate/chemistry)
-"db" = (
+"dm" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -1354,13 +1482,13 @@
 	dir = 8
 	},
 /area/syndicate/primary_central)
-"dc" = (
+"dn" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
 /area/syndicate/primary_central)
-"dd" = (
+"do" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/book/manual/wiki/infections,
 /obj/item/stack/sheet/mineral/silver{
@@ -1370,7 +1498,7 @@
 	dir = 4
 	},
 /area/syndicate/virology)
-"de" = (
+"dp" = (
 /obj/structure/chair/office/dark{
 	dir = 8
 	},
@@ -1378,18 +1506,18 @@
 	dir = 5
 	},
 /area/syndicate/virology)
-"df" = (
+"dq" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/virology)
-"dg" = (
+"dr" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/virology)
-"dh" = (
+"ds" = (
 /obj/effect/mob_spawn/human/lavaland_syndicate/virologist{
 	dir = 8
 	},
@@ -1397,7 +1525,7 @@
 	dir = 5
 	},
 /area/syndicate/virology)
-"di" = (
+"dt" = (
 /obj/machinery/door/window/brigdoor{
 	id = "Monkey1";
 	name = "Monkey1";
@@ -1405,7 +1533,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/virology)
-"dj" = (
+"du" = (
 /obj/machinery/door/window/brigdoor{
 	id = "Monkey2";
 	name = "Monkey2";
@@ -1413,21 +1541,17 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/virology)
-"dk" = (
-/obj/structure/lattice,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plating,
-/area/space)
-"dl" = (
+"dv" = (
 /obj/structure/lattice,
 /obj/structure/grille/broken,
 /turf/open/space/basic,
-/area/space)
-"dm" = (
-/obj/structure/sign/securearea,
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/shooting_gallery)
-"dn" = (
+/area/syndicate/fore)
+"dw" = (
+/obj/structure/lattice,
+/obj/machinery/light,
+/turf/open/space/basic,
+/area/syndicate/solars)
+"dx" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Firing Range";
 	req_access_txt = "150"
@@ -1441,7 +1565,7 @@
 	dir = 8
 	},
 /area/syndicate/shooting_gallery)
-"do" = (
+"dy" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/glasses/science,
 /obj/item/clothing/glasses/science,
@@ -1454,12 +1578,12 @@
 	dir = 5
 	},
 /area/syndicate/chemistry)
-"dp" = (
+"dz" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/chemistry)
-"dq" = (
+"dA" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor{
 	dir = 4;
@@ -1477,7 +1601,7 @@
 	dir = 5
 	},
 /area/syndicate/chemistry)
-"dr" = (
+"dB" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor{
 	dir = 8;
@@ -1495,12 +1619,12 @@
 	dir = 8
 	},
 /area/syndicate/virology)
-"ds" = (
+"dC" = (
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
 /area/syndicate/virology)
-"dt" = (
+"dD" = (
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
@@ -1510,7 +1634,7 @@
 	dir = 5
 	},
 /area/syndicate/virology)
-"du" = (
+"dE" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
@@ -1522,7 +1646,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/virology)
-"dv" = (
+"dF" = (
 /obj/structure/disposalpipe/junction{
 	icon_state = "pipe-j2";
 	dir = 4
@@ -1534,7 +1658,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/virology)
-"dw" = (
+"dG" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -1545,7 +1669,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/virology)
-"dx" = (
+"dH" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -1560,27 +1684,58 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/virology)
-"dy" = (
+"dI" = (
 /obj/structure/disposalpipe/junction{
 	icon_state = "pipe-j1";
 	dir = 4
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/virology)
-"dz" = (
+"dJ" = (
 /obj/structure/lattice,
 /obj/structure/disposalpipe/segment{
 	dir = 8;
 	icon_state = "pipe-c"
 	},
 /turf/open/floor/plating,
-/area/space)
-"dA" = (
+/area/syndicate/fore)
+"dK" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/entry)
+"dL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/entry)
+"dM" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/entry)
+"dN" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/solars)
+"dO" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/syndicate/solars)
-"dB" = (
+"dP" = (
 /obj/structure/rack,
 /obj/item/ammo_box/foambox{
 	pixel_x = -3;
@@ -1591,11 +1746,17 @@
 	pixel_x = 3;
 	pixel_y = -3
 	},
+/obj/machinery/camera{
+	c_tag = "Shooting Gallery Tools";
+	dir = 4;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"dC" = (
+"dQ" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -1605,7 +1766,7 @@
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"dD" = (
+"dR" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
 	layer = 4.1
@@ -1617,7 +1778,7 @@
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"dE" = (
+"dS" = (
 /obj/effect/mob_spawn/human/lavaland_syndicate/chemist{
 	dir = 4
 	},
@@ -1625,10 +1786,10 @@
 	dir = 5
 	},
 /area/syndicate/chemistry)
-"dF" = (
+"dT" = (
 /turf/open/floor/plasteel/black,
 /area/syndicate/chemistry)
-"dG" = (
+"dU" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -1637,7 +1798,7 @@
 	dir = 9
 	},
 /area/syndicate/chemistry)
-"dH" = (
+"dV" = (
 /obj/structure/chair/office/dark,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1646,7 +1807,7 @@
 	dir = 1
 	},
 /area/syndicate/chemistry)
-"dI" = (
+"dW" = (
 /obj/machinery/chem_heater,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1655,7 +1816,7 @@
 	dir = 5
 	},
 /area/syndicate/chemistry)
-"dJ" = (
+"dX" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/disposalpipe/segment{
@@ -1663,7 +1824,7 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate/chemistry)
-"dK" = (
+"dY" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -1676,7 +1837,7 @@
 	dir = 8
 	},
 /area/syndicate/primary_central)
-"dL" = (
+"dZ" = (
 /obj/structure/disposalpipe/junction{
 	icon_state = "pipe-j2";
 	dir = 4
@@ -1685,7 +1846,7 @@
 	dir = 4
 	},
 /area/syndicate/primary_central)
-"dM" = (
+"ea" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/disposalpipe/segment{
@@ -1693,7 +1854,7 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate/virology)
-"dN" = (
+"eb" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/reagent_containers/glass/beaker/large,
 /obj/item/weapon/reagent_containers/glass/beaker,
@@ -1709,7 +1870,7 @@
 	dir = 4
 	},
 /area/syndicate/virology)
-"dO" = (
+"ec" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -1722,7 +1883,7 @@
 	dir = 5
 	},
 /area/syndicate/virology)
-"dP" = (
+"ed" = (
 /obj/structure/disposalpipe/junction{
 	icon_state = "pipe-j2";
 	dir = 1
@@ -1731,13 +1892,13 @@
 	dir = 5
 	},
 /area/syndicate/virology)
-"dQ" = (
+"ee" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/virology)
-"dR" = (
+"ef" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
 	id = "Monkey3";
@@ -1748,7 +1909,7 @@
 	dir = 5
 	},
 /area/syndicate/virology)
-"dS" = (
+"eg" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
 	id = "Monkey4";
@@ -1759,24 +1920,68 @@
 	dir = 5
 	},
 /area/syndicate/virology)
-"dT" = (
+"eh" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/virology)
-"dU" = (
-/obj/structure/grille/broken,
-/turf/open/space/basic,
-/area/space)
-"dV" = (
+"ei" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/syndicate/entry)
+"ej" = (
+/obj/machinery/door/airlock/external{
+	cyclelinkeddir = 1;
+	name = "Syndi Port Docking";
+	req_one_access_txt = "150"
+	},
+/obj/structure/fans/tiny,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/syndicate/entry)
+"ek" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/open/space,
+/turf/open/space/basic,
+/area/syndicate/entry)
+"el" = (
+/obj/structure/lattice,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/syndicate/fore)
+"em" = (
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'BOMB RANGE";
+	name = "BOMB RANGE"
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/fore)
+"en" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/syndicate/fore)
+"eo" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/space/basic,
 /area/syndicate/solars)
-"dW" = (
+"ep" = (
 /obj/machinery/light{
 	dir = 1
 	},
@@ -1788,7 +1993,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"dX" = (
+"eq" = (
 /obj/machinery/power/solar_control{
 	id = "portsolar";
 	name = "Port Solar Control";
@@ -1805,7 +2010,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"dY" = (
+"er" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -1816,7 +2021,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"dZ" = (
+"es" = (
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "Syndicate Solar";
@@ -1836,7 +2041,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"ea" = (
+"et" = (
 /obj/structure/closet/crate/secure,
 /obj/item/target,
 /obj/item/target,
@@ -1848,7 +2053,7 @@
 	dir = 6
 	},
 /area/syndicate/shooting_gallery)
-"eb" = (
+"eu" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 4;
@@ -1858,7 +2063,7 @@
 	dir = 5
 	},
 /area/syndicate/shooting_gallery)
-"ec" = (
+"ev" = (
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
@@ -1868,7 +2073,7 @@
 	dir = 5
 	},
 /area/syndicate/chemistry)
-"ed" = (
+"ew" = (
 /obj/machinery/power/apc{
 	cell_type = 15000;
 	dir = 2;
@@ -1883,13 +2088,16 @@
 	dir = 5
 	},
 /area/syndicate/chemistry)
-"ee" = (
+"ex" = (
 /obj/machinery/chem_master,
+/obj/structure/sign/deathsposal{
+	pixel_y = -35
+	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 8
 	},
 /area/syndicate/chemistry)
-"ef" = (
+"ey" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/reagent_containers/glass/beaker/large,
 /obj/item/weapon/reagent_containers/glass/beaker,
@@ -1900,7 +2108,7 @@
 /obj/item/weapon/reagent_containers/glass/beaker/large,
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/chemistry)
-"eg" = (
+"ez" = (
 /obj/machinery/chem_dispenser,
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 26
@@ -1909,10 +2117,10 @@
 	dir = 4
 	},
 /area/syndicate/chemistry)
-"eh" = (
+"eA" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/chemistry)
-"ei" = (
+"eB" = (
 /obj/machinery/light/small{
 	brightness = 3;
 	dir = 8
@@ -1926,7 +2134,7 @@
 	dir = 8
 	},
 /area/syndicate/primary_central)
-"ej" = (
+"eC" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
@@ -1934,7 +2142,7 @@
 	dir = 4
 	},
 /area/syndicate/primary_central)
-"ek" = (
+"eD" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/suit/bio_suit/general,
 /obj/item/clothing/mask/surgical,
@@ -1946,7 +2154,7 @@
 	dir = 6
 	},
 /area/syndicate/virology)
-"el" = (
+"eE" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -1956,7 +2164,7 @@
 	dir = 5
 	},
 /area/syndicate/virology)
-"em" = (
+"eF" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -1968,7 +2176,7 @@
 	dir = 9
 	},
 /area/syndicate/virology)
-"en" = (
+"eG" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
@@ -1977,7 +2185,7 @@
 	dir = 1
 	},
 /area/syndicate/virology)
-"eo" = (
+"eH" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/folder/white,
 /obj/item/stack/sheet/mineral/gold{
@@ -1990,20 +2198,85 @@
 	dir = 1
 	},
 /area/syndicate/virology)
-"ep" = (
+"eI" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/virology)
-"eq" = (
+"eJ" = (
 /obj/structure/bed/roller,
 /mob/living/carbon/monkey,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/virology)
-"er" = (
+"eK" = (
+/turf/open/space/basic,
+/area/syndicate/entry)
+"eL" = (
+/obj/structure/lattice,
+/obj/machinery/light,
+/turf/open/space/basic,
+/area/syndicate/entry)
+"eM" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/syndicate/entry)
+"eN" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/entry)
+"eO" = (
+/obj/machinery/light,
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/entry)
+"eP" = (
+/turf/open/space/basic,
+/obj/machinery/button/door{
+	id = "Syndicate_Base_Blastdoors";
+	name = "Syndicate Base Blastdoors Button";
+	pixel_x = 5;
+	pixel_y = 5;
+	req_access_txt = "150"
+	},
+/turf/closed/wall/mineral/plastitanium{
+	icon_state = "diagonalWall3"
+	},
+/area/syndicate/fore)
+"eQ" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/fore)
+"eR" = (
+/turf/open/space/basic,
+/obj/machinery/button/door{
+	id = "Syndicate_Base_Blastdoors";
+	name = "Syndicate Base Blastdoors Button";
+	pixel_x = -5;
+	pixel_y = 5;
+	req_access_txt = "150"
+	},
+/turf/closed/wall/mineral/plastitanium{
+	dir = 4;
+	icon_state = "diagonalWall3"
+	},
+/area/syndicate/fore)
+"eS" = (
 /obj/machinery/power/tracker,
 /obj/structure/cable{
 	icon_state = "0-4";
@@ -2011,16 +2284,16 @@
 	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/syndicate/solars)
-"es" = (
+"eT" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/space,
+/turf/open/space/basic,
 /area/syndicate/solars)
-"et" = (
+"eU" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	d1 = 4;
@@ -2037,18 +2310,9 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/open/space,
-/area/syndicate/solars)
-"eu" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /turf/open/space/basic,
 /area/syndicate/solars)
-"ev" = (
+"eV" = (
 /obj/machinery/door/airlock/external{
 	cyclelinkeddir = 1;
 	name = "Syndi Solar";
@@ -2062,7 +2326,7 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate/solars)
-"ew" = (
+"eW" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -2070,7 +2334,7 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate/solars)
-"ex" = (
+"eX" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -2083,7 +2347,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"ey" = (
+"eY" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 8;
@@ -2098,12 +2362,12 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"ez" = (
+"eZ" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/solars)
-"eA" = (
+"fa" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -2122,16 +2386,16 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"eB" = (
+"fb" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/syndicate/shooting_gallery)
-"eC" = (
+"fc" = (
 /obj/structure/sign/securearea,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/chemistry)
-"eD" = (
+"fd" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Chemistry Lab";
 	req_access_txt = "153"
@@ -2145,11 +2409,11 @@
 	dir = 8
 	},
 /area/syndicate/chemistry)
-"eE" = (
+"fe" = (
 /obj/structure/sign/chemistry,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/chemistry)
-"eF" = (
+"ff" = (
 /obj/machinery/power/apc{
 	cell_type = 5000;
 	dir = 8;
@@ -2170,17 +2434,17 @@
 	dir = 8
 	},
 /area/syndicate/primary_central)
-"eG" = (
+"fg" = (
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
 /area/syndicate/primary_central)
-"eH" = (
+"fh" = (
 /obj/structure/sign/biohazard,
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/virology)
-"eI" = (
+"fi" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Virology Lab";
 	req_access_txt = "154"
@@ -2194,32 +2458,64 @@
 	dir = 8
 	},
 /area/syndicate/virology)
-"eJ" = (
+"fj" = (
 /obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/virology)
-"eK" = (
+"fk" = (
 /obj/structure/sign/securearea,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/virology)
-"eL" = (
+"fl" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/entry)
-"eM" = (
+"fm" = (
 /obj/structure/sign/securearea,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/entry)
-"eN" = (
+"fn" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
+/obj/structure/sign/securearea{
+	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
+	icon_state = "space";
+	layer = 4;
+	name = "EXTERNAL AIRLOCK"
+	},
 /turf/open/floor/plating,
 /area/syndicate/entry)
-"eO" = (
-/obj/structure/lattice,
-/obj/structure/grille/broken,
+"fo" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/open/space/basic,
-/area/syndicate/solars)
-"eP" = (
+/area/syndicate/entry)
+"fp" = (
+/obj/machinery/door/poddoor{
+	density = 1;
+	icon_state = "closed";
+	id = "Syndicate_Base_Blastdoors";
+	name = "Syndicate Base Blastdoors";
+	opacity = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/fore)
+"fq" = (
+/turf/open/floor/plating,
+/area/syndicate/fore)
+"fr" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/fore)
+"fs" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -2230,7 +2526,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"eQ" = (
+"ft" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -2240,7 +2536,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"eR" = (
+"fu" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -2253,7 +2549,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"eS" = (
+"fv" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Engineering";
 	req_access_txt = "156"
@@ -2262,17 +2558,17 @@
 	dir = 8
 	},
 /area/syndicate/solars)
-"eT" = (
+"fw" = (
 /turf/open/floor/plasteel/podhatch{
 	dir = 9
 	},
 /area/syndicate/primary_central)
-"eU" = (
+"fx" = (
 /turf/open/floor/plasteel/podhatch{
 	dir = 1
 	},
 /area/syndicate/primary_central)
-"eV" = (
+"fy" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -2282,7 +2578,7 @@
 	dir = 1
 	},
 /area/syndicate/primary_central)
-"eW" = (
+"fz" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -2290,7 +2586,7 @@
 	dir = 1
 	},
 /area/syndicate/primary_central)
-"eX" = (
+"fA" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -2300,23 +2596,23 @@
 	dir = 4
 	},
 /area/syndicate/primary_central)
-"eY" = (
+"fB" = (
 /turf/open/floor/plasteel/podhatch/corner{
 	dir = 8
 	},
 /area/syndicate/primary_central)
-"eZ" = (
+"fC" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/podhatch{
 	dir = 1
 	},
 /area/syndicate/primary_central)
-"fa" = (
+"fD" = (
 /turf/open/floor/plasteel/podhatch{
 	dir = 5
 	},
 /area/syndicate/primary_central)
-"fb" = (
+"fE" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Syndi Dock";
 	req_access_txt = "150"
@@ -2325,7 +2621,7 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fc" = (
+"fF" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
@@ -2334,7 +2630,7 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fd" = (
+"fG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -2352,7 +2648,7 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fe" = (
+"fH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -2364,7 +2660,7 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"ff" = (
+"fI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -2373,42 +2669,64 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fg" = (
+"fJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/chair,
+/obj/machinery/camera{
+	c_tag = "Syndicate Arrival Hallway";
+	dir = 2;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/entry)
+"fK" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-21";
 	layer = 4.1;
+	pixel_x = -3;
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/entry)
-"fh" = (
+"fL" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/closet/emcloset,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/entry)
-"fi" = (
+"fM" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/structure/table/reinforced,
-/obj/machinery/recharger{
-	pixel_y = 4
+/obj/machinery/computer/security/telescreen{
+	desc = "Used for watching the Syndicate Asteroid Base.";
+	name = "Syndicate Dock Monitor";
+	network = list("Syndi Base Dock");
+	pixel_y = 0
 	},
-/obj/item/weapon/crowbar,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/entry)
-"fj" = (
+"fN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
@@ -2419,13 +2737,7 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fk" = (
-/obj/structure/lattice,
-/obj/structure/grille,
-/obj/structure/grille,
-/turf/open/space/basic,
-/area/syndicate/solars)
-"fl" = (
+"fO" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	d1 = 1;
@@ -2442,29 +2754,39 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/open/space,
+/turf/open/space/basic,
 /area/syndicate/solars)
-"fm" = (
+"fP" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/camera{
+	c_tag = "Engineering Solar Control";
+	dir = 4;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/solars)
-"fn" = (
+"fQ" = (
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/effect/turf_decal/stripes/corner,
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/solars)
-"fo" = (
+"fR" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 8;
@@ -2486,11 +2808,17 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/sign/deathsposal{
+	pixel_y = -35
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/solars)
-"fp" = (
+"fS" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Engineering";
 	req_access_txt = "156"
@@ -2500,29 +2828,38 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/solars)
-"fq" = (
+"fT" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 10
 	},
 /area/syndicate/primary_central)
-"fr" = (
+"fU" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
-"fs" = (
+"fV" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -2533,18 +2870,24 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
-"ft" = (
+"fW" = (
 /obj/machinery/light/small,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
-"fu" = (
+"fX" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -32
 	},
@@ -2553,9 +2896,12 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
-"fv" = (
+"fY" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 8;
@@ -2571,28 +2917,37 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch/corner{
 	dir = 1
 	},
 /area/syndicate/primary_central)
-"fw" = (
+"fZ" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/open/floor/plasteel/podhatch/corner,
 /area/syndicate/primary_central)
-"fx" = (
-/obj/structure/disposalpipe/segment,
+"ga" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/disposalpipe/junction{
+	icon_state = "pipe-j2";
+	dir = 1
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
-"fy" = (
+"gb" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 8;
@@ -2605,7 +2960,37 @@
 	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
-"fz" = (
+"gc" = (
+/obj/machinery/light/small,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/podhatch,
+/area/syndicate/primary_central)
+"gd" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/podhatch,
+/area/syndicate/primary_central)
+"ge" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/podhatch,
+/area/syndicate/primary_central)
+"gf" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -2615,7 +3000,7 @@
 	dir = 6
 	},
 /area/syndicate/primary_central)
-"fA" = (
+"gg" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Syndi Dock";
 	req_access_txt = "150"
@@ -2629,7 +3014,7 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fB" = (
+"gh" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -2646,7 +3031,7 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fC" = (
+"gi" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
@@ -2656,18 +3041,36 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/entry)
-"fD" = (
+"gj" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/entry)
-"fE" = (
+"gk" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/entry)
+"gl" = (
 /obj/structure/chair/office/dark{
 	dir = 4
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/entry)
-"fF" = (
+"gm" = (
 /obj/machinery/light{
 	dir = 4
 	},
@@ -2675,13 +3078,18 @@
 	dir = 4
 	},
 /obj/structure/table/reinforced,
-/obj/machinery/cell_charger,
-/obj/item/weapon/stock_parts/cell/high/plus,
+/obj/machinery/button/door{
+	id = "Syndicate_Base_Blastdoors";
+	name = "Syndicate Base Blastdoors Button";
+	pixel_x = 5;
+	pixel_y = 5;
+	req_access_txt = "150"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/entry)
-"fG" = (
+"gn" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -2690,7 +3098,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"fH" = (
+"go" = (
 /obj/machinery/light{
 	dir = 4
 	},
@@ -2702,34 +3110,46 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/solars)
-"fI" = (
+"gp" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/solars)
+"gq" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/test_area)
-"fJ" = (
+"gr" = (
 /obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/test_area)
-"fK" = (
+"gs" = (
 /obj/structure/sign/securearea,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/test_area)
-"fL" = (
+"gt" = (
 /obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/infirmary_room)
-"fM" = (
+/area/syndicate/communications_room)
+"gu" = (
 /obj/item/weapon/bombcore/large/underwall,
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/infirmary_room)
-"fN" = (
+/area/syndicate/communications_room)
+"gv" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/infirmary_room)
-"fO" = (
+/area/syndicate/communications_room)
+"gw" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -2737,28 +3157,33 @@
 	name = "Boss Shutters"
 	},
 /turf/open/floor/plating,
-/area/syndicate/infirmary_room)
-"fP" = (
+/area/syndicate/communications_room)
+"gx" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
-/area/syndicate/infirmary_room)
-"fQ" = (
+/area/syndicate/medbay)
+"gy" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Infirmary";
 	req_access_txt = "150"
 	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/syndicate/infirmary_room)
-"fR" = (
+/area/syndicate/medbay)
+"gz" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/sign/bluecross_2,
 /turf/open/floor/plating,
-/area/syndicate/infirmary_room)
-"fS" = (
+/area/syndicate/medbay)
+"gA" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
@@ -2767,17 +3192,20 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fT" = (
+"gB" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
+/obj/structure/sign/deathsposal{
+	pixel_y = -35
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/entry)
-"fU" = (
+"gC" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light,
 /obj/structure/chair{
@@ -2787,7 +3215,7 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fV" = (
+"gD" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/chair{
 	dir = 1
@@ -2796,13 +3224,20 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fW" = (
+"gE" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/entry)
+"gF" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/entry)
-"fX" = (
+"gG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
@@ -2817,7 +3252,7 @@
 	dir = 5
 	},
 /area/syndicate/entry)
-"fY" = (
+"gH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
@@ -2826,7 +3261,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"fZ" = (
+"gI" = (
 /obj/machinery/power/terminal{
 	dir = 4
 	},
@@ -2836,7 +3271,7 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"ga" = (
+"gJ" = (
 /obj/machinery/power/smes,
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
@@ -2846,16 +3281,16 @@
 	dir = 5
 	},
 /area/syndicate/solars)
-"gb" = (
+"gK" = (
 /turf/open/floor/engine,
 /area/syndicate/test_area)
-"gc" = (
+"gL" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/engine,
 /area/syndicate/test_area)
-"gd" = (
+"gM" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/plasteel{
 	amount = 15
@@ -2868,7 +3303,7 @@
 	dir = 5
 	},
 /area/syndicate/test_area)
-"ge" = (
+"gN" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/mineral/plastitanium{
 	amount = 30
@@ -2893,21 +3328,21 @@
 	dir = 5
 	},
 /area/syndicate/test_area)
-"gf" = (
+"gO" = (
 /obj/machinery/autolathe,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/test_area)
-"gg" = (
+"gP" = (
 /obj/structure/fireplace,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"gh" = (
+/area/syndicate/communications_room)
+"gQ" = (
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"gi" = (
+/area/syndicate/communications_room)
+"gR" = (
 /obj/machinery/light{
 	dir = 1
 	},
@@ -2919,14 +3354,22 @@
 	req_access_txt = "155"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"gj" = (
+/area/syndicate/communications_room)
+"gS" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/mineral/wood/fifty,
 /obj/item/stack/sheet/mineral/wood/fifty,
+/obj/item/device/radio/intercom{
+	broadcasting = 0;
+	dir = 8;
+	freerange = 1;
+	listening = 1;
+	name = "Pirate Radio Listening Channel";
+	pixel_x = 33
+	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"gk" = (
+/area/syndicate/communications_room)
+"gT" = (
 /obj/structure/table,
 /obj/item/weapon/storage/firstaid/regular{
 	pixel_x = 3;
@@ -2941,32 +3384,26 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/vault,
-/area/syndicate/infirmary_room)
-"gl" = (
+/area/syndicate/medbay)
+"gU" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/syndicate/infirmary_room)
-"gm" = (
+/area/syndicate/medbay)
+"gV" = (
 /obj/machinery/sleeper{
 	dir = 8
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
-"gn" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/obj/structure/sign/securearea{
-	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
-	icon_state = "space";
-	layer = 4;
-	name = "EXTERNAL AIRLOCK"
-	},
-/turf/open/floor/plating,
-/area/syndicate/entry)
-"go" = (
+/area/syndicate/medbay)
+"gW" = (
 /obj/machinery/door/airlock/external{
 	cyclelinkeddir = 1;
 	name = "Syndi Port Docking";
@@ -2975,17 +3412,42 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/syndicate/entry)
-"gp" = (
+"gX" = (
 /obj/item/weapon/bombcore/large/underwall,
+/obj/structure/sign/securearea,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/entry)
-"gq" = (
+"gY" = (
+/obj/machinery/light,
+/turf/open/floor/plating,
+/area/syndicate/fore)
+"gZ" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/gravity_generator)
+"ha" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Gravity Generator Room";
+	req_access_txt = "156"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/syndicate/gravity_generator)
+"hb" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/test_area)
+"hc" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/engine,
 /area/syndicate/test_area)
-"gr" = (
+"hd" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/machinery/door/poddoor/preopen{
@@ -2994,7 +3456,7 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate/test_area)
-"gs" = (
+"he" = (
 /obj/item/stack/cable_coil/white{
 	pixel_x = 3;
 	pixel_y = 3
@@ -3008,7 +3470,7 @@
 	dir = 8
 	},
 /area/syndicate/test_area)
-"gt" = (
+"hf" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -3018,7 +3480,7 @@
 	dir = 5
 	},
 /area/syndicate/test_area)
-"gu" = (
+"hg" = (
 /obj/machinery/light{
 	dir = 4
 	},
@@ -3026,7 +3488,7 @@
 	dir = 5
 	},
 /area/syndicate/test_area)
-"gv" = (
+"hh" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -26
 	},
@@ -3039,9 +3501,9 @@
 	dir = 8
 	},
 /area/syndicate/primary_central)
-"gw" = (
+"hi" = (
 /obj/machinery/button/door{
-	id = "Infirmary";
+	id = "communications_room";
 	name = "Infirmary Airlock Button";
 	normaldoorcontrol = 1;
 	pixel_x = -30;
@@ -3054,45 +3516,115 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"gx" = (
+/area/syndicate/communications_room)
+"hj" = (
 /obj/item/device/flashlight/lamp,
 /obj/structure/table/wood,
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"gy" = (
-/obj/item/device/radio/intercom{
-	broadcasting = 0;
-	dir = 8;
-	freerange = 1;
-	listening = 1;
-	name = "Pirate Radio Listening Channel"
-	},
+/area/syndicate/communications_room)
+"hk" = (
 /obj/structure/table/wood,
+/obj/machinery/computer/security/telescreen{
+	desc = "Used for watching the Syndicate Asteroid Base.";
+	name = "Syndicate Monitor";
+	network = list("Syndi Base","Syndi Base Dock");
+	pixel_y = 0
+	},
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"gz" = (
+/area/syndicate/communications_room)
+"hl" = (
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"gA" = (
+/area/syndicate/communications_room)
+"hm" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/structure/filingcabinet/medical,
+/obj/item/device/radio/intercom{
+	broadcasting = 1;
+	dir = 8;
+	freerange = 1;
+	listening = 0;
+	name = "Pirate Radio Broadcast Channel";
+	pixel_x = 33
+	},
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"gB" = (
+/area/syndicate/communications_room)
+"hn" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/medbay)
+"ho" = (
 /obj/structure/bed/roller,
 /obj/machinery/iv_drip,
 /obj/item/weapon/reagent_containers/blood/random,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
-"gC" = (
+/area/syndicate/medbay)
+"hp" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/medbay)
+"hq" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/syndicate/entry)
+"hr" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/syndicate/entry)
+"hs" = (
 /turf/open/floor/plating,
 /area/syndicate/entry)
-"gD" = (
+"ht" = (
+/turf/open/space/basic,
+/turf/closed/wall/mineral/plastitanium{
+	dir = 8;
+	icon_state = "diagonalWall3"
+	},
+/area/syndicate/fore)
+"hu" = (
+/turf/open/space/basic,
+/turf/closed/wall/mineral/plastitanium{
+	dir = 1;
+	icon_state = "diagonalWall3"
+	},
+/area/syndicate/fore)
+"hv" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/syndicate/gravity_generator)
+"hw" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"hx" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/gravity_generator)
+"hy" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/test_area)
+"hz" = (
 /obj/item/device/assembly/igniter,
 /obj/item/device/assembly/igniter,
 /obj/item/device/assembly/igniter,
@@ -3113,7 +3645,7 @@
 	dir = 8
 	},
 /area/syndicate/test_area)
-"gE" = (
+"hA" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 4;
@@ -3123,7 +3655,7 @@
 	dir = 5
 	},
 /area/syndicate/test_area)
-"gF" = (
+"hB" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -3133,7 +3665,7 @@
 	dir = 5
 	},
 /area/syndicate/test_area)
-"gG" = (
+"hC" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Experimentation Room";
 	req_access_txt = "150"
@@ -3147,7 +3679,7 @@
 	dir = 5
 	},
 /area/syndicate/test_area)
-"gH" = (
+"hD" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 8;
@@ -3167,7 +3699,7 @@
 	dir = 8
 	},
 /area/syndicate/primary_central)
-"gI" = (
+"hE" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -3177,22 +3709,22 @@
 	dir = 4
 	},
 /area/syndicate/primary_central)
-"gJ" = (
-/obj/machinery/door/airlock/hatch{
-	id_tag = "Infirmary";
-	name = "Infirmary";
-	req_access_txt = "155"
-	},
+"hF" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/door/airlock/hatch{
+	id_tag = "communications_room";
+	name = "Communications Room";
+	req_access_txt = "155"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
-"gK" = (
+/area/syndicate/communications_room)
+"hG" = (
 /obj/structure/disposalpipe/junction{
 	dir = 1
 	},
@@ -3202,8 +3734,8 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"gL" = (
+/area/syndicate/communications_room)
+"hH" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -3213,15 +3745,8 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"gM" = (
-/obj/item/device/radio/intercom{
-	broadcasting = 1;
-	dir = 8;
-	freerange = 1;
-	listening = 0;
-	name = "Pirate Radio Broadcast Channel"
-	},
+/area/syndicate/communications_room)
+"hI" = (
 /obj/structure/table/wood,
 /obj/item/weapon/lighter,
 /obj/item/clothing/mask/cigarette/cigar,
@@ -3229,8 +3754,8 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"gN" = (
+/area/syndicate/communications_room)
+"hJ" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
 	},
@@ -3238,8 +3763,8 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"gO" = (
+/area/syndicate/communications_room)
+"hK" = (
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms{
 	dir = 8;
 	icon_state = "sleeper_s"
@@ -3248,8 +3773,8 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"gP" = (
+/area/syndicate/communications_room)
+"hL" = (
 /obj/structure/closet/secure_closet/personal/cabinet{
 	req_access = null;
 	req_access_txt = "155"
@@ -3263,30 +3788,113 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/item/weapon/melee/classic_baton/telescopic,
+/obj/machinery/camera{
+	c_tag = "Communication Room";
+	dir = 8;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"gQ" = (
+/area/syndicate/communications_room)
+"hM" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/infirmary_room)
-"gR" = (
+/area/syndicate/communications_room)
+"hN" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
+/obj/structure/sign/deathsposal{
+	pixel_x = -33
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/syndicate/infirmary_room)
-"gS" = (
+/area/syndicate/medbay)
+"hO" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/obj/machinery/camera{
+	c_tag = "Syndicate Medbayl";
+	dir = 8;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/syndicate/medbay)
+"hP" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/fore)
+"hQ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/fore)
+"hR" = (
+/obj/structure/lattice,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/camera{
+	c_tag = "Inside Dock";
+	dir = 8;
+	name = "syndicate camera";
+	network = list("Syndi Base Dock")
+	},
+/turf/open/space/basic,
+/area/syndicate/fore)
+"hS" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/camera{
+	c_tag = "Outide Dock";
+	dir = 4;
+	name = "syndicate camera";
+	network = list("Syndi Base Dock")
+	},
+/turf/open/space/basic,
+/area/syndicate/fore)
+"hT" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"hU" = (
 /obj/structure/sign/fire{
 	pixel_x = -32
 	},
+/obj/machinery/camera{
+	c_tag = "Test Area";
+	dir = 4;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/engine,
 /area/syndicate/test_area)
-"gT" = (
+"hV" = (
 /obj/structure/table/reinforced,
 /obj/item/device/assembly/signaler,
 /obj/item/device/assembly/signaler,
@@ -3298,12 +3906,12 @@
 	dir = 8
 	},
 /area/syndicate/test_area)
-"gU" = (
+"hW" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/test_area)
-"gV" = (
+"hX" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/toolbox/syndicate,
 /obj/item/stack/cable_coil/white,
@@ -3312,18 +3920,24 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
+/obj/machinery/camera{
+	c_tag = "Test Area Tools";
+	dir = 8;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/test_area)
-"gW" = (
+"hY" = (
 /obj/structure/disposalpipe/junction{
 	icon_state = "pipe-j1";
 	dir = 4
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/test_area)
-"gX" = (
+"hZ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -3331,31 +3945,31 @@
 	dir = 4
 	},
 /area/syndicate/primary_central)
-"gY" = (
+"ia" = (
 /obj/structure/disposalpipe/junction{
 	icon_state = "pipe-j2";
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"gZ" = (
+/area/syndicate/communications_room)
+"ib" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"ha" = (
+/area/syndicate/communications_room)
+"ic" = (
 /obj/machinery/computer/camera_advanced,
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"hb" = (
+/area/syndicate/communications_room)
+"id" = (
 /obj/machinery/computer/message_monitor,
 /obj/item/weapon/paper/monitorkey,
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"hc" = (
+/area/syndicate/communications_room)
+"ie" = (
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
 /obj/structure/noticeboard{
@@ -3364,8 +3978,8 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/carpet,
-/area/syndicate/infirmary_room)
-"hd" = (
+/area/syndicate/communications_room)
+"if" = (
 /obj/item/weapon/surgicaldrill,
 /obj/item/weapon/circular_saw,
 /obj/structure/table/reinforced,
@@ -3375,14 +3989,19 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
-"he" = (
+/area/syndicate/medbay)
+"ig" = (
 /obj/effect/baseturf_helper,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/syndicate/infirmary_room)
-"hf" = (
+/area/syndicate/medbay)
+"ih" = (
 /obj/structure/sink{
 	dir = 4;
 	pixel_x = 11
@@ -3393,18 +4012,18 @@
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
-/area/syndicate/infirmary_room)
-"hg" = (
+/area/syndicate/medbay)
+"ii" = (
 /turf/open/space/basic,
 /turf/closed/wall/mineral/plastitanium{
 	dir = 8;
 	icon_state = "diagonalWall3"
 	},
 /area/shuttle/syndicate_pod)
-"hh" = (
+"ij" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/syndicate_pod)
-"hi" = (
+"ik" = (
 /obj/machinery/door/airlock/external{
 	id_tag = "Syndi_Pod";
 	name = "Syndicate_Pod";
@@ -3422,6 +4041,7 @@
 	width = 9
 	},
 /obj/docking_port/stationary{
+	area_type = /area/space;
 	dheight = 0;
 	dir = 2;
 	dwidth = 4;
@@ -3434,7 +4054,7 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/syndicate_pod)
-"hj" = (
+"il" = (
 /obj/machinery/button/door{
 	id = "Syndi_Pod";
 	name = "Syndicate Pod Airlock Button";
@@ -3446,14 +4066,36 @@
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/syndicate_pod)
-"hk" = (
+"im" = (
 /turf/open/space/basic,
 /turf/closed/wall/mineral/plastitanium{
 	dir = 1;
 	icon_state = "diagonalWall3"
 	},
 /area/shuttle/syndicate_pod)
-"hl" = (
+"in" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/fore)
+"io" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "Syndicate Dock Lab APC";
+	pixel_x = 26
+	},
+/turf/open/space/basic,
+/area/syndicate/fore)
+"ip" = (
 /obj/machinery/button/door{
 	id = "lavalandsyndi";
 	name = "Syndicate Experimentor Lockdown Control";
@@ -3462,7 +4104,7 @@
 	},
 /turf/open/floor/engine,
 /area/syndicate/test_area)
-"hm" = (
+"iq" = (
 /obj/machinery/button/door{
 	id = "lavalandsyndi";
 	name = "Syndicate Experimentor Lockdown Control";
@@ -3473,7 +4115,7 @@
 	dir = 5
 	},
 /area/syndicate/test_area)
-"hn" = (
+"ir" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
 	dir = 4
@@ -3488,26 +4130,29 @@
 	dir = 8
 	},
 /area/syndicate/test_area)
-"ho" = (
+"is" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/test_area)
-"hp" = (
+"it" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
+/obj/structure/sign/deathsposal{
+	pixel_x = -33
+	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"hq" = (
+/area/syndicate/communications_room)
+"iu" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 4;
 	icon_state = "1-4"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"hr" = (
+/area/syndicate/communications_room)
+"iv" = (
 /obj/machinery/power/apc{
 	cell_type = 15000;
 	dir = 2;
@@ -3524,8 +4169,8 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"hs" = (
+/area/syndicate/communications_room)
+"iw" = (
 /obj/machinery/light,
 /obj/structure/cable{
 	d1 = 4;
@@ -3533,20 +4178,21 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"ht" = (
+/area/syndicate/communications_room)
+"ix" = (
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"hu" = (
+/area/syndicate/communications_room)
+"iy" = (
 /obj/structure/bookcase/random,
+/obj/item/weapon/book/manual/nuclear,
 /turf/open/floor/wood,
-/area/syndicate/infirmary_room)
-"hv" = (
+/area/syndicate/communications_room)
+"iz" = (
 /obj/item/weapon/cautery,
 /obj/item/weapon/scalpel,
 /obj/structure/table/reinforced,
@@ -3554,15 +4200,22 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
-"hw" = (
+/area/syndicate/medbay)
+"iA" = (
 /obj/structure/table/optable,
 /obj/item/weapon/surgical_drapes,
+/obj/machinery/power/apc{
+	cell_type = 15000;
+	dir = 2;
+	name = "Syndicate Infirmary Room";
+	pixel_y = -24
+	},
+/obj/structure/cable,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
-"hx" = (
+/area/syndicate/medbay)
+"iB" = (
 /obj/item/weapon/retractor,
 /obj/item/weapon/hemostat,
 /obj/structure/table/reinforced,
@@ -3572,14 +4225,14 @@
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
-/area/syndicate/infirmary_room)
-"hy" = (
+/area/syndicate/medbay)
+"iC" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/syndicate_pod)
-"hz" = (
+"iD" = (
 /obj/machinery/light{
 	dir = 8
 	},
@@ -3587,20 +4240,23 @@
 	dir = 8
 	},
 /area/shuttle/syndicate_pod)
-"hA" = (
+"iE" = (
 /turf/open/floor/plasteel/black,
 /area/shuttle/syndicate_pod)
-"hB" = (
+"iF" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/black,
 /area/shuttle/syndicate_pod)
-"hC" = (
+"iG" = (
 /obj/structure/table/reinforced,
+/obj/machinery/cell_charger,
+/obj/item/weapon/stock_parts/cell/high/plus,
+/obj/item/weapon/crowbar,
 /turf/open/floor/plasteel/black,
 /area/shuttle/syndicate_pod)
-"hD" = (
+"iH" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/machinery/door/poddoor{
@@ -3612,7 +4268,7 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/syndicate_pod)
-"hE" = (
+"iI" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	d1 = 1;
@@ -3624,9 +4280,9 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/open/space,
+/turf/open/space/basic,
 /area/syndicate/solars)
-"hF" = (
+"iJ" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "lavalandsyndi";
 	name = "Syndicate Research Experimentor Shutters"
@@ -3639,7 +4295,7 @@
 	dir = 8
 	},
 /area/syndicate/test_area)
-"hG" = (
+"iK" = (
 /obj/item/stack/sheet/metal{
 	amount = 50
 	},
@@ -3657,14 +4313,14 @@
 	dir = 8
 	},
 /area/syndicate/test_area)
-"hH" = (
+"iL" = (
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'BOMB RANGE";
 	name = "BOMB RANGE"
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/infirmary_room)
-"hI" = (
+/area/syndicate/communications_room)
+"iM" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Self Destruct Control";
 	req_access_txt = "155"
@@ -3678,7 +4334,18 @@
 	dir = 8
 	},
 /area/syndicate/self_destruct_control)
-"hJ" = (
+"iN" = (
+/obj/item/weapon/bombcore/large/underwall,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/medbay)
+"iO" = (
+/obj/structure/lattice,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/syndicate/fore)
+"iP" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8
 	},
@@ -3687,17 +4354,17 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/syndicate_pod)
-"hK" = (
+"iQ" = (
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/shuttle/syndicate_pod)
-"hL" = (
+"iR" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/shuttle/syndicate_pod)
-"hM" = (
+"iS" = (
 /obj/structure/chair/office/dark{
 	dir = 4
 	},
@@ -3705,7 +4372,7 @@
 	dir = 5
 	},
 /area/shuttle/syndicate_pod)
-"hN" = (
+"iT" = (
 /obj/machinery/computer/shuttle/syndicate{
 	name = "syndicate pod terminal";
 	possible_destinations = "syndicate_pod;syndicate_pubby_home;syndicate_lavaland_lava;syndicate_space_pubby";
@@ -3715,11 +4382,27 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/shuttle/syndicate_pod)
-"hO" = (
+"iU" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/camera{
+	c_tag = "Engineer Pass";
+	dir = 8;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"iV" = (
 /obj/machinery/light,
 /turf/open/floor/engine,
 /area/syndicate/test_area)
-"hP" = (
+"iW" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
 	},
@@ -3730,36 +4413,49 @@
 	dir = 5
 	},
 /area/syndicate/test_area)
-"hQ" = (
+"iX" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
+	},
+/obj/structure/sign/deathsposal{
+	pixel_x = 33
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/test_area)
-"hR" = (
+"iY" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/hydroponics)
-"hS" = (
+"iZ" = (
 /obj/machinery/plantgenes,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/plasteel/green/side{
+	dir = 9
+	},
 /area/syndicate/hydroponics)
-"hT" = (
+"ja" = (
 /obj/machinery/chem_master/condimaster,
 /obj/item/weapon/reagent_containers/glass/beaker/large,
-/turf/open/floor/plasteel/black,
+/obj/machinery/camera{
+	c_tag = "Hydroponics Tools";
+	dir = 2;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
+/turf/open/floor/plasteel/green/side{
+	dir = 5
+	},
 /area/syndicate/hydroponics)
-"hU" = (
+"jb" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/self_destruct_control)
-"hV" = (
+"jc" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/self_destruct_control)
-"hW" = (
+"jd" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -3767,13 +4463,22 @@
 	},
 /turf/open/floor/circuit/red,
 /area/syndicate/self_destruct_control)
-"hX" = (
+"je" = (
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-08";
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/self_destruct_control)
+"jf" = (
 /obj/structure/chair{
 	dir = 1
 	},
 /turf/open/floor/plasteel/black,
 /area/shuttle/syndicate_pod)
-"hY" = (
+"jg" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/door{
 	id = "syndicate_pod_blast";
@@ -3791,12 +4496,25 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/shuttle/syndicate_pod)
-"hZ" = (
+"jh" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"ji" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/syndicate/test_area)
-"ia" = (
+"jj" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
 	id = "Monkey5";
@@ -3807,7 +4525,7 @@
 	dir = 8
 	},
 /area/syndicate/test_area)
-"ib" = (
+"jk" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor{
 	dir = 8;
@@ -3823,22 +4541,26 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/hydroponics)
-"ic" = (
-/turf/open/floor/plasteel/black,
+"jl" = (
+/turf/open/floor/plasteel/green/side{
+	dir = 8
+	},
 /area/syndicate/hydroponics)
-"id" = (
+"jm" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/plasteel/green/side{
+	dir = 4
+	},
 /area/syndicate/hydroponics)
-"ie" = (
+"jn" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/circuit/red,
 /area/syndicate/self_destruct_control)
-"if" = (
+"jo" = (
 /obj/machinery/syndicatebomb/self_destruct,
 /obj/structure/cable{
 	d1 = 1;
@@ -3847,26 +4569,26 @@
 	},
 /turf/open/floor/circuit/red,
 /area/syndicate/self_destruct_control)
-"ig" = (
+"jp" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/circuit/red,
 /area/syndicate/self_destruct_control)
-"ih" = (
+"jq" = (
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'BOMB RANGE";
 	name = "BOMB RANGE"
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/self_destruct_control)
-"ii" = (
+"jr" = (
 /turf/open/space/basic,
 /turf/closed/wall/mineral/plastitanium{
 	icon_state = "diagonalWall3"
 	},
 /area/shuttle/syndicate_pod)
-"ij" = (
+"js" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/machinery/door/poddoor{
@@ -3876,16 +4598,16 @@
 	name = "Syndicate Pod Blast Door";
 	opacity = 0
 	},
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/shuttle/syndicate_pod)
-"ik" = (
+"jt" = (
 /turf/open/space/basic,
 /turf/closed/wall/mineral/plastitanium{
 	dir = 4;
 	icon_state = "diagonalWall3"
 	},
 /area/shuttle/syndicate_pod)
-"il" = (
+"ju" = (
 /obj/structure/bed/roller,
 /obj/machinery/iv_drip,
 /mob/living/carbon/monkey,
@@ -3893,18 +4615,13 @@
 	dir = 8
 	},
 /area/syndicate/test_area)
-"im" = (
+"jv" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/test_area)
-"in" = (
-/obj/structure/sign/securearea,
-/obj/structure/disposalpipe/segment,
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/test_area)
-"io" = (
+"jw" = (
 /obj/machinery/light/small{
 	brightness = 3;
 	dir = 8
@@ -3914,31 +4631,35 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/sign/botany{
+	pixel_x = -33
+	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 10
 	},
 /area/syndicate/primary_central)
-"ip" = (
+"jx" = (
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/structure/sign/botany{
+	pixel_x = 33
 	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 6
 	},
 /area/syndicate/primary_central)
-"iq" = (
-/obj/structure/sign/securearea,
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/hydroponics)
-"ir" = (
+"jy" = (
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/plasteel/green/side{
+	dir = 10
+	},
 /area/syndicate/hydroponics)
-"is" = (
+"jz" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
 /obj/machinery/power/apc{
@@ -3950,9 +4671,22 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/plasteel/green/side{
+	dir = 6
+	},
 /area/syndicate/hydroponics)
-"it" = (
+"jA" = (
+/obj/machinery/camera{
+	c_tag = "Self Destruct Control";
+	dir = 1;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/self_destruct_control)
+"jB" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 4;
@@ -3960,7 +4694,7 @@
 	},
 /turf/open/floor/circuit/red,
 /area/syndicate/self_destruct_control)
-"iu" = (
+"jC" = (
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "Syndicate Self Destruct Control APC";
@@ -3974,11 +4708,15 @@
 	dir = 5
 	},
 /area/syndicate/self_destruct_control)
-"iv" = (
+"jD" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/gravity_generator)
+"jE" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/hydroponics)
-"iw" = (
+"jF" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Hydroponics";
 	req_access_txt = "152"
@@ -3988,105 +4726,89 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/plasteel,
 /area/syndicate/hydroponics)
-"ix" = (
+"jG" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Hydroponics";
 	req_access_txt = "152"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/plasteel,
 /area/syndicate/hydroponics)
-"iy" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Hydroponics";
-	req_access_txt = "152"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/black,
-/area/syndicate/hydroponics)
-"iz" = (
+"jH" = (
 /obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/hydroponics)
-"iA" = (
+"jI" = (
 /obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/self_destruct_control)
-"iB" = (
+"jJ" = (
 /obj/machinery/hydroponics/constructable,
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 9
 	},
 /area/syndicate/hydroponics)
-"iC" = (
+"jK" = (
 /obj/machinery/hydroponics/constructable,
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 1
 	},
 /area/syndicate/hydroponics)
-"iD" = (
+"jL" = (
 /obj/machinery/hydroponics/constructable,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 1
 	},
 /area/syndicate/hydroponics)
-"iE" = (
+"jM" = (
 /obj/structure/closet/secure_closet/hydroponics{
 	req_access = null;
 	req_access_txt = "152"
 	},
 /obj/item/weapon/reagent_containers/spray/cleaner,
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 1
 	},
 /area/syndicate/hydroponics)
-"iF" = (
+"jN" = (
 /obj/structure/closet/wardrobe/botanist,
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 1
 	},
 /area/syndicate/hydroponics)
-"iG" = (
+"jO" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/obj/structure/sign/botany{
-	pixel_y = 30
+/obj/structure/sign/deathsposal{
+	pixel_y = 33
 	},
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 1
 	},
 /area/syndicate/hydroponics)
-"iH" = (
+"jP" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/plasteel,
 /area/syndicate/hydroponics)
-"iI" = (
+"jQ" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/plasteel,
 /area/syndicate/hydroponics)
-"iJ" = (
+"jR" = (
 /obj/structure/sink{
 	pixel_y = 30
 	},
@@ -4095,91 +4817,94 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 1
 	},
 /area/syndicate/hydroponics)
-"iK" = (
+"jS" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 1
 	},
 /area/syndicate/hydroponics)
-"iL" = (
+"jT" = (
 /obj/machinery/vending/hydronutrients,
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 5
 	},
 /area/syndicate/hydroponics)
-"iM" = (
+"jU" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 8
 	},
 /area/syndicate/hydroponics)
-"iN" = (
+"jV" = (
+/turf/open/floor/plasteel,
+/area/syndicate/hydroponics)
+"jW" = (
 /obj/machinery/vending/hydroseeds{
 	slogan_delay = 700
 	},
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 4
 	},
 /area/syndicate/hydroponics)
-"iO" = (
+"jX" = (
+/obj/structure/lattice,
+/obj/machinery/light,
+/turf/open/space/basic,
+/area/syndicate/fore)
+"jY" = (
 /obj/machinery/hydroponics/constructable,
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -24
 	},
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 10
 	},
 /area/syndicate/hydroponics)
-"iP" = (
+"jZ" = (
 /obj/machinery/hydroponics/constructable,
-/turf/open/floor/plasteel/darkgreen/side{
-	initial_gas_mix = "n2=100;TEMP=80"
-	},
+/turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
-"iQ" = (
+"ka" = (
 /obj/machinery/hydroponics/constructable,
 /obj/machinery/light,
-/turf/open/floor/plasteel/darkgreen/side{
-	initial_gas_mix = "n2=100;TEMP=80"
-	},
+/turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
-"iR" = (
+"kb" = (
 /obj/structure/closet/crate/hydroponics,
 /obj/item/weapon/shovel/spade,
 /obj/item/weapon/wrench,
 /obj/item/weapon/reagent_containers/glass/bucket,
 /obj/item/weapon/reagent_containers/glass/bucket,
 /obj/item/weapon/wirecutters,
-/turf/open/floor/plasteel/darkgreen/side{
-	initial_gas_mix = "n2=100;TEMP=80"
-	},
+/turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
-"iS" = (
+"kc" = (
 /obj/structure/reagent_dispensers/watertank/high,
-/turf/open/floor/plasteel/darkgreen/side{
-	initial_gas_mix = "n2=100;TEMP=80"
+/obj/machinery/camera{
+	c_tag = "Hydroponics";
+	dir = 1;
+	name = "syndicate camera";
+	network = list("Syndi Base")
 	},
+/turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
-"iT" = (
-/obj/machinery/smartfridge,
-/turf/open/floor/plasteel/darkgreen/side{
-	initial_gas_mix = "n2=100;TEMP=80"
-	},
+"kd" = (
+/turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
-"iU" = (
+"ke" = (
 /obj/structure/table,
 /obj/item/weapon/reagent_containers/glass/bucket,
 /obj/item/weapon/reagent_containers/spray/plantbgone{
@@ -4187,369 +4912,31 @@
 	pixel_y = 5
 	},
 /obj/machinery/light,
-/turf/open/floor/plasteel/darkgreen/side{
-	initial_gas_mix = "n2=100;TEMP=80"
-	},
+/turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
-"iV" = (
+"kf" = (
 /obj/structure/table,
 /obj/item/weapon/watertank,
-/turf/open/floor/plasteel/darkgreen/side{
-	initial_gas_mix = "n2=100;TEMP=80"
-	},
+/turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
-"iW" = (
+"kg" = (
 /obj/machinery/biogenerator,
 /obj/item/weapon/reagent_containers/glass/bucket,
-/turf/open/floor/plasteel/darkgreen/side{
-	initial_gas_mix = "n2=100;TEMP=80"
-	},
+/turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
-"iX" = (
+"kh" = (
 /obj/effect/mob_spawn/human/lavaland_syndicate/botanist{
 	dir = 1
 	},
-/turf/open/floor/plasteel/darkgreen/side{
-	initial_gas_mix = "n2=100;TEMP=80"
-	},
+/turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
-"iY" = (
+"ki" = (
 /obj/machinery/seed_extractor,
-/turf/open/floor/plasteel/darkgreen/side{
+/turf/open/floor/plasteel/green/side{
 	dir = 6
 	},
 /area/syndicate/hydroponics)
-"iZ" = (
-/obj/item/weapon/bombcore/large/underwall,
-/obj/item/weapon/bombcore/large/underwall,
-/turf/closed/mineral,
-/area/space)
-"ja" = (
-/obj/structure/disposalpipe/trunk,
-/obj/structure/disposaloutlet{
-	dir = 1
-	},
-/obj/structure/lattice,
-/turf/open/floor/plating,
-/area/space)
-"jb" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/grille,
-/turf/open/floor/plating,
-/area/space)
-"jc" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/open/floor/plating,
-/area/space)
-"jd" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/open/floor/plating,
-/area/space)
-"je" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/open/floor/plating,
-/area/space)
-"jf" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/open/floor/plating,
-/area/space)
-"jg" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/open/floor/plating,
-/area/space)
-"jh" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/open/floor/plating,
-/area/space)
-"ji" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/solars)
-"jj" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/solars)
-"jk" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jl" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Gravity Generator Room";
-	req_access_txt = "156"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 8
-	},
-/area/syndicate/gravity_generator)
-"jm" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jn" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/test_area)
-"jo" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating,
-/area/syndicate/gravity_generator)
-"jp" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"jq" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jr" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/test_area)
-"js" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating,
-/area/syndicate/gravity_generator)
-"jt" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"ju" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jv" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating,
-/area/syndicate/gravity_generator)
-"jw" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"jx" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jy" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating,
-/area/syndicate/gravity_generator)
-"jz" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"jA" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jB" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating,
-/area/syndicate/gravity_generator)
-"jC" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"jD" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jE" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating,
-/area/syndicate/gravity_generator)
-"jF" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"jG" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jH" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating,
-/area/syndicate/gravity_generator)
-"jI" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"jJ" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jK" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating,
-/area/syndicate/gravity_generator)
-"jL" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"jM" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jN" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating,
-/area/syndicate/gravity_generator)
-"jO" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"jP" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jQ" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jR" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"jS" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jT" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jU" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jV" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jW" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jX" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jY" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"jZ" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"ka" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kb" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kc" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/gravity_generator)
-"kd" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"ke" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kf" = (
+"kj" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/machinery/power/apc{
 	dir = 8;
@@ -4563,7 +4950,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"kg" = (
+"kk" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable{
 	d1 = 4;
@@ -4572,7 +4959,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"kh" = (
+"kl" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light{
 	dir = 1
@@ -4584,16 +4971,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"ki" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/black,
-/area/syndicate/gravity_generator)
-"kj" = (
+"km" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
@@ -4603,15 +4981,6 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel/black,
-/area/syndicate/gravity_generator)
-"kk" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kl" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"km" = (
-/turf/closed/wall/mineral/plastitanium,
 /area/syndicate/gravity_generator)
 "kn" = (
 /obj/machinery/door/airlock/hatch{
@@ -4628,33 +4997,31 @@
 	},
 /area/syndicate/gravity_generator)
 "ko" = (
+/obj/machinery/smartfridge,
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
+/area/syndicate/hydroponics)
 "kp" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"kr" = (
+"kq" = (
 /turf/open/floor/plasteel/vault{
 	dir = 1
 	},
 /area/syndicate/gravity_generator)
-"ks" = (
+"kr" = (
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/gravity_generator)
-"kt" = (
+"ks" = (
 /turf/open/floor/plasteel/vault{
 	dir = 4
 	},
 /area/syndicate/gravity_generator)
-"ku" = (
+"kt" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -4665,10 +5032,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"kv" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kw" = (
+"ku" = (
 /obj/structure/closet/radiation,
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -4681,14 +5045,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"kx" = (
+"kv" = (
 /obj/structure/closet/radiation,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/machinery/camera{
+	c_tag = "Engineering Gravity Office";
+	dir = 2;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"ky" = (
+"kw" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
@@ -4699,32 +5069,27 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"kz" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kA" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kB" = (
+"kx" = (
+/obj/item/weapon/bombcore/large/underwall,
+/obj/item/weapon/bombcore/large/underwall,
+/turf/closed/mineral,
+/area/space)
+"ky" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/camera{
+	c_tag = "Engineering Gravity Room";
+	dir = 4;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"kC" = (
-/turf/open/floor/plasteel/vault{
-	dir = 8
-	},
-/area/syndicate/gravity_generator)
-"kD" = (
+"kz" = (
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"kE" = (
-/turf/open/floor/plasteel/vault{
-	dir = 8
-	},
-/area/syndicate/gravity_generator)
-"kF" = (
+"kA" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -4735,7 +5100,7 @@
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"kG" = (
+"kB" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/delivery,
 /obj/structure/cable{
@@ -4749,7 +5114,7 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"kH" = (
+"kC" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -4760,7 +5125,7 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"kI" = (
+"kD" = (
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -4768,7 +5133,7 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"kJ" = (
+"kE" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -4782,45 +5147,23 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"kK" = (
+"kF" = (
 /obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/gravity_generator)
-"kL" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kM" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel/black,
-/area/syndicate/gravity_generator)
-"kN" = (
-/turf/open/floor/plasteel/vault{
-	dir = 4
-	},
-/area/syndicate/gravity_generator)
-"kO" = (
+"kG" = (
 /obj/machinery/gravity_generator/main/station,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/gravity_generator)
-"kP" = (
-/turf/open/floor/plasteel/vault{
-	dir = 1
-	},
-/area/syndicate/gravity_generator)
-"kQ" = (
+"kH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"kR" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kS" = (
+"kI" = (
 /obj/structure/chair/office/light,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -4833,58 +5176,43 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"kT" = (
+"kJ" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"kU" = (
+"kK" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /obj/structure/chair/office/light,
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"kV" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kW" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"kX" = (
+"kL" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"kY" = (
+"kM" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"kZ" = (
+"kN" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"la" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel/black,
-/area/syndicate/gravity_generator)
-"lb" = (
+"kO" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/gravity_generator)
-"lc" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"ld" = (
+"kP" = (
 /obj/structure/table,
 /obj/item/weapon/paper/gravity_gen{
 	layer = 3
@@ -4895,7 +5223,7 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"le" = (
+"kQ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -4903,48 +5231,12 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
-"lf" = (
+"kR" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/structure/table,
 /turf/open/floor/plasteel,
-/area/syndicate/gravity_generator)
-"lg" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"lh" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"li" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"lj" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"lk" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"ll" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"lm" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"ln" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"lo" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"lp" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"lq" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/syndicate/gravity_generator)
-"lr" = (
-/turf/closed/wall/mineral/plastitanium,
 /area/syndicate/gravity_generator)
 
 (1,1,1) = {"
@@ -30767,35 +31059,35 @@ ad
 ad
 ad
 ac
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-aV
-aV
-aV
-aV
-aV
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
+am
+am
+am
+bb
+am
+bb
+am
+am
+am
+am
+am
+am
+bb
+am
+bb
+am
+bb
+am
+am
+am
+am
+am
+am
+bb
+am
+bb
+am
+am
+am
 ad
 ac
 ad
@@ -31024,35 +31316,35 @@ ad
 ac
 af
 ac
-al
+am
 aa
 aa
 aa
 aa
-al
-aa
-aa
-aa
-aa
-aa
-aa
-aV
-aa
-aV
-aa
-aV
+am
 aa
 aa
 aa
 aa
 aa
 aa
-al
+am
+aa
+am
+aa
+am
 aa
 aa
 aa
 aa
-al
+aa
+aa
+am
+aa
+aa
+aa
+aa
+am
 ad
 ac
 ad
@@ -31281,35 +31573,35 @@ ac
 ac
 ac
 ac
-al
+am
 aa
 aa
 aa
 aa
-al
-aa
-aa
-aa
-aa
-aa
-aa
-bU
-br
-er
-br
-bU
+am
 aa
 aa
 aa
 aa
 aa
 aa
-al
+bc
+am
+eS
+am
+bc
 aa
 aa
 aa
 aa
-al
+aa
+aa
+am
+aa
+aa
+aa
+aa
+am
 ac
 ac
 ad
@@ -31538,35 +31830,35 @@ ac
 ad
 ac
 ac
-al
+an
 aa
 aa
-aU
-aU
-br
-bE
-bU
-bU
-br
-br
-bE
-bU
+bc
+bc
+am
+bN
+bc
+bc
+am
+am
+bN
+bc
 aa
-es
+eT
 aa
-bU
-bU
-br
-br
-bE
-bU
-bU
-bE
-aU
-aU
+bc
+bc
+am
+am
+bN
+bc
+bc
+bN
+bc
+bc
 aa
 aa
-al
+dw
 ac
 ac
 ac
@@ -31795,10 +32087,10 @@ ad
 ac
 ac
 ac
-al
-al
-al
-aU
+am
+am
+am
+bc
 aa
 aa
 aa
@@ -31809,7 +32101,7 @@ aa
 aa
 aa
 aa
-es
+eT
 aa
 aa
 aa
@@ -31820,10 +32112,10 @@ aa
 aa
 aa
 aa
-aU
-al
-al
-al
+bc
+am
+am
+am
 ac
 ad
 ac
@@ -32052,35 +32344,35 @@ ac
 ad
 ac
 ac
-al
+am
 aa
 aa
-aU
+bc
 aa
-bs
-bs
-bs
-bs
-bs
-bs
-bs
-bs
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
 aa
-es
+eT
 aa
-bs
-bs
-bs
-bs
-bs
-bs
-bs
-bs
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
 aa
-aV
+am
 aa
 aa
-al
+am
 ac
 ac
 ad
@@ -32309,35 +32601,35 @@ ac
 ac
 ac
 ad
-al
+an
 aa
 aa
-aU
-aV
-bt
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-dV
-et
-dV
-fl
-fl
-fl
-fl
-fl
-fl
-fl
-hE
-aV
-aV
+bc
+am
+bC
+bO
+bO
+bO
+bO
+bO
+bO
+bO
+eo
+eU
+eo
+fO
+fO
+fO
+fO
+fO
+fO
+fO
+iI
+am
+am
 aa
 aa
-al
+dw
 ac
 ac
 ad
@@ -32566,35 +32858,35 @@ ac
 ac
 ad
 ac
-al
+am
 aa
 aa
-aU
+bc
 aa
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
 aa
-es
+eT
 aa
-bv
-bv
-bv
-bv
-bv
-bv
-bv
-bu
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bD
 aa
-aV
+am
 aa
 aa
-al
+am
 ac
 ac
 ac
@@ -32823,21 +33115,10 @@ ad
 ae
 ac
 ac
-al
+am
 aa
 aa
-aU
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-es
+bc
 aa
 aa
 aa
@@ -32848,10 +33129,21 @@ aa
 aa
 aa
 aa
-aU
+eT
 aa
 aa
-al
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+bc
+aa
+aa
+am
 ac
 ad
 ad
@@ -33080,35 +33372,35 @@ ac
 ad
 ad
 ac
-al
+am
 aa
 aa
-aV
+am
 aa
-bs
-bs
-bs
-bs
-bs
-bs
-bs
-bs
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
 aa
-es
+eT
 aa
-bs
-bs
-bs
-bs
-bs
-bs
-bs
-bs
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
 aa
-aU
+bc
 aa
 aa
-al
+am
 ac
 ac
 ac
@@ -33337,35 +33629,35 @@ ad
 ac
 ad
 ac
+ao
 am
-al
-al
-aV
-aV
-bt
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-dV
-et
-dV
-fl
-fl
-fl
-fl
-fl
-fl
-fl
-hE
-aV
-aU
-al
-al
-al
+am
+am
+am
+bC
+bO
+bO
+bO
+bO
+bO
+bO
+bO
+eo
+eU
+eo
+fO
+fO
+fO
+fO
+fO
+fO
+fO
+iI
+am
+bc
+am
+am
+dw
 ac
 ac
 ac
@@ -33594,35 +33886,35 @@ ac
 ac
 ad
 ac
-al
+am
 aa
 aa
-aU
+bc
 aa
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
 aa
-es
+eT
 aa
-bv
-bv
-bv
-bv
-bv
-bv
-bv
-bu
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bD
 aa
-eO
+bN
 aa
 aa
-al
+am
 ac
 ad
 ac
@@ -33851,21 +34143,10 @@ ac
 ac
 ac
 ac
-al
+am
 aa
 aa
-aV
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-eu
+am
 aa
 aa
 aa
@@ -33876,10 +34157,21 @@ aa
 aa
 aa
 aa
-aU
+eT
 aa
 aa
-al
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+bc
+aa
+aa
+am
 ac
 ac
 ac
@@ -34108,35 +34400,35 @@ ad
 ac
 ad
 ac
-al
+am
 aa
 aa
-aV
+am
 aa
-bs
-bs
-bs
-bs
-bs
-bs
-bs
-bs
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
 aa
-es
+eT
 aa
-bs
-bs
-bs
-bs
-bs
-bs
-bs
-bs
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
 aa
-aU
+bc
 aa
 aa
-al
+am
 ac
 ad
 ac
@@ -34365,35 +34657,35 @@ ac
 ac
 ac
 ac
+ao
 am
-al
-al
-aV
-aV
-bt
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-dV
-et
-dV
-fl
-fl
-fl
-fl
-fl
-fl
-fl
-hE
-aV
-aU
-al
-al
-al
+am
+am
+am
+bC
+bO
+bO
+bO
+bO
+bO
+bO
+bO
+eo
+eU
+eo
+fO
+fO
+fO
+fO
+fO
+fO
+fO
+iI
+am
+bc
+am
+am
+dw
 ac
 ad
 ac
@@ -34622,35 +34914,35 @@ ac
 ad
 ac
 ad
-al
+am
 aa
 aa
-aU
+bc
 aa
-bu
-bu
-bu
-bu
-bu
-bu
-bu
-bu
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
 aa
-es
+eT
 aa
-bv
-bv
-bv
-bv
-bv
-bv
-bv
-bu
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bD
 aa
-eO
+bN
 aa
 aa
-al
+am
 ac
 ad
 ad
@@ -34879,21 +35171,10 @@ ad
 af
 ac
 ac
-al
+am
 aa
 aa
-aU
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-es
+bc
 aa
 aa
 aa
@@ -34904,10 +35185,21 @@ aa
 aa
 aa
 aa
-eO
+eT
 aa
 aa
-al
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+bN
+aa
+aa
+am
 ac
 ac
 ad
@@ -35136,35 +35428,35 @@ ac
 ac
 ac
 ac
-al
+am
 aa
 aa
-aU
+bc
 aa
-bs
-bs
-bs
-bs
-bs
-bs
-bs
-bs
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
 aa
-es
+eT
 aa
-bs
-bs
-bs
-bs
-bs
-bs
-bs
-bs
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
 aa
-aU
+bc
 aa
 aa
-al
+am
 ac
 ac
 ac
@@ -35393,35 +35685,35 @@ ac
 ad
 ad
 ac
+ao
 am
-al
-al
-aU
-aV
-bt
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-dV
-et
-dV
-fl
-fl
-fl
-fl
-fl
-fl
-fl
-hE
-aV
-aU
-al
-al
-al
+am
+bc
+am
+bC
+bO
+bO
+bO
+bO
+bO
+bO
+bO
+eo
+eU
+eo
+fO
+fO
+fO
+fO
+fO
+fO
+fO
+iI
+am
+bc
+am
+am
+dw
 ad
 ac
 ac
@@ -35650,35 +35942,35 @@ ad
 ac
 ac
 ad
-al
+am
 aa
 aa
-aV
+am
 aa
-bv
-bv
-bv
-bv
-bv
-bv
-bv
-bu
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bD
 aa
-es
+eT
 aa
-bv
-bv
-bv
-bv
-bv
-bv
-bv
-bu
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bD
 aa
-aU
+bc
 aa
 aa
-al
+am
 ac
 ac
 ac
@@ -35907,21 +36199,10 @@ ac
 ac
 ad
 ac
-al
+am
 aa
 aa
-aU
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-es
+bc
 aa
 aa
 aa
@@ -35932,18 +36213,29 @@ aa
 aa
 aa
 aa
-aU
+eT
 aa
 aa
-al
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+bc
+aa
+aa
+am
 ac
-jT
-ke
-kp
-kA
-kL
-kW
-lh
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
 ac
 aa
 aa
@@ -36164,43 +36456,43 @@ ad
 ad
 ac
 ac
-al
+am
 aa
 aa
-aU
+bc
 aa
-bs
-bs
-bs
-bs
-bs
-bs
-bs
-bs
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
 aa
-es
+eT
 aa
-bs
-bs
-bs
-bs
-bs
-bs
-bs
-bs
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
 aa
-aU
+bc
 aa
 aa
-al
+am
 ac
-jU
-kf
-kq
-kB
-kM
-kX
-li
+gZ
+kj
+kp
+ky
+kp
+kL
+gZ
 ac
 aa
 aa
@@ -36421,43 +36713,43 @@ ac
 ad
 ac
 ac
+ao
 am
-al
-al
-aU
-aV
-bt
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-dV
-et
-dV
-fl
-fl
-fl
-fl
-fl
-fl
-fl
-hE
-aV
-eO
-al
-al
-al
+am
+bc
+am
+bC
+bO
+bO
+bO
+bO
+bO
+bO
+bO
+eo
+eU
+eo
+fO
+fO
+fO
+fO
+fO
+fO
+fO
+iI
+am
+bN
+am
+am
+dw
 ac
-jV
-kg
+gZ
+kk
+kq
 kr
-kC
-kN
-kY
-lj
+ks
+kM
+gZ
 ac
 aa
 aa
@@ -36678,43 +36970,43 @@ ad
 ac
 ac
 ad
-al
+am
 aa
 aa
-aU
+bc
 aa
-bv
-bv
-bv
-bv
-bv
-bv
-bv
-bu
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bD
 aa
-es
+eT
 aa
-bv
-bv
-bv
-bv
-bv
-bv
-bv
-bu
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bD
 aa
-aU
+bc
 aa
 aa
-al
+am
 ac
-jW
-kh
-ks
-kD
-kO
-kZ
-lk
+gZ
+kl
+kr
+kz
+kG
+kN
+gZ
 ac
 aa
 aa
@@ -36935,43 +37227,43 @@ ac
 af
 ac
 ac
-al
+am
 aa
 aa
-aV
-aa
-aa
-aa
-aa
-al
+am
 aa
 aa
 aa
 aa
-aa
-eu
-aa
-aa
-aa
-aa
-al
+am
 aa
 aa
 aa
 aa
 aa
-aV
+eT
 aa
 aa
-al
+aa
+aa
+am
+aa
+aa
+aa
+aa
+aa
+am
+aa
+aa
+am
 ad
-jX
-ki
-kt
-kE
-kP
-la
-ll
+gZ
+kk
+ks
+kr
+kq
+kM
+gZ
 ac
 aa
 aa
@@ -37192,43 +37484,43 @@ ad
 ac
 ad
 ac
-al
+am
 aa
 aa
-aU
-aa
-aa
-aa
-aa
-al
+bc
 aa
 aa
 aa
 aa
-dA
-ev
-dA
-aa
-aa
-aa
-al
+am
 aa
 aa
 aa
 aa
+dO
+eV
+dO
 aa
-eO
 aa
 aa
-al
+am
+aa
+aa
+aa
+aa
+aa
+bN
+aa
+aa
+am
 ac
-jY
-kj
-ku
-kF
-kQ
-lb
-lm
+gZ
+km
+kt
+kA
+kH
+kO
+gZ
 ac
 aa
 aa
@@ -37449,43 +37741,43 @@ ac
 ac
 ac
 ac
-al
+am
 aa
 aa
-aV
-aa
-aa
-aa
-aa
-al
+am
 aa
 aa
 aa
 aa
-dA
-ew
-dA
-aa
-aa
-aa
-al
+am
 aa
 aa
 aa
 aa
+dO
+eW
+dO
 aa
-aU
 aa
 aa
-al
+cu
+aa
+aa
+aa
+aa
+aa
+bc
+aa
+aa
+am
 ac
-jZ
-kk
-kv
-kG
-kR
-lc
-ln
+gZ
+gZ
+gZ
+kB
+gZ
+gZ
+gZ
 ac
 aa
 aa
@@ -37706,43 +37998,43 @@ ad
 ac
 ad
 ac
+ao
 am
-al
-al
-aU
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aW
-dA
-ev
-dA
-aW
-dA
-aW
-aW
-aV
-aV
-aV
-aV
-aV
-aU
-al
-al
-al
+am
+bc
+am
+am
+am
+am
+am
+am
+am
+dw
+dN
+dO
+eV
+dO
+bd
+dO
+bd
+dN
+am
+am
+am
+am
+am
+bc
+am
+am
+dw
 ac
-ka
-kl
-kw
-kH
-kS
-ld
-lo
+gZ
+gZ
+ku
+kC
+kI
+kP
+gZ
 ac
 aa
 aa
@@ -37963,43 +38255,43 @@ ad
 ac
 ac
 ac
-al
+am
 aa
 aa
-aU
-aa
-aa
-aa
-aa
-aV
+bc
 aa
 aa
 aa
-aW
-dW
-ex
-eP
-fm
-fG
-fY
-jk
-jo
-js
-jv
-jy
-jB
-jE
-jH
-jK
-jN
-jQ
-kb
-km
-kx
-kI
-kT
-le
-lp
+aa
+am
+aa
+aa
+aa
+bd
+ep
+eX
+fs
+fP
+gn
+gH
+gZ
+hv
+hv
+hv
+hv
+hv
+hv
+hv
+hv
+hv
+gZ
+gZ
+gZ
+kv
+kD
+kJ
+kQ
+gZ
 ac
 aa
 aa
@@ -38220,43 +38512,43 @@ ad
 ac
 ac
 ad
-al
+am
 aa
 aa
-aU
-aa
-aa
-aa
-aa
-aV
+bc
 aa
 aa
 aa
-dA
-dX
-ey
-eQ
-eQ
-eQ
-fZ
-jl
-jp
-jt
-jw
-jz
-jC
-jF
-jI
-jL
-jO
-jR
-kc
+aa
+am
+aa
+aa
+aa
+dO
+eq
+eY
+ft
+ft
+ft
+gI
+ha
+hw
+hT
+hT
+hT
+iU
+jh
+hT
+hT
+hT
+hT
+hT
 kn
-ky
-kJ
-kU
-lf
-lq
+kw
+kE
+kK
+kR
+gZ
 ac
 aa
 aa
@@ -38477,43 +38769,43 @@ ac
 ac
 ac
 ac
-al
+am
 aa
 aa
-aU
-aa
-aa
-aa
-aa
-aV
+bc
 aa
 aa
 aa
-dA
-dY
-ez
-ez
-fn
-fH
-ga
-jm
-jq
-ju
-jx
-jA
+aa
+am
+aa
+aa
+aa
+dO
+er
+eZ
+eZ
+fQ
+go
+gJ
+gZ
+hx
+gZ
+gZ
+gZ
+gZ
+gZ
+gZ
 jD
-jG
-jJ
-jM
-jP
-jS
-kd
-ko
-kz
-kK
-kV
-lg
-lr
+gZ
+gZ
+gZ
+gZ
+gZ
+kF
+gZ
+gZ
+gZ
 ac
 aa
 aa
@@ -38734,39 +39026,39 @@ ac
 ac
 ad
 ac
-al
-al
-al
-aU
-al
-al
-al
-al
-aV
-al
-al
-al
-aW
-dZ
-eA
-eR
-fo
-ji
-jj
-jn
-jr
-fI
-fI
-fI
-fI
-fJ
+am
+am
+am
+bc
+am
+am
+am
+am
+cu
+am
+am
+am
+bd
+es
+fa
+fu
+fR
+gp
+gp
+hb
+hy
+gq
+gq
+gq
+gq
+gr
 ac
 ad
 ac
 ac
 ad
 ac
-iZ
+kx
 ad
 ad
 ac
@@ -38991,32 +39283,32 @@ ac
 ae
 ac
 ac
-an
-an
-an
-aW
-aW
-bw
-aW
-aW
-aW
-aW
-aW
-aW
-bw
-aW
-aW
-eS
-fp
-aW
-gb
+ap
+ap
+aP
+bd
+bd
+bF
+bd
+bd
+bd
+bd
+bd
+bd
+bF
+bd
+bd
+fv
+fS
+bd
+gK
+hc
+gK
+hU
+gK
+hc
+gK
 gq
-gb
-gS
-gb
-gq
-gb
-fI
 ac
 ac
 ac
@@ -39248,32 +39540,32 @@ ac
 ac
 ad
 ad
-an
-ay
-ay
-ay
-bi
-bx
-bi
-bV
-cm
-ct
-cS
-dm
-dB
-ea
-an
-eT
-fq
-fI
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-fI
+ap
+aC
+aC
+aC
+bq
+bG
+bq
+cd
+cv
+cF
+dd
+aP
+dP
+et
+ap
+fw
+fT
+gq
+gK
+gK
+gK
+gK
+gK
+gK
+gK
+gq
 ac
 ad
 ad
@@ -39505,32 +39797,32 @@ ac
 ad
 ad
 ac
-an
-ay
-aK
-aX
-aX
-aX
-aX
-bW
-aX
-ay
-cT
-dn
-dC
-eb
-eB
-eU
-fr
-fI
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-fI
+ap
+aC
+aQ
+be
+be
+be
+be
+ce
+be
+aC
+de
+dx
+dQ
+eu
+fb
+fx
+fU
+gq
+gK
+gK
+gK
+gK
+gK
+gK
+gK
+gq
 ad
 ad
 ac
@@ -39762,32 +40054,32 @@ ac
 ac
 ac
 ac
-an
-ay
-aL
-ay
-bj
-ay
-bj
-bV
-cn
-cu
-cU
-an
-dD
-cT
-dn
-eV
-fs
-fI
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-fI
+ap
+aC
+aR
+aC
+br
+aC
+br
+cd
+cw
+cG
+df
+ap
+dR
+de
+dx
+fy
+fV
+gq
+gK
+gK
+gK
+gK
+gK
+gK
+gK
+gq
 ad
 ac
 ad
@@ -40019,38 +40311,38 @@ ad
 ac
 ac
 ac
-an
-an
-an
-an
-an
-an
-an
-an
-an
-cv
-an
-an
-an
-an
-an
-eW
-ft
-fI
-gc
-gb
-gb
-gb
-gb
-gb
-hO
-fI
+ap
+ap
+ap
+ap
+ap
+ap
+ap
+ap
+ap
+cH
+ap
+ap
+ap
+ap
+ap
+fz
+fW
+gq
+gL
+gK
+gK
+gK
+gK
+gK
+iV
+gq
 ac
-hR
-hR
-hR
-hR
-hR
+iY
+iY
+iY
+iY
+iY
 ac
 ad
 ac
@@ -40277,37 +40569,37 @@ ac
 ac
 ad
 ag
-az
-aM
-aY
-bk
-by
-bG
-bX
+aD
+aS
+bf
+bs
+bH
+bP
+cf
 ag
-cw
-cV
-do
-dE
-dE
-eC
-eU
-fr
-fI
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-fI
+cI
+dg
+dy
+dS
+dS
+fc
+fx
+fU
+gq
+gK
+gK
+gK
+gK
+gK
+gK
+gK
+gq
 ac
-hR
-iB
-iM
-iO
-hR
+iY
+jJ
+jU
+jY
+iY
 ac
 ac
 ad
@@ -40533,38 +40825,38 @@ ac
 ad
 ac
 ac
-ao
-aA
-aN
-aZ
-aN
-aN
-bH
-ba
+aq
+aE
+aT
+bg
+bt
+aT
+bQ
+bh
 ag
-cx
-cW
-dp
-dF
-ec
-eD
-eV
-fs
-fI
-gb
-gb
-gb
-gb
-hl
-gb
-gb
-fI
+cJ
+dh
+dz
+dT
+ev
+fd
+fy
+fV
+gq
+gK
+gK
+gK
+gK
+ip
+gK
+gK
+gq
 ac
-hR
-iC
-ic
-iP
-hR
+iY
+jK
+jV
+jZ
+iY
 ad
 ac
 ac
@@ -40791,37 +41083,37 @@ ad
 ac
 ac
 ag
-aB
-aO
-ba
-aO
-aO
-bI
-aO
+aF
+aU
+bh
+aU
+aU
+bR
+aU
 ag
-cy
-cX
-dp
-dp
-ed
-eh
-eU
-fu
-fI
-fK
+cK
+di
+dz
+dz
+ew
+eA
+fx
+fX
+gq
+gs
+hd
+hd
+hd
+gq
+iJ
+gq
 gr
-gr
-gr
-fI
-hF
-fI
-fJ
-fI
-hR
-iC
-ic
-iP
-hR
+gq
+iY
+jK
+jV
+jZ
+iY
 ac
 ac
 ae
@@ -41048,37 +41340,37 @@ ac
 ad
 ad
 ag
-aC
-aP
-bb
 ag
-bz
+aV
+bi
+ag
 bI
-bY
+bR
+cg
 ag
-cz
-cY
-dp
-dG
-ee
-eh
-eW
-ft
-fJ
-gd
-gs
-gD
-gT
-hm
-gU
-hP
-hZ
-il
-hR
-iD
-ic
-iQ
-hR
+cL
+dj
+dz
+dU
+ex
+eA
+fz
+fW
+gr
+gM
+he
+hz
+hV
+iq
+hW
+iW
+ji
+ju
+iY
+jL
+jV
+ka
+iY
 ad
 ad
 ad
@@ -41305,37 +41597,37 @@ ac
 ac
 ag
 ag
+aG
 ag
 ag
 ag
 ag
+bS
 ag
-bJ
-ag
-ao
-cA
-cY
-dp
-dH
-ef
-da
-eU
-fr
-fI
-ge
-gt
-gE
-gU
-gU
-gU
-gU
-ia
-im
-hR
-iE
-ic
-iR
-hR
+cx
+cM
+dj
+dz
+dV
+ey
+dl
+fx
+fU
+gq
+gN
+hf
+hA
+hW
+hW
+hW
+hW
+jj
+jv
+iY
+jM
+jV
+kb
+iY
 ac
 ac
 ac
@@ -41561,38 +41853,38 @@ ad
 ad
 ac
 ah
-ap
-aD
-aQ
-bc
-bl
-bA
-bK
-bZ
+ar
+aH
+aW
+bj
+bu
+bJ
+bT
+ch
 ah
-cB
-cZ
-dp
-dI
-eg
-eE
-eU
-fr
-fK
-gf
-gu
-gF
-gV
-hn
-hG
-hQ
-hZ
-il
-hR
-iF
-ic
-iS
-hR
+cN
+dk
+dz
+dW
+ez
+fe
+fx
+fU
+gs
+gO
+hg
+hB
+hX
+ir
+iK
+iX
+ji
+ju
+iY
+jN
+jV
+kc
+iY
 ad
 ac
 ac
@@ -41818,38 +42110,38 @@ ac
 ad
 ac
 ah
-aq
-aD
-aD
-bd
-bm
-bB
-bL
-ca
+as
+aH
+aH
+bk
+bv
+bK
+bU
+ci
 ah
-cC
-da
-dq
-dJ
-eh
-eh
-eU
-fr
-fJ
-fI
-fI
-gG
-gW
-ho
-ho
-ho
-ho
-in
-iv
-iG
-ic
-iT
-hR
+cO
+dl
+dA
+dX
+eA
+eA
+fx
+fU
+gr
+gq
+gq
+hC
+hY
+is
+is
+is
+is
+is
+jE
+jO
+jV
+kd
+ko
 ac
 ad
 ac
@@ -42075,38 +42367,38 @@ ad
 ad
 ac
 ah
-ar
-aD
-aD
-be
+at
+aH
+aH
 bl
-bA
-bM
-cb
-co
-cD
-db
-db
-dK
-ei
-eF
-eX
-fv
-db
-ei
-gv
-gH
-dK
-ei
-db
-db
-db
-io
-iw
-iH
-ic
-iU
-hR
+bw
+bJ
+bV
+cj
+cy
+cP
+dm
+dm
+dY
+eB
+ff
+fA
+fY
+dm
+eB
+hh
+hD
+dY
+eB
+dm
+dm
+dm
+jw
+jF
+jP
+jV
+ke
+iY
 ad
 ac
 ac
@@ -42333,37 +42625,37 @@ ad
 ad
 ai
 ah
-aE
-aD
-bf
+aI
+aH
 bm
-bB
-bL
-cc
-cp
-cE
-dc
-dc
-dL
-ej
-eG
-eY
-fw
-eG
-ej
-eG
-gI
-gX
-ej
-eG
-eG
-eG
-ip
-ix
-iI
-ic
-iV
-hR
+bv
+bK
+bU
+ck
+cz
+cQ
+dn
+dn
+dZ
+eC
+fg
+fB
+fZ
+fg
+eC
+fg
+hE
+hZ
+eC
+fg
+fg
+fg
+jx
+jG
+jQ
+jV
+kf
+iY
 ad
 ac
 ad
@@ -42589,38 +42881,38 @@ ac
 ac
 ac
 ah
-as
-aF
-aD
-bg
-bl
-bA
-bK
-cd
+au
+aJ
+aH
+bn
+bw
+bJ
+bT
+cl
 ah
-cF
-cL
-dr
-dM
-cF
-cF
-eU
-fr
-fL
-fN
-fN
-gJ
-gQ
-fN
-fN
-hR
-ib
-iq
-hR
-iJ
-ic
-iW
-hR
+cR
+cX
+dB
+ea
+cR
+cR
+fx
+fU
+gt
+gv
+gv
+hF
+hM
+gv
+gv
+iY
+jk
+iY
+iY
+jR
+jV
+kg
+iY
 ad
 ac
 ad
@@ -42846,38 +43138,38 @@ ad
 ac
 ad
 ah
-at
-aG
-aR
-bh
-bn
-bC
-bN
-ce
+av
+aK
+aX
+bo
+bx
+bL
+bW
+cm
 ah
-cG
-dd
-ds
-dN
-ek
-eH
-eZ
-fx
-fM
-gg
-gw
-gK
-gY
-hp
-fL
-hS
-ic
-ir
-iy
-iK
-ic
-iX
-hR
+cS
+do
+dC
+eb
+eD
+fh
+fC
+ga
+gu
+gP
+hi
+hG
+ia
+it
+gt
+iZ
+jl
+jy
+jF
+jS
+jV
+kh
+iY
 ac
 ac
 ac
@@ -43109,32 +43401,32 @@ aj
 aj
 aj
 aj
-bO
-cf
+bX
+cn
 aj
-cH
-de
-dt
-dO
-el
-eI
-eV
+cT
+dp
+dD
+ec
+eE
+fi
 fy
-fN
-gh
-gh
-gL
-gZ
-hq
-fN
-hT
-id
-is
-iz
-iL
-iN
+gb
+gv
+gQ
+gQ
+hH
+ib
+iu
+gv
+ja
+jm
+jz
+jH
+jT
+jW
+ki
 iY
-hR
 ac
 ad
 af
@@ -43360,38 +43652,38 @@ ac
 ad
 ac
 ak
-au
-aH
-aS
-aH
-bo
+aw
+aL
+aY
+bp
+by
 aj
-bP
-cg
+bY
+co
 aj
-cI
-df
-du
-dP
-em
-cF
-eW
-ft
-fN
-gi
-gx
-gM
-ha
-hr
-fN
-hU
-hU
-hU
-iA
-hR
-hR
-hR
-hR
+cU
+dq
+dE
+ed
+eF
+cR
+fz
+gc
+gv
+gR
+hj
+hI
+ic
+iv
+gv
+jb
+jb
+jb
+jI
+iY
+iY
+iY
+iY
 ac
 ac
 ac
@@ -43617,34 +43909,34 @@ ac
 ac
 ac
 aj
-av
-aI
-aI
-aI
-bp
-bD
-bP
-ch
-cq
-cJ
-dg
-dv
-df
-en
-cL
-eU
-fr
-fO
-gh
-gy
-gN
-hb
-hs
-hH
-hV
-ie
-hV
-hU
+ax
+aM
+aM
+aM
+bz
+bM
+bY
+cp
+cA
+cV
+dr
+dF
+dq
+eG
+cX
+fx
+gd
+gw
+gQ
+hk
+hJ
+id
+iw
+iL
+jc
+jn
+jA
+jb
 ac
 ac
 ad
@@ -43875,33 +44167,33 @@ ac
 ad
 aj
 aj
-aJ
-aJ
-aJ
+aN
+aN
+aN
 aj
 aj
-bQ
-ci
+bZ
+cq
 aj
-cK
-dh
-dw
-dQ
-eo
-cL
-eU
-fr
-fO
-gh
-gz
-gO
-gz
-ht
-hI
-hW
-if
-it
-ih
+cW
+ds
+dG
+ee
+eH
+cX
+fx
+gd
+gw
+gQ
+hl
+hK
+hl
+ix
+iM
+jd
+jo
+jB
+jq
 ac
 ad
 ac
@@ -44131,34 +44423,34 @@ ad
 ad
 ac
 aj
-aw
-aI
-aI
-aI
-bp
-bD
-bR
-cj
+ay
+aM
+aM
+aM
+bz
+bM
+ca
+cr
 ak
-cL
-cL
-dw
-cL
-cL
-cL
-eU
-fr
-fN
-gj
-gA
-gP
-hc
-hu
-fN
-hV
-ig
-iu
-hU
+cX
+cX
+dG
+cX
+cX
+cX
+fx
+gd
+gv
+gS
+hm
+hL
+ie
+iy
+gv
+je
+jp
+jC
+jb
 ac
 ad
 ad
@@ -44388,34 +44680,34 @@ ac
 ac
 ac
 aj
-ax
-aH
-aT
-aH
-bq
+az
+aL
+aZ
+aL
+bA
 aj
-bR
-ck
+ca
+cs
 aj
-cM
-di
-dw
-dR
-ep
-eJ
-eW
-ft
-fN
-fN
-fN
-gQ
-fN
-fN
-fN
-hU
-ih
-hU
-hU
+cY
+dt
+dG
+ef
+eI
+fj
+fz
+gc
+gv
+gv
+gv
+hM
+gv
+gv
+gv
+jb
+jq
+jb
+jb
 ac
 ad
 ac
@@ -44651,24 +44943,24 @@ aj
 aj
 aj
 aj
-bS
+cb
 aj
 aj
-cN
-cL
-dw
-cL
-eq
-eK
-eU
-fr
-fP
-gk
-gl
-gR
-hd
-hv
-fN
+cZ
+cX
+dG
+cX
+eJ
+fk
+fx
+gd
+gx
+gT
+hn
+hN
+if
+iz
+hp
 ac
 ac
 ad
@@ -44908,24 +45200,24 @@ ac
 ac
 ac
 aj
-bT
-cl
+cc
+ct
 ak
-cL
-cL
-dw
-cL
-cL
-cL
-eU
-fr
-fQ
-gl
-gl
-gl
-he
-hw
-fN
+cX
+cX
+dG
+cX
+cX
+cX
+fx
+ge
+gy
+gU
+gU
+gU
+ig
+iA
+hp
 ac
 ad
 ac
@@ -45168,21 +45460,21 @@ aj
 aj
 aj
 aj
-cO
-dj
-dw
-dS
-ep
-cF
-fa
-fz
-fR
-gm
-gB
-gm
-hf
-hx
-fN
+da
+du
+dG
+eg
+eI
+cR
+fD
+gf
+gz
+gV
+ho
+hO
+ih
+iB
+hp
 ac
 ac
 ad
@@ -45425,21 +45717,21 @@ ac
 ac
 ac
 aj
-cP
-cL
-dx
-cL
-eq
-cF
-fb
-fA
-eL
-eL
-fN
-fN
-fN
-fN
-fL
+db
+cX
+dH
+cX
+eJ
+cR
+fE
+gg
+fl
+fl
+hp
+hp
+hp
+hp
+iN
 ad
 ad
 ac
@@ -45682,27 +45974,27 @@ ac
 ad
 ac
 aj
-cF
-cF
-dy
-dT
-dT
-dT
-fc
-fB
-fS
-eL
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
+cR
+cR
+dI
+eh
+eh
+eh
+fF
+gh
+gA
+fl
+hq
+cE
+cE
+cE
+iO
+cE
+cE
+cE
+iO
+cE
+cE
 ac
 ac
 ad
@@ -45930,28 +46222,26 @@ aa
 aa
 aa
 aa
-ja
-jb
-jc
-jd
-je
-jf
-jg
-jh
-cr
-cQ
-dk
-dz
-al
-aa
-eL
-fd
-fC
-fT
-eL
-aa
-aa
-aa
+aA
+aO
+ba
+ba
+ba
+ba
+ba
+ba
+cB
+dc
+cB
+dJ
+cE
+eK
+fl
+fG
+gi
+gB
+fl
+eK
 aa
 aa
 aa
@@ -45959,7 +46249,9 @@ aa
 aa
 aa
 aa
-al
+aa
+aa
+cE
 ac
 ad
 ac
@@ -46186,8 +46478,8 @@ aa
 aa
 aa
 aa
-aa
-ac
+al
+aB
 ac
 ac
 ac
@@ -46195,28 +46487,28 @@ ac
 ac
 ad
 ac
-cR
-cR
-dl
-cR
-dl
-al
-eM
-fe
-fD
-fU
-eM
+cC
+cC
+dv
+cC
+dv
+eL
+fm
+fH
+gj
+gC
+fm
+hr
+aa
+aa
+iC
+iC
+iC
 aa
 aa
 aa
-hy
-hy
-hy
 aa
-aa
-aa
-aa
-al
+jX
 ac
 ac
 ac
@@ -46452,28 +46744,28 @@ ac
 ad
 ac
 ac
-al
+cD
 aa
 aa
 aa
-cR
-aa
-eN
-ff
-fD
-fV
-eN
 aa
 aa
-hg
-hh
-hJ
-hh
+ei
+fI
+gj
+gD
+ei
+eK
+aa
 ii
+ij
+iP
+ij
+jr
 aa
 aa
 aa
-al
+cE
 ac
 ad
 ad
@@ -46709,28 +47001,28 @@ ac
 ac
 ad
 ac
-al
+cE
 aa
 aa
 aa
-cR
-aa
-eN
-ff
-fD
-fV
-eN
 aa
 aa
-hh
-hz
-hK
-hz
-hh
+ei
+fJ
+gj
+gD
+ei
+eK
+aa
+ij
+iD
+iQ
+iD
+ij
 aa
 aa
 aa
-al
+cE
 ac
 ad
 ac
@@ -46966,28 +47258,28 @@ ac
 ad
 ac
 ac
-al
+cE
 aa
 aa
 aa
-cR
+ei
+ei
+fn
+fK
+gj
+gE
+fn
+ei
+ei
+ij
+iE
+iR
+jf
+ij
 aa
-eN
-fg
-fD
-fW
-gn
-eN
-eN
-hh
-hA
-hL
-hX
-hh
 aa
 aa
-aa
-al
+jX
 ac
 ac
 ac
@@ -47223,28 +47515,28 @@ ac
 ac
 ac
 ac
-al
+cD
+aa
+aa
+dK
+ej
+eM
+ej
+fL
+gk
+gF
+gW
+hs
+gW
+ik
+iE
+iR
+jf
+js
 aa
 aa
 aa
-al
-aa
-eN
-fh
-fD
-fW
-go
-gC
-go
-hi
-hA
-hL
-hX
-ij
-aa
-aa
-aa
-al
+cE
 ac
 ac
 ad
@@ -47480,28 +47772,28 @@ ac
 ad
 ac
 ad
-al
+cE
+aa
+aa
+dL
+ei
+ei
+ei
+fM
+gl
+gF
+ei
+ei
+ei
+il
+iE
+iR
+jf
+js
 aa
 aa
 aa
-cR
-aa
-eN
-fi
-fE
-fW
-gn
-eN
-eN
-hj
-hA
-hL
-hX
-ij
-aa
-aa
-aa
-al
+cE
 ac
 ac
 ad
@@ -47737,28 +48029,28 @@ ac
 ad
 ac
 ac
-al
-al
-al
-al
-cR
-al
-eL
-fj
-fF
-fX
-eL
+cE
 aa
 aa
-hh
-hB
-hM
-hA
+dM
+ek
+eN
+fl
+fN
+gm
+gG
+fl
+eK
+aa
 ij
+iF
+iS
+iE
+js
 aa
 aa
 aa
-al
+cE
 ac
 ad
 ad
@@ -47994,28 +48286,28 @@ ac
 ac
 ac
 ac
-al
+cD
 aa
 aa
 aa
-cR
 aa
-eL
-eN
-eN
-eN
-gp
+eO
+fl
+ei
+ei
+ei
+gX
+hr
+aa
+ij
+iG
+iT
+jg
+ij
 aa
 aa
-hh
-hC
-hN
-hY
-hh
 aa
-aa
-aa
-al
+jX
 ac
 ad
 ac
@@ -48251,28 +48543,28 @@ af
 ad
 ad
 ac
-al
-al
-aa
-aa
-cR
-aa
-aa
-al
-aa
-al
+cE
+cE
 aa
 aa
 aa
-hk
-hD
-hD
-hD
-ik
+dM
+fo
+ek
+ek
+ek
+fo
+ek
+hP
+im
+iH
+iH
+iH
+jt
 aa
 aa
 aa
-al
+cE
 ac
 ad
 ac
@@ -48509,15 +48801,7 @@ ad
 ac
 ac
 ac
-al
-aa
-aa
-dU
-cR
-al
-cR
-cR
-cR
+cD
 aa
 aa
 aa
@@ -48528,8 +48812,16 @@ aa
 aa
 aa
 aa
+hQ
+hP
 aa
-al
+aa
+aa
+aa
+aa
+aa
+aa
+cE
 ac
 ac
 ad
@@ -48766,15 +49058,7 @@ ac
 ad
 ad
 ac
-al
-aa
-aa
-aa
-aa
-aa
-al
-aa
-al
+cE
 aa
 aa
 aa
@@ -48786,7 +49070,15 @@ aa
 aa
 aa
 aa
-al
+in
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+jX
 ac
 ad
 ad
@@ -49023,15 +49315,7 @@ ac
 ac
 ac
 ac
-al
-aa
-aa
-aa
-aa
-aa
-al
-aa
-al
+cE
 aa
 aa
 aa
@@ -49043,7 +49327,15 @@ aa
 aa
 aa
 aa
-al
+in
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cE
 ac
 ad
 ac
@@ -49280,27 +49572,27 @@ ad
 ac
 ad
 ac
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
-al
+cE
+cE
+cE
+el
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+hR
+io
+cE
+el
+cE
+cE
+cE
+el
+cE
+cE
 ac
 ac
 ad
@@ -49540,16 +49832,16 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+em
+eP
+aa
+aa
+aa
+aa
+aa
+ht
+em
+eQ
 ac
 ac
 ac
@@ -49798,13 +50090,13 @@ ac
 ac
 ac
 ad
-ac
-ac
-ad
-ac
-ac
-ad
-ad
+eQ
+fp
+fp
+fp
+fp
+fp
+eQ
 ac
 ad
 ac
@@ -50055,13 +50347,13 @@ ad
 ac
 ac
 ac
-ac
-ac
-ad
-ac
-ad
-ad
-ac
+eQ
+fq
+fq
+fq
+fq
+fq
+eQ
 ac
 ac
 ad
@@ -50312,13 +50604,13 @@ ac
 ac
 ad
 ad
-ad
-ad
-ac
-ac
-ac
-ac
-ad
+eQ
+fr
+fq
+fq
+fq
+gY
+eQ
 af
 ac
 ac
@@ -50567,15 +50859,15 @@ ac
 ad
 ac
 ac
+af
 ac
-ac
-ac
-ae
-ac
-ad
-ac
-ac
-ac
+eQ
+fp
+fp
+fp
+fp
+fp
+eQ
 ad
 ac
 ad
@@ -50826,13 +51118,13 @@ ac
 ad
 ad
 ad
-ac
-ac
-ac
-ac
-ac
-ad
-ac
+eQ
+fr
+fq
+fq
+fq
+gY
+eQ
 ac
 ac
 ac
@@ -51083,13 +51375,13 @@ ac
 ac
 ac
 ad
-ad
-ac
-ad
-ac
-ac
-ad
-ac
+eQ
+fq
+fq
+fq
+fq
+fq
+eQ
 ac
 ac
 ac
@@ -51340,6 +51632,13 @@ ac
 ad
 ac
 ac
+eQ
+fp
+fp
+fp
+fp
+fp
+eQ
 ac
 ac
 ac
@@ -51348,13 +51647,6 @@ ac
 ac
 ac
 ac
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -51596,18 +51888,18 @@ aa
 ac
 ac
 ad
+em
+eR
+aa
+aa
+aa
+aa
+aa
+hu
+em
 ac
 ac
-ad
 ac
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -51851,9 +52143,9 @@ aa
 aa
 aa
 aa
-ad
-ac
-ac
+aa
+aa
+en
 aa
 aa
 aa
@@ -51861,7 +52153,7 @@ aa
 aa
 aa
 aa
-aa
+hS
 aa
 aa
 aa
