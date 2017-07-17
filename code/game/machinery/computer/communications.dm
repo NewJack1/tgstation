@@ -76,13 +76,13 @@
 
 			if(I && istype(I))
 				if(src.check_access(I))
-					authenticated = 0
+					authenticated = 1
 					auth_id = "[I.registered_name] ([I.assignment])"
 					if((20 in I.access))
-						authenticated = 0
+						authenticated = 2
 					playsound(src, 'sound/machines/terminal_on.ogg', 50, 0)
 				if(src.emagged)
-					authenticated = 0
+					authenticated = 2
 					auth_id = "Unknown"
 					to_chat(M, "<span class='warning'>[src] lets out a quiet alarm as its login is overriden.</span>")
 					playsound(src, 'sound/machines/terminal_on.ogg', 50, 0)
@@ -129,7 +129,7 @@
 				playsound(src, 'sound/machines/terminal_prompt_deny.ogg', 50, 0)
 
 		if("announce")
-			if(src.authenticated==0)
+			if(src.authenticated)
 				playsound(src, 'sound/machines/terminal_prompt.ogg', 50, 0)
 				make_announcement(usr)
 
@@ -187,7 +187,7 @@
 			if(src.authenticated)
 				src.state = STATE_CALLSHUTTLE
 		if("callshuttle2")
-			if(src.authenticated==0)
+			if(src.authenticated)
 				SSshuttle.requestEvac(usr, href_list["call"])
 				if(SSshuttle.emergency.timer)
 					post_status("shuttle")
@@ -284,7 +284,7 @@
 
 		// OMG SYNDICATE ...LETTERHEAD
 		if("MessageSyndicate")
-			if((src.authenticated==2) && (src.emagged))
+			if((src.authenticated) && (src.emagged))
 				if(!checkCCcooldown())
 					to_chat(usr, "<span class='warning'>Arrays recycling.  Please stand by.</span>")
 					playsound(src, 'sound/machines/terminal_prompt_deny.ogg', 50, 0)
@@ -305,7 +305,7 @@
 			src.updateDialog()
 
 		if("nukerequest") //When there's no other way
-			if(src.authenticated==2)
+			if(src.authenticated)
 				if(!checkCCcooldown())
 					to_chat(usr, "<span class='warning'>Arrays recycling. Please stand by.</span>")
 					return
@@ -400,8 +400,6 @@
 /obj/machinery/computer/communications/emag_act(mob/user)
 	if(!emagged)
 		src.emagged = 1
-		if(authenticated == 1)
-			authenticated = 2
 		to_chat(user, "<span class='danger'>You scramble the communication routing circuits!</span>")
 		playsound(src, 'sound/machines/terminal_alert.ogg', 50, 0)
 
@@ -443,18 +441,20 @@
 				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=logout'>Log Out</A> \]<BR>"
 				dat += "<BR><B>General Functions</B>"
 				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=messagelist'>Message List</A> \]"
+
 				switch(SSshuttle.emergency.mode)
 					if(SHUTTLE_IDLE, SHUTTLE_RECALL)
 						dat += "<BR>\[ <A HREF='?src=\ref[src];operation=callshuttle'>Call Emergency Shuttle</A> \]"
 					else
 						dat += "<BR>\[ <A HREF='?src=\ref[src];operation=cancelshuttle'>Cancel Shuttle Call</A> \]"
 
-				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=status'>Set Status Display</A> \]"
 				if(src.emagged == 0)
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=MessageCentcomm'>Send Message to Centcom</A> \]"
 				else
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=MessageSyndicate'>Send Message to \[UNKNOWN\]</A> \]"
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=RestoreBackup'>Restore Backup Routing Data</A> \]"
+
+				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=status'>Set Status Display</A> \]"
 				if (src.authenticated==2)
 					dat += "<BR><BR><B>Captain Functions</B>"
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=announce'>Make a Captain's Announcement</A> \]"
@@ -464,6 +464,7 @@
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=changeseclevel'>Change Alert Level</A> \]"
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=emergencyaccess'>Emergency Maintenance Access</A> \]"
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=nukerequest'>Request Nuclear Authentication Codes</A> \]"
+
 			else
 				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=login'>Log In</A> \]"
 		if(STATE_CALLSHUTTLE)

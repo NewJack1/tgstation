@@ -6,11 +6,10 @@
 Вики TGStation13:		https://tgstation13.org/wiki/Main_Page
 Код сервера:			https://github.com/NeinCat/tgstation
 Дискорд-сервер:         https://discord.gg/q8zgKYn
+Сервер друзей SubStructure: byond://5.45.117.193:1487
 
 <span style="color: #ff0000;"><big>У игроков есть возможность начать игру на базе Синдиката.<big></span>
 
 <span style="color: #0000ff;">Есть интересующий вопрос? Спроси Администратора (F1)!</span>
-
-Также рекомендуем посетить сервер SubStructure: byond://5.45.117.193:1487 . Дискорд: https://discord.gg/vsxZvvH 
 
 <span style="color: #0000ff;">Респавн отключён, если вы уже в игре. Цените жизнь своего персонажа и ваших коллег. Погибнув, вы сможете играть лишь в следующем раунде.</spam>
