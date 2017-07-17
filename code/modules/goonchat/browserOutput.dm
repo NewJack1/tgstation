@@ -226,3 +226,56 @@ GLOBAL_DATUM_INIT(iconCache, /savefile, new("data/iconCache.sav")) //Cache of ic
 		var/datum/mind/M = target
 		if(M.current && M.current.client)
 			return M.current.client
+
+/proc/to_chat(target, message)
+	if(!target)
+		return
+
+	//Ok so I did my best but I accept that some calls to this will be for shit like sound and images
+	//It stands that we PROBABLY don't want to output those to the browser output so just handle them here
+	if (istype(message, /image) || istype(message, /sound) || istype(target, /savefile))
+		target << message
+		CRASH("Invalid message! [message]")
+
+	if(!istext(message))
+		return
+
+	if(target == world)
+		target = GLOB.clients
+
+	var/list/targets
+	if(!islist(target))
+		targets = list(target)
+	else
+		targets = target
+		if(!targets.len)
+			return
+	var/original_message = message
+	//Some macros remain in the string even after parsing and fuck up the eventual output
+	message = replacetext(message, "\improper", "")
+	message = replacetext(message, "\proper", "")
+	message = replacetext(message, "\n", "<br>")
+	message = replacetext(message, "\t", "[GLOB.TAB][GLOB.TAB]")
+
+	message = utf_goon(message)
+
+	for(var/I in targets)
+		//Grab us a client if possible
+		var/client/C = grab_client(I)
+
+		if (!C)
+			continue
+
+		//Send it to the old style output window.
+		C << original_message
+
+		if(!C.chatOutput || C.chatOutput.broken) // A player who hasn't updated his skin file.
+			continue
+
+		if(!C.chatOutput.loaded)
+			//Client still loading, put their messages in a queue
+			C.chatOutput.messageQueue += message
+			continue
+
+		// url_encode it TWICE, this way any UTF-8 characters are able to be decoded by the Javascript.
+		C << output(url_encode(url_encode(message)), "browseroutput:output")

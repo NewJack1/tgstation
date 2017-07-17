@@ -76,13 +76,13 @@
 
 			if(I && istype(I))
 				if(src.check_access(I))
-					authenticated = 1
+					authenticated = 0
 					auth_id = "[I.registered_name] ([I.assignment])"
 					if((20 in I.access))
-						authenticated = 2
+						authenticated = 0
 					playsound(src, 'sound/machines/terminal_on.ogg', 50, 0)
 				if(src.emagged)
-					authenticated = 2
+					authenticated = 0
 					auth_id = "Unknown"
 					to_chat(M, "<span class='warning'>[src] lets out a quiet alarm as its login is overriden.</span>")
 					playsound(src, 'sound/machines/terminal_on.ogg', 50, 0)
@@ -129,7 +129,7 @@
 				playsound(src, 'sound/machines/terminal_prompt_deny.ogg', 50, 0)
 
 		if("announce")
-			if(src.authenticated==2)
+			if(src.authenticated==0)
 				playsound(src, 'sound/machines/terminal_prompt.ogg', 50, 0)
 				make_announcement(usr)
 
@@ -187,7 +187,7 @@
 			if(src.authenticated)
 				src.state = STATE_CALLSHUTTLE
 		if("callshuttle2")
-			if(src.authenticated==2)
+			if(src.authenticated==0)
 				SSshuttle.requestEvac(usr, href_list["call"])
 				if(SSshuttle.emergency.timer)
 					post_status("shuttle")
@@ -450,6 +450,11 @@
 						dat += "<BR>\[ <A HREF='?src=\ref[src];operation=cancelshuttle'>Cancel Shuttle Call</A> \]"
 
 				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=status'>Set Status Display</A> \]"
+				if(src.emagged == 0)
+					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=MessageCentcomm'>Send Message to Centcom</A> \]"
+				else
+					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=MessageSyndicate'>Send Message to \[UNKNOWN\]</A> \]"
+					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=RestoreBackup'>Restore Backup Routing Data</A> \]"
 				if (src.authenticated==2)
 					dat += "<BR><BR><B>Captain Functions</B>"
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=announce'>Make a Captain's Announcement</A> \]"
@@ -459,11 +464,6 @@
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=changeseclevel'>Change Alert Level</A> \]"
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=emergencyaccess'>Emergency Maintenance Access</A> \]"
 					dat += "<BR>\[ <A HREF='?src=\ref[src];operation=nukerequest'>Request Nuclear Authentication Codes</A> \]"
-					if(src.emagged == 0)
-						dat += "<BR>\[ <A HREF='?src=\ref[src];operation=MessageCentcomm'>Send Message to Centcom</A> \]"
-					else
-						dat += "<BR>\[ <A HREF='?src=\ref[src];operation=MessageSyndicate'>Send Message to \[UNKNOWN\]</A> \]"
-						dat += "<BR>\[ <A HREF='?src=\ref[src];operation=RestoreBackup'>Restore Backup Routing Data</A> \]"
 			else
 				dat += "<BR>\[ <A HREF='?src=\ref[src];operation=login'>Log In</A> \]"
 		if(STATE_CALLSHUTTLE)

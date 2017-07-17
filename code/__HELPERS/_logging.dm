@@ -64,6 +64,10 @@
 	if (config.log_ooc)
 		GLOB.world_game_log << "\[[time_stamp()]]OOC: [text]"
 
+/proc/log_looc(text)
+	if (config.log_looc)
+		GLOB.world_game_log << "\[[time_stamp()]]LOOC: [text]"
+
 /proc/log_whisper(text)
 	if (config.log_whisper)
 		GLOB.world_game_log << "\[[time_stamp()]]WHISPER: [text]"

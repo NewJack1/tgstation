@@ -31,6 +31,7 @@
 	var/hub = 0
 
 	var/log_ooc = 0						// log OOC channel
+	var/log_looc = 0						// log LOOC channel
 	var/log_access = 0					// log login/logout
 	var/log_say = 0						// log client say
 	var/log_admin = 0					// log admin actions
@@ -342,6 +343,8 @@
 					round_end_countdown = text2num(value)
 				if("log_ooc")
 					log_ooc = 1
+				if("log_looc")
+					log_looc = 1
 				if("log_access")
 					log_access = 1
 				if("log_say")
