@@ -35737,6 +35737,8 @@
 /obj/item/weapon/reagent_containers/glass/beaker/large,
 /obj/item/weapon/reagent_containers/glass/beaker/large,
 /obj/item/clothing/glasses/science,
+/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/color/latex,
 /turf/open/floor/plasteel/whiteyellow/side{
 	dir = 1
 	},

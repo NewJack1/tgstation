@@ -137,6 +137,7 @@
 	id_access_list = list(GLOB.access_syndicate)
 	outfit = /datum/outfit/lavaland_syndicate
 	assignedrole = "Lavaland Syndicate"
+	objectives = /datum/objective/survive
 
 /datum/outfit/lavaland_syndicate
 	name = "Syndicate Bioweapon Scientist"
@@ -156,12 +157,24 @@
 	H.faction |= "syndicate"
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms
-	name = "Syndicate Comms Agent"
-	flavour_text = "<font size=3>Вы являетесь агентом синдиката, который работает в секретном исследовательском центре, разрабатывающем биологическое оружие. К сожалению, ваш ненавистный враг, Нанотрасен, начал работу в этом секторе. Контролируйте активность противника как можно лучше и старайтесь сохранять анонимность. <font size=6><b>НЕ</b></font> оставляйте базу без уважительной причины. Используйте оборудование связи, чтобы следить за деятельностью экипажа НТ, но не расскрывайте себя в любом случаи. Не позволяйте базе попасть в руки врага!</b>"
+	mob_name = "Syndicate Telecomms Agent"
+	name = "Syndicate Telecomms Agent"
+	flavour_text = {"
+<b>Вы являетесь главным агентом синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
+<b>Вы подчиняетесь Командныму Центру Синдиката и имеете с ним прямую связь через консоль коммуникации.</b>
+<b>У вас в подчинении состоят ВСЕ работники синди-базы без исключения. Вы несете полную ответственность за их рабочую деятельность.</b>
+<b>Выполняйте ваши основные задания, руководите персоналом базы. Держите в курсе КЦС. Будьте профессионалом своего дела.</b>
+
+<b>Задания:</b>
+1. Наладить автономную работу базы.
+2. Получить указания от КЦС, используя консоль коммуникации.
+3. Руководить работой персонала базы.
+4. Соблюдать абсолютную стирильность на рабочем месте.
+	"}
 	outfit = /datum/outfit/lavaland_syndicate/comms
 
 /datum/outfit/lavaland_syndicate/comms
-	name = "Syndicate Comms Agent"
+	name = "Syndicate Telecomms Agent"
 	r_hand = /obj/item/weapon/melee/energy/sword/saber
 	mask = /obj/item/clothing/mask/chameleon
 	uniform = /obj/item/clothing/under/syndicate
@@ -176,12 +189,23 @@
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/botanist
-	name = "Syndicate Botanist"
-	flavour_text = "<font size=3>Вы являетесь агентом синдиката, который работает в секретном исследовательском центре, разрабатывающем биологическое оружие. К сожалению, ваш ненавистный враг, Нанотрасен, начал работу в этом секторе. <font size=6><b>НЕ</b></font> оставляйте базу без уважительной причины. Выращивайте полезные и смертоносные растения, эксперементируйте, обеспечивайте базу сытными фруктами и овощами высшего качества. Не позволяйте базе попасть в руки врага!</b>"
+	mob_name = "Syndicate Botanist Agent"
+	name = "Syndicate Botanist Agent"
+	flavour_text = {"
+<b>Вы являетесь агентом синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
+<b>Вы подчиняетесь агенту-связисту, имеющим доступ к общению с Командным Центром Синдиката.</b>
+<b>Выполняйте ваши основные задания, подчиняйтесь связисту. Кооперируйтесь с агентами соседних отделов. Будьте профессионалом своего дела.</b>
+
+<b>Задания:</b>
+1. Снабдить базу необходимым количеством пищи для эффективной работы.
+2. Исследовать генокод растений, сформировав соответствующий отчет в письменном виде.
+3. По возможности вырастить редкие и ценные подвиды растений, которые могут быть полезны.
+4. Соблюдать абсолютную стирильность на рабочем месте.
+	"}
 	outfit = /datum/outfit/lavaland_syndicate/botanist
 
 /datum/outfit/lavaland_syndicate/botanist
-	name = "Syndicate Botanist"
+	name = "Syndicate Botanist Agent"
 	r_hand = /obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r
 	uniform = /obj/item/clothing/under/rank/hydroponics
 	suit = /obj/item/clothing/suit/toggle/labcoat
@@ -195,12 +219,23 @@
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/chemist
-	name = "Syndicate Chemist"
-	flavour_text = "<font size=3>Вы являетесь агентом синдиката, который работает в секретном исследовательском центре, разрабатывающем биологическое оружие. К сожалению, ваш ненавистный враг, Нанотрасен, начал работу в этом секторе. Создавайте различные полезные и не очень зелья и лекарства. Собирайте гранаты, эксперементируйте! <font size=6><b>НЕ</b></font> оставляйте базу без уважительной причины. Не позволяйте базе попасть в руки врага!</b>"
+	mob_name = "Syndicate Chemist Agent"
+	name = "Syndicate Chemist Agent"
+	flavour_text = {"
+<b>Вы являетесь агентом синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
+<b>Вы подчиняетесь агенту-связисту, имеющим доступ к общению с Командным Центром Синдиката.</b>
+<b>Выполняйте ваши основные задания, подчиняйтесь связисту. Кооперируйтесь с агентами соседних отделов. Будьте профессионалом своего дела.</b>
+
+<b>Задания:</b>
+1. Снабдить базу необходимым количеством лекарств (в любом виде) от всех основных типов урона.
+2. Произвести минимальное количество боевых гранат (взрывоопасных или токсичных).
+3. Эксперементировать, тестировать, разрабатывать, пробовать (в интереесах синдиката) - ваша основная работа.
+4. Соблюдать абсолютную стирильность на рабочем месте.
+	"}
 	outfit = /datum/outfit/lavaland_syndicate/chemist
 
 /datum/outfit/lavaland_syndicate/chemist
-	name = "Syndicate Chemist"
+	name = "Syndicate Chemist Agent"
 	r_hand = /obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r
 	uniform = /obj/item/clothing/under/rank/chemist
 	suit = /obj/item/clothing/suit/toggle/labcoat
@@ -214,12 +249,23 @@
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/virologist
-	name = "Syndicate Virologist"
-	flavour_text = "<font size=3>Вы являетесь агентом синдиката, который работает в секретном исследовательском центре, разрабатывающем биологическое оружие. К сожалению, ваш ненавистный враг, Нанотрасен, начал работу в этом секторе. Выводите самые опасные и полезные вирусы Соблюдайте стирильность и предельную аккуратность в своей работе! <font size=6><b>НЕ</b></font> оставляйте базу без уважительной причины. Не позволяйте базе попасть в руки врага!</b>"
+	mob_name = "Syndicate Virologist Agent"
+	name = "Syndicate Virologist Agent"
+	flavour_text = {"
+<b>Вы являетесь агентом синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
+<b>Вы подчиняетесь агенту-связисту, имеющим доступ к общению с Командным Центром Синдиката.</b>
+<b>Выполняйте ваши основные задания, подчиняйтесь связисту. Кооперируйтесь с агентами соседних отделов. Будьте профессионалом своего дела.</b>
+
+<b>Задания:</b>
+1. Вывести штамм биологически-полезного виурса.
+2. Вывести штамм биологически-опасного виурса.
+3. По возможности эксперементировать на мартышках, сформировав под концен общий отчет в письменном виде.
+4. Соблюдать абсолютную стирильность на рабочем месте.
+	"}
 	outfit = /datum/outfit/lavaland_syndicate/virologist
 
 /datum/outfit/lavaland_syndicate/virologist
-	name = "Syndicate Virologist"
+	name = "Syndicate Virologist Agent"
 	r_hand = /obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r
 	uniform = /obj/item/clothing/under/rank/virologist
 	suit = /obj/item/clothing/suit/toggle/labcoat
@@ -233,12 +279,23 @@
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/engineer
-	name = "Syndicate Engineer"
-	flavour_text = "<font size=3>Вы являетесь агентом синдиката, который работает в секретном исследовательском центре, разрабатывающем биологическое оружие. К сожалению, ваш ненавистный враг, Нанотрасен, начал работу в этом секторе. Настройте подачу энергии на базе! Следите за ее целостностью! <font size=6><b>НЕ</b></font> оставляйте базу без уважительной причины. Не позволяйте базе попасть в руки врага!</b>"
+	mob_name = "Syndicate Engineer Agent"
+	name = "Syndicate Engineer Agent"
+	flavour_text = {"
+<b>Вы являетесь агентом синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
+<b>Вы подчиняетесь агенту-связисту, имеющим доступ к общению с Командным Центром Синдиката.</b>
+<b>Выполняйте ваши основные задания, подчиняйтесь связисту. Кооперируйтесь с агентами соседних отделов. Будьте профессионалом своего дела.</b>
+
+<b>Задания:</b>
+1. Настроить подачу питания на синди-базу, настроив систему солнечных панелей.
+2. Убедиться в работе генератора гравитации.
+3. Поддерживать гермитичную целостность обшивки базы.
+4. Соблюдать абсолютную стирильность на рабочем месте.
+	"}
 	outfit = /datum/outfit/lavaland_syndicate/engineer
 
 /datum/outfit/lavaland_syndicate/engineer
-	name = "Syndicate Engineer"
+	name = "Syndicate Engineer Agent"
 	r_hand = /obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r
 	uniform = /obj/item/clothing/under/rank/engineer
 	suit = /obj/item/clothing/suit/toggle/labcoat
@@ -251,4 +308,3 @@
 	l_pocket = /obj/item/weapon/card/emag
 	id = /obj/item/weapon/card/id/syndicate/engineer
 	implants = list(/obj/item/weapon/implant/weapons_auth)
-
