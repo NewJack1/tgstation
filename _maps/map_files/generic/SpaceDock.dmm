@@ -175,7 +175,7 @@
 /area/syndicate/shooting_gallery)
 "aD" = (
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/open/floor/mineral/plastitanium/airless,
+/turf/open/floor/plasteel/podhatch/corner,
 /area/syndicate/storage)
 "aE" = (
 /obj/structure/closet/crate{
@@ -196,7 +196,8 @@
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "Syndicate Storage APC";
-	pixel_y = 24
+	pixel_y = 24;
+	req_access = list(157)
 	},
 /obj/structure/cable{
 	icon_state = "0-2";
@@ -212,7 +213,7 @@
 	amount = 50
 	},
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/mineral/plastitanium/airless,
+/turf/open/floor/plasteel/podhatch,
 /area/syndicate/storage)
 "aF" = (
 /obj/structure/closet/crate{
@@ -232,7 +233,7 @@
 /obj/item/stack/sheet/plasteel/fifty,
 /obj/item/stack/sheet/mineral/wood/fifty,
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/mineral/plastitanium/airless,
+/turf/open/floor/plasteel/podhatch,
 /area/syndicate/storage)
 "aG" = (
 /obj/machinery/vending/boozeomat{
@@ -249,7 +250,8 @@
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "Syndicate Bar APC";
-	pixel_y = 24
+	pixel_y = 24;
+	req_access = list(157)
 	},
 /obj/structure/cable{
 	icon_state = "0-4";
@@ -317,7 +319,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium/airless,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
 /area/syndicate/storage)
 "aT" = (
 /obj/structure/cable{
@@ -346,7 +350,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/mineral/plastitanium/airless,
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
 /area/syndicate/storage)
 "aW" = (
 /obj/machinery/light{
@@ -420,7 +426,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium/airless,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
 /area/syndicate/storage)
 "bg" = (
 /obj/structure/cable{
@@ -447,7 +455,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/mineral/plastitanium/airless,
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
 /area/syndicate/storage)
 "bj" = (
 /obj/structure/table/wood,
@@ -667,7 +677,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium/airless,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
 /area/syndicate/storage)
 "bI" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
@@ -738,7 +750,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium/airless,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
 /area/syndicate/storage)
 "bQ" = (
 /obj/structure/cable{
@@ -915,7 +929,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium/airless,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
 /area/syndicate/storage)
 "cg" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
@@ -1014,7 +1030,8 @@
 	cell_type = 15000;
 	dir = 2;
 	name = "Syndicate Sleep Room APC";
-	pixel_y = -24
+	pixel_y = -24;
+	req_access = list(157)
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/vault{
@@ -1160,7 +1177,9 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/shooting_gallery)
 "cI" = (
-/obj/machinery/chem_dispenser,
+/obj/machinery/chem_dispenser{
+	emagged = 0
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -1303,10 +1322,6 @@
 /turf/open/floor/plasteel/podhatch/corner,
 /area/syndicate/virology)
 "cT" = (
-/obj/structure/reagent_dispensers/virusfood{
-	pixel_y = 32;
-	tank_volume = 2000
-	},
 /obj/structure/table/reinforced,
 /obj/item/device/healthanalyzer,
 /obj/item/stack/sheet/mineral/plasma{
@@ -1316,10 +1331,11 @@
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/virology)
 "cU" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_y = 32
-	},
 /obj/machinery/computer/pandemic,
+/obj/structure/reagent_dispensers/virusfood{
+	pixel_y = 32;
+	tank_volume = 2000
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/virology)
 "cV" = (
@@ -1392,7 +1408,8 @@
 	cell_type = 5000;
 	dir = 8;
 	name = "Syndicate Shooting Gallery APC";
-	pixel_x = -25
+	pixel_x = -25;
+	req_access = list(157)
 	},
 /obj/structure/table/reinforced,
 /obj/item/weapon/folder,
@@ -1676,7 +1693,8 @@
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "Virology Lab APC";
-	pixel_x = 26
+	pixel_x = 26;
+	req_access = list(157)
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -2025,7 +2043,10 @@
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "Syndicate Solar";
-	pixel_y = 24
+	pixel_y = 24;
+	req_access = list(157);
+	req_access_txt = "0";
+	req_one_access = null
 	},
 /obj/structure/cable{
 	icon_state = "0-2";
@@ -2109,7 +2130,9 @@
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/chemistry)
 "ez" = (
-/obj/machinery/chem_dispenser,
+/obj/machinery/chem_dispenser{
+	emagged = 0
+	},
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 26
 	},
@@ -2418,7 +2441,8 @@
 	cell_type = 5000;
 	dir = 8;
 	name = "Central Hall APC";
-	pixel_x = -25
+	pixel_x = -25;
+	req_access = list(157)
 	},
 /obj/structure/cable{
 	icon_state = "0-2";
@@ -2637,7 +2661,8 @@
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "Syndicate Arrival Hallway APC";
-	pixel_y = 24
+	pixel_y = 24;
+	req_access = list(157)
 	},
 /obj/structure/cable{
 	icon_state = "0-2";
@@ -3317,7 +3342,8 @@
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "Syndicate Testing Room APC";
-	pixel_y = 24
+	pixel_y = 24;
+	req_access = list(157)
 	},
 /obj/structure/cable{
 	icon_state = "0-2";
@@ -3397,7 +3423,8 @@
 /area/syndicate/medbay)
 "gV" = (
 /obj/machinery/sleeper{
-	dir = 8
+	dir = 8;
+	emagged = 0
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
@@ -3817,7 +3844,8 @@
 /area/syndicate/medbay)
 "hO" = (
 /obj/machinery/sleeper{
-	dir = 8
+	dir = 8;
+	emagged = 0
 	},
 /obj/machinery/camera{
 	c_tag = "Syndicate Medbayl";
@@ -4091,7 +4119,8 @@
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "Syndicate Dock Lab APC";
-	pixel_x = 26
+	pixel_x = 26;
+	req_access = list(157)
 	},
 /turf/open/space/basic,
 /area/syndicate/fore)
@@ -4208,7 +4237,8 @@
 	cell_type = 15000;
 	dir = 2;
 	name = "Syndicate Infirmary Room";
-	pixel_y = -24
+	pixel_y = -24;
+	req_access = list(157)
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/vault{
@@ -4665,7 +4695,8 @@
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "Syndicate Hydroponics APC";
-	pixel_x = 26
+	pixel_x = 26;
+	req_access = list(157)
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -4832,7 +4863,9 @@
 	},
 /area/syndicate/hydroponics)
 "jT" = (
-/obj/machinery/vending/hydronutrients,
+/obj/machinery/vending/hydronutrients{
+	emagged = 0
+	},
 /turf/open/floor/plasteel/green/side{
 	dir = 5
 	},
@@ -4850,6 +4883,7 @@
 /area/syndicate/hydroponics)
 "jW" = (
 /obj/machinery/vending/hydroseeds{
+	emagged = 0;
 	slogan_delay = 700
 	},
 /obj/machinery/light{
@@ -4942,7 +4976,8 @@
 	dir = 8;
 	name = "Syndicate Gravity Generator APC";
 	pixel_x = -25;
-	pixel_y = 1
+	pixel_y = 1;
+	req_access = list(157)
 	},
 /obj/structure/cable{
 	icon_state = "0-4";
