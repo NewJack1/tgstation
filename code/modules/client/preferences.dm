@@ -96,6 +96,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 	var/unlock_content = 0
 
+	//Important Notes
+	var/flavor_text = ""
+	var/sec_imp_notes = ""
+	var/med_imp_notes = ""
+
+
 	var/list/ignoring = list()
 
 	var/clientfps = 0
@@ -1240,6 +1246,20 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if (href_list["tab"])
 						current_tab = text2num(href_list["tab"])
 
+				if("flavor_text")
+					flavor_text = stripped_multiline_input(usr, "¬ведите описание персонажа", "Set Flavor Text", copytext(sanitize_russian(flavor_text), 1, MAX_MESSAGE_LEN))
+					set_char_notes(user)
+
+				if("sec_notes")
+					sec_imp_notes = stripped_multiline_input(usr, "¬ведите важные заметки персонажа для —Ѕ", "Set Security Notes", copytext(sec_imp_notes, 1, MAX_MESSAGE_LEN))
+					sec_imp_notes = sanitize_russian(sec_imp_notes)
+					set_char_notes(user)
+
+				if("med_notes")
+					med_imp_notes = stripped_multiline_input(usr, "¬ведите важные заметки персонажа для медиков", "Set Medical Notes", copytext(med_imp_notes, 1, MAX_MESSAGE_LEN))
+					med_imp_notes = sanitize_russian(med_imp_notes)
+					set_char_notes(user)
+
 	ShowChoices(user)
 	return 1
 
@@ -1283,6 +1303,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	character.backbag = backbag
 
 	character.dna.features = features.Copy()
+	character.flavor_text = sanitize_russian(flavor_text)
+	character.sec_imp_notes = sec_imp_notes
+	character.med_imp_notes = med_imp_notes
 	character.dna.real_name = character.real_name
 	var/datum/species/chosen_species
 	if(pref_species != /datum/species/human && config.mutant_races)
@@ -1295,3 +1318,33 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 		character.update_body()
 		character.update_hair()
 		character.update_body_parts()
+
+/datum/preferences/proc/set_char_notes(user)
+	if(jobban_isbanned(user, "appearance"))
+		return
+
+	var/dat = ""
+
+	dat += "<BR><a href='?_src_=prefs;preference=flavor_text'><b>Flavor Text:</b></a><BR>"
+	if(lentext(copytext(sanitize_russian(flavor_text), 1, MAX_MESSAGE_LEN)) <= 160)
+		dat += "[copytext(sanitize_russian(flavor_text), 1, MAX_MESSAGE_LEN)]<BR>"
+	else
+		dat += "[copytext(sanitize_russian(flavor_text), 1, 160)]... <a href='?_src_=prefs;preference=flavor_text_more'>More...</a><BR>"
+
+	dat += "<BR><a href='?_src_=prefs;preference=sec_notes'><b>Security Important Notes:</b></a><BR>"
+	if(lentext(copytext(sec_imp_notes, 1, MAX_MESSAGE_LEN)) <= 160)
+		dat += "[copytext(sec_imp_notes, 1, MAX_MESSAGE_LEN)]<BR>"
+	else
+		dat += "[copytext(sec_imp_notes, 1, 160)]... <a href='?_src_=prefs;preference=sec_notes_more'>More...</a><BR>"
+
+	dat += "<BR><a href='?_src_=prefs;preference=med_notes'><b>Medical Important Notes:</b></a><BR>"
+	if(lentext(copytext(med_imp_notes, 1, MAX_MESSAGE_LEN)) <= 160)
+		dat += "[copytext(med_imp_notes, 1, MAX_MESSAGE_LEN)]<BR>"
+	else
+		dat += "[copytext(med_imp_notes, 1, 160)]... <a href='?_src_=prefs;preference=med_notes_more'>More...</a><BR>"
+
+	user << browse(null, "window=char_notes")
+	var/datum/browser/popup = new(user, "mob_notes", "<div align='center'>[real_name] Notes</div>", 400, 600)
+	popup.set_content(dat)
+	popup.open(0)
+	return 1

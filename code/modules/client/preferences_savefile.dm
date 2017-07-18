@@ -299,6 +299,11 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["deity_name"]			>> custom_names["deity"]
 	S["prefered_security_department"] >> prefered_security_department
 
+	S["flavor_text"] 		>> flavor_text
+	S["sec_imp_notes"]		>> sec_imp_notes
+	S["med_imp_notes"]		>> med_imp_notes
+	S["prefered_security_department"] >> prefered_security_department
+
 	//Jobs
 	S["joblessrole"]		>> joblessrole
 	S["job_civilian_high"]	>> job_civilian_high
@@ -413,6 +418,10 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["religion_name"]		<< custom_names["religion"]
 	S["deity_name"]			<< custom_names["deity"]
 	S["prefered_security_department"] << prefered_security_department
+
+	S["flavor_text"] 		>> flavor_text
+	S["sec_imp_notes"]		>> sec_imp_notes
+	S["med_imp_notes"]		>> med_imp_notes
 
 	//Jobs
 	S["joblessrole"]		<< joblessrole

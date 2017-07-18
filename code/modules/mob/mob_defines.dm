@@ -53,6 +53,10 @@
 	var/canmove = 1
 	var/lastpuke = 0
 
+	var/flavor_text = ""
+	var/sec_imp_notes = ""
+	var/med_imp_notes = ""
+
 	var/name_archive //For admin things like possession
 
 	var/timeofdeath = 0//Living
