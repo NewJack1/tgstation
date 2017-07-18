@@ -12,5 +12,4 @@ NeinCat = Lead Admin
 RedKnightHero = Game Master
 Cryptman = Game Master
 Nano_xXx = Badmin
-Lady Rainicorn = Admin Candidate
-ExecutiveCancer = Host
+Lady Rainicorn = Trial Admin

@@ -5,3 +5,5 @@
 
 	if(jobban_isbanned(usr, "appearance"))
 		return
+
+	update_flavor_text()

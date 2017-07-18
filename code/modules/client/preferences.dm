@@ -186,6 +186,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			dat += "<b>Gender:</b> <a href='?_src_=prefs;preference=gender'>[gender == MALE ? "Male" : "Female"]</a><BR>"
 			dat += "<b>Age:</b> <a href='?_src_=prefs;preference=age;task=input'>[age]</a><BR>"
 
+			dat += "<a href='?_src_=prefs;preference=set_char_notes'><b>Character Notes</b></a><BR>"
+
+
 			dat += "<b>Special Names:</b><BR>"
 			dat += "<a href ='?_src_=prefs;preference=clown_name;task=input'><b>Clown:</b> [custom_names["clown"]]</a> "
 			dat += "<a href ='?_src_=prefs;preference=mime_name;task=input'><b>Mime:</b>[custom_names["mime"]]</a><BR>"
@@ -1246,6 +1249,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if (href_list["tab"])
 						current_tab = text2num(href_list["tab"])
 
+				if("set_char_notes")
+					set_char_notes(user)
+
 				if("flavor_text")
 					flavor_text = stripped_multiline_input(usr, "Введите описание персонажа", "Set Flavor Text", copytext(sanitize_russian(flavor_text), 1, MAX_MESSAGE_LEN))
 					set_char_notes(user)
@@ -1326,22 +1332,10 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/dat = ""
 
 	dat += "<BR><a href='?_src_=prefs;preference=flavor_text'><b>Flavor Text:</b></a><BR>"
-	if(lentext(copytext(sanitize_russian(flavor_text), 1, MAX_MESSAGE_LEN)) <= 160)
+	if(lentext(copytext(sanitize_russian(flavor_text), 1, MAX_MESSAGE_LEN)) <= 400)
 		dat += "[copytext(sanitize_russian(flavor_text), 1, MAX_MESSAGE_LEN)]<BR>"
 	else
-		dat += "[copytext(sanitize_russian(flavor_text), 1, 160)]... <a href='?_src_=prefs;preference=flavor_text_more'>More...</a><BR>"
-
-	dat += "<BR><a href='?_src_=prefs;preference=sec_notes'><b>Security Important Notes:</b></a><BR>"
-	if(lentext(copytext(sec_imp_notes, 1, MAX_MESSAGE_LEN)) <= 160)
-		dat += "[copytext(sec_imp_notes, 1, MAX_MESSAGE_LEN)]<BR>"
-	else
-		dat += "[copytext(sec_imp_notes, 1, 160)]... <a href='?_src_=prefs;preference=sec_notes_more'>More...</a><BR>"
-
-	dat += "<BR><a href='?_src_=prefs;preference=med_notes'><b>Medical Important Notes:</b></a><BR>"
-	if(lentext(copytext(med_imp_notes, 1, MAX_MESSAGE_LEN)) <= 160)
-		dat += "[copytext(med_imp_notes, 1, MAX_MESSAGE_LEN)]<BR>"
-	else
-		dat += "[copytext(med_imp_notes, 1, 160)]... <a href='?_src_=prefs;preference=med_notes_more'>More...</a><BR>"
+		dat += "[copytext(sanitize_russian(flavor_text), 1, 400)]... <a href='?_src_=prefs;preference=flavor_text_more'>More...</a><BR>"
 
 	user << browse(null, "window=char_notes")
 	var/datum/browser/popup = new(user, "mob_notes", "<div align='center'>[real_name] Notes</div>", 400, 600)
