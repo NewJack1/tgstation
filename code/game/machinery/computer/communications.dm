@@ -52,11 +52,6 @@
 
 
 /obj/machinery/computer/communications/Topic(href, href_list)
-	if(..())
-		return
-	if (z != ZLEVEL_STATION && z != ZLEVEL_CENTCOM) //Can only use on centcom and SS13
-		to_chat(usr, "<span class='boldannounce'>Unable to establish a connection</span>: \black You're too far away from the station!")
-		return
 	usr.set_machine(src)
 
 	if(!href_list["operation"])
@@ -313,9 +308,9 @@
 				if(!input || !(usr in view(1,src)) || !checkCCcooldown())
 					return
 				Nuke_request(input, usr)
-				to_chat(usr, "<span class='notice'>Request sent.</span>")
-				log_talk(usr,"[key_name(usr)] has requested the nuclear codes from Centcomm",LOGSAY)
-				priority_announce("The codes for the on-station nuclear self-destruct have been requested by [usr]. Confirmation or denial of this request will be sent shortly.", "Nuclear Self Destruct Codes Requested",'sound/ai/commandreport.ogg')
+				to_chat(usr, "<span class='notice'>Запрос успешно отправлен.</span>")
+				log_talk(usr,"[key_name(usr)] успешно запросил код ядерного самоуничтожения у Центрального Командования.",LOGSAY)
+				priority_announce("Коды ядерного самоуничтожения успешно были запрошены пользователем [usr]. Подтверждение или отказ в данном запросе будет отправлено в ближайшее время.", "Код ядерного самоуничтожения успешно запрошен.",'sound/ai/commandreport.ogg')
 				CM.lastTimeUsed = world.time
 
 
@@ -404,11 +399,6 @@
 		playsound(src, 'sound/machines/terminal_alert.ogg', 50, 0)
 
 /obj/machinery/computer/communications/attack_hand(mob/user)
-	if(..())
-		return
-	if (src.z > 6)
-		to_chat(user, "<span class='boldannounce'>Unable to establish a connection</span>: \black You're too far away from the station!")
-		return
 
 	user.set_machine(src)
 	var/dat = ""
@@ -694,3 +684,38 @@
 /obj/machinery/computer/communications/proc/overrideCooldown()
 	var/obj/item/weapon/circuitboard/computer/communications/CM = circuit
 	CM.lastTimeUsed = 0
+
+// The syndicate communications computer
+/obj/machinery/computer/communications/syndicate
+	name = "syndicate communications console"
+	desc = "A console used for syndicate announcements and emergencies."
+	icon_screen = "tcboss"
+	icon_keyboard = "tech_key"
+	req_access = list(GLOB.access_syndicate_comms)
+	circuit = /obj/item/weapon/circuitboard/computer/communications
+	var/authenticated_syndicate = 0
+	var/auth_id_syndicate = "Unknown" //Who is currently logged in?
+	var/currmsg_syndicate = 0
+	var/message_cooldown_syndicate = 0
+	var/ai_message_cooldown_syndicate = 0
+	var/const/STATE_DEFAULT_syndicate = 1
+
+
+	var/stat_msg1_syndicate
+	var/stat_msg2_syndicate
+
+	light_color = LIGHT_COLOR_BLUE
+
+/obj/machinery/computer/communications/syndicate/proc/checkCCcooldown_syndicate()
+	var/obj/item/weapon/circuitboard/computer/communications/CM = circuit
+	if(CM.lastTimeUsed + 600 > world.time)
+		return FALSE
+	return TRUE
+
+/obj/machinery/computer/communications/syndicate/Topic(href, href_list)
+	if(..())
+		return
+	usr.set_machine(src)
+
+	if(!href_list["operation"])
+		return

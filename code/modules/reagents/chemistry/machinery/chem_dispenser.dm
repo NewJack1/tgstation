@@ -403,3 +403,43 @@
 		"ammonia",
 		"ash",
 		"diethylamine")
+
+/obj/machinery/chem_dispenser/syndicate
+	name = "syndicate chem dispenser"
+	desc = "Creates and dispenses chemicals."
+	anchored = 1
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "dispenser"
+	dispensable_reagents = list(
+		"hydrogen",
+		"lithium",
+		"carbon",
+		"nitrogen",
+		"oxygen",
+		"fluorine",
+		"sodium",
+		"aluminium",
+		"silicon",
+		"phosphorus",
+		"sulfur",
+		"chlorine",
+		"potassium",
+		"iron",
+		"copper",
+		"mercury",
+		"radium",
+		"water",
+		"ethanol",
+		"sugar",
+		"sacid",
+		"welding_fuel",
+		"silver",
+		"iodine",
+		"bromine",
+		"stable_plasma",
+		"space_drugs",
+		"morphine",
+		"carpotoxin",
+		"mine_salve",
+		"toxin"
+	)

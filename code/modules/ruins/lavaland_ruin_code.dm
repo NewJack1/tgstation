@@ -149,7 +149,7 @@
 	ears = /obj/item/device/radio/headset/syndicate/alt
 	back = /obj/item/weapon/storage/backpack
 	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
-	l_pocket = /obj/item/weapon/card/emag
+	l_pocket = /obj/item/weapon/crowbar/red
 	id = /obj/item/weapon/card/id
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
@@ -214,7 +214,7 @@
 	ears = /obj/item/device/radio/headset/syndicate/alt
 	back = /obj/item/weapon/storage/backpack
 	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
-	l_pocket = /obj/item/weapon/card/emag
+	l_pocket = /obj/item/weapon/crowbar/red
 	id = /obj/item/weapon/card/id/syndicate/botanist
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
@@ -244,7 +244,7 @@
 	ears = /obj/item/device/radio/headset/syndicate/alt
 	back = /obj/item/weapon/storage/backpack
 	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
-	l_pocket = /obj/item/weapon/card/emag
+	l_pocket = /obj/item/weapon/crowbar/red
 	id = /obj/item/weapon/card/id/syndicate/chemist
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
@@ -274,7 +274,7 @@
 	ears = /obj/item/device/radio/headset/syndicate/alt
 	back = /obj/item/weapon/storage/backpack
 	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
-	l_pocket = /obj/item/weapon/card/emag
+	l_pocket = /obj/item/weapon/crowbar/red
 	id = /obj/item/weapon/card/id/syndicate/virologist
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
@@ -305,6 +305,6 @@
 	ears = /obj/item/device/radio/headset/syndicate/alt
 	back = /obj/item/weapon/storage/backpack
 	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
-	l_pocket = /obj/item/weapon/card/emag
+	l_pocket = /obj/item/weapon/crowbar/red
 	id = /obj/item/weapon/card/id/syndicate/engineer
 	implants = list(/obj/item/weapon/implant/weapons_auth)

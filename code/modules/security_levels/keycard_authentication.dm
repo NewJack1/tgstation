@@ -114,7 +114,7 @@ GLOBAL_VAR_INIT(emergency_access, FALSE)
 		for(var/obj/machinery/door/airlock/D in A)
 			D.emergency = 1
 			D.update_icon(0)
-	minor_announce("Access restrictions on maintenance and external airlocks have been lifted.", "Attention! Station-wide emergency declared!",1)
+	minor_announce("Ограничения к доступу в технические тоннели и внешние шлюзы были отменены.", "Внимание! Объявлен режим чрезвычайной ситуации!",1)
 	GLOB.emergency_access = TRUE
 
 /proc/revoke_maint_all_access()
@@ -122,7 +122,7 @@ GLOBAL_VAR_INIT(emergency_access, FALSE)
 		for(var/obj/machinery/door/airlock/D in A)
 			D.emergency = 0
 			D.update_icon(0)
-	minor_announce("Access restrictions in maintenance areas have been restored.", "Attention! Station-wide emergency rescinded:")
+	minor_announce("Доступ в технические тоннели и внешние шлюзы был восстановлен.", "Внимание! Режим чрезвычайной ситуации отменен!")
 	GLOB.emergency_access = FALSE
 
 /proc/toggle_bluespace_artillery()
