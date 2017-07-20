@@ -5642,7 +5642,6 @@
 	},
 /area/syndicate/armory)
 "ly" = (
-/obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
