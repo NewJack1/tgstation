@@ -1531,6 +1531,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Syndicate Armory"
 	icon_state = "armory"
 
+/area/syndicate/atmos
+ 	name = "Syndicate Atmospherics"
+ 	icon_state = "atmos"
+ 	flags = NONE
+
 /////////////////////////////////////////////////////////////////////
 /*
  Lists of areas to be used with is_type_in_list.

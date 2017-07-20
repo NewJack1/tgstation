@@ -45170,7 +45170,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
 	})
@@ -45221,7 +45223,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
 	})
@@ -45241,7 +45245,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
 	})
@@ -45268,7 +45274,9 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
 	})
@@ -45278,7 +45286,9 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
 	})
@@ -45704,7 +45714,9 @@
 /obj/structure/sign/deathsposal{
 	pixel_x = -33
 	},
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
 	})
@@ -45712,7 +45724,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
 	})
@@ -45721,7 +45735,9 @@
 	icon_state = "pipe-j2";
 	dir = 4
 	},
-/turf/open/floor/plating/asteroid,
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
 	})
@@ -52690,6 +52706,55 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"cki" = (
+/obj/item/device/flashlight/lantern{
+	on = 1
+	},
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
+/area/chapel/asteroid{
+	name = "Monastery Asteroid"
+	})
+"ckj" = (
+/obj/item/device/flashlight/lantern{
+	on = 1
+	},
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
+/area/chapel/asteroid{
+	name = "Monastery Asteroid"
+	})
+"ckk" = (
+/obj/item/device/flashlight/lantern{
+	on = 1
+	},
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
+/area/chapel/asteroid{
+	name = "Monastery Asteroid"
+	})
+"ckl" = (
+/obj/item/device/flashlight/lantern{
+	on = 1
+	},
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
+/area/chapel/asteroid{
+	name = "Monastery Asteroid"
+	})
+"ckm" = (
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/ausbushes/reedbush,
+/turf/open/floor/plasteel/asteroid{
+	icon_plating = "asteroid"
+	},
+/area/chapel/asteroid{
+	name = "Monastery Asteroid"
+	})
 
 (1,1,1) = {"
 aaa
@@ -69292,14 +69357,14 @@ bJS
 bKN
 bLE
 bLE
-bNh
-bLD
-bLD
-bLD
-bNh
-bLD
-bLD
-bLD
+cki
+bNj
+bNj
+bNj
+ckk
+bNj
+bNj
+bNj
 bTq
 bUj
 bVg
@@ -70063,14 +70128,14 @@ bJV
 bKQ
 bLE
 bLE
-bNh
-bLD
-bLD
-bLD
-bNh
-bLD
-bLD
-bLD
+ckj
+bNj
+bNj
+bNj
+ckl
+bNj
+bNj
+bNj
 bTt
 bUj
 bVj
@@ -70326,8 +70391,8 @@ bNg
 bLD
 bNg
 bLD
-bNg
-bLD
+ckm
+bNj
 bTu
 bUj
 bUj
@@ -70583,9 +70648,9 @@ bLD
 bLD
 bLD
 bLD
-bLD
-bLD
-bTv
+bNj
+bNj
+bTs
 bUm
 bUj
 bUj
@@ -70840,11 +70905,11 @@ bLD
 bLD
 bPw
 bLD
-bLD
-bLD
-bTv
+bNj
+bNj
+bTs
 bUn
-bLD
+bNh
 bLD
 bRD
 bLD
@@ -71097,14 +71162,14 @@ bKM
 bLD
 bLD
 bLD
-bLD
-bLD
+bNj
+bNj
 bTw
 bUo
-bLD
-bLD
-bLD
-bLD
+bNj
+bNj
+bNj
+bNj
 bNj
 bYB
 bVi
@@ -71354,14 +71419,14 @@ bKM
 bKM
 bLD
 bLD
-bLD
-bLD
+bNj
+bNj
 bTx
 bUp
 bVk
 bVY
-bWI
-bWI
+bVY
+bVY
 bVY
 bYC
 bVi
@@ -71613,7 +71678,7 @@ bKM
 bKM
 bKM
 bRD
-bLD
+bNh
 bUq
 bVl
 bKM

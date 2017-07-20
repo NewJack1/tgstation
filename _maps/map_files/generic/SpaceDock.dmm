@@ -59,10 +59,10 @@
 /turf/open/space/basic,
 /area/syndicate/solars)
 "an" = (
-/obj/structure/lattice,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/lattice,
 /turf/open/space/basic,
 /area/syndicate/solars)
 "ao" = (
@@ -128,6 +128,12 @@
 	name = "skeletal minibar"
 	},
 /obj/item/weapon/book/manual/nuclear,
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
 /turf/open/floor/wood,
 /area/syndicate/bar)
 "aw" = (
@@ -141,6 +147,7 @@
 "ax" = (
 /obj/structure/bookcase/random,
 /obj/item/weapon/book/manual/nuclear,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/vault,
 /area/syndicate/sleeproom)
 "ay" = (
@@ -282,6 +289,9 @@
 /turf/open/floor/plasteel/grimy,
 /area/syndicate/sleeproom)
 "aM" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
 /turf/open/floor/plasteel/grimy,
 /area/syndicate/sleeproom)
 "aN" = (
@@ -297,6 +307,7 @@
 /area/syndicate/fore)
 "aP" = (
 /obj/structure/sign/securearea,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/shooting_gallery)
 "aQ" = (
@@ -393,16 +404,19 @@
 /turf/closed/mineral,
 /area/syndicate/fore)
 "bb" = (
-/obj/structure/lattice,
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/lattice,
 /turf/open/space/basic,
 /area/syndicate/solars)
 "bc" = (
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/open/space/basic,
+/obj/structure/cable,
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
 /area/syndicate/solars)
 "bd" = (
 /turf/closed/wall/mineral/plastitanium,
@@ -474,6 +488,7 @@
 /obj/item/weapon/lighter{
 	pixel_y = 3
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/wood,
 /area/syndicate/bar)
 "bn" = (
@@ -585,6 +600,7 @@
 	},
 /area/syndicate/sleeproom)
 "bz" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -654,6 +670,9 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -687,6 +706,9 @@
 	},
 /area/syndicate/bar)
 "bK" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
 "bL" = (
@@ -695,6 +717,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
 "bM" = (
@@ -702,14 +727,21 @@
 	name = "Dormitories";
 	req_access_txt = "150"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/sleeproom)
 "bN" = (
-/obj/structure/lattice,
-/obj/structure/grille/broken,
-/turf/open/space/basic,
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
 /area/syndicate/solars)
 "bO" = (
 /obj/structure/lattice/catwalk,
@@ -759,6 +791,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -773,6 +808,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -783,6 +821,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
 "bU" = (
@@ -790,6 +831,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -811,6 +855,10 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
 "bW" = (
@@ -823,6 +871,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -838,6 +889,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -847,6 +901,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -864,11 +921,17 @@
 	name = "syndicate camera";
 	network = list("Syndi Base")
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/sleeproom)
 "ca" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -877,6 +940,9 @@
 /obj/machinery/door/airlock/hatch{
 	name = "Bathroom";
 	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
@@ -903,6 +969,9 @@
 /area/syndicate/shooting_gallery)
 "ce" = (
 /obj/machinery/door/window/brigdoor,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -928,12 +997,18 @@
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/storage)
 "ch" = (
 /obj/machinery/vending/cigarette,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -947,6 +1022,9 @@
 /obj/structure/sign/deathsposal{
 	pixel_y = -35
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
 "cj" = (
@@ -958,12 +1036,17 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/bar)
 "ck" = (
 /obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel/black,
@@ -976,6 +1059,9 @@
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -985,10 +1071,16 @@
 	dir = 4
 	},
 /obj/machinery/computer/arcade/battle,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/bar)
 "cn" = (
 /obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /turf/closed/wall/mineral/plastitanium,
@@ -1001,6 +1093,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -1010,6 +1105,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -1024,12 +1122,23 @@
 	req_access = list(157)
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/sleeproom)
 "cr" = (
 /obj/machinery/light/small,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/airalarm{
+	dir = 1;
+	pixel_y = -22;
+	req_access = list(157)
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -1047,21 +1156,21 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/sleeproom)
 "cu" = (
-/obj/structure/lattice,
-/obj/machinery/light{
-	dir = 4
-	},
 /turf/open/space/basic,
 /area/syndicate/solars)
 "cv" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/gun/ballistic/automatic/c20r/toy/unrestricted,
 /obj/item/weapon/gun/ballistic/automatic/c20r/toy/unrestricted,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -1070,6 +1179,11 @@
 /obj/structure/table/reinforced,
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list(157)
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -1089,6 +1203,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -1098,6 +1213,7 @@
 	name = "Lounge";
 	req_access_txt = "150"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -1132,6 +1248,9 @@
 	req_access_txt = "150"
 	},
 /obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 8
 	},
 /turf/open/floor/plasteel/vault{
@@ -1231,6 +1350,12 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -1269,6 +1394,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 9
 	},
@@ -1281,6 +1407,7 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 5
 	},
@@ -1305,6 +1432,12 @@
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 30;
 	layer = 3.1
+	},
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
 	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/virology)
@@ -1362,7 +1495,6 @@
 	},
 /area/syndicate/virology)
 "da" = (
-/obj/structure/bed/roller,
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -1397,6 +1529,7 @@
 	icon_state = "0-4";
 	d2 = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -1407,6 +1540,9 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -1416,6 +1552,9 @@
 /obj/item/weapon/suppressor/specialoffer,
 /obj/item/weapon/gun/ballistic/automatic/toy/pistol/unrestricted,
 /obj/item/weapon/gun/ballistic/automatic/toy/pistol/unrestricted,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -1480,6 +1619,7 @@
 /area/syndicate/primary_central)
 "dn" = (
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
@@ -1543,8 +1683,8 @@
 /turf/open/space/basic,
 /area/syndicate/fore)
 "dw" = (
-/obj/structure/lattice,
 /obj/machinery/light,
+/obj/structure/lattice,
 /turf/open/space/basic,
 /area/syndicate/solars)
 "dx" = (
@@ -1557,6 +1697,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -1600,6 +1741,9 @@
 	id = "Syndi_Chemist_Window";
 	name = "Syndi Chemist Window";
 	req_access_txt = "153"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -1660,6 +1804,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plasteel/black,
 /area/syndicate/virology)
 "dG" = (
@@ -1764,6 +1909,7 @@
 	name = "syndicate camera";
 	network = list("Syndi Base")
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 5
 	},
@@ -1774,6 +1920,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -1786,6 +1933,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -1799,6 +1947,9 @@
 	},
 /area/syndicate/chemistry)
 "dT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/chemistry)
 "dU" = (
@@ -1847,6 +1998,7 @@
 	icon_state = "pipe-j2";
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
@@ -1884,6 +2036,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -1892,6 +2047,9 @@
 /obj/structure/disposalpipe/junction{
 	icon_state = "pipe-j2";
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -1991,6 +2149,16 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
 /turf/open/space/basic,
 /area/syndicate/solars)
 "ep" = (
@@ -2026,16 +2194,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/table,
-/obj/machinery/button/door{
-	id = "engineer_tools";
-	name = "Syndicate Engineer Tools Blast Doors Button";
-	normaldoorcontrol = 0;
-	pixel_x = 0;
-	pixel_y = 0;
-	req_access_txt = "156";
-	specialfunctions = 1
-	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2057,8 +2215,15 @@
 	dir = 5
 	},
 /obj/structure/table,
-/obj/item/weapon/storage/toolbox/syndicate,
-/obj/item/weapon/crowbar/red,
+/obj/machinery/button/door{
+	id = "engineer_tools";
+	name = "Syndicate Engineer Tools Blast Doors Button";
+	normaldoorcontrol = 0;
+	pixel_x = 0;
+	pixel_y = 0;
+	req_access_txt = "156";
+	specialfunctions = 1
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2071,6 +2236,7 @@
 /obj/item/target/alien,
 /obj/item/target/clown,
 /obj/item/target/clown,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 6
 	},
@@ -2080,6 +2246,9 @@
 	d1 = 1;
 	d2 = 4;
 	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -2091,6 +2260,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2170,6 +2340,12 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list(157)
+	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
@@ -2192,6 +2368,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2375,6 +2552,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2395,6 +2573,7 @@
 	},
 /area/syndicate/solars)
 "eZ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2413,7 +2592,12 @@
 	pixel_y = 3
 	},
 /obj/item/device/multitool,
-/obj/item/weapon/storage/belt/utility,
+/obj/item/weapon/storage/belt/utility/full,
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list(157)
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2437,6 +2621,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -2463,11 +2648,13 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 8
 	},
 /area/syndicate/primary_central)
 "fg" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
@@ -2487,6 +2674,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -2553,6 +2741,7 @@
 /obj/effect/mob_spawn/human/lavaland_syndicate/engineer{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2562,6 +2751,9 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -2576,6 +2768,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2585,16 +2780,26 @@
 	name = "Engineering";
 	req_access_txt = "156"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/solars)
 "fw" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 9
 	},
 /area/syndicate/primary_central)
 "fx" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 1
 	},
@@ -2605,6 +2810,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 1
 	},
@@ -2612,6 +2818,9 @@
 "fz" = (
 /obj/machinery/light/small{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 1
@@ -2623,22 +2832,33 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch/corner{
 	dir = 4
 	},
 /area/syndicate/primary_central)
 "fB" = (
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /turf/open/floor/plasteel/podhatch/corner{
 	dir = 8
 	},
 /area/syndicate/primary_central)
 "fC" = (
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 1
 	},
 /area/syndicate/primary_central)
 "fD" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 5
 	},
@@ -2647,6 +2867,9 @@
 /obj/machinery/door/airlock/hatch{
 	name = "Syndi Dock";
 	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -2657,6 +2880,9 @@
 	dir = 9
 	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2676,6 +2902,9 @@
 	pixel_y = 1;
 	d2 = 2
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2688,6 +2917,9 @@
 	dir = 1
 	},
 /obj/structure/chair,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2697,6 +2929,9 @@
 	dir = 1
 	},
 /obj/structure/chair,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2711,6 +2946,9 @@
 	dir = 2;
 	name = "syndicate camera";
 	network = list("Syndi Base")
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -2799,6 +3037,9 @@
 	name = "syndicate camera";
 	network = list("Syndi Base")
 	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 8
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2813,6 +3054,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -2846,6 +3090,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2863,6 +3110,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -2876,6 +3126,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 10
 	},
@@ -2887,6 +3138,9 @@
 	icon_state = "4-8"
 	},
 /obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel/podhatch,
@@ -2905,6 +3159,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
 "fW" = (
@@ -2915,6 +3172,9 @@
 	icon_state = "4-8"
 	},
 /obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel/podhatch,
@@ -2931,6 +3191,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
 "fY" = (
@@ -2952,6 +3213,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch/corner{
 	dir = 1
 	},
@@ -2963,6 +3225,10 @@
 	icon_state = "4-8"
 	},
 /obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel/podhatch/corner,
@@ -2977,6 +3243,9 @@
 	icon_state = "pipe-j2";
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
 "gb" = (
@@ -2990,6 +3259,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
 "gc" = (
@@ -2999,6 +3271,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
 "gd" = (
@@ -3006,6 +3281,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 1
 	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
@@ -3020,6 +3298,10 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/primary_central)
 "gf" = (
@@ -3027,6 +3309,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 6
@@ -3041,6 +3326,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 1
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -3058,6 +3346,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -3077,6 +3368,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/entry)
@@ -3135,6 +3429,7 @@
 	dir = 8
 	},
 /obj/structure/tank_dispenser/oxygen,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3214,6 +3509,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3251,6 +3547,11 @@
 /obj/machinery/light,
 /obj/structure/chair{
 	dir = 1
+	},
+/obj/machinery/airalarm{
+	dir = 1;
+	pixel_y = -22;
+	req_access = list(157)
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -3298,6 +3599,7 @@
 	dir = 10
 	},
 /obj/machinery/suit_storage_unit/syndicate,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3308,6 +3610,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3379,6 +3682,10 @@
 "gP" = (
 /obj/structure/fireplace,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/airalarm{
+	dir = 4;
+	pixel_x = -23
+	},
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
 "gQ" = (
@@ -3431,6 +3738,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3470,6 +3778,7 @@
 	name = "Gravity Generator Room";
 	req_access_txt = "156"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -3594,7 +3903,10 @@
 /turf/open/floor/carpet,
 /area/syndicate/communications_room)
 "hn" = (
-/obj/structure/closet/secure_closet/medical3,
+/obj/structure/closet/secure_closet/medical3{
+	req_access = list(150)
+	},
+/obj/item/weapon/defibrillator,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3655,6 +3967,10 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3702,6 +4018,9 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3711,6 +4030,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -3725,6 +4047,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -3746,6 +4071,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 8
 	},
@@ -3756,6 +4084,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
@@ -3771,6 +4100,9 @@
 	name = "Communications Room";
 	req_access_txt = "155"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -3783,6 +4115,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
 	},
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
@@ -3797,6 +4132,9 @@
 	},
 /obj/structure/chair/comfy/brown{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
 	},
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
@@ -3933,6 +4271,10 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3996,6 +4338,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
@@ -4009,6 +4352,7 @@
 	dir = 4;
 	pixel_x = -24
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
 "ib" = (
@@ -4017,6 +4361,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
 "ic" = (
@@ -4046,6 +4391,11 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/machinery/airalarm{
+	dir = 4;
+	pixel_x = -23;
+	req_access = list(157)
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -4056,6 +4406,9 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -4068,6 +4421,9 @@
 	},
 /obj/structure/mirror{
 	pixel_x = 30
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -4198,6 +4554,9 @@
 "it" = (
 /obj/structure/table/wood,
 /obj/item/device/flashlight/lamp,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
 "iu" = (
@@ -4205,6 +4564,9 @@
 	d1 = 1;
 	d2 = 4;
 	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
 	},
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
@@ -4224,6 +4586,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
 "iw" = (
@@ -4233,6 +4598,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
 "ix" = (
@@ -4240,6 +4608,9 @@
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
 	},
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
@@ -4280,6 +4651,9 @@
 /obj/item/weapon/hemostat,
 /obj/structure/table/reinforced,
 /obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
@@ -4369,6 +4743,11 @@
 /obj/item/weapon/grenade/chem_grenade/large,
 /obj/item/weapon/grenade/chem_grenade/large,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list(157)
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -4390,12 +4769,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/self_destruct_control)
 "iN" = (
 /obj/item/weapon/bombcore/large/underwall,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/medbay)
 "iO" = (
@@ -4454,6 +4835,10 @@
 	name = "syndicate camera";
 	network = list("Syndi Base")
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -4468,6 +4853,9 @@
 	},
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -26
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -4490,6 +4878,12 @@
 /area/syndicate/hydroponics)
 "iZ" = (
 /obj/machinery/plantgenes,
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
 /turf/open/floor/plasteel/green/side{
 	dir = 9
 	},
@@ -4511,13 +4905,16 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/self_destruct_control)
 "jc" = (
-/obj/item/stack/sheet/mineral/wood/fifty{
-	step_y = 0
+/obj/structure/closet/crate{
+	icon_state = "crateopen";
+	opened = 1
 	},
 /obj/item/stack/sheet/mineral/wood/fifty{
 	step_y = 0
 	},
-/obj/structure/closet/crate,
+/obj/item/stack/sheet/mineral/wood/fifty{
+	step_y = 0
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -4528,12 +4925,16 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/circuit/red,
 /area/syndicate/self_destruct_control)
 "je" = (
 /obj/item/weapon/twohanded/required/kirbyplants{
 	icon_state = "plant-08";
 	layer = 4.1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -4579,6 +4980,9 @@
 "ji" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/syndicate/test_area)
 "jj" = (
@@ -4587,6 +4991,9 @@
 	id = "Monkey5";
 	name = "Monkey5";
 	req_access_txt = "150"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
@@ -4625,6 +5032,13 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
+/obj/machinery/airalarm{
+	dir = 4;
+	pixel_x = -23
+	},
 /turf/open/floor/circuit/red,
 /area/syndicate/self_destruct_control)
 "jo" = (
@@ -4639,6 +5053,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/circuit/red,
 /area/syndicate/self_destruct_control)
 "jp" = (
@@ -4646,6 +5061,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
 /turf/open/floor/circuit/red,
 /area/syndicate/self_destruct_control)
@@ -4719,6 +5137,7 @@
 /obj/structure/sign/botany{
 	pixel_x = 33
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 6
 	},
@@ -4728,6 +5147,9 @@
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
 	},
 /turf/open/floor/plasteel/green/side{
 	dir = 10
@@ -4746,6 +5168,9 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
 /turf/open/floor/plasteel/green/side{
 	dir = 6
 	},
@@ -4756,6 +5181,9 @@
 	dir = 1;
 	name = "syndicate camera";
 	network = list("Syndi Base")
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -4809,6 +5237,7 @@
 	name = "Hydroponics";
 	req_access_txt = "152"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/syndicate/hydroponics)
 "jH" = (
@@ -4882,16 +5311,18 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/syndicate/hydroponics)
 "jR" = (
-/obj/structure/sink{
-	pixel_y = 30
-	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/smartfridge{
+	density = 0;
+	pixel_y = 32
 	},
 /turf/open/floor/plasteel/green/side{
 	dir = 1
@@ -4903,6 +5334,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/green/side{
 	dir = 1
 	},
@@ -4916,8 +5348,9 @@
 	},
 /area/syndicate/hydroponics)
 "jU" = (
-/obj/machinery/light{
-	dir = 8
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
 	},
 /turf/open/floor/plasteel/green/side{
 	dir = 8
@@ -4965,6 +5398,7 @@
 /obj/item/weapon/reagent_containers/glass/bucket,
 /obj/item/weapon/reagent_containers/glass/bucket,
 /obj/item/weapon/wirecutters,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
 "kc" = (
@@ -4978,6 +5412,7 @@
 /turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
 "kd" = (
+/obj/machinery/smartfridge/drying_rack,
 /turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
 "ke" = (
@@ -5069,12 +5504,18 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
 /area/syndicate/gravity_generator)
 "ko" = (
-/obj/machinery/smartfridge,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/hydroponics)
 "kp" = (
@@ -5120,6 +5561,9 @@
 	name = "RADIOACTIVE AREA";
 	pixel_x = -32
 	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
 "kv" = (
@@ -5144,6 +5588,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
 "kx" = (
@@ -5208,6 +5653,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 6
+	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
 "kE" = (
@@ -5221,6 +5669,9 @@
 	d1 = 1;
 	d2 = 8;
 	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
 	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
@@ -5255,6 +5706,9 @@
 /area/syndicate/gravity_generator)
 "kJ" = (
 /obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/syndicate/gravity_generator)
 "kK" = (
@@ -5424,6 +5878,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 8
 	},
@@ -5442,6 +5897,7 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 8
 	},
@@ -5468,6 +5924,10 @@
 	req_access_txt = "156";
 	specialfunctions = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -5483,6 +5943,12 @@
 /obj/item/device/multitool,
 /obj/item/device/multitool,
 /obj/item/device/multitool,
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -5500,6 +5966,7 @@
 	},
 /area/syndicate/armory)
 "lh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/armory)
 "li" = (
@@ -5512,6 +5979,12 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -5522,11 +5995,17 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/armory)
 "lk" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/armory)
 "ll" = (
@@ -5551,12 +6030,15 @@
 	},
 /area/syndicate/armory)
 "lo" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/black,
 /area/syndicate/armory)
 "lp" = (
 /turf/open/floor/mech_bay_recharge_floor,
 /area/syndicate/armory)
 "lq" = (
+/obj/structure/sign/securearea,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/armory)
 "lr" = (
@@ -5570,6 +6052,10 @@
 	},
 /area/syndicate/armory)
 "ls" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/armory)
 "lt" = (
@@ -5577,11 +6063,17 @@
 	dir = 4
 	},
 /obj/machinery/computer/mech_bay_power_console,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/armory)
 "lu" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/armory)
 "lv" = (
@@ -5642,6 +6134,9 @@
 	},
 /area/syndicate/armory)
 "ly" = (
+/obj/structure/table,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -5740,12 +6235,18 @@
 /turf/open/floor/plasteel/black,
 /area/syndicate/armory)
 "lJ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/armory)
 "lK" = (
 /obj/structure/extinguisher_cabinet{
 	dir = 4;
 	pixel_x = 24
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -5847,6 +6348,9 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/armory)
 "lU" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/armory)
 "lV" = (
@@ -5868,8 +6372,4353 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/armory)
 "mb" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/armory)
+"mc" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"md" = (
+/obj/item/weapon/bombcore/large/underwall,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"me" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"mf" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"mg" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"mh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"mi" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"mj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"mk" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"ml" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mm" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mn" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mo" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mp" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mq" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mr" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"ms" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mt" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mu" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mv" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mw" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mx" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"my" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mz" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mA" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mB" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mC" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mD" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mE" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mF" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mG" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"mH" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mI" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"mJ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"mK" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"mL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mM" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mN" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mO" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mP" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mQ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mR" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mS" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mT" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mU" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mV" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mW" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mX" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mY" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"mZ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"na" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nb" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nc" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nd" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"ne" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nf" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"ng" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"nh" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"ni" = (
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/storage)
+"nj" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate/bar)
+"nk" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate/bar)
+"nl" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/syndicate/bar)
+"nm" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"nn" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/grimy,
+/area/syndicate/sleeproom)
+"no" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/grimy,
+/area/syndicate/sleeproom)
+"np" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"nq" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nr" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"ns" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nt" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nu" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nv" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nw" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nx" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"ny" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nz" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nA" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nB" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nC" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nD" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nE" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nF" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nG" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nH" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nI" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"nJ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/grimy,
+/area/syndicate/sleeproom)
+"nK" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/grimy,
+/area/syndicate/sleeproom)
+"nL" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"nM" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nN" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nO" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nP" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nQ" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nR" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nS" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nT" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nU" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nV" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nW" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"nX" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"nY" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"nZ" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oa" = (
+/obj/structure/chair/stool/bar,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/bar)
+"ob" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"oc" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"od" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"oe" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"of" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"og" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/syndicate/shooting_gallery)
+"oi" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/shooting_gallery)
+"oj" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/bar)
+"ok" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/bar)
+"ol" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/bar)
+"om" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"on" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"oo" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"op" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oq" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"or" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"os" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
+/area/syndicate/shooting_gallery)
+"ot" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage)
+"ou" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/bar)
+"ov" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/sleeproom)
+"ow" = (
+/obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/sleeproom)
+"ox" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/sleeproom)
+"oy" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/sleeproom)
+"oz" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"oA" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oB" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"oC" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oD" = (
+/obj/structure/window/reinforced,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/shooting_gallery)
+"oE" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage)
+"oF" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/storage)
+"oG" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/storage)
+"oH" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"oI" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oJ" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oK" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oL" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oM" = (
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oN" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/syndicate/shooting_gallery)
+"oO" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"oP" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oQ" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"oR" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/shooting_gallery)
+"oS" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"oT" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oU" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"oV" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
+/area/syndicate/primary_central)
+"oW" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"oX" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"oY" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"oZ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/chemistry)
+"pa" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/chemistry)
+"pb" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
+/area/syndicate/primary_central)
+"pc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel/black,
+/area/syndicate/virology)
+"pd" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"pe" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pf" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"pg" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"ph" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/chemistry)
+"pi" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/virology)
+"pj" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plating,
+/area/syndicate/virology)
+"pk" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pl" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pm" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pn" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"po" = (
+/obj/structure/cable{
+	icon_state = "0-4";
+	d2 = 4
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pp" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pq" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pr" = (
+/obj/structure/cable{
+	icon_state = "0-4";
+	d2 = 4
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"ps" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pt" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pu" = (
+/obj/structure/cable{
+	icon_state = "0-4";
+	d2 = 4
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pv" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pw" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"px" = (
+/obj/structure/cable{
+	icon_state = "0-4";
+	d2 = 4
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"py" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pz" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pA" = (
+/obj/structure/cable{
+	icon_state = "0-4";
+	d2 = 4
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pB" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/space)
+"pC" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tools";
+	name = "Syndicate Engineer Tools Blast Door";
+	opacity = 0
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate/solars)
+"pD" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tools";
+	name = "Syndicate Engineer Tools Blast Door";
+	opacity = 0
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate/solars)
+"pE" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tools";
+	name = "Syndicate Engineer Tools Blast Door";
+	opacity = 0
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate/solars)
+"pF" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/shooting_gallery)
+"pG" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plating,
+/area/syndicate/virology)
+"pH" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pI" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pJ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pK" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pL" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/shooting_gallery)
+"pM" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/virology)
+"pN" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"pO" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pP" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pQ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pR" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pS" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pT" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"pU" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tools";
+	name = "Syndicate Engineer Tools Blast Door";
+	opacity = 0
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate/solars)
+"pV" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tools";
+	name = "Syndicate Engineer Tools Blast Door";
+	opacity = 0
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate/solars)
+"pW" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tools";
+	name = "Syndicate Engineer Tools Blast Door";
+	opacity = 0
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate/solars)
+"pX" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/solars)
+"pY" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel/podhatch{
+	dir = 1
+	},
+/area/syndicate/primary_central)
+"pZ" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/plasteel/podhatch{
+	dir = 1
+	},
+/area/syndicate/primary_central)
+"qa" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/podhatch{
+	dir = 1
+	},
+/area/syndicate/primary_central)
+"qb" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/turf/open/floor/plasteel/podhatch{
+	dir = 1
+	},
+/area/syndicate/primary_central)
+"qc" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"qd" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"qe" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"qf" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"qg" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/solars)
+"qh" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/podhatch,
+/area/syndicate/primary_central)
+"qi" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/podhatch,
+/area/syndicate/primary_central)
+"qj" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
+/turf/open/floor/plasteel/podhatch,
+/area/syndicate/primary_central)
+"qk" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/podhatch,
+/area/syndicate/primary_central)
+"ql" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/entry)
+"qm" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/entry)
+"qn" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/entry)
+"qo" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"qp" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"qq" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"qr" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tools";
+	name = "Syndicate Engineer Tools Blast Door";
+	opacity = 0
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate/solars)
+"qs" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/solars)
+"qt" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "boss";
+	name = "Boss Shutters"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plating,
+/area/syndicate/communications_room)
+"qu" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/entry)
+"qv" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"qw" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"qx" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
+"qy" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
+/area/syndicate/primary_central)
+"qz" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate/communications_room)
+"qA" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/entry)
+"qB" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"qC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"qD" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/syndicate/solars)
+"qE" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/gravity_generator)
+"qF" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/medbay)
+"qG" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"qH" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"qI" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"qJ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/medbay)
+"qK" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"qL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"qM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"qN" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/test_area)
+"qO" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/medbay)
+"qP" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"qQ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"qR" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"qS" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/test_area)
+"qT" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
+/area/syndicate/primary_central)
+"qU" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/medbay)
+"qV" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"qW" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"qX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"qY" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/test_area)
+"qZ" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"ra" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rb" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rc" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rd" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"re" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rf" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rg" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"rh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/test_area)
+"ri" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/test_area)
+"rj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/self_destruct_control)
+"rk" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"rl" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rm" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"rn" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"ro" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"rp" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rq" = (
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"rr" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rs" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rt" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"ru" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"rv" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4;
+	icon_state = "pipe-c"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/test_area)
+"rw" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/test_area)
+"rx" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/test_area)
+"ry" = (
+/obj/item/weapon/bombcore/large/underwall,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/test_area)
+"rz" = (
+/obj/structure/disposalpipe/junction{
+	icon_state = "pipe-j2";
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/test_area)
+"rA" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/solar{
+	id = "portsolar";
+	name = "Port Solar Array"
+	},
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/syndicate/solars)
+"rB" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rD" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rE" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rF" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rG" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rH" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rI" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rJ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rK" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rM" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rN" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rO" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rP" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rQ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rR" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rS" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rT" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rU" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rV" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/space/basic,
+/area/syndicate/solars)
+"rW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"rX" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"rY" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"rZ" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sa" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sb" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "Syndicate Atmos Maintenance APC";
+	pixel_y = 24;
+	req_access = list(157)
+	},
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/structure/table,
+/obj/item/stack/rods{
+	amount = 50
+	},
+/obj/item/stack/rods{
+	amount = 50
+	},
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sc" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sd" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"se" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"sf" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/plating,
+/area/syndicate/test_area)
+"sg" = (
+/obj/item/weapon/banhammer,
+/obj/item/clothing/head/helmet/knight/templar{
+	name = "RedKnight's Helmet"
+	},
+/turf/open/floor/plating,
+/area/syndicate/test_area)
+"sh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/self_destruct_control)
+"si" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"sj" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"sk" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance{
+	name = "Syndicate Atmos Maintenance";
+	req_access_txt = "0";
+	req_one_access_txt = "156"
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sl" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sm" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sn" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"so" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sp" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/machinery/camera{
+	c_tag = "Atmos Room";
+	dir = 8;
+	name = "syndicate camera";
+	network = list("Syndi Base")
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sq" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Hydroponics";
+	req_access_txt = "152"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel,
+/area/syndicate/hydroponics)
+"sr" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/self_destruct_control)
+"ss" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/armory)
+"st" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"su" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"sv" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"sw" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 1;
+	name = "Air Out";
+	on = 1
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -24
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sx" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sy" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/item/weapon/wrench,
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sz" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sA" = (
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/structure/cable,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sB" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/armory)
+"sC" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"sD" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"sE" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/general/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sF" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/general/hidden{
+	dir = 1
+	},
+/obj/machinery/meter,
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sG" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/general/hidden{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sH" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sI" = (
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sJ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel,
+/area/syndicate/hydroponics)
+"sK" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/syndicate/hydroponics)
+"sL" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plasteel,
+/area/syndicate/hydroponics)
+"sM" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/syndicate/hydroponics)
+"sN" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
+/area/syndicate/hydroponics)
+"sO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"sP" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/gravity_generator)
+"sQ" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"sR" = (
+/obj/machinery/atmospherics/components/unary/tank/air{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sS" = (
+/obj/machinery/atmospherics/components/unary/tank/air{
+	dir = 1
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sT" = (
+/obj/machinery/atmospherics/components/unary/tank/air{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sU" = (
+/obj/structure/closet/firecloset,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plating,
+/area/syndicate/atmos)
+"sV" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"sW" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/gravity_generator)
+"sX" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/gravity_generator)
+"sY" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/gravity_generator)
+"sZ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"ta" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"tb" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"tc" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"td" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"te" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/atmos)
+"tf" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/hydroponics)
+"tg" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/hydroponics)
+"th" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"ti" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"tj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"tk" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"tl" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"tm" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
 
 (1,1,1) = {"
 aa
@@ -31949,33 +36798,33 @@ ac
 af
 ac
 am
-aa
-aa
-aa
-aa
 am
-aa
-aa
-aa
-aa
-aa
-aa
+mK
+nq
+nM
+od
+oo
+oz
+oH
+oO
+oS
+oW
+pd
+pk
+eS
+pN
+qc
+qo
+qv
+qB
+qG
+qK
+qP
+qV
+qZ
+rk
+rA
 am
-aa
-am
-aa
-am
-aa
-aa
-aa
-aa
-aa
-aa
-am
-aa
-aa
-aa
-aa
 am
 ad
 ac
@@ -32206,33 +37055,33 @@ ac
 ac
 ac
 am
-aa
-aa
-aa
-aa
-am
-aa
-aa
-aa
-aa
-aa
-aa
+ml
+mL
+nr
+nN
+oe
+op
+oA
+oI
+oP
+oT
+oX
+pe
+pl
+pH
+pO
+qd
+qp
+qw
+qC
+qH
+qL
+qQ
+qW
+ra
+rl
+rB
 bc
-am
-eS
-am
-bc
-aa
-aa
-aa
-aa
-aa
-aa
-am
-aa
-aa
-aa
-aa
 am
 ac
 ac
@@ -32463,33 +37312,33 @@ ad
 ac
 ac
 an
-aa
-aa
-bc
-bc
-am
-bN
-bc
-bc
-am
-am
-bN
-bc
-aa
+mm
+mM
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+pm
 eT
-aa
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+rC
 bc
-bc
-am
-am
-bN
-bc
-bc
-bN
-bc
-bc
-aa
-aa
 dw
 ac
 ac
@@ -32720,33 +37569,33 @@ ac
 ac
 ac
 am
-am
-am
-bc
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-eT
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mn
+mN
 bc
 am
 am
+am
+am
+am
+am
+am
+am
+am
+pn
+eU
+bc
+am
+am
+am
+am
+am
+am
+am
+am
+am
+rm
+rD
+bc
 am
 ac
 ad
@@ -32977,10 +37826,10 @@ ad
 ac
 ac
 am
-aa
-aa
-bc
-aa
+mo
+mO
+ns
+nO
 bB
 bB
 bB
@@ -32989,9 +37838,8 @@ bB
 bB
 bB
 bB
-aa
+po
 eT
-aa
 bB
 bB
 bB
@@ -33000,10 +37848,11 @@ bB
 bB
 bB
 bB
-aa
-am
-aa
-aa
+bB
+bB
+bB
+rE
+bc
 am
 ac
 ac
@@ -33234,11 +38083,11 @@ ac
 ac
 ad
 an
-aa
-aa
-bc
-am
-bC
+mp
+mP
+nt
+nP
+bO
 bO
 bO
 bO
@@ -33248,7 +38097,7 @@ bO
 bO
 eo
 eU
-eo
+pP
 fO
 fO
 fO
@@ -33256,11 +38105,11 @@ fO
 fO
 fO
 fO
-iI
-am
-am
-aa
-aa
+fO
+rb
+rn
+rF
+bc
 dw
 ac
 ac
@@ -33491,10 +38340,8 @@ ac
 ad
 ac
 am
-aa
-aa
-bc
-aa
+mq
+mQ
 bD
 bD
 bD
@@ -33503,21 +38350,23 @@ bD
 bD
 bD
 bD
-aa
+bD
+bD
+pp
 eT
-aa
-bE
-bE
-bE
-bE
-bE
-bE
-bE
 bD
-aa
-am
-aa
-aa
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+rG
+bc
 am
 ac
 ac
@@ -33748,33 +38597,33 @@ ae
 ac
 ac
 am
-aa
-aa
+mr
+mR
 bc
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-eT
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+am
+am
+am
+am
+am
+am
+am
+am
+am
+pq
+eU
 bc
-aa
-aa
+am
+am
+am
+am
+am
+am
+am
+am
+am
+ro
+rH
+bc
 am
 ac
 ad
@@ -34005,10 +38854,10 @@ ad
 ad
 ac
 am
-aa
-aa
-am
-aa
+ms
+mS
+nu
+nQ
 bB
 bB
 bB
@@ -34017,9 +38866,8 @@ bB
 bB
 bB
 bB
-aa
+pr
 eT
-aa
 bB
 bB
 bB
@@ -34028,10 +38876,11 @@ bB
 bB
 bB
 bB
-aa
+bB
+bB
+bB
+rI
 bc
-aa
-aa
 am
 ac
 ac
@@ -34261,12 +39110,12 @@ ad
 ac
 ad
 ac
-ao
-am
-am
-am
-am
-bC
+an
+mt
+mT
+nv
+nR
+bO
 bO
 bO
 bO
@@ -34276,7 +39125,7 @@ bO
 bO
 eo
 eU
-eo
+pQ
 fO
 fO
 fO
@@ -34284,11 +39133,11 @@ fO
 fO
 fO
 fO
-iI
-am
+fO
+rc
+rp
+rJ
 bc
-am
-am
 dw
 ac
 ac
@@ -34519,10 +39368,8 @@ ac
 ad
 ac
 am
-aa
-aa
-bc
-aa
+mu
+mU
 bD
 bD
 bD
@@ -34531,21 +39378,23 @@ bD
 bD
 bD
 bD
-aa
+bD
+bD
+ps
 eT
-aa
-bE
-bE
-bE
-bE
-bE
-bE
-bE
 bD
-aa
-bN
-aa
-aa
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+rK
+bc
 am
 ac
 ad
@@ -34776,33 +39625,33 @@ ac
 ac
 ac
 am
-aa
-aa
-am
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-eT
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mv
+mV
 bc
-aa
-aa
+am
+am
+am
+am
+am
+am
+am
+am
+am
+pt
+pI
+bc
+am
+am
+am
+am
+am
+am
+am
+am
+am
+rq
+rL
+bc
 am
 ac
 ac
@@ -35033,10 +39882,10 @@ ac
 ad
 ac
 am
-aa
-aa
-am
-aa
+mw
+mW
+nw
+nS
 bB
 bB
 bB
@@ -35045,9 +39894,8 @@ bB
 bB
 bB
 bB
-aa
+pu
 eT
-aa
 bB
 bB
 bB
@@ -35056,10 +39904,11 @@ bB
 bB
 bB
 bB
-aa
+bB
+bB
+bB
+rM
 bc
-aa
-aa
 am
 ac
 ad
@@ -35289,12 +40138,12 @@ ac
 ac
 ac
 ac
-ao
-am
-am
-am
-am
-bC
+an
+mx
+mX
+nx
+nT
+bO
 bO
 bO
 bO
@@ -35304,7 +40153,7 @@ bO
 bO
 eo
 eU
-eo
+pR
 fO
 fO
 fO
@@ -35312,11 +40161,11 @@ fO
 fO
 fO
 fO
-iI
-am
+fO
+rd
+rr
+rN
 bc
-am
-am
 dw
 ac
 ad
@@ -35547,10 +40396,8 @@ ad
 ac
 ad
 am
-aa
-aa
-bc
-aa
+my
+mY
 bD
 bD
 bD
@@ -35559,21 +40406,23 @@ bD
 bD
 bD
 bD
-aa
+bD
+bD
+pv
 eT
-aa
-bE
-bE
-bE
-bE
-bE
-bE
-bE
 bD
-aa
-bN
-aa
-aa
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+rO
+bc
 am
 ac
 ad
@@ -35804,33 +40653,33 @@ af
 ac
 ac
 am
-aa
-aa
+mz
+mZ
 bc
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-eT
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+am
+am
+am
+am
+am
+am
+am
+am
+am
+pw
+pJ
+bc
+am
+am
+am
+am
+am
+am
+am
+am
+am
 bN
-aa
-aa
+rP
+bc
 am
 ac
 ac
@@ -36061,10 +40910,10 @@ ac
 ac
 ac
 am
-aa
-aa
-bc
-aa
+mA
+na
+ny
+nU
 bB
 bB
 bB
@@ -36073,9 +40922,8 @@ bB
 bB
 bB
 bB
-aa
+px
 eT
-aa
 bB
 bB
 bB
@@ -36084,10 +40932,11 @@ bB
 bB
 bB
 bB
-aa
+bB
+bB
+bB
+rQ
 bc
-aa
-aa
 am
 ac
 ac
@@ -36317,12 +41166,12 @@ ac
 ad
 ad
 ac
-ao
-am
-am
-bc
-am
-bC
+an
+mB
+nb
+nz
+nV
+bO
 bO
 bO
 bO
@@ -36332,7 +41181,7 @@ bO
 bO
 eo
 eU
-eo
+pS
 fO
 fO
 fO
@@ -36340,11 +41189,11 @@ fO
 fO
 fO
 fO
-iI
-am
+fO
+re
+rs
+rR
 bc
-am
-am
 dw
 ad
 ac
@@ -36575,33 +41424,33 @@ ac
 ac
 ad
 am
-aa
-aa
-am
-aa
-bE
-bE
-bE
-bE
-bE
-bE
-bE
+mC
+nc
 bD
-aa
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+py
 eT
-aa
-bE
-bE
-bE
-bE
-bE
-bE
-bE
 bD
-aa
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+rS
 bc
-aa
-aa
 am
 ac
 ac
@@ -36832,33 +41681,33 @@ ac
 ad
 ac
 am
-aa
-aa
+mD
+nd
 bc
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-eT
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+am
+am
+am
+am
+am
+am
+am
+am
+am
+pz
+pK
 bc
-aa
-aa
+am
+am
+am
+am
+am
+am
+am
+am
+am
+bN
+rT
+bc
 am
 ac
 gZ
@@ -37089,10 +41938,10 @@ ad
 ac
 ac
 am
-aa
-aa
-bc
-aa
+mE
+ne
+nA
+nW
 bB
 bB
 bB
@@ -37101,9 +41950,8 @@ bB
 bB
 bB
 bB
-aa
+pA
 eT
-aa
 bB
 bB
 bB
@@ -37112,10 +41960,11 @@ bB
 bB
 bB
 bB
-aa
+bB
+bB
+bB
+rU
 bc
-aa
-aa
 am
 ac
 gZ
@@ -37345,12 +42194,12 @@ ac
 ad
 ac
 ac
-ao
-am
-am
-bc
-am
-bC
+an
+mF
+nf
+nB
+nX
+bO
 bO
 bO
 bO
@@ -37360,7 +42209,7 @@ bO
 bO
 eo
 eU
-eo
+pT
 fO
 fO
 fO
@@ -37368,15 +42217,15 @@ fO
 fO
 fO
 fO
-iI
-am
-bN
-am
-am
+fO
+rf
+rt
+rV
+bc
 dw
 ac
 gZ
-kk
+sW
 kq
 kr
 ks
@@ -37603,33 +42452,33 @@ ac
 ac
 ad
 am
-aa
-aa
-bc
-aa
-bE
-bE
-bE
-bE
-bE
-bE
-bE
+am
 bD
-aa
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+pB
 eT
-aa
-bE
-bE
-bE
-bE
-bE
-bE
-bE
 bD
-aa
-bc
-aa
-aa
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+bD
+am
 am
 ac
 gZ
@@ -37860,33 +42709,33 @@ af
 ac
 ac
 am
-aa
-aa
 am
-aa
-aa
-aa
-aa
 am
-aa
-aa
-aa
-aa
-aa
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
 eT
-aa
-aa
-aa
-aa
 am
-aa
-aa
-aa
-aa
-aa
 am
-aa
-aa
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
 am
 ad
 gZ
@@ -38119,20 +42968,20 @@ ac
 am
 aa
 aa
-bc
+nC
 aa
 aa
 aa
 aa
-am
+oJ
 aa
 aa
 aa
-aa
-dO
+pf
+pC
 eV
-dO
-aa
+pU
+qe
 aa
 aa
 am
@@ -38141,7 +42990,7 @@ aa
 aa
 aa
 aa
-bN
+cu
 aa
 aa
 am
@@ -38374,33 +43223,33 @@ ac
 ac
 ac
 am
-aa
-aa
+mG
+ng
+nD
+nY
+of
+oq
+oB
 am
-aa
-aa
-aa
-aa
-am
-aa
-aa
-aa
-aa
-dO
+oQ
+oU
+oY
+pg
+pD
 eW
-dO
-aa
-aa
-aa
-cu
-aa
-aa
-aa
-aa
-aa
-bc
-aa
-aa
+pV
+qf
+qq
+qx
+qD
+am
+am
+am
+am
+am
+am
+am
+am
 am
 ac
 gZ
@@ -38630,38 +43479,38 @@ ad
 ac
 ad
 ac
-ao
-am
-am
-bc
-am
-am
-am
-am
-am
-am
-am
-dw
+bd
 dN
-dO
+bd
+bd
+bd
+bd
+bd
+bd
+bd
+bd
+bd
+bd
+dN
+pE
 eV
-dO
+pW
 bd
-dO
+qr
 bd
-dN
-am
-am
-am
-am
-am
-bc
-am
-am
-dw
-ac
+jD
+hv
+hv
+hv
+hv
+hv
+hv
+hv
+hv
+hv
 gZ
 gZ
+sX
 ku
 kC
 kI
@@ -38887,15 +43736,15 @@ ad
 ac
 ac
 ac
-am
+bd
 aa
 aa
-bc
+nE
 aa
 aa
 aa
 aa
-am
+oK
 aa
 aa
 aa
@@ -38906,19 +43755,19 @@ fs
 fP
 gn
 gH
-gZ
-hv
-hv
-hv
-hv
-hv
-hv
-hv
-hv
-hv
-gZ
-gZ
-gZ
+qE
+qI
+qM
+qR
+qX
+rg
+ru
+rW
+si
+st
+sC
+sO
+sY
 kv
 kD
 kJ
@@ -39144,15 +43993,15 @@ ad
 ac
 ac
 ad
-am
+bd
 aa
 aa
-bc
+nF
 aa
 aa
 aa
 aa
-am
+oL
 aa
 aa
 aa
@@ -39160,8 +44009,8 @@ dO
 eq
 eY
 ft
-ft
-ft
+qg
+qs
 gI
 ha
 hw
@@ -39169,12 +44018,12 @@ ld
 hT
 hT
 iU
-jh
 hT
-hT
-hT
-lD
-hT
+rX
+sj
+su
+ld
+sP
 kn
 kw
 kE
@@ -39401,22 +44250,22 @@ ac
 ac
 ac
 ac
-am
+bd
 aa
 aa
-bc
-aa
-aa
-aa
-aa
-am
+nG
 aa
 aa
 aa
-dO
+aa
+oM
+aa
+aa
+aa
+bd
 er
 eZ
-eZ
+pX
 fQ
 go
 gJ
@@ -39424,15 +44273,15 @@ gZ
 hx
 gZ
 gZ
-gZ
-gZ
-gZ
-gZ
 jD
 gZ
 gZ
-gZ
-gZ
+rY
+sk
+sv
+sD
+sQ
+sZ
 gZ
 kF
 gZ
@@ -39658,18 +44507,18 @@ ac
 ac
 ad
 ac
-am
-am
-am
-bc
-am
-am
-am
-am
+bd
+mH
+nh
+nH
+nZ
+og
+or
+oC
 cu
-am
-am
-am
+cu
+cu
+cu
 bd
 es
 fa
@@ -39684,17 +44533,17 @@ gq
 gq
 gq
 gr
-ac
-ad
-ac
-ac
-ad
-ac
+rZ
+sl
+sw
+sE
+sR
+ta
 kx
 ad
 ad
 ac
-ad
+ac
 ac
 aa
 aa
@@ -39917,7 +44766,7 @@ ac
 ac
 ap
 ap
-aP
+ap
 bd
 bd
 bF
@@ -39941,12 +44790,12 @@ gK
 hc
 gK
 gq
-ac
-ac
-ac
-ac
-ac
-ad
+sa
+sm
+sx
+sF
+sS
+tb
 ac
 ac
 ad
@@ -40178,15 +45027,15 @@ aC
 aC
 bq
 bG
-bq
-cd
+os
+oD
 cv
 cF
 dd
 aP
 dP
 et
-ap
+pL
 fw
 fT
 gq
@@ -40198,12 +45047,12 @@ gK
 gK
 gK
 gq
-ac
-ad
-ad
-ad
-ac
-ad
+sb
+sn
+sy
+sG
+sT
+tc
 ac
 ad
 ac
@@ -40434,11 +45283,11 @@ aC
 aQ
 be
 be
-be
+oh
 be
 ce
-be
-aC
+oN
+oR
 de
 dx
 dQ
@@ -40455,18 +45304,18 @@ gK
 gK
 gK
 gq
-ad
-ad
-ac
-ac
-ad
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+sc
+so
+sz
+sH
+sU
+td
+th
+ti
+tj
+tk
+tl
+tm
 aa
 aa
 aa
@@ -40691,7 +45540,7 @@ aC
 aR
 aC
 br
-aC
+oi
 br
 cd
 cw
@@ -40699,7 +45548,7 @@ cG
 df
 ap
 dR
-de
+pF
 dx
 fy
 fV
@@ -40712,12 +45561,12 @@ gK
 gK
 gK
 gq
-ad
-ac
-ad
-ac
-ac
-ac
+sd
+sp
+sA
+sI
+sV
+te
 ad
 ac
 ac
@@ -40968,8 +45817,8 @@ gK
 gK
 gK
 iV
-gq
-ac
+rv
+se
 iY
 iY
 iY
@@ -41225,8 +46074,8 @@ gK
 gK
 gK
 gK
-gq
-ac
+rw
+sf
 iY
 jJ
 jU
@@ -41464,7 +46313,7 @@ bg
 bt
 aT
 bQ
-bh
+oE
 ag
 cJ
 dh
@@ -41482,8 +46331,8 @@ gK
 ip
 gK
 gK
-gq
-ac
+rx
+sg
 iY
 jK
 jV
@@ -41716,20 +46565,20 @@ ac
 ac
 ag
 aF
-aU
+ni
 bh
 aU
 aU
 bR
-aU
+oF
 ag
 cK
 di
 dz
-dz
+ph
 ew
 eA
-fx
+pY
 fX
 gq
 gs
@@ -41738,8 +46587,8 @@ hd
 hd
 gq
 iJ
-gq
-gr
+rh
+ry
 gq
 iY
 jK
@@ -41977,7 +46826,7 @@ ag
 bi
 kT
 bI
-bR
+ot
 cg
 ag
 cL
@@ -42235,31 +47084,31 @@ ag
 ag
 ag
 bS
-ag
+oG
 aq
 cM
 dj
-dz
+oZ
 dV
 ey
 dl
-fx
-fU
+pZ
+qh
 gq
 gN
 hf
 hA
-hW
-hW
-hW
-hW
+qN
+qS
+qY
+ri
 jj
 jv
 iY
 jM
-jV
+sJ
 kb
-iY
+tf
 ac
 ac
 ac
@@ -42496,7 +47345,7 @@ ch
 ah
 cN
 dk
-dz
+pa
 dW
 ez
 fe
@@ -42516,7 +47365,7 @@ iY
 jN
 jV
 kc
-iY
+tg
 ad
 ac
 ac
@@ -42744,7 +47593,7 @@ ac
 ah
 as
 aH
-aH
+nj
 bk
 bv
 bK
@@ -42767,7 +47616,7 @@ hY
 is
 is
 is
-is
+rz
 is
 jE
 jO
@@ -43001,16 +47850,16 @@ ac
 ah
 at
 aH
-aH
+nk
 bl
 bw
-bJ
+oj
 bV
 cj
 cy
 cP
-dm
-dm
+oV
+pb
 la
 lb
 ff
@@ -43028,9 +47877,9 @@ dm
 jw
 jF
 jP
-jV
+sK
 ke
-iY
+ko
 ad
 ac
 ac
@@ -43258,11 +48107,11 @@ ad
 ai
 ah
 aI
-aH
+nl
 bm
-bv
-bK
-bU
+oa
+ok
+ou
 ck
 cz
 cQ
@@ -43274,20 +48123,20 @@ fg
 fB
 fZ
 fg
-eC
+qy
 fg
 hE
 hZ
-eC
+qT
 fg
 fg
 fg
 jx
 jG
 jQ
-jV
+sL
 kf
-iY
+ko
 ad
 ac
 ad
@@ -43518,7 +48367,7 @@ aJ
 aH
 bn
 bw
-bJ
+ol
 bT
 cl
 ah
@@ -43542,9 +48391,9 @@ jk
 iY
 iY
 jR
-jV
+sM
 kg
-iY
+ko
 ad
 ac
 ad
@@ -43797,11 +48646,11 @@ gt
 iZ
 jl
 jy
-jF
+sq
 jS
-jV
+sN
 kh
-iY
+ko
 ac
 ac
 ac
@@ -44026,13 +48875,13 @@ ac
 ac
 ac
 ac
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+mc
+mj
+mI
+nm
+nI
+ob
+om
 bX
 cn
 aj
@@ -44058,7 +48907,7 @@ jH
 jT
 jW
 ki
-iY
+ko
 ac
 ad
 af
@@ -44283,7 +49132,7 @@ ad
 ac
 ad
 ac
-ak
+md
 aw
 aL
 aY
@@ -44315,7 +49164,7 @@ jI
 iY
 iY
 iY
-iY
+ko
 ac
 ac
 ac
@@ -44540,26 +49389,26 @@ ac
 ac
 ac
 ac
-aj
+me
 ax
 aM
-aM
-aM
+nn
+nJ
 bz
 bM
-bY
+ov
 cp
 cA
 cV
 dr
 dF
-dq
+pi
 eG
 cX
 fx
 gd
-gw
-gQ
+qt
+qz
 hk
 hJ
 id
@@ -44797,7 +49646,7 @@ ad
 ad
 ac
 ad
-aj
+mf
 aj
 aN
 aN
@@ -44814,7 +49663,7 @@ ee
 eH
 cX
 fx
-gd
+qi
 gw
 gQ
 hl
@@ -44829,7 +49678,7 @@ jq
 lw
 lF
 lN
-lV
+lU
 ac
 ac
 ad
@@ -45054,24 +49903,24 @@ ad
 ad
 ad
 ac
-aj
+mg
 ax
 aM
-aM
-aM
+no
+nK
 bz
 bM
-ca
+ow
 cr
 ak
 cX
 cX
-dG
-cX
-cX
-cR
-fx
-gd
+pc
+pj
+pG
+pM
+qa
+qj
 gv
 gS
 hm
@@ -45086,7 +49935,7 @@ jb
 lx
 lG
 lO
-lW
+lU
 ad
 ac
 ac
@@ -45311,14 +50160,14 @@ ac
 ac
 ac
 ac
-aj
+mh
 az
 aL
 aZ
 aL
 bA
 aj
-ca
+ox
 cs
 aj
 cY
@@ -45336,14 +50185,14 @@ lc
 gv
 gv
 gv
-jb
+rj
 li
-jb
-jb
+sh
+sr
 ly
-lH
+lF
 lP
-lX
+lU
 ac
 ad
 ac
@@ -45568,13 +50417,13 @@ ac
 ac
 ad
 ac
-aj
-aj
-aj
-aj
-aj
-aj
-aj
+mi
+mk
+mJ
+np
+nL
+oc
+on
 cb
 aj
 aj
@@ -45585,7 +50434,7 @@ cX
 eJ
 fk
 fx
-gd
+qk
 gx
 gT
 hn
@@ -45596,11 +50445,11 @@ hp
 le
 lj
 ln
-lr
-lz
+ss
+sB
 lI
-lQ
-lY
+lP
+lU
 ac
 ad
 ad
@@ -45832,7 +50681,7 @@ ac
 aj
 kU
 ca
-ca
+oy
 ct
 ak
 cX
@@ -45841,7 +50690,7 @@ dG
 cX
 cX
 cR
-fx
+qb
 ge
 gy
 gU
@@ -45854,10 +50703,10 @@ lf
 lk
 lo
 ls
-lA
+lo
 lJ
 lR
-lZ
+lU
 ac
 ad
 ac
@@ -46114,7 +50963,7 @@ lt
 lB
 lK
 lS
-ma
+lU
 ac
 ac
 ac
@@ -46349,7 +51198,7 @@ kX
 aj
 kZ
 aj
-db
+eJ
 cX
 dH
 cX
@@ -46357,20 +51206,20 @@ eJ
 cR
 fE
 gg
-fl
-fl
-hp
-hp
-hp
-hp
+qu
+qA
+qF
+qJ
+qO
+qU
 iN
 lh
-lm
+lh
 lq
 lu
-lC
-lL
-lT
+lh
+lh
+lh
 mb
 ac
 ad
@@ -47127,9 +51976,9 @@ dv
 eL
 fm
 fH
-gj
+ql
 gC
-fm
+fl
 hr
 aa
 aa
@@ -47384,7 +52233,7 @@ aa
 aa
 ei
 fI
-gj
+qm
 gD
 ei
 eK
@@ -47641,7 +52490,7 @@ aa
 aa
 ei
 fJ
-gj
+qn
 gD
 ei
 eK
