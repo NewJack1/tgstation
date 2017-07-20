@@ -34,7 +34,7 @@
 	if(jobban_isbanned(user, banType))
 		to_chat(user, "<span class='warning'>You are jobanned!</span>")
 		return
-	var/ghost_role = alert("Become [mob_name]? (Warning, You can no longer be cloned!)",,"Yes","No")
+	var/ghost_role = alert("Are you sure? (Warning, You can no longer be cloned!)",,"Yes","No")
 	if(ghost_role == "No" || !loc)
 		return
 	log_game("[user.ckey] became [mob_name]")

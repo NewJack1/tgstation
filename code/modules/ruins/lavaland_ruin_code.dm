@@ -157,7 +157,6 @@
 	H.faction |= "syndicate"
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms
-	mob_name = "Syndicate Telecomms Agent"
 	name = "Syndicate Telecomms Agent"
 	flavour_text = {"
 <b>Вы являетесь главным агентом синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
@@ -189,7 +188,6 @@
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/botanist
-	mob_name = "Syndicate Botanist Agent"
 	name = "Syndicate Botanist Agent"
 	flavour_text = {"
 <b>Вы являетесь агентом синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
@@ -219,7 +217,6 @@
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/chemist
-	mob_name = "Syndicate Chemist Agent"
 	name = "Syndicate Chemist Agent"
 	flavour_text = {"
 <b>Вы являетесь агентом синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
@@ -249,7 +246,6 @@
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/virologist
-	mob_name = "Syndicate Virologist Agent"
 	name = "Syndicate Virologist Agent"
 	flavour_text = {"
 <b>Вы являетесь агентом синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
@@ -279,7 +275,6 @@
 	implants = list(/obj/item/weapon/implant/weapons_auth)
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/engineer
-	mob_name = "Syndicate Engineer Agent"
 	name = "Syndicate Engineer Agent"
 	flavour_text = {"
 <b>Вы являетесь агентом синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
