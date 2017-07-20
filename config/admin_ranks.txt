@@ -38,6 +38,7 @@ Badmin			= +@ +POSSESS +POLL +BUILDMODE +SERVER +FUN
 Game Admin		= +@ +STEALTH +SOUNDS +DEBUG
 Game Master		= +EVERYTHING
 Lead Admin		= +EVERYTHING
+Emperor			= +EVERYTHING
 Host			= +EVERYTHING
 
 Coder			= +DEBUG +VAREDIT +SERVER +SPAWN +POLL
