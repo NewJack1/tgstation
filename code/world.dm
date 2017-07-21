@@ -263,8 +263,8 @@
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
-	s += "<a href=\"https://discord.gg/q8zgKYn\">" //Change this to wherever you want the hub to link to.
-	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
+	s += "<a href=\"http://redlazarus.com/\">" //Change this to wherever you want the hub to link to.
+	s += "Forums"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 	s += ")"
 
