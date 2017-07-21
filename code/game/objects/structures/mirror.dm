@@ -22,25 +22,38 @@
 
 		//see code/modules/mob/dead/new_player/preferences.dm at approx line 545 for comments!
 		//this is largely copypasted from there.
-
+		var/choice = input(user, "Something to change?", "Mirror") as null|anything in list("hair", "haircolor")
 		//handle facial hair (if necessary)
-		if(H.gender == MALE)
-			var/new_style = input(user, "Select a facial hair style", "Grooming")  as null|anything in GLOB.facial_hair_styles_list
-			if(userloc != H.loc)
-				return	//no tele-grooming
-			if(new_style)
-				H.facial_hair_style = new_style
-		else
-			H.facial_hair_style = "Shaved"
+		switch(choice)
+			if("hair")
+				if(H.gender == MALE)
+					var/new_style = input(user, "Select a facial hair style", "Grooming")  as null|anything in GLOB.facial_hair_styles_list
+					if(userloc != H.loc)
+						return	//no tele-grooming
+					if(new_style)
+						H.facial_hair_style = new_style
+				else
+					H.facial_hair_style = "Shaved"
 
-		//handle normal hair
-		var/new_style = input(user, "Select a hair style", "Grooming")  as null|anything in GLOB.hair_styles_list
-		if(userloc != H.loc)
-			return	//no tele-grooming
-		if(new_style)
-			H.hair_style = new_style
+				//handle normal hair
+				var/new_style = input(user, "Select a hair style", "Grooming")  as null|anything in GLOB.hair_styles_list
+				if(userloc != H.loc)
+					return	//no tele-grooming
+				if(new_style)
+					H.hair_style = new_style
 
-		H.update_hair()
+				H.update_hair()
+			if("haircolor")
+				var/new_hair_color = input(H, "Choose your hair color", "Hair Color") as null|color
+				if(new_hair_color)
+					H.hair_color = sanitize_hexcolor(new_hair_color)
+					H.dna.update_ui_block(DNA_HAIR_COLOR_BLOCK)
+				if(H.gender == "male")
+					var/new_face_color = input(H, "Choose your facial hair color", "Hair Color") as null|color
+					if(new_face_color)
+						H.facial_hair_color = sanitize_hexcolor(new_face_color)
+						H.dna.update_ui_block(DNA_FACIAL_HAIR_COLOR_BLOCK)
+				H.update_hair()
 
 /obj/structure/mirror/examine_status(mob/user)
 	if(broken)
