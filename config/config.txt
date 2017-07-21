@@ -225,7 +225,7 @@ TICKLAG 0.5
 #MEDAL_HUB_PASSWORD
 
 ## Uncomment this to let players see their own notes (they can still be set by admins only)
-#SEE_OWN_NOTES
+SEE_OWN_NOTES
 
 ##Note: all population caps can be used with each other if desired.
 
@@ -303,7 +303,7 @@ ALLOW_MAP_VOTING 1
 
 ## GENERATE_MINIMAPS
 ## Generating minimaps(For crew monitor) is slow and bogs down testing, so its disabled by default and must be enabled by uncommenting this config if you are running a production server.
-#GENERATE_MINIMAPS
+GENERATE_MINIMAPS
 
 ## CLIENT VERSION CONTROL
 ## This allows you to configure the minimum required client version, as well as a warning version, and message for both.

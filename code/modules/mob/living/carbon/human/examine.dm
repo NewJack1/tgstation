@@ -333,6 +333,3 @@
 	msg += "*---------*</span>"
 
 	to_chat(user, msg)
-	msg += "*---------*</span>"
-
-	to_chat(user, msg)
