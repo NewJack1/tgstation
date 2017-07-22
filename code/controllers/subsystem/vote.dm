@@ -171,6 +171,7 @@ SUBSYSTEM_DEF(vote)
 				choices.Add("Restart Round","Continue Playing")
 			if("gamemode")
 				choices.Add(config.votable_modes)
+				world << sound('sound/ambience/vote.ogg')
 			if("custom")
 				question = stripped_input(usr,"What is the vote for?")
 				if(!question)
@@ -180,6 +181,7 @@ SUBSYSTEM_DEF(vote)
 					if(!option || mode || !usr.client)
 						break
 					choices.Add(option)
+				world << sound('sound/ambience/vote.ogg')
 			else
 				return 0
 		mode = vote_type
