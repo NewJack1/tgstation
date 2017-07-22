@@ -1,13 +1,13 @@
-<h1>Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ РЅР° СЃРµСЂРІРµСЂ [RU] Red Lazarus!</h1>
-Р’ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРё СЃРµСЂРІРµСЂР° - СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ Р±РёР»Рґ /TG/ Station СЃ РЅРµР±РѕР»СЊС€РёРјРё РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєР°РјРё.
+<h1>Добро пожаловать на сервер [RU] Red Lazarus!</h1>
+В использовании сервера - стандартный билд /TG/ Station с небольшими корректировками.
 
-Р¤РѕСЂСѓРј СЃРµСЂРІРµСЂР°:		        http://redlazarus.com/
-РџСЂР°РІРёР»Р° СЃРµСЂРІРµСЂР°:		https://discord.gg/q8zgKYn - РєР°РЅР°Р» "#info"
-Р’РёРєРё TGStation13:		https://tgstation13.org/wiki/Main_Page
-РљРѕРґ СЃРµСЂРІРµСЂР°:			https://github.com/NeinCat/tgstation
-Р”РёСЃРєРѕСЂРґ-СЃРµСЂРІРµСЂ:                 https://discord.gg/q8zgKYn
+Форум сервера:		        http://redlazarus.com/
+Правила сервера:		https://discord.gg/q8zgKYn - канал "#info"
+Вики TGStation13:		https://tgstation13.org/wiki/Main_Page
+Код сервера:			https://github.com/NeinCat/tgstation
+Дискорд-сервер:                 https://discord.gg/q8zgKYn
 
-<span style="color: #ff0000;"><big>РЈ РёРіСЂРѕРєРѕРІ РµСЃС‚СЊ РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ РЅР°С‡Р°С‚СЊ РёРіСЂСѓ РЅР° Р±Р°Р·Рµ РЎРёРЅРґРёРєР°С‚Р°.<big></span>
+<span style="color: #ff0000;"><big>У игроков есть возможность начать игру на базе Синдиката.<big></span>
 
-<span style="color: #0000ff;">Р•СЃС‚СЊ РёРЅС‚РµСЂРµСЃСѓСЋС‰РёР№ РІРѕРїСЂРѕСЃ? РЎРїСЂРѕСЃРё РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂР° (F1)!</span>
+<span style="color: #0000ff;">Есть интересующий вопрос? Спроси Администратора (F1)!</span>
 
