@@ -1,12 +1,12 @@
 <h1>Добро пожаловать на [RU] TG-проект RedLazarus13!</h1>
 В использовании сервера - стандартный билд TG Station13 с небольшими корректировками.
 
-Форум сервера:		В разработке.
+Форум сервера:		        http://redlazarus.com/
 Правила сервера:		https://discord.gg/q8zgKYn - канал "#info"
 Вики TGStation13:		https://tgstation13.org/wiki/Main_Page
 Код сервера:			https://github.com/NeinCat/tgstation
-Дискорд-сервер:         https://discord.gg/q8zgKYn
-Сервер друзей SubStructure: byond://5.45.117.193:1487
+Дискорд-сервер:                 https://discord.gg/q8zgKYn
+Сервер друзей "SubStructure":   byond://5.45.117.193:1487
 
 <span style="color: #ff0000;"><big>У игроков есть возможность начать игру на базе Синдиката.<big></span>
 

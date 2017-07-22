@@ -1228,10 +1228,11 @@
 /turf/open/floor/plating,
 /area/syndicate/fore)
 "cC" = (
-/obj/structure/lattice,
-/obj/structure/grille,
-/turf/open/space/basic,
-/area/syndicate/fore)
+/obj/structure/shuttle/engine/propulsion/burst{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_hammer)
 "cD" = (
 /obj/structure/lattice,
 /obj/machinery/light{
@@ -1819,9 +1820,6 @@
 /turf/open/floor/plasteel/black,
 /area/syndicate/virology)
 "dH" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "Virology Lab APC";
@@ -1832,12 +1830,16 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/open/floor/plasteel/black,
-/area/syndicate/virology)
-"dI" = (
 /obj/structure/disposalpipe/junction{
 	icon_state = "pipe-j1";
 	dir = 4
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/virology)
+"dI" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/virology)
@@ -1850,23 +1852,38 @@
 /turf/open/floor/plating,
 /area/syndicate/fore)
 "dK" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+/obj/machinery/door/airlock/external{
+	id_tag = "Syndi_Hammer";
+	name = "Syndicate Hammer Airlock";
+	req_access_txt = "158"
 	},
-/turf/open/space/basic,
-/area/syndicate/entry)
+/obj/docking_port/mobile{
+	dheight = 0;
+	dir = 1;
+	dwidth = 4;
+	height = 7;
+	id = "syndicate_hammer";
+	name = "Syndicate Hammer";
+	port_angle = 0;
+	roundstart_move = "syndicate_SCC_hammer";
+	width = 10
+	},
+/obj/docking_port/stationary{
+	area_type = /area/space;
+	dheight = 0;
+	dir = 1;
+	dwidth = 4;
+	height = 7;
+	id = "syndicate_base_hammer";
+	name = "Syndicate Base Bulldog";
+	turf_type = /turf/open/space;
+	width = 10
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
 "dL" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/open/space/basic,
-/area/syndicate/entry)
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
 "dM" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
@@ -1940,6 +1957,7 @@
 /area/syndicate/shooting_gallery)
 "dS" = (
 /obj/machinery/smartfridge/chemistry/preloaded{
+	density = 0;
 	pixel_x = -30
 	},
 /turf/open/floor/plasteel/vault{
@@ -2424,7 +2442,6 @@
 /turf/open/space/basic,
 /area/syndicate/entry)
 "eL" = (
-/obj/structure/lattice,
 /obj/machinery/light,
 /turf/open/space/basic,
 /area/syndicate/entry)
@@ -2871,6 +2888,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2879,7 +2897,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -2971,11 +2988,6 @@
 "fL" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -3330,6 +3342,10 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -3338,16 +3354,15 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 1;
-	icon_state = "pipe-c"
-	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
@@ -3394,6 +3409,11 @@
 /obj/structure/chair/office/dark{
 	dir = 4
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/black,
 /area/syndicate/entry)
 "gm" = (
@@ -3419,6 +3439,11 @@
 	pixel_y = 5;
 	req_access_txt = "150";
 	specialfunctions = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -3744,9 +3769,8 @@
 	},
 /area/syndicate/medbay)
 "gV" = (
-/obj/machinery/sleeper{
-	dir = 8;
-	emagged = 0
+/obj/machinery/sleeper/syndie{
+	dir = 8
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
@@ -4208,15 +4232,14 @@
 	},
 /area/syndicate/medbay)
 "hO" = (
-/obj/machinery/sleeper{
-	dir = 8;
-	emagged = 0
-	},
 /obj/machinery/camera{
 	c_tag = "Syndicate Medbayl";
 	dir = 8;
 	name = "syndicate camera";
 	network = list("Syndi Base")
+	},
+/obj/machinery/sleeper/syndie{
+	dir = 8
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
@@ -4463,7 +4486,7 @@
 	dwidth = 4;
 	height = 5;
 	id = "syndicate_pod";
-	name = "Syndicate Base";
+	name = "Syndicate Base Bulldog";
 	turf_type = /turf/open/space;
 	width = 9
 	},
@@ -4777,6 +4800,7 @@
 "iN" = (
 /obj/item/weapon/bombcore/large/underwall,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/medbay)
 "iO" = (
@@ -5771,6 +5795,7 @@
 /area/syndicate/gravity_generator)
 "kS" = (
 /obj/item/weapon/bombcore/large/underwall,
+/obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/fore)
 "kT" = (
@@ -10724,6 +10749,492 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"tn" = (
+/obj/structure/disposaloutlet{
+	dir = 1
+	},
+/obj/structure/disposalpipe/trunk,
+/turf/open/floor/plating,
+/area/syndicate/fore)
+"to" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/fore)
+"tp" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/fore)
+"tq" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/fore)
+"tr" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/fore)
+"ts" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/fore)
+"tt" = (
+/turf/open/space/basic,
+/turf/closed/wall/mineral/plastitanium{
+	dir = 8;
+	icon_state = "diagonalWall3"
+	},
+/area/shuttle/syndicate_hammer)
+"tu" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"tv" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_hammer_blast4";
+	name = "Syndicate Hammer Blast Door4";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"tw" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_hammer_blast4";
+	name = "Syndicate Hammer Blast Door4";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"tx" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"ty" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_hammer_blast2";
+	name = "Syndicate Hammer Blast Door2";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"tz" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_hammer_blast2";
+	name = "Syndicate Hammer Blast Door2";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"tA" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"tB" = (
+/turf/open/space/basic,
+/turf/closed/wall/mineral/plastitanium{
+	dir = 1;
+	icon_state = "diagonalWall3"
+	},
+/area/shuttle/syndicate_hammer)
+"tC" = (
+/obj/item/weapon/bombcore/large/underwall,
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"tD" = (
+/obj/structure/shuttle/engine/propulsion/burst{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_hammer)
+"tE" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"tF" = (
+/obj/structure/chair,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/button/door{
+	id = "syndicate_hammer_blast4";
+	name = "Syndicate Hammer Blast Doors Button4";
+	pixel_x = 5;
+	pixel_y = 30;
+	req_access_txt = "158"
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tG" = (
+/obj/structure/chair,
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tH" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/storage/box/handcuffs{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/weapon/storage/box/zipties,
+/obj/item/weapon/storage/firstaid/regular{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tI" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"tJ" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tK" = (
+/obj/machinery/computer/crew/syndie,
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tL" = (
+/obj/machinery/computer/communications/syndicate,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tM" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"tN" = (
+/obj/structure/shuttle/engine/propulsion/burst{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_hammer)
+"tO" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_hammer)
+"tP" = (
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tQ" = (
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tR" = (
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tS" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Syndi Hammer";
+	req_access_txt = "158"
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tT" = (
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tU" = (
+/obj/structure/chair/office/dark{
+	dir = 1
+	},
+/obj/machinery/button/door{
+	id = "syndicate_hammer_blast";
+	name = "Syndicate Hammer Blast Doors Button";
+	pixel_x = 60;
+	pixel_y = 30;
+	req_access_txt = "158"
+	},
+/obj/machinery/button/door{
+	id = "syndicate_hammer_blast2";
+	name = "Syndicate Hammer Blast Doors Button2";
+	pixel_x = 30;
+	pixel_y = 60;
+	req_access_txt = "158"
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tV" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/clipboard,
+/obj/item/toy/figure/syndie,
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"tW" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_hammer_blast";
+	name = "Syndicate Hammer Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"tX" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_hammer)
+"tY" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"tZ" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"ua" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Syndi Hammer";
+	req_access_txt = "158"
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"ub" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"uc" = (
+/obj/machinery/button/door{
+	id = "syndicate_hammer_blast5";
+	name = "Syndicate Hammer Blast Doors Button5";
+	pixel_x = -30;
+	pixel_y = -5;
+	req_access_txt = "158"
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"ud" = (
+/obj/structure/chair/office/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"ue" = (
+/obj/machinery/computer/shuttle/syndicate{
+	name = "syndicate hammer terminal";
+	possible_destinations = "syndicate_base_hammer;syndicate_SCC_hammer";
+	req_access = null;
+	req_access_txt = "158";
+	shuttleId = "syndicate_hammer"
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"uf" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_hammer_blast";
+	name = "Syndicate Hammer Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"ug" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/syndicate_hammer)
+"uh" = (
+/obj/structure/rack,
+/obj/item/weapon/storage/toolbox/syndicate,
+/obj/item/weapon/crowbar/red,
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"ui" = (
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"uj" = (
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"uk" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_hammer_blast5";
+	name = "Syndicate Hammer Blast Door5";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"ul" = (
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"um" = (
+/obj/structure/chair/office/dark,
+/obj/machinery/button/door{
+	id = "syndicate_hammer_blast3";
+	name = "Syndicate Hammer Blast Doors Button3";
+	pixel_x = 30;
+	pixel_y = -60;
+	req_access_txt = "158"
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"un" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"uo" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_hammer_blast";
+	name = "Syndicate Hammer Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"up" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"uq" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"ur" = (
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"us" = (
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"ut" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"uu" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/storage/fancy/donut_box,
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"uv" = (
+/obj/machinery/computer/med_data/syndie,
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"uw" = (
+/obj/machinery/computer/camera_advanced,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_hammer)
+"ux" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"uy" = (
+/turf/open/space/basic,
+/turf/closed/wall/mineral/plastitanium{
+	icon_state = "diagonalWall3"
+	},
+/area/shuttle/syndicate_hammer)
+"uz" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"uA" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/syndicate_hammer)
+"uB" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_hammer_blast3";
+	name = "Syndicate Hammer Blast Door3";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"uC" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_hammer_blast3";
+	name = "Syndicate Hammer Blast Door3";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"uD" = (
+/turf/open/space/basic,
+/turf/closed/wall/mineral/plastitanium{
+	dir = 4;
+	icon_state = "diagonalWall3"
+	},
+/area/shuttle/syndicate_hammer)
+"uE" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
+/area/syndicate/virology)
+"uF" = (
+/obj/structure/bed/roller,
+/obj/structure/disposalpipe/segment,
+/mob/living/carbon/monkey,
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/syndicate/virology)
+"uG" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/syndicate/entry)
+"uH" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_dock_windows";
+	name = "Syndicate Dock Windows Blast Door";
+	opacity = 0
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/entry)
+"uI" = (
+/obj/structure/sign/securearea,
+/obj/item/weapon/bombcore/large/underwall,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/gravity_generator)
 
 (1,1,1) = {"
 aa
@@ -36805,30 +37316,30 @@ ac
 am
 am
 mK
-nq
-nM
-od
-oo
-oz
-oH
-oO
-oS
-oW
-pd
+mK
+mK
+mK
+mK
+mK
+mK
+mK
+mK
+mK
+mK
 pk
 eS
-pN
-qc
-qo
-qv
-qB
-qG
-qK
-qP
-qV
-qZ
-rk
-rA
+mK
+mK
+mK
+mK
+mK
+mK
+mK
+mK
+mK
+mK
+mK
+mK
 am
 am
 ad
@@ -37063,28 +37574,28 @@ am
 ml
 mL
 nr
-nN
-oe
-op
-oA
-oI
-oP
-oT
-oX
-pe
-pl
+nr
+nr
+nr
+nr
+nr
+nr
+nr
+nr
+nr
+nr
 pH
 pO
-qd
-qp
-qw
-qC
-qH
-qL
-qQ
-qW
-ra
-rl
+pO
+pO
+pO
+pO
+pO
+pO
+pO
+pO
+pO
+pO
 rB
 bc
 am
@@ -37317,7 +37828,7 @@ ad
 ac
 ac
 an
-mm
+ml
 mM
 bD
 bD
@@ -37574,7 +38085,7 @@ ac
 ac
 ac
 am
-mn
+ml
 mN
 bc
 am
@@ -37598,7 +38109,7 @@ am
 am
 am
 am
-rm
+ml
 rD
 bc
 am
@@ -37831,10 +38342,10 @@ ad
 ac
 ac
 am
-mo
-mO
-ns
-nO
+ml
+mM
+mK
+mK
 bB
 bB
 bB
@@ -37856,7 +38367,7 @@ bB
 bB
 bB
 bB
-rE
+rC
 bc
 am
 ac
@@ -38088,10 +38599,10 @@ ac
 ac
 ad
 an
-mp
+ml
 mP
-nt
-nP
+nr
+nr
 bO
 bO
 bO
@@ -38100,7 +38611,7 @@ bO
 bO
 bO
 bO
-eo
+nr
 eU
 pP
 fO
@@ -38111,8 +38622,8 @@ fO
 fO
 fO
 fO
-rb
-rn
+pP
+pP
 rF
 bc
 dw
@@ -38345,8 +38856,8 @@ ac
 ad
 ac
 am
-mq
-mQ
+ml
+mM
 bD
 bD
 bD
@@ -38357,7 +38868,7 @@ bD
 bD
 bD
 bD
-pp
+pm
 eT
 bD
 bD
@@ -38370,7 +38881,7 @@ bD
 bD
 bD
 bD
-rG
+rC
 bc
 am
 ac
@@ -38602,8 +39113,8 @@ ae
 ac
 ac
 am
-mr
-mR
+ml
+mN
 bc
 am
 am
@@ -38614,7 +39125,7 @@ am
 am
 am
 am
-pq
+pn
 eU
 bc
 am
@@ -38626,8 +39137,8 @@ am
 am
 am
 am
-ro
-rH
+ml
+rD
 bc
 am
 ac
@@ -38859,10 +39370,10 @@ ad
 ad
 ac
 am
-ms
-mS
-nu
-nQ
+ml
+mM
+mK
+mK
 bB
 bB
 bB
@@ -38871,7 +39382,7 @@ bB
 bB
 bB
 bB
-pr
+po
 eT
 bB
 bB
@@ -38884,7 +39395,7 @@ bB
 bB
 bB
 bB
-rI
+rC
 bc
 am
 ac
@@ -39116,10 +39627,10 @@ ac
 ad
 ac
 an
-mt
-mT
-nv
-nR
+ml
+mP
+nr
+nr
 bO
 bO
 bO
@@ -39128,9 +39639,9 @@ bO
 bO
 bO
 bO
-eo
+nr
 eU
-pQ
+pP
 fO
 fO
 fO
@@ -39139,9 +39650,9 @@ fO
 fO
 fO
 fO
-rc
-rp
-rJ
+pP
+pP
+rF
 bc
 dw
 ac
@@ -39373,8 +39884,8 @@ ac
 ad
 ac
 am
-mu
-mU
+ml
+mM
 bD
 bD
 bD
@@ -39385,7 +39896,7 @@ bD
 bD
 bD
 bD
-ps
+pm
 eT
 bD
 bD
@@ -39398,7 +39909,7 @@ bD
 bD
 bD
 bD
-rK
+rC
 bc
 am
 ac
@@ -39630,8 +40141,8 @@ ac
 ac
 ac
 am
-mv
-mV
+ml
+mN
 bc
 am
 am
@@ -39642,8 +40153,8 @@ am
 am
 am
 am
-pt
-pI
+pn
+mN
 bc
 am
 am
@@ -39654,8 +40165,8 @@ am
 am
 am
 am
-rq
-rL
+ml
+rD
 bc
 am
 ac
@@ -39887,10 +40398,10 @@ ac
 ad
 ac
 am
-mw
-mW
-nw
-nS
+ml
+mM
+mK
+mK
 bB
 bB
 bB
@@ -39899,7 +40410,7 @@ bB
 bB
 bB
 bB
-pu
+po
 eT
 bB
 bB
@@ -39912,7 +40423,7 @@ bB
 bB
 bB
 bB
-rM
+rC
 bc
 am
 ac
@@ -40144,10 +40655,10 @@ ac
 ac
 ac
 an
-mx
-mX
-nx
-nT
+ml
+mP
+nr
+nr
 bO
 bO
 bO
@@ -40156,9 +40667,9 @@ bO
 bO
 bO
 bO
-eo
+nr
 eU
-pR
+pP
 fO
 fO
 fO
@@ -40167,9 +40678,9 @@ fO
 fO
 fO
 fO
-rd
-rr
-rN
+pP
+pP
+rF
 bc
 dw
 ac
@@ -40401,8 +40912,8 @@ ad
 ac
 ad
 am
-my
-mY
+ml
+mM
 bD
 bD
 bD
@@ -40413,7 +40924,7 @@ bD
 bD
 bD
 bD
-pv
+pm
 eT
 bD
 bD
@@ -40426,7 +40937,7 @@ bD
 bD
 bD
 bD
-rO
+rC
 bc
 am
 ac
@@ -40658,8 +41169,8 @@ af
 ac
 ac
 am
-mz
-mZ
+ml
+mN
 bc
 am
 am
@@ -40670,7 +41181,7 @@ am
 am
 am
 am
-pw
+pn
 pJ
 bc
 am
@@ -40682,8 +41193,8 @@ am
 am
 am
 am
-bN
-rP
+ml
+rD
 bc
 am
 ac
@@ -40915,10 +41426,10 @@ ac
 ac
 ac
 am
-mA
-na
-ny
-nU
+ml
+mM
+mK
+mK
 bB
 bB
 bB
@@ -40927,7 +41438,7 @@ bB
 bB
 bB
 bB
-px
+po
 eT
 bB
 bB
@@ -40940,7 +41451,7 @@ bB
 bB
 bB
 bB
-rQ
+rC
 bc
 am
 ac
@@ -41172,10 +41683,10 @@ ad
 ad
 ac
 an
-mB
-nb
-nz
-nV
+ml
+mP
+nr
+nr
 bO
 bO
 bO
@@ -41184,9 +41695,9 @@ bO
 bO
 bO
 bO
-eo
+nr
 eU
-pS
+pP
 fO
 fO
 fO
@@ -41195,9 +41706,9 @@ fO
 fO
 fO
 fO
-re
-rs
-rR
+pP
+pP
+rF
 bc
 dw
 ad
@@ -41429,8 +41940,8 @@ ac
 ac
 ad
 am
-mC
-nc
+ml
+mM
 bD
 bD
 bD
@@ -41441,7 +41952,7 @@ bD
 bD
 bD
 bD
-py
+pm
 eT
 bD
 bD
@@ -41454,7 +41965,7 @@ bD
 bD
 bD
 bD
-rS
+rC
 bc
 am
 ac
@@ -41686,8 +42197,8 @@ ac
 ad
 ac
 am
-mD
-nd
+ml
+mN
 bc
 am
 am
@@ -41698,8 +42209,8 @@ am
 am
 am
 am
-pz
-pK
+pn
+pJ
 bc
 am
 am
@@ -41710,8 +42221,8 @@ am
 am
 am
 am
-bN
-rT
+ml
+rD
 bc
 am
 ac
@@ -41943,10 +42454,10 @@ ad
 ac
 ac
 am
-mE
-ne
-nA
-nW
+ml
+mM
+mK
+mK
 bB
 bB
 bB
@@ -41955,7 +42466,7 @@ bB
 bB
 bB
 bB
-pA
+po
 eT
 bB
 bB
@@ -41968,7 +42479,7 @@ bB
 bB
 bB
 bB
-rU
+rC
 bc
 am
 ac
@@ -42200,10 +42711,10 @@ ad
 ac
 ac
 an
-mF
+ml
 nf
-nB
-nX
+nr
+nr
 bO
 bO
 bO
@@ -42212,9 +42723,9 @@ bO
 bO
 bO
 bO
-eo
+nr
 eU
-pT
+pP
 fO
 fO
 fO
@@ -42223,8 +42734,8 @@ fO
 fO
 fO
 fO
-rf
-rt
+pP
+pP
 rV
 bc
 dw
@@ -42469,7 +42980,7 @@ bD
 bD
 bD
 bD
-pB
+pm
 eT
 bD
 bD
@@ -42973,20 +43484,20 @@ ac
 am
 aa
 aa
-nC
+mH
 aa
 aa
 aa
 aa
-oJ
+mH
 aa
 aa
 aa
-pf
+mG
 pC
 eV
-pU
-qe
+pC
+mG
 aa
 aa
 am
@@ -42995,7 +43506,7 @@ aa
 aa
 aa
 aa
-cu
+mH
 aa
 aa
 am
@@ -43229,24 +43740,24 @@ ac
 ac
 am
 mG
-ng
+mG
 nD
-nY
-of
-oq
-oB
+mG
+mG
+mG
+mG
 am
-oQ
+mG
 oU
-oY
-pg
-pD
+mG
+mG
+pC
 eW
-pV
-qf
-qq
-qx
-qD
+pC
+mG
+mG
+mG
+nD
 am
 am
 am
@@ -43497,13 +44008,13 @@ bd
 bd
 bd
 dN
-pE
+pC
 eV
-pW
+pC
 bd
-qr
+pC
 bd
-jD
+uI
 hv
 hv
 hv
@@ -43744,12 +44255,12 @@ ac
 bd
 aa
 aa
-nE
+mH
 aa
 aa
 aa
 aa
-oK
+mH
 aa
 aa
 aa
@@ -43763,10 +44274,10 @@ gH
 qE
 qI
 qM
-qR
-qX
-rg
-ru
+qM
+qM
+qM
+qM
 rW
 si
 st
@@ -44001,12 +44512,12 @@ ad
 bd
 aa
 aa
-nF
+mH
 aa
 aa
 aa
 aa
-oL
+mH
 aa
 aa
 aa
@@ -44258,12 +44769,12 @@ ac
 bd
 aa
 aa
-nG
+mH
 aa
 aa
 aa
 aa
-oM
+mH
 aa
 aa
 aa
@@ -44284,9 +44795,9 @@ gZ
 rY
 sk
 sv
-sD
-sQ
-sZ
+sv
+sv
+rY
 gZ
 kF
 gZ
@@ -44514,16 +45025,16 @@ ad
 ac
 bd
 mH
-nh
-nH
-nZ
-og
-or
-oC
-cu
-cu
-cu
-cu
+mH
+mH
+mH
+mH
+mH
+mH
+mH
+mH
+mH
+mH
 bd
 es
 fa
@@ -44537,13 +45048,13 @@ gq
 gq
 gq
 gq
-gr
+gq
 rZ
 sl
 sw
 sE
 sR
-ta
+rY
 kx
 ad
 ad
@@ -44797,10 +45308,10 @@ gK
 gq
 sa
 sm
-sx
+sm
 sF
 sS
-tb
+rY
 ac
 ac
 ad
@@ -45056,8 +45567,8 @@ sb
 sn
 sy
 sG
-sT
-tc
+sR
+rY
 ac
 ad
 ac
@@ -45312,14 +45823,14 @@ gq
 sc
 so
 sz
-sH
+sz
 sU
 td
 th
-ti
-tj
-tk
-tl
+th
+th
+th
+th
 tm
 aa
 aa
@@ -45570,8 +46081,8 @@ sd
 sp
 sA
 sI
-sV
-te
+sv
+sv
 ad
 ac
 ac
@@ -46336,7 +46847,7 @@ gK
 ip
 gK
 gK
-rx
+rw
 sg
 iY
 jK
@@ -46842,7 +47353,7 @@ ex
 eA
 fz
 fW
-gr
+gq
 gM
 he
 hz
@@ -47104,7 +47615,7 @@ gN
 hf
 hA
 qN
-qS
+qN
 qY
 ri
 jj
@@ -47627,7 +48138,7 @@ jE
 jO
 jV
 kd
-ko
+tg
 ac
 ad
 ac
@@ -47884,7 +48395,7 @@ jF
 jP
 sK
 ke
-ko
+tg
 ad
 ac
 ac
@@ -48132,7 +48643,7 @@ qy
 fg
 hE
 hZ
-qT
+qy
 fg
 fg
 fg
@@ -48141,7 +48652,7 @@ jG
 jQ
 sL
 kf
-ko
+tg
 ad
 ac
 ad
@@ -48398,7 +48909,7 @@ iY
 jR
 sM
 kg
-ko
+tg
 ad
 ac
 ad
@@ -48655,7 +49166,7 @@ sq
 jS
 sN
 kh
-ko
+tg
 ac
 ac
 ac
@@ -48882,10 +49393,10 @@ ac
 ac
 mc
 mj
-mI
-nm
-nI
-ob
+mj
+mj
+mj
+mj
 om
 bX
 cn
@@ -48908,11 +49419,11 @@ gv
 ja
 jm
 jz
-jH
+iY
 jT
 jW
 ki
-ko
+tg
 ac
 ad
 af
@@ -49169,7 +49680,7 @@ jI
 iY
 iY
 iY
-ko
+tg
 ac
 ac
 ac
@@ -49908,11 +50419,11 @@ ad
 ad
 ad
 ac
-mg
+me
 ax
 aM
-no
-nK
+nn
+nJ
 bz
 bM
 ow
@@ -49922,7 +50433,7 @@ cX
 cX
 pc
 pj
-pG
+pj
 pM
 qa
 qj
@@ -50165,7 +50676,7 @@ ac
 ac
 ac
 ac
-mh
+mf
 az
 aL
 aZ
@@ -50193,7 +50704,7 @@ gv
 rj
 li
 sh
-sr
+sh
 ly
 lF
 lP
@@ -50423,11 +50934,11 @@ ac
 ad
 ac
 mi
-mk
-mJ
-np
-nL
-oc
+mj
+mj
+mj
+mj
+mj
 on
 cb
 aj
@@ -50439,7 +50950,7 @@ cX
 eJ
 fk
 fx
-qk
+qi
 gx
 gT
 hn
@@ -50688,14 +51199,14 @@ kU
 ca
 oy
 ct
-ak
+aj
 cX
 cX
 dG
 cX
 cX
 cR
-qb
+pZ
 ge
 gy
 gU
@@ -50933,9 +51444,9 @@ aa
 aa
 aa
 aa
-aa
 ac
 ac
+ad
 ac
 ac
 ac
@@ -51191,7 +51702,7 @@ aa
 aa
 aa
 aa
-aa
+ac
 ac
 ac
 ad
@@ -51206,16 +51717,16 @@ aj
 eJ
 cX
 dH
-cX
-eJ
-cR
+uE
+uF
+eh
 fE
 gg
 qu
-qA
+qu
 qF
-qJ
-qO
+qF
+qF
 qU
 iN
 lh
@@ -51447,25 +51958,25 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-eQ
-eQ
+tn
+to
+tp
+tq
+tr
 kS
-eQ
-aj
-aj
-aj
-aj
-aj
-aj
-cR
-cR
+ts
+cA
+cA
+cA
+tC
+cA
+cA
+eh
+eh
 dI
-eh
-eh
-eh
+cR
+cR
+cR
 fF
 gh
 gA
@@ -51704,24 +52215,24 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aA
-aO
-dc
-dc
-dc
-dc
-dc
-aO
-cB
-dc
-cB
-dJ
+al
+ad
+ac
+ac
+ac
 cE
-eK
+cE
+iO
+cE
+cE
+cE
+cE
+cE
+cE
+cE
+cE
+iO
+hq
 fl
 fG
 gi
@@ -51961,23 +52472,23 @@ aa
 aa
 aa
 aa
+ac
+ac
+ac
+ad
+ac
+cE
 aa
 aa
 aa
-al
-eQ
-eQ
-eQ
-eQ
-eQ
-eQ
-eQ
-eQ
+aa
+tD
+tN
 cC
 cC
-dv
 cC
-dv
+aa
+aa
 eL
 fm
 fH
@@ -52218,22 +52729,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-ad
 ac
 ac
 ac
-ad
 ac
 ac
 cD
 aa
 aa
 aa
+tt
+tE
+tO
+tX
+ug
+up
+uy
 aa
 aa
 ei
@@ -52475,15 +52986,8 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-ac
 ac
 ad
-ac
 ac
 ad
 ac
@@ -52491,6 +52995,13 @@ cE
 aa
 aa
 aa
+tu
+tF
+tP
+tY
+uh
+uq
+uz
 aa
 aa
 ei
@@ -52732,22 +53243,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-ac
-ac
 ac
 ad
+ac
 ac
 ac
 cE
 aa
 aa
 aa
+tv
+tG
+tQ
+tZ
+ui
+ur
+uA
 ei
 ei
 fn
@@ -52989,27 +53500,27 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
 ac
+ad
 ac
-ac
-ac
-ac
+ad
 ac
 cD
 aa
 aa
+aa
+tw
+tH
+tR
+ua
+uj
+us
 dK
-ej
-eM
-ej
+gW
+hs
+gW
 fL
-gk
+gj
 gF
 gW
 hs
@@ -53246,21 +53757,21 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
 ac
 ad
 ac
-ad
 ac
-ad
+ac
 cE
 aa
 aa
+aa
+tx
+tI
+tS
+ub
+uk
+ut
 dL
 ei
 ei
@@ -53503,24 +54014,24 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-ad
-ac
 ac
 ad
 ac
 ac
+ad
 cE
 aa
 aa
-dM
-ek
-eN
+aa
+ty
+tJ
+tT
+uc
+ul
+uu
+uB
+aa
+eK
 fl
 fN
 gm
@@ -53760,27 +54271,27 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
 ac
 ad
 ac
 ac
-ac
-ac
+ad
 cD
 aa
 aa
 aa
+tz
+tK
+tU
+ud
+um
+uv
+uC
 aa
-eO
+eL
 fl
 ei
-ei
+uH
 ei
 gX
 hr
@@ -54017,27 +54528,27 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
 ac
 ad
-af
-ad
+ac
 ad
 ac
 cE
-cE
 aa
 aa
 aa
+tA
+tL
+tV
+ue
+un
+uw
+dL
+aa
+eK
+uG
+eK
 dM
-fo
-ek
-ek
 ek
 fo
 ek
@@ -54274,22 +54785,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-ac
-ac
 ac
 ad
+ad
+ad
 ac
-ac
-ac
-cD
+cE
 aa
 aa
+aa
+tB
+tM
+tW
+uf
+uo
+ux
+uD
 aa
 aa
 aa
@@ -54531,20 +55042,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ac
-ac
 ac
 ad
 ad
 ac
-cE
+ac
+cD
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -54788,20 +55299,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ac
 ac
-ac
-ac
+ad
 ac
 ac
 cE
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -55045,20 +55556,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ac
-ad
-ad
 ac
-ad
+ac
+ac
 ac
 cE
+cE
+el
+cE
+cE
+el
+cE
+cE
+el
 cE
 cE
 el
@@ -55302,18 +55813,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ad
 ac
 ac
 ac
 ac
 ac
+ac
+ac
+ad
+ac
+ac
+ad
 ac
 ac
 ac
@@ -55559,20 +56070,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ac
 ac
 ad
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 ad
-ac
-ac
 ac
 ac
 ad
@@ -55816,17 +56327,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ac
+ac
+ac
+ac
 ac
 ad
-af
+ad
+ad
+ac
+ad
+ac
 ac
 ac
 ad
@@ -56073,20 +56584,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ac
-ad
 ac
 ad
 ac
 ac
+ad
+ac
+ac
+ad
+ac
+ac
+ac
+ac
+ac
+ad
 ac
 ad
 ad
@@ -56330,14 +56841,13 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ac
+ad
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 ac
@@ -56345,7 +56855,8 @@ ac
 ad
 ac
 ac
-af
+ac
+ac
 ac
 eQ
 fp
@@ -56587,22 +57098,22 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ac
+ac
+ad
+ac
+ac
+ac
+ad
+ac
+ac
 ac
 ad
 ad
 ac
 ac
 ad
-ad
+ac
 ad
 eQ
 fr
@@ -56844,20 +57355,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ac
+ac
+ad
 ac
 ac
 ac
 ac
+ac
+ac
+ac
+ac
+ac
+ac
+ad
 ac
 ac
 ad
@@ -57102,20 +57613,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ac
 ac
 ad
+ac
+ac
+ad
+ac
+ad
+ac
+ac
+ac
+ac
+ac
+ac
 ac
 ac
 eQ
@@ -57359,21 +57870,21 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ac
 ac
 ac
 ad
+ad
+ac
+ac
+ad
+ac
+ad
+ac
+ad
+ac
+ac
+ac
 em
 eR
 aa
@@ -57617,17 +58128,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 aa
 aa
 aa

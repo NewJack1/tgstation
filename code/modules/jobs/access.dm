@@ -89,6 +89,7 @@ GLOBAL_VAR_CONST(access_syndicate_virology, 154)
 GLOBAL_VAR_CONST(access_syndicate_comms, 155)
 GLOBAL_VAR_CONST(access_syndicate_engineering, 156)
 GLOBAL_VAR_CONST(access_syndicate_APC, 157)
+GLOBAL_VAR_CONST(access_syndicate_Captain, 158)
 
 	//Away Missions or Ruins
 	/*For generic away-mission/ruin access. Why would normal crew have access to a long-abandoned derelict
@@ -289,7 +290,7 @@ GLOBAL_VAR_CONST(access_away_generic4, 208)
 		if(7) //command
 			return list(GLOB.access_heads, GLOB.access_RC_announce, GLOB.access_keycard_auth, GLOB.access_change_ids, GLOB.access_ai_upload, GLOB.access_teleporter, GLOB.access_eva, GLOB.access_gateway, GLOB.access_all_personal_lockers, GLOB.access_heads_vault, GLOB.access_hop, GLOB.access_captain)
 		if(8) //syndicate
-			return list(GLOB.access_syndicate, GLOB.access_syndicate)
+			return list(GLOB.access_syndicate, GLOB.access_syndicate_comms, GLOB.access_syndicate_hydroponics, GLOB.access_syndicate_chemistry, GLOB.access_syndicate_virology, GLOB.access_syndicate_engineering, GLOB.access_syndicate_APC)
 
 /proc/get_region_accesses_name(code)
 	switch(code)

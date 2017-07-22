@@ -1536,6 +1536,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
  	icon_state = "atmos"
  	flags = NONE
 
+/area/syndicate/SCC/control
+	name = "SCC Control"
+	icon_state = "syndie-control"
+
 /////////////////////////////////////////////////////////////////////
 /*
  Lists of areas to be used with is_type_in_list.

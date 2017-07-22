@@ -15,6 +15,7 @@
 // BEGIN_INCLUDE
 #include "_maps\basemap.dm"
 #include "_maps\pubbystation.dm"
+#include "_maps\map_files\generic\SpaceSyndicate.dmm"
 #include "code\_compile_options.dm"
 #include "code\hub.dm"
 #include "code\world.dm"

@@ -438,7 +438,7 @@
 	name = "Syndicate Battlecruiser Captain"
 	flavour_text = "<font size=3>You are the captain aboard the syndicate flagship: the SBC Starfury. <span class='danger'><b>Your job is to oversee your crew, defend the ship, and destroy Space Station 13.</b></span> The ship has an armory, multiple ships, beam cannons, and multiple crewmembers to accomplish this goal.<br><br><span class='danger'><b>As the captain, this whole operation falls on your shoulders.</b></span> You do not need to nuke the station, causing sufficient damage and preventing your ship from being destroyed will be enough.</font>"
 	outfit = /datum/outfit/syndicate_empty/SBC/assault/captain
-	id_access_list = list(150,151)
+	id_access_list = list(150,151,152,153,154,155,156,157,158)
 
 /datum/outfit/syndicate_empty/SBC/assault/captain
 	name = "Syndicate Battlecruiser Captain"
@@ -450,6 +450,7 @@
 	head = /obj/item/clothing/head/HoS/syndicate
 	mask = /obj/item/clothing/mask/cigarette/cigar/havana
 	glasses = /obj/item/clothing/glasses/thermal/eyepatch
+	id = /obj/item/weapon/card/id/syndicate/captain
 
 //Ancient cryogenic sleepers. Players become NT crewmen from a hundred year old space station, now on the verge of collapse.
 /obj/effect/mob_spawn/human/oldsec
