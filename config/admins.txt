@@ -13,5 +13,5 @@ Cryptman = Lead Admin
 RedKnightHero = Game Master
 Nano_xXx = Badmin
 Lady Rainicorn = Trial Admin
-def0lt = Badmin
+Kosteg = Trial Admin
 joctopus = Coder
