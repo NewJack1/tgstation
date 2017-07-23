@@ -46864,6 +46864,11 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 9
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "bWw" = (
@@ -48524,11 +48529,6 @@
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/stripes/line,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "cas" = (
@@ -52755,6 +52755,28 @@
 /area/chapel/asteroid{
 	name = "Monastery Asteroid"
 	})
+"ckn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/engine/engineering)
+"cko" = (
+/obj/machinery/power/apc{
+	cell_type = 15000;
+	dir = 2;
+	name = "Engineering APC";
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel,
+/area/engine/engineering)
 
 (1,1,1) = {"
 aaa
@@ -69361,7 +69383,7 @@ cki
 bNj
 bNj
 bNj
-ckk
+cki
 bNj
 bNj
 bNj
@@ -70128,11 +70150,11 @@ bJV
 bKQ
 bLE
 bLE
-ckj
+cki
 bNj
 bNj
 bNj
-ckl
+cki
 bNj
 bNj
 bNj
@@ -86336,7 +86358,7 @@ bWx
 bYg
 bWx
 bWx
-cas
+caf
 bUH
 cbB
 bUH
@@ -86587,7 +86609,7 @@ bTd
 bTU
 bUN
 bVL
-bWw
+ckn
 bWX
 bWw
 bYh
@@ -86844,7 +86866,7 @@ bRu
 bTV
 bUH
 bQO
-bWx
+cko
 bWY
 bXz
 bYi
