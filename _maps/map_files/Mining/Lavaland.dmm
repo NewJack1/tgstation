@@ -5300,9 +5300,7 @@
 	req_access_txt = "150"
 	},
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/storage)
 "lF" = (
 /turf/closed/wall/mineral/iron{
@@ -5536,15 +5534,16 @@
 /area/syndicate/hephaestus/storage)
 "mf" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/plasteel/vault{
-	dir = 5
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-05";
+	layer = 4.1;
+	pixel_y = 10
 	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "mg" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "mh" = (
 /obj/structure/noticeboard{
@@ -5562,9 +5561,7 @@
 	info = "Please make sure to throw all excess waste into the crusher in the back! It's amazing what you can get out of what others consider 'garbage' if you run it through a giant crusher enough times.";
 	name = "recycling notice"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "mi" = (
 /obj/structure/chair{
@@ -5824,9 +5821,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/storage)
 "mH" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
@@ -5838,23 +5833,17 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "mI" = (
 /obj/machinery/atmospherics/pipe/manifold/supplymain/hidden,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "mJ" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
 	dir = 10
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "mK" = (
 /obj/structure/chair{
@@ -6049,20 +6038,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nk" = (
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nl" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nm" = (
 /turf/open/floor/plasteel/bar{
@@ -6269,9 +6252,10 @@
 	d1 = 1;
 	d2 = 4
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-21"
 	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nJ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -6282,9 +6266,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nK" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
@@ -6301,9 +6283,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nL" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -6314,9 +6294,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nM" = (
 /obj/structure/cable/yellow{
@@ -6329,9 +6307,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nN" = (
 /obj/structure/cable/yellow{
@@ -6339,9 +6315,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nO" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
@@ -6355,15 +6329,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nP" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "nQ" = (
 /turf/closed/wall/mineral/iron{
@@ -6559,17 +6529,13 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "ok" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "ol" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -6580,17 +6546,13 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "om" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "on" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -6602,15 +6564,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oo" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "op" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -6619,9 +6577,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oq" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -6630,33 +6586,29 @@
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "or" = (
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "os" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "ot" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/plasteel/vault{
-	dir = 5
+/obj/machinery/door/airlock/glass{
+	name = "Dorms";
+	req_access_txt = "150"
 	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "ou" = (
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
@@ -6793,17 +6745,13 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oJ" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oK" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
@@ -6817,18 +6765,14 @@
 	req_access = list(157)
 	},
 /obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oL" = (
 /obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oM" = (
 /obj/machinery/atmospherics/pipe/manifold/supplymain/hidden,
@@ -6838,9 +6782,7 @@
 	d2 = 4
 	},
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oN" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
@@ -6854,9 +6796,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oO" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
@@ -6867,9 +6807,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oP" = (
 /obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
@@ -6885,9 +6823,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oQ" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
@@ -6899,9 +6835,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oR" = (
 /obj/machinery/atmospherics/pipe/manifold/supplymain/hidden,
@@ -6910,9 +6844,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oS" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
@@ -6924,9 +6856,11 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/plasteel/vault{
-	dir = 5
+/obj/machinery/door/airlock/glass{
+	name = "Dorms";
+	req_access_txt = "150"
 	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/hephaestus)
 "oT" = (
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
@@ -7151,9 +7085,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/floorgrime{
-	baseturf = /turf/open/floor/plating/asteroid/airless
-	},
+/turf/open/floor/wood,
 /area/ruin/deepstorage/airlock)
 "pp" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -7390,12 +7322,8 @@
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
 	dir = 4
 	},
-/obj/machinery/computer/security/telescreen{
-	dir = 1;
-	name = "Bunker Entrance";
-	network = list("Bunker1");
-	pixel_y = 2
-	},
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -7638,13 +7566,13 @@
 	},
 /area/ruin/deepstorage/airlock)
 "ql" = (
-/obj/structure/chair{
-	dir = 8
-	},
 /obj/structure/cable/yellow{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/structure/chair/office/dark{
+	dir = 8
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -7868,6 +7796,9 @@
 	},
 /area/ruin/deepstorage/airlock)
 "qM" = (
+/obj/structure/chair/office/dark{
+	dir = 8
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -8100,6 +8031,7 @@
 	dir = 4
 	},
 /obj/machinery/light,
+/obj/structure/filingcabinet/medical,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -8493,9 +8425,6 @@
 /obj/structure/sign/securearea{
 	pixel_y = 32
 	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -8520,14 +8449,8 @@
 	},
 /area/syndicate/hephaestus/hephaestus)
 "sl" = (
-/obj/machinery/camera{
-	network = list("Bunker1")
-	},
 /obj/structure/sign/securearea{
 	pixel_y = 32
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -8537,6 +8460,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -8763,6 +8687,7 @@
 	},
 /area/syndicate/hephaestus/hephaestus)
 "sM" = (
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -8925,8 +8850,19 @@
 	},
 /area/syndicate/hephaestus/dorm)
 "th" = (
-/turf/open/floor/plasteel/vault{
-	dir = 5
+/obj/structure/table,
+/obj/item/weapon/pickaxe,
+/obj/item/device/gps/mining,
+/obj/item/device/gps/mining,
+/obj/item/device/gps/mining,
+/obj/item/device/gps/mining,
+/obj/item/weapon/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/turf/open/floor/plasteel/purple/side{
+	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface;
+	dir = 9
 	},
 /area/syndicate/hephaestus/hephaestus)
 "ti" = (
@@ -8951,6 +8887,7 @@
 	},
 /area/syndicate/hephaestus/hephaestus)
 "tm" = (
+/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -9165,7 +9102,9 @@
 	},
 /area/syndicate/hephaestus/hephaestus)
 "tJ" = (
-/turf/closed/wall/mineral/iron{
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/hephaestus)
@@ -9290,8 +9229,10 @@
 	},
 /area/syndicate/hephaestus/dorm)
 "ub" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/syndicate/hephaestus/maintenance)
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
 "uc" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -9324,8 +9265,15 @@
 	},
 /area/syndicate/hephaestus/hephaestus)
 "ug" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/syndicate/hephaestus/maintenance)
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/ausbushes/fernybush,
+/turf/open/floor/plasteel{
+	dir = 6;
+	icon_state = "asteroid8";
+	name = "sand"
+	},
+/area/syndicate/hephaestus/hephaestus)
 "uh" = (
 /turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
@@ -9464,8 +9412,10 @@
 	},
 /area/syndicate/hephaestus/dorm)
 "uy" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/syndicate/hephaestus/maintenance)
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
 "uz" = (
 /obj/structure/sign/securearea,
 /obj/structure/cable/yellow{
@@ -9505,31 +9455,37 @@
 	},
 /area/syndicate/hephaestus/hephaestus)
 "uD" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/syndicate/hephaestus/maintenance)
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
 "uE" = (
 /turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/power)
 "uF" = (
-/obj/structure/grille,
 /obj/structure/cable/yellow{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable/yellow,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/power)
 "uG" = (
-/obj/structure/grille,
 /obj/structure/cable/yellow{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable/yellow,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
@@ -9606,7 +9562,9 @@
 	},
 /area/ruin/deepstorage/power)
 "uQ" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "uR" = (
 /obj/machinery/light/small{
@@ -9650,7 +9608,11 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "uV" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/obj/structure/ore_box,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
 /area/syndicate/hephaestus/maintenance)
 "uW" = (
 /turf/closed/wall/mineral/iron{
@@ -9716,10 +9678,14 @@
 	},
 /area/syndicate/hephaestus/power)
 "vf" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "vg" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
 /area/syndicate/hephaestus/maintenance)
 "vh" = (
 /turf/open/floor/plasteel/vault{
@@ -9737,10 +9703,17 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "vj" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/obj/item/weapon/pickaxe,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
 /area/syndicate/hephaestus/maintenance)
 "vk" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/obj/structure/ore_box,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
 /area/syndicate/hephaestus/maintenance)
 "vl" = (
 /turf/closed/wall/mineral/iron{
@@ -9808,35 +9781,44 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "vw" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "vx" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "vy" = (
-/turf/open/floor/plating{
+/turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
 "vz" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "vA" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "vB" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "vC" = (
-/turf/open/floor/plating{
+/turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
 "vD" = (
-/obj/machinery/light{
-	dir = 4
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/syndicate/hephaestus/maintenance)
 "vE" = (
 /obj/structure/sign/securearea,
@@ -9848,7 +9830,9 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
 /area/syndicate/hephaestus/maintenance)
 "vG" = (
 /turf/open/floor/plasteel/vault{
@@ -9876,6 +9860,11 @@
 /obj/structure/cable/yellow{
 	d2 = 8;
 	icon_state = "0-8"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -9927,16 +9916,21 @@
 	},
 /area/syndicate/hephaestus/power)
 "vS" = (
-/turf/open/floor/plating{
+/turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/power)
 "vT" = (
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/syndicate/hephaestus/maintenance)
+/area/lavaland/surface/outdoors)
 "vU" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vV" = (
 /obj/machinery/door/poddoor{
 	density = 1;
 	icon_state = "closed";
@@ -9944,11 +9938,7 @@
 	name = "Syndicate Hephaestus Blastdoors";
 	opacity = 1
 	},
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
-	},
-/area/syndicate/hephaestus/maintenance)
-"vV" = (
+/obj/structure/fans/tiny,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
@@ -9989,6 +9979,11 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "wd" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"we" = (
 /obj/machinery/door/poddoor{
 	density = 1;
 	icon_state = "closed";
@@ -9996,90 +9991,117 @@
 	name = "Syndicate Hephaestus Blastdoors";
 	opacity = 1
 	},
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
-	},
-/area/syndicate/hephaestus/maintenance)
-"we" = (
+/obj/structure/fans/tiny,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
 "wf" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wg" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wh" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wi" = (
-/obj/machinery/light{
-	dir = 1
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
 /area/syndicate/hephaestus/maintenance)
 "wj" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
 	},
-/area/lavaland/surface/outdoors)
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
 "wk" = (
-/turf/open/floor/plating{
+/turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "wl" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wm" = (
-/obj/machinery/door/poddoor{
-	density = 1;
-	icon_state = "closed";
-	id = "Syndicate_Hephaestus_Blastdoors";
-	name = "Syndicate Hephaestus Blastdoors";
-	opacity = 1
+/obj/machinery/light{
+	dir = 1
 	},
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wn" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wo" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wp" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wq" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wr" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "ws" = (
-/turf/open/floor/plating{
+/turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
@@ -10087,25 +10109,26 @@
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/syndicate/hephaestus/maintenance)
+/area/lavaland/surface/outdoors)
 "wu" = (
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/syndicate/hephaestus/maintenance)
+/area/lavaland/surface/outdoors)
 "wv" = (
-/obj/machinery/door/poddoor{
-	density = 1;
-	icon_state = "closed";
-	id = "Syndicate_Hephaestus_Blastdoors2";
-	name = "Syndicate Hephaestus Blastdoors";
-	opacity = 1
-	},
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
 "ww" = (
+/obj/machinery/door/poddoor{
+	density = 1;
+	icon_state = "closed";
+	id = "Syndicate_Hephaestus_Blastdoors";
+	name = "Syndicate Hephaestus Blastdoors";
+	opacity = 1
+	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
@@ -10126,16 +10149,11 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "wA" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "wB" = (
-/obj/machinery/door/poddoor{
-	density = 1;
-	icon_state = "closed";
-	id = "Syndicate_Hephaestus_Blastdoors";
-	name = "Syndicate Hephaestus Blastdoors";
-	opacity = 1
-	},
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
@@ -10156,31 +10174,6 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "wF" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
-	},
-/area/syndicate/hephaestus/maintenance)
-"wG" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
-	},
-/area/syndicate/hephaestus/maintenance)
-"wH" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
-	},
-/area/syndicate/hephaestus/maintenance)
-"wI" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
-	},
-/area/syndicate/hephaestus/maintenance)
-"wJ" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
-	},
-/area/syndicate/hephaestus/maintenance)
-"wK" = (
 /obj/machinery/door/poddoor{
 	density = 1;
 	icon_state = "closed";
@@ -10188,75 +10181,113 @@
 	name = "Syndicate Hephaestus Blastdoors";
 	opacity = 1
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
+"wG" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"wH" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"wI" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"wJ" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"wK" = (
+/turf/open/floor/mech_bay_recharge_floor{
+	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
+	},
+/area/syndicate/hephaestus/maintenance)
 "wL" = (
-/turf/open/floor/plating{
+/turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
 "wM" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wN" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wO" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wP" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "wQ" = (
-/obj/machinery/light{
-	dir = 4
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/syndicate/hephaestus/maintenance)
 "wR" = (
-/obj/structure/sign/securearea,
-/turf/closed/wall/mineral/iron{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wS" = (
-/obj/machinery/button/door{
-	id = "Syndicate_Hephaestus_Blastdoors";
-	name = "Syndicate Hephaestus Blastdoors Button";
-	pixel_x = 0;
-	pixel_y = 0;
-	req_access_txt = "150"
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
 	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"wT" = (
 /turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
-"wT" = (
+"wU" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/syndicate/hephaestus/maintenance)
-"wU" = (
+"wV" = (
+/obj/machinery/door/poddoor{
+	density = 1;
+	icon_state = "closed";
+	id = "Syndicate_Hephaestus_Blastdoors";
+	name = "Syndicate Hephaestus Blastdoors";
+	opacity = 1
+	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
-"wV" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/syndicate/hephaestus/maintenance)
 "wW" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "wX" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "wY" = (
 /turf/open/floor/plating{
@@ -10264,26 +10295,17 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "wZ" = (
-/obj/machinery/light{
-	dir = 4
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/syndicate/hephaestus/maintenance)
 "xa" = (
-/obj/structure/sign/securearea,
-/turf/closed/wall/mineral/iron{
+/turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
 "xb" = (
-/obj/machinery/button/door{
-	id = "Syndicate_Hephaestus_Blastdoors2";
-	name = "Syndicate Hephaestus Blastdoors Button";
-	pixel_x = 0;
-	pixel_y = 0;
-	req_access_txt = "150"
-	},
-/turf/closed/wall/mineral/iron{
+/turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/syndicate/hephaestus/maintenance)
@@ -10298,79 +10320,523 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "xe" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/obj/machinery/door/poddoor{
+	density = 1;
+	icon_state = "closed";
+	id = "Syndicate_Hephaestus_Blastdoors2";
+	name = "Syndicate Hephaestus Blastdoors";
+	opacity = 1
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
 /area/syndicate/hephaestus/maintenance)
 "xf" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xg" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xh" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xi" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xj" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/machinery/computer/mech_bay_power_console,
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xk" = (
-/turf/open/floor/plating{
+/turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xl" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/machinery/light{
+	dir = 8
 	},
-/area/lavaland/surface/outdoors)
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
 "xm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xo" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xp" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
 "xr" = (
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
+/obj/machinery/light{
+	dir = 4
 	},
-/area/lavaland/surface/outdoors)
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
 "xs" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xt" = (
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
 /area/lavaland/surface/outdoors)
-"xt" = (
+"xu" = (
+/obj/machinery/button/door{
+	id = "Syndicate_Hephaestus_Blastdoors";
+	name = "Syndicate Hephaestus Blastdoors Button";
+	pixel_x = 0;
+	pixel_y = 0;
+	req_access_txt = "150"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xv" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xw" = (
+/obj/machinery/button/door{
+	id = "Syndicate_Hephaestus_Blastdoors";
+	name = "Syndicate Hephaestus Blastdoors Button";
+	pixel_x = 0;
+	pixel_y = 0;
+	req_access_txt = "150"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xx" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xy" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xz" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xA" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xB" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xC" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xD" = (
+/obj/machinery/button/door{
+	id = "Syndicate_Hephaestus_Blastdoors2";
+	name = "Syndicate Hephaestus Blastdoors Button";
+	pixel_x = 0;
+	pixel_y = 0;
+	req_access_txt = "150"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xE" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xF" = (
+/obj/machinery/button/door{
+	id = "Syndicate_Hephaestus_Blastdoors2";
+	name = "Syndicate Hephaestus Blastdoors Button";
+	pixel_x = 0;
+	pixel_y = 0;
+	req_access_txt = "150"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xG" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xH" = (
+/obj/machinery/door/airlock/highsecurity{
+	desc = "Nothing to see here, folks, just an inconspicuous airlock. Now go away!";
+	name = "Inconspicuous Airlock";
+	req_access_txt = "150"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"xI" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xJ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xK" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"xM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xN" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xO" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xP" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xQ" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xR" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"xS" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xT" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xU" = (
+/obj/structure/table/wood,
+/obj/item/device/flashlight/lamp,
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"xV" = (
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"xW" = (
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"xX" = (
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"xY" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"xZ" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"ya" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"yb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yc" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yd" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"ye" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yf" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yg" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"yh" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yi" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yj" = (
+/obj/structure/table/wood,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"yk" = (
+/turf/open/floor/carpet,
+/area/syndicate/hephaestus/maintenance)
+"yl" = (
+/turf/open/floor/carpet,
+/area/syndicate/hephaestus/maintenance)
+"ym" = (
+/turf/open/floor/carpet,
+/area/syndicate/hephaestus/maintenance)
+"yn" = (
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"yo" = (
+/obj/machinery/door/airlock/highsecurity{
+	desc = "Nothing to see here, folks, just an inconspicuous airlock. Now go away!";
+	name = "Inconspicuous Airlock";
+	req_access_txt = "150"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"yp" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"yq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yr" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"ys" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yt" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yu" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yv" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"yw" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yx" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yy" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"yz" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"yA" = (
+/obj/machinery/light,
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"yB" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"yC" = (
+/obj/item/weapon/twohanded/required/kirbyplants{
+	icon_state = "plant-08";
+	layer = 4.1
+	},
+/turf/open/floor/wood,
+/area/syndicate/hephaestus/maintenance)
+"yD" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"yE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"yF" = (
 /obj/docking_port/stationary{
 	area_type = /area/lavaland/surface/outdoors;
 	dir = 4;
@@ -10381,13 +10847,428 @@
 	turf_type = /turf/open/floor/plating/asteroid/basalt/lava_land_surface;
 	width = 9
 	},
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
-"xu" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
 	},
-/area/lavaland/surface/outdoors)
+/area/syndicate/hephaestus/maintenance)
+"yG" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yH" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yI" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yJ" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yK" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"yL" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yM" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yN" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yO" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yP" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yQ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yR" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yS" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yT" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"yU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yV" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yW" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yX" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yY" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"yZ" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"za" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zb" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zc" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"ze" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zf" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zg" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zh" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zi" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zj" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zk" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zl" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zn" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zo" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zp" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zq" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zr" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zs" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zt" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zu" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zv" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zw" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zx" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zy" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zA" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zB" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zC" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zE" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zF" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zG" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zH" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zI" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"zK" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zL" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zM" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zN" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zO" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zP" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zQ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zR" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zS" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"zT" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
 
 (1,1,1) = {"
 aa
@@ -60309,7 +61190,7 @@ aD
 aD
 aD
 aD
-aD
+bc
 cH
 cH
 cH
@@ -60566,7 +61447,7 @@ aD
 aD
 aD
 aD
-aD
+bc
 cH
 cH
 cH
@@ -60818,13 +61699,13 @@ aD
 aD
 aD
 aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
+bc
+bc
+bc
+bc
+bc
+bc
+bc
 cH
 cH
 cH
@@ -61069,19 +61950,19 @@ cH
 aD
 aD
 aD
-wj
+wt
 aD
-wP
-aD
-aD
+xt
 aD
 aD
-aD
-aD
-aD
-aD
-aD
-aD
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+bc
 cH
 cH
 cH
@@ -61325,20 +62206,20 @@ cH
 cH
 cH
 aD
-vS
-wk
+vT
+wu
 aD
 aD
 aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+bc
 cH
 cH
 cH
@@ -61582,10 +62463,12 @@ bp
 cH
 cH
 vu
-vT
-wl
-wA
-wQ
+vU
+wv
+wU
+xu
+bc
+bc
 aD
 aD
 aD
@@ -61593,10 +62476,8 @@ aD
 aD
 aD
 aD
-aD
-aD
-aD
-aD
+bc
+bc
 cH
 cH
 cH
@@ -61839,10 +62720,10 @@ bp
 bp
 bp
 vv
-vU
-wm
-wB
-wR
+vV
+ww
+wV
+xv
 bp
 bp
 bp
@@ -62096,10 +62977,10 @@ bp
 bp
 bp
 vw
-vV
-wn
-wC
-wS
+vW
+wx
+wW
+xw
 bp
 bp
 bp
@@ -62353,10 +63234,10 @@ bp
 bp
 bp
 vx
-vW
-wo
-wD
-wT
+vX
+wy
+wX
+xx
 bp
 bp
 bp
@@ -62610,10 +63491,10 @@ aD
 aD
 bp
 vy
-vX
-wp
-wE
-wU
+vY
+wz
+wY
+xy
 bp
 bp
 bp
@@ -62867,10 +63748,10 @@ ut
 aD
 bp
 vz
-vY
-wq
-wF
-wV
+vZ
+wA
+wZ
+xz
 bp
 bp
 bp
@@ -63124,10 +64005,10 @@ uu
 aD
 bp
 vA
-vZ
-wr
-wG
-wW
+wa
+wB
+xa
+xA
 bp
 bp
 bp
@@ -63381,10 +64262,10 @@ uv
 aD
 bp
 vB
-wa
-ws
-wH
-wX
+wb
+wC
+xb
+xB
 bp
 bp
 bp
@@ -63638,10 +64519,10 @@ uw
 aD
 bp
 vC
-wb
-wt
-wI
-wY
+wc
+wD
+xc
+xC
 bp
 bp
 bp
@@ -63893,17 +64774,17 @@ tD
 ua
 ux
 aD
-bp
+aD
 vD
-wc
-wu
-wJ
-wZ
-bp
-bp
-bp
-bp
-bp
+wd
+wE
+xd
+xD
+aD
+aD
+aD
+aD
+aD
 bp
 bp
 bp
@@ -64152,15 +65033,15 @@ uy
 uQ
 vf
 vE
-wd
-wv
-wK
-xa
-bp
-bp
-bp
-bp
-bp
+we
+wF
+xe
+xE
+xT
+yi
+yx
+yM
+aD
 bp
 bp
 bp
@@ -64409,15 +65290,15 @@ uz
 uR
 vg
 vF
-we
-ww
-wL
-xb
+wf
+wG
+xf
+xF
+xU
+yj
+yy
+yN
 aD
-aD
-aD
-aD
-bp
 bp
 bp
 bp
@@ -64666,15 +65547,15 @@ uA
 uS
 vh
 vG
-wf
-wx
-wM
-xc
-xf
-xh
-xn
-xu
-bp
+wg
+wH
+xg
+xG
+xV
+yk
+yz
+yO
+aD
 bp
 bp
 bp
@@ -64923,15 +65804,15 @@ uB
 uT
 vi
 vH
-wg
-wy
-wN
-xd
-xg
-xi
-xo
+wh
+wI
+xh
+xH
+xW
+yl
+yA
+yP
 aD
-bp
 bp
 bp
 bp
@@ -65180,14 +66061,14 @@ uC
 uU
 vj
 vI
-wh
-wz
-wO
-xe
-aD
-xj
-xp
-aD
+wi
+wJ
+xi
+xI
+xX
+ym
+yB
+yQ
 aD
 bp
 bp
@@ -65437,20 +66318,20 @@ uD
 uV
 vk
 vJ
-wi
-bp
-bp
-bp
+wj
+wK
+xj
+xJ
+xY
+yn
+yC
+yR
 aD
-xk
-xq
 aD
 aD
-bp
-bp
-bp
-bp
-bp
+aD
+aD
+aD
 bp
 bp
 bp
@@ -65694,20 +66575,20 @@ uE
 uW
 vl
 vK
+wk
+wL
+xk
+xK
+xZ
+yo
+yD
+yS
+zb
+zk
+zt
+zC
+zL
 aD
-bp
-bp
-bp
-aD
-xl
-xr
-aD
-aD
-aD
-bp
-bp
-bp
-bp
 bp
 bp
 bp
@@ -65951,20 +66832,20 @@ uF
 uX
 vm
 vL
+wl
+wM
+xl
+xL
+ya
+yp
+yE
+yT
+zc
+zl
+zu
+zD
+zM
 aD
-bp
-bp
-aD
-aD
-xm
-xs
-aD
-aD
-aD
-aD
-bp
-bp
-bp
 bp
 bp
 bp
@@ -66208,20 +67089,20 @@ uG
 uY
 vn
 vM
+wm
+wN
+xm
+xM
+yb
+yq
+yF
+yU
+zd
+zm
+zv
+zE
+zN
 aD
-bp
-bp
-aD
-aD
-aD
-xt
-aD
-aD
-aD
-aD
-bp
-bp
-bp
 bp
 bp
 bp
@@ -66465,20 +67346,20 @@ uH
 uZ
 vo
 vN
+wn
+wO
+xn
+xN
+yc
+yr
+yG
+yV
+ze
+zn
+zw
+zF
+zO
 aD
-bp
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-bp
-bp
 bp
 bp
 bp
@@ -66722,20 +67603,20 @@ uI
 va
 vp
 vO
+wo
+wP
+xo
+xO
+yd
+ys
+yH
+yW
+zf
+zo
+zx
+zG
+zP
 aD
-bp
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-bp
-bp
 bp
 bp
 bp
@@ -66979,20 +67860,20 @@ uJ
 vb
 vq
 vP
+wp
+wQ
+xp
+xP
+ye
+yt
+yI
+yX
+zg
+zp
+zy
+zH
+zQ
 aD
-bp
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-bp
-bp
 bp
 bp
 bp
@@ -67236,20 +68117,20 @@ uK
 vc
 vr
 vQ
+wq
+wR
+xq
+xQ
+yf
+yu
+yJ
+yY
+zh
+zq
+zz
+zI
+zR
 aD
-bp
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-bp
-bp
 bp
 bp
 bp
@@ -67493,20 +68374,20 @@ uL
 vd
 vs
 vR
+wr
+wS
+xr
+xR
+yg
+yv
+yK
+yZ
+zi
+zr
+zA
+zJ
+zS
 aD
-bp
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-bp
-bp
 bp
 bp
 bp
@@ -67749,21 +68630,21 @@ up
 uM
 ve
 aD
+vS
+ws
+wT
+xs
+xS
+yh
+yw
+yL
+za
+zj
+zs
+zB
+zK
+zT
 aD
-aD
-bp
-bp
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-bp
-bp
 bp
 bp
 bp
@@ -68006,10 +68887,6 @@ uq
 uN
 aD
 aD
-bp
-bp
-bp
-bp
 aD
 aD
 aD
@@ -68018,9 +68895,13 @@ aD
 aD
 aD
 aD
-bp
-bp
-bp
+aD
+aD
+aD
+aD
+aD
+aD
+aD
 bp
 bp
 bp
@@ -68267,13 +69148,13 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-aD
-aD
-aD
-aD
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 bp
 bp
 bp
@@ -68525,11 +69406,11 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-aD
-aD
+bp
+bp
+bp
+bp
+bp
 bp
 bp
 bp
