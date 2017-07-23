@@ -1879,6 +1879,7 @@
 	turf_type = /turf/open/space;
 	width = 10
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/black,
 /area/shuttle/syndicate_hammer)
 "dL" = (
@@ -3610,7 +3611,7 @@
 	},
 /obj/machinery/computer/shuttle/syndicate{
 	name = "syndicate pod terminal";
-	possible_destinations = "syndicate_pod";
+	possible_destinations = "syndicate_lavaland_hephaestus";
 	req_access = null;
 	req_access_txt = "150";
 	shuttleId = "syndicate_pod"
@@ -4693,9 +4694,8 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 8
-	},
+/obj/structure/closet/firecloset,
+/turf/open/floor/plasteel/black,
 /area/shuttle/syndicate_pod)
 "iE" = (
 /turf/open/floor/plasteel/black,
@@ -4833,14 +4833,12 @@
 /obj/structure/chair/office/dark{
 	dir = 4
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/plasteel/black,
 /area/shuttle/syndicate_pod)
 "iT" = (
 /obj/machinery/computer/shuttle/syndicate{
 	name = "syndicate pod terminal";
-	possible_destinations = "syndicate_pod;syndicate_lavaland_lava;syndicate_space_pubby";
+	possible_destinations = "syndicate_pod;syndicate_lavaland_lava;syndicate_lavaland_hephaestus;syndicate_space_pubby";
 	req_access = null;
 	req_access_txt = "150";
 	shuttleId = "syndicate_pod"
@@ -5114,7 +5112,7 @@
 	name = "Syndicate Pod Blast Door";
 	opacity = 0
 	},
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/shuttle/syndicate_pod)
 "jt" = (
 /turf/open/space/basic,
@@ -11235,6 +11233,25 @@
 /obj/item/weapon/bombcore/large/underwall,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/gravity_generator)
+"uJ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel/black,
+/area/shuttle/syndicate_pod)
+"uK" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "syndicate_pod_blast2";
+	name = "Syndicate Pod Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_pod)
 
 (1,1,1) = {"
 aa
@@ -53013,8 +53030,8 @@ eK
 aa
 ij
 iD
-iQ
-iD
+iE
+uJ
 ij
 aa
 aa
@@ -53270,9 +53287,9 @@ ei
 ei
 ij
 iE
-iR
+iE
 jf
-ij
+uK
 aa
 aa
 aa
@@ -53527,7 +53544,7 @@ hs
 gW
 ik
 iE
-iR
+iE
 jf
 js
 aa
@@ -53784,7 +53801,7 @@ ei
 ei
 il
 iE
-iR
+iE
 jf
 js
 aa

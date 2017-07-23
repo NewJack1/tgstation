@@ -3911,6 +3911,6483 @@
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
+"iq" = (
+/obj/structure/stone_tile/cracked,
+/turf/closed/mineral/random/high_chance/volcanic,
+/area/lavaland/surface/outdoors)
+"ir" = (
+/obj/structure/stone_tile/cracked,
+/turf/closed/indestructible/riveted/boss,
+/area/lavaland/surface/outdoors)
+"is" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"it" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iu" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iv" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iw" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"ix" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iy" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iz" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iA" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iB" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iC" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iD" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iE" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iF" = (
+/obj/structure/kitchenspike,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iG" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iH" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iI" = (
+/obj/structure/kitchenspike,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iJ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iK" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iL" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "bunkerrecycle"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iM" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "bunkerrecycle"
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iN" = (
+/obj/machinery/recycler/deathtrap,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "bunkerrecycle"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iO" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "bunkerrecycle";
+	movedir = 2
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iP" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iQ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iR" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iS" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 10
+	},
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iT" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iU" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/reagent_dispensers/beerkeg,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"iV" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iW" = (
+/obj/structure/table,
+/obj/item/weapon/storage/toolbox/emergency,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iX" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iY" = (
+/obj/machinery/conveyor_switch{
+	id = "bunkerrecycle"
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"iZ" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ja" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "bunkerrecycle";
+	movedir = 2
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jb" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jc" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"jd" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"je" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"jf" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"jg" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"jh" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"ji" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"jj" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"jk" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jl" = (
+/obj/machinery/processor{
+	name = "processor"
+	},
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jm" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jo" = (
+/obj/machinery/gibber,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jp" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jq" = (
+/obj/structure/table,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jr" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"js" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jt" = (
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	dir = 2;
+	name = "Recycling APC";
+	pixel_y = -24;
+	req_access = list(157)
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ju" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "bunkerrecycle";
+	movedir = 2
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jv" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jw" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"jx" = (
+/obj/structure/closet/cardboard,
+/obj/item/stack/sheet/mineral/silver,
+/obj/item/stack/sheet/mineral/gold,
+/obj/item/stack/sheet/mineral/silver,
+/obj/item/stack/sheet/mineral/silver,
+/obj/item/stack/sheet/mineral/gold,
+/obj/item/stack/sheet/mineral/gold,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"jy" = (
+/obj/structure/closet/cardboard,
+/obj/item/weapon/storage/box/monkeycubes,
+/obj/item/weapon/storage/box/monkeycubes,
+/obj/item/weapon/storage/box/monkeycubes,
+/obj/item/weapon/storage/toolbox/drone,
+/obj/item/weapon/storage/toolbox/drone,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"jz" = (
+/obj/structure/closet/cardboard,
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/cable_coil,
+/obj/item/stack/sheet/mineral/wood,
+/obj/item/stack/sheet/mineral/wood,
+/obj/item/stack/packageWrap,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"jA" = (
+/obj/structure/closet/cardboard,
+/obj/item/weapon/storage/box/mousetraps,
+/obj/item/weapon/storage/box/mousetraps,
+/obj/item/weapon/storage/box/drinkingglasses,
+/obj/item/weapon/storage/box/zipties,
+/obj/item/weapon/switchblade,
+/obj/effect/turf_decal/delivery,
+/obj/item/device/gps{
+	gpstag = "DEEP"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"jB" = (
+/obj/structure/closet/cardboard,
+/obj/item/stack/sheet/metal{
+	amount = 50;
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50;
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50;
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50;
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/stack/rods{
+	amount = 50
+	},
+/obj/item/stack/rods{
+	amount = 50
+	},
+/obj/item/stack/rods{
+	amount = 50
+	},
+/obj/item/stack/rods{
+	amount = 50
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"jC" = (
+/obj/structure/closet/cardboard,
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/item/stack/sheet/plasteel{
+	amount = 10
+	},
+/obj/item/stack/sheet/plasteel{
+	amount = 10
+	},
+/obj/item/stack/sheet/plasteel{
+	amount = 10
+	},
+/obj/item/stack/sheet/plasteel{
+	amount = 10
+	},
+/obj/item/clothing/shoes/combat,
+/obj/item/clothing/shoes/combat,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"jD" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jE" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jF" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jG" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jH" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jI" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/door/airlock{
+	name = "Freezer"
+	},
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jJ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"jK" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jL" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jM" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Recycling Room";
+	req_access_txt = "150"
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jN" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Recycling Room";
+	req_access_txt = "150"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"jO" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"jP" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"jQ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"jR" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"jS" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"jT" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"jU" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"jV" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"jW" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"jX" = (
+/obj/structure/closet/cardboard,
+/obj/item/device/flashlight/flare,
+/obj/item/device/flashlight/flare,
+/obj/item/device/flashlight/flare,
+/obj/item/device/flashlight/flare,
+/obj/item/device/flashlight/flare,
+/obj/item/device/flashlight/flare,
+/obj/item/device/flashlight,
+/obj/item/device/flashlight,
+/obj/item/device/flashlight,
+/obj/item/weapon/shovel,
+/obj/item/weapon/pickaxe/drill,
+/obj/item/weapon/pickaxe/drill,
+/obj/item/weapon/pickaxe/drill,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"jY" = (
+/obj/structure/closet/cardboard,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/tape/random,
+/obj/item/device/tape/random,
+/obj/item/device/tape/random,
+/obj/item/weapon/storage/box/rxglasses,
+/obj/item/weapon/extinguisher,
+/obj/item/weapon/extinguisher,
+/obj/item/clothing/glasses/night,
+/obj/item/clothing/glasses/night,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"jZ" = (
+/obj/structure/closet/cardboard,
+/obj/item/weapon/storage/box/syringes,
+/obj/item/weapon/storage/box/syringes,
+/obj/item/weapon/storage/box/beakers,
+/obj/item/weapon/storage/box/beakers,
+/obj/item/weapon/storage/box/matches,
+/obj/item/weapon/storage/box/bodybags,
+/obj/item/clothing/glasses/meson/engine,
+/obj/item/clothing/glasses/meson/engine,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"ka" = (
+/obj/structure/closet/cardboard,
+/obj/item/weapon/kitchen/knife,
+/obj/item/weapon/kitchen/knife,
+/obj/item/weapon/cultivator,
+/obj/item/weapon/hatchet,
+/obj/item/weapon/kitchen/rollingpin,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"kb" = (
+/obj/structure/closet/cardboard,
+/obj/item/weapon/defibrillator,
+/obj/item/weapon/storage/box/medipens,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"kc" = (
+/obj/structure/closet/cardboard,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/c9mm,
+/obj/item/ammo_box/c9mm,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"kd" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"ke" = (
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/weapon/storage/box/cups,
+/obj/item/weapon/reagent_containers/glass/beaker,
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kf" = (
+/obj/structure/table,
+/obj/item/weapon/reagent_containers/food/condiment/enzyme,
+/obj/item/weapon/reagent_containers/food/condiment/soysauce{
+	pixel_x = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 6
+	},
+/obj/machinery/firealarm{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kg" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kh" = (
+/obj/structure/table,
+/obj/item/weapon/reagent_containers/food/condiment/peppermill,
+/obj/item/weapon/reagent_containers/food/condiment/saltshaker{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 9
+	},
+/obj/item/weapon/kitchen/knife,
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"ki" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kj" = (
+/obj/structure/sink/kitchen{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kk" = (
+/obj/structure/table,
+/obj/machinery/microwave,
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kl" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"km" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"kn" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ko" = (
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kp" = (
+/obj/structure/table,
+/obj/item/weapon/storage/bag/plants/portaseeder,
+/obj/item/weapon/storage/bag/plants,
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kq" = (
+/obj/machinery/vending/hydronutrients,
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/machinery/firealarm{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kr" = (
+/obj/machinery/vending/hydroseeds{
+	slogan_delay = 700
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"ks" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kt" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hydroponics)
+"ku" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 10
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kv" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kw" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"kx" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"ky" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"kz" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"kA" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 6
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"kB" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"kC" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"kD" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kE" = (
+/obj/structure/closet/secure_closet/freezer/kitchen{
+	req_access = null
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/item/weapon/storage/box/drinkingglasses,
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kF" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kG" = (
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kH" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kI" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kJ" = (
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kK" = (
+/obj/structure/table,
+/obj/machinery/microwave,
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kL" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"kM" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"kN" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"kO" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kP" = (
+/obj/structure/table,
+/obj/item/weapon/cultivator,
+/obj/item/weapon/hatchet,
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kQ" = (
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kR" = (
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kS" = (
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kT" = (
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kU" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kV" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"kW" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"kX" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"kY" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"kZ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"la" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"lb" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plasteel/floorgrime{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"lc" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"ld" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel/floorgrime{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"le" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/open/floor/plasteel/floorgrime{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"lf" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lg" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/item/weapon/storage/box/ingredients/wildcard,
+/obj/item/weapon/storage/box/ingredients/wildcard,
+/obj/item/weapon/storage/box/ingredients/wildcard,
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lh" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"li" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lk" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"ll" = (
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	dir = 2;
+	name = "Kitchen APC";
+	pixel_y = -24;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lm" = (
+/obj/machinery/light,
+/obj/machinery/vending/dinnerware,
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"ln" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lo" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"lp" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"lq" = (
+/obj/machinery/door/airlock/glass{
+	req_access_txt = "150"
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lr" = (
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"ls" = (
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lt" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lu" = (
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lv" = (
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lw" = (
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lx" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"ly" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"lz" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"lA" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"lB" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"lC" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"lD" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"lE" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "General Storage";
+	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"lF" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"lG" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"lH" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lI" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lJ" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/glass{
+	name = "Kitchen"
+	},
+/turf/open/floor/plasteel/cafeteria{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lK" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/smartfridge,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lL" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lM" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lN" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lO" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lP" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/kitchen)
+"lQ" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"lR" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"lS" = (
+/obj/structure/grille,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lT" = (
+/obj/structure/table,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lU" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lV" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lW" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lX" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lY" = (
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	cell_type = 5000;
+	dir = 4;
+	name = "Hydroponics APC";
+	pixel_x = 24;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"lZ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"ma" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"mb" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"mc" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/obj/item/weapon/reagent_containers/food/snacks/beans,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"md" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"me" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"mf" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mg" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mh" = (
+/obj/structure/noticeboard{
+	pixel_y = 32
+	},
+/obj/item/weapon/paper{
+	info = "To whoever keeps it up with the long, hot showers: you're going on the next ice-mining trip. If you feel the need to use up all the damn water during your 'relaxation' time, you sure as hell are gonna work for all that water!";
+	name = "water concerns"
+	},
+/obj/item/weapon/paper{
+	info = "Hydroponics is our life and blood here, if it dies then so do we. Keep the damn plants watered!";
+	name = "hydroponics notice"
+	},
+/obj/item/weapon/paper{
+	info = "Please make sure to throw all excess waste into the crusher in the back! It's amazing what you can get out of what others consider 'garbage' if you run it through a giant crusher enough times.";
+	name = "recycling notice"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mi" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/structure/sign/barsign{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mj" = (
+/obj/structure/table,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mk" = (
+/obj/structure/table,
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ml" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mm" = (
+/obj/structure/closet/crate/bin,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mn" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mo" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/item/weapon/soap/syndie,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mp" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mq" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mr" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ms" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mt" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mu" = (
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"mv" = (
+/obj/structure/table,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/light,
+/obj/item/weapon/reagent_containers/glass/bucket{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/weapon/reagent_containers/glass/bucket,
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"mw" = (
+/obj/machinery/seed_extractor,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"mx" = (
+/obj/machinery/biogenerator,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/item/weapon/reagent_containers/glass/beaker/large,
+/turf/open/floor/plasteel/hydrofloor{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"my" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hydroponics)
+"mz" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hydroponics)
+"mA" = (
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hydroponics)
+"mB" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"mC" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"mD" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"mE" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"mF" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"mG" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Provisions Storage";
+	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"mH" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mI" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mJ" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 10
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mK" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mL" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mM" = (
+/obj/structure/table,
+/obj/item/weapon/kitchen/fork,
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mN" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mO" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mP" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mQ" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/structure/window/plasma/reinforced,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mR" = (
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mS" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/structure/mirror{
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mT" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mU" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mV" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"mW" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"mX" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"mY" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"mZ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"na" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"nb" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"nc" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"nd" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hydroponics)
+"ne" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"nf" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"ng" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"nh" = (
+/obj/structure/cable/yellow,
+/obj/machinery/power/apc{
+	cell_type = 5000;
+	dir = 4;
+	name = "Storage APC";
+	pixel_x = 24;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"ni" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"nj" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nk" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nl" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nm" = (
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nn" = (
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"no" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"np" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nq" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/vending/cigarette,
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/bar{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nr" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ns" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/structure/curtain,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nt" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nu" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nv" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nw" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nx" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ny" = (
+/obj/structure/grille,
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"nz" = (
+/obj/structure/table,
+/obj/item/device/mass_spectrometer/adv,
+/obj/item/device/mass_spectrometer/adv,
+/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer,
+/obj/item/stack/medical/gauze,
+/obj/item/stack/medical/gauze,
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"nA" = (
+/obj/structure/table,
+/obj/item/weapon/storage/firstaid/regular{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/firstaid/regular,
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"nB" = (
+/obj/structure/table,
+/obj/item/weapon/storage/firstaid/brute{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/firstaid/brute,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"nC" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"nD" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"nE" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"nF" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/obj/item/weapon/reagent_containers/glass/beaker/waterbottle/large,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"nG" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"nH" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"nI" = (
+/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nJ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nK" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nL" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nM" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nN" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nO" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nP" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nQ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nR" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nS" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nT" = (
+/obj/machinery/door/airlock{
+	name = "Showers";
+	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/freezer{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nU" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nV" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nW" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"nX" = (
+/obj/structure/grille,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"nY" = (
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"nZ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"oa" = (
+/obj/structure/table,
+/obj/item/stack/sheet/metal{
+	amount = 50;
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/stack/rods{
+	amount = 50
+	},
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"ob" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"oc" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"od" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/weapon/vending_refill/coffee,
+/obj/item/weapon/vending_refill/cigarette,
+/obj/item/weapon/vending_refill/cigarette,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"oe" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/closet/crate{
+	name = "food crate"
+	},
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/storage/box/donkpockets,
+/obj/item/weapon/vending_refill/coffee,
+/obj/item/weapon/vending_refill/cigarette,
+/obj/item/weapon/vending_refill/cigarette,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"of" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/storage)
+"og" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 6
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/storage)
+"oh" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"oi" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"oj" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ok" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ol" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"om" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"on" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oo" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"op" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oq" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/firealarm{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"or" = (
+/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"os" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ot" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ou" = (
+/obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ov" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ow" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Secure Storage";
+	req_access_txt = "155"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"ox" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"oy" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"oz" = (
+/obj/structure/table,
+/obj/item/device/radio{
+	pixel_x = -4
+	},
+/obj/item/device/radio,
+/obj/item/device/radio{
+	pixel_x = 4
+	},
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"oA" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"oB" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"oC" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"oD" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"oE" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"oF" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"oG" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 6
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"oH" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/glass{
+	name = "Dorms";
+	req_access_txt = "150"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"oI" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oJ" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oK" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow,
+/obj/machinery/power/apc{
+	dir = 2;
+	name = "Main Area APC";
+	pixel_y = -24;
+	req_access = list(157)
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oL" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oM" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden,
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oN" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oO" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oP" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oQ" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oR" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oS" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oT" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oU" = (
+/obj/machinery/atmospherics/pipe/manifold4w/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"oV" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Secure Storage";
+	req_access_txt = "155"
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"oW" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"oX" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"oY" = (
+/obj/structure/table,
+/obj/item/weapon/storage/backpack/duffelbag/sec/surgery{
+	pixel_y = 5
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	cell_type = 5000;
+	dir = 4;
+	name = "Armory APC";
+	pixel_x = 24;
+	req_access = list(157)
+	},
+/obj/item/weapon/storage/backpack/duffelbag/syndie/ammo/smg,
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"oZ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"pa" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pb" = (
+/obj/structure/dresser,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pc" = (
+/obj/structure/table/wood,
+/obj/item/device/flashlight/lamp,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pd" = (
+/obj/structure/bed,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/item/weapon/bedsheet,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pe" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pf" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"pg" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ph" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Canister Storage";
+	req_access_txt = "156"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pi" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pj" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pk" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "bunkerexterior";
+	name = "Syndicate LavaBase Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pl" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "bunkerexterior";
+	name = "Syndicate LavaBase Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pm" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"pn" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"po" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Airlock Control";
+	req_access_txt = "155"
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/floorgrime{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"pp" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"pq" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"pr" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"ps" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pt" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pu" = (
+/obj/structure/grille,
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"pv" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 5
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"pw" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"px" = (
+/obj/structure/table,
+/obj/structure/reagent_dispensers/peppertank{
+	pixel_x = 32
+	},
+/obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r,
+/obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r,
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"py" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"pz" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pA" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pB" = (
+/obj/structure/chair/stool,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pC" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pD" = (
+/obj/machinery/door/airlock{
+	name = "Personal Dorm";
+	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pE" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"pF" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pG" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pH" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pI" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pJ" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pK" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pL" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"pM" = (
+/obj/structure/table,
+/obj/machinery/button/door{
+	id = "bunkerexterior";
+	name = "exterior blastdoor access";
+	pixel_x = -24;
+	pixel_y = -8;
+	req_access_txt = "155"
+	},
+/obj/machinery/button/door{
+	id = "bunkerinterior";
+	name = "interior blastdoor access";
+	pixel_x = -24;
+	req_access_txt = "155"
+	},
+/obj/machinery/button/door{
+	id = "bunkershutter";
+	name = "hallway shutter toggle";
+	pixel_x = -24;
+	pixel_y = 8;
+	req_access_txt = "155"
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/obj/machinery/computer/security/telescreen{
+	dir = 1;
+	name = "Bunker Entrance";
+	network = list("Bunker1");
+	pixel_y = 2
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"pN" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"pO" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/firealarm{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"pP" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "Airlock Control APC";
+	pixel_y = 24;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"pQ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"pR" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pS" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"pT" = (
+/obj/structure/grille,
+/obj/structure/cable/yellow,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"pU" = (
+/obj/structure/table,
+/obj/item/weapon/storage/firstaid/toxin{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/firstaid/toxin,
+/obj/item/weapon/storage/pill_bottle/charcoal,
+/obj/machinery/light,
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"pV" = (
+/obj/structure/table,
+/obj/item/clothing/gloves/combat{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/clothing/gloves/combat{
+	pixel_x = 3;
+	pixel_y = -2
+	},
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"pW" = (
+/obj/structure/table,
+/obj/item/weapon/storage/toolbox/drone,
+/obj/item/device/flashlight,
+/obj/item/device/flashlight,
+/obj/item/device/flashlight/flare,
+/obj/item/device/flashlight/flare,
+/obj/item/device/flashlight/flare,
+/obj/item/device/flashlight/flare{
+	pixel_y = 6
+	},
+/obj/item/device/flashlight/flare{
+	pixel_y = 6
+	},
+/obj/item/device/flashlight/flare{
+	pixel_y = 6
+	},
+/turf/open/floor/plasteel/black{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"pX" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"pY" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"pZ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"qa" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"qb" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"qc" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"qd" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"qe" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qf" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qg" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qh" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qi" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qj" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qk" = (
+/obj/structure/grille,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "bunkershutter"
+	},
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"ql" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"qm" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"qn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"qo" = (
+/obj/machinery/atmospherics/components/binary/valve{
+	name = "Hall Siphon to Port"
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"qp" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"qq" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Atmospherics and Power Storage";
+	req_access_txt = "156"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"qr" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Atmospherics and Power Storage";
+	req_access_txt = "156"
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"qs" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 6
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"qt" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"qu" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"qv" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"qw" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/armory)
+"qx" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"qy" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 8
+	},
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"qz" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"qA" = (
+/obj/structure/dresser,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"qB" = (
+/obj/structure/table/wood,
+/obj/item/device/flashlight/lamp,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"qC" = (
+/obj/structure/bed,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/item/weapon/bedsheet,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"qD" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"qE" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"qF" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qG" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qH" = (
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qI" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qJ" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qK" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"qL" = (
+/obj/structure/grille,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "bunkershutter"
+	},
+/obj/structure/cable/yellow,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"qM" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"qN" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"qO" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"qP" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"qQ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"qR" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"qS" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"qT" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"qU" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"qV" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"qW" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"qX" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"qY" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"qZ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"ra" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"rb" = (
+/obj/structure/chair/stool,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"rc" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"rd" = (
+/obj/machinery/door/airlock{
+	name = "Personal Dorm";
+	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"re" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"rf" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rg" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rh" = (
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ri" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rj" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rk" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 5
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rl" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"rm" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 4
+	},
+/obj/machinery/airalarm{
+	dir = 4;
+	pixel_x = -24;
+	req_access = list(157)
+	},
+/obj/machinery/computer/shuttle/syndicate{
+	name = "syndicate pod terminal";
+	possible_destinations = "syndicate_lavaland_hephaestus";
+	req_access = null;
+	req_access_txt = "150";
+	shuttleId = "syndicate_pod"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"rn" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"ro" = (
+/obj/machinery/atmospherics/components/binary/valve{
+	dir = 4;
+	name = "Port To Hall"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"rp" = (
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/obj/item/weapon/wrench,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/ruin/deepstorage/airlock)
+"rq" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"rr" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Power and Atmospherics APC";
+	pixel_x = -25;
+	pixel_y = 1;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"rs" = (
+/obj/machinery/atmospherics/components/trinary/mixer{
+	dir = 1;
+	icon_state = "mixer_off";
+	node1_concentration = 0.2;
+	node2_concentration = 0.8;
+	on = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"rt" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"ru" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"rv" = (
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"rw" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 8;
+	frequency = 1441;
+	id_tag = "o2_out_bunker";
+	name = "oxygen out"
+	},
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"rx" = (
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"ry" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"rz" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"rA" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"rB" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"rC" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"rD" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"rE" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/structure/cable/yellow,
+/obj/machinery/power/apc{
+	cell_type = 5000;
+	dir = 4;
+	name = "Dormory APC";
+	pixel_x = 24;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"rF" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rG" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rH" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rI" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rJ" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "bunkerexterior";
+	name = "Syndicate LavaBase Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rK" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "bunkerexterior";
+	name = "Syndicate LavaBase Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"rL" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"rM" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"rN" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"rO" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"rP" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"rQ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/airlock)
+"rR" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"rS" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"rT" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"rU" = (
+/obj/machinery/computer/atmos_control/tank{
+	frequency = 1441;
+	input_tag = "o2_in_bunker";
+	name = "Oxygen Supply Control";
+	output_tag = "o2_out_bunker";
+	sensors = list("o2_sensor_bunker" = "Tank")
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"rV" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"rW" = (
+/obj/machinery/air_sensor{
+	frequency = 1441;
+	id_tag = "o2_sensor_bunker"
+	},
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"rX" = (
+/obj/machinery/atmospherics/miner/oxygen,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"rY" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"rZ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sa" = (
+/obj/structure/dresser,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sb" = (
+/obj/structure/table/wood,
+/obj/item/device/flashlight/lamp,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sc" = (
+/obj/structure/bed,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/item/weapon/bedsheet,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sd" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"se" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"sf" = (
+/obj/structure/closet/wardrobe/pjs,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"sg" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sh" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/structure/closet/firecloset,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"si" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/sign/securearea{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sj" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sl" = (
+/obj/machinery/camera{
+	network = list("Bunker1")
+	},
+/obj/structure/sign/securearea{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sm" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"so" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sp" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 4
+	},
+/obj/structure/sign/electricshock{
+	pixel_y = 32
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sq" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sr" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"ss" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"st" = (
+/obj/machinery/atmospherics/components/trinary/filter{
+	dir = 1;
+	filter_type = "o2";
+	on = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"su" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"sv" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sw" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 8;
+	frequency = 1441;
+	id = "n2_in_bunker"
+	},
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sx" = (
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sy" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sz" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sA" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sB" = (
+/obj/structure/chair/stool,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sC" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sD" = (
+/obj/machinery/door/airlock{
+	name = "Personal Dorm";
+	req_access_txt = "150"
+	},
+/obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sE" = (
+/obj/machinery/atmospherics/pipe/manifold/supplymain/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"sF" = (
+/obj/machinery/washing_machine,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"sG" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"sH" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sI" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sJ" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sK" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sL" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sM" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"sN" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sO" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sP" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sQ" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sR" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"sS" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"sT" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"sU" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 4;
+	pixel_x = 24
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"sV" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sW" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sX" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sY" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"sZ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"ta" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"tb" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"tc" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"td" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"te" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"tf" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/closet/crate/bin{
+	name = "laundry bin"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/dorm)
+"tg" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"th" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ti" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tj" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tk" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tl" = (
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tm" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tn" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"to" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tp" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/structure/sign/electricshock{
+	pixel_y = -32
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tq" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tr" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"ts" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible{
+	dir = 5
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"tt" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"tu" = (
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"tv" = (
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/simple/supplymain/visible{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tw" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 8;
+	frequency = 1441;
+	id_tag = "n2_out_bunker";
+	name = "nitrogen out"
+	},
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tx" = (
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"ty" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tz" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"tA" = (
+/obj/machinery/sleeper/syndie{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"tB" = (
+/turf/open/floor/plasteel/white{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"tC" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/weapon/reagent_containers/blood/OMinus,
+/obj/item/weapon/reagent_containers/blood/OMinus,
+/obj/item/weapon/reagent_containers/blood/OMinus,
+/obj/item/weapon/reagent_containers/blood/OMinus,
+/obj/item/weapon/reagent_containers/blood/OMinus,
+/obj/item/weapon/reagent_containers/blood/random,
+/obj/item/weapon/reagent_containers/blood/random,
+/obj/item/weapon/reagent_containers/blood/random,
+/obj/item/weapon/reagent_containers/blood/random,
+/obj/item/weapon/reagent_containers/blood/random,
+/obj/item/weapon/reagent_containers/blood/random,
+/turf/open/floor/plasteel/white{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"tD" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"tE" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tF" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tG" = (
+/obj/machinery/door/airlock/highsecurity{
+	desc = "Nothing to see here, folks, just an inconspicuous airlock. Now go away!";
+	name = "Inconspicuous Airlock";
+	req_access_txt = "150"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tH" = (
+/obj/machinery/door/airlock/highsecurity{
+	desc = "Nothing to see here, folks, just an inconspicuous airlock. Now go away!";
+	name = "Inconspicuous Airlock";
+	req_access_txt = "150"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tI" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tJ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"tK" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tL" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tM" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tN" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tO" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"tP" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"tQ" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"tR" = (
+/obj/machinery/computer/atmos_control/tank{
+	frequency = 1441;
+	input_tag = "n2_in_bunker";
+	name = "Nitrogen Supply Control";
+	output_tag = "n2_out_bunker";
+	sensors = list("n2_sensor_bunker" = "Tank")
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"tS" = (
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tT" = (
+/obj/machinery/air_sensor{
+	frequency = 1441;
+	id_tag = "n2_sensor_bunker"
+	},
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tU" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tV" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"tW" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"tX" = (
+/obj/machinery/sleeper/syndie{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"tY" = (
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/white{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"tZ" = (
+/obj/machinery/iv_drip,
+/turf/open/floor/plasteel/white{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"ua" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"ub" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"uc" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ud" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ue" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"uf" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"ug" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"uh" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"ui" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uj" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uk" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "RTG Observation";
+	req_access_txt = "156"
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"ul" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"um" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"un" = (
+/obj/machinery/atmospherics/components/trinary/filter{
+	dir = 1;
+	filter_type = "n2o";
+	on = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"uo" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"up" = (
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uq" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 8;
+	frequency = 1441;
+	id = "o2_in_bunker"
+	},
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"ur" = (
+/turf/open/floor/plating/airless{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"us" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"ut" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"uu" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"uv" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"uw" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"ux" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/dorm)
+"uy" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"uz" = (
+/obj/structure/sign/securearea,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"uA" = (
+/obj/machinery/door/airlock/highsecurity{
+	desc = "Nothing to see here, folks, just an inconspicuous airlock. Now go away!";
+	name = "Inconspicuous Airlock";
+	req_access_txt = "150"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"uB" = (
+/obj/machinery/door/airlock/highsecurity{
+	desc = "Nothing to see here, folks, just an inconspicuous airlock. Now go away!";
+	name = "Inconspicuous Airlock";
+	req_access_txt = "150"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"uC" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/hephaestus)
+"uD" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"uE" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uF" = (
+/obj/structure/grille,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uG" = (
+/obj/structure/grille,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uH" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uI" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 5
+	},
+/obj/machinery/autolathe,
+/obj/structure/sign/radiation{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"uJ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"uK" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
+	dir = 9
+	},
+/obj/structure/table,
+/obj/item/weapon/storage/toolbox/electrical{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/toolbox/electrical,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"uL" = (
+/obj/structure/table,
+/obj/item/weapon/storage/toolbox/mechanical{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/toolbox/mechanical,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/power)
+"uM" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uN" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/power)
+"uO" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/power)
+"uP" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/ruin/deepstorage/power)
+"uQ" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"uR" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"uS" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"uT" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"uU" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"uV" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"uW" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uX" = (
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uY" = (
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"uZ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"va" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vb" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Telecomms";
+	req_access_txt = "156"
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vc" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vd" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"ve" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vf" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vg" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vh" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"vi" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"vj" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vk" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vl" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vm" = (
+/obj/machinery/power/rtg/advanced,
+/obj/structure/cable/yellow,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vn" = (
+/obj/machinery/power/rtg/advanced,
+/obj/machinery/light/small,
+/obj/structure/cable/yellow,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vo" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vp" = (
+/obj/machinery/blackbox_recorder,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vq" = (
+/obj/machinery/light/small,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vr" = (
+/obj/machinery/telecomms/relay/preset/telecomms,
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vs" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vt" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"vu" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vv" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vw" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vx" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vy" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vz" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vA" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vB" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vC" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vD" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vE" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vF" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"vG" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"vH" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"vI" = (
+/obj/machinery/power/apc{
+	cell_type = 5000;
+	dir = 4;
+	name = "Mine APC";
+	pixel_x = 24;
+	req_access = list(157)
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"vJ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vK" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vL" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vM" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vN" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vO" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vP" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vQ" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vR" = (
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/power)
+"vS" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"vT" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vU" = (
+/obj/machinery/door/poddoor{
+	density = 1;
+	icon_state = "closed";
+	id = "Syndicate_Hephaestus_Blastdoors";
+	name = "Syndicate Hephaestus Blastdoors";
+	opacity = 1
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vV" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vW" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vX" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vY" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"vZ" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wa" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wb" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wc" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wd" = (
+/obj/machinery/door/poddoor{
+	density = 1;
+	icon_state = "closed";
+	id = "Syndicate_Hephaestus_Blastdoors2";
+	name = "Syndicate Hephaestus Blastdoors";
+	opacity = 1
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"we" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wf" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wg" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wh" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wi" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"wj" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"wk" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"wl" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wm" = (
+/obj/machinery/door/poddoor{
+	density = 1;
+	icon_state = "closed";
+	id = "Syndicate_Hephaestus_Blastdoors";
+	name = "Syndicate Hephaestus Blastdoors";
+	opacity = 1
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wn" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wo" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wp" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wq" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wr" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"ws" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wt" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wu" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wv" = (
+/obj/machinery/door/poddoor{
+	density = 1;
+	icon_state = "closed";
+	id = "Syndicate_Hephaestus_Blastdoors2";
+	name = "Syndicate Hephaestus Blastdoors";
+	opacity = 1
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"ww" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wx" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wy" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wz" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wA" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"wB" = (
+/obj/machinery/door/poddoor{
+	density = 1;
+	icon_state = "closed";
+	id = "Syndicate_Hephaestus_Blastdoors";
+	name = "Syndicate Hephaestus Blastdoors";
+	opacity = 1
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wC" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wD" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wE" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wF" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wG" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wH" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wI" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wJ" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wK" = (
+/obj/machinery/door/poddoor{
+	density = 1;
+	icon_state = "closed";
+	id = "Syndicate_Hephaestus_Blastdoors2";
+	name = "Syndicate Hephaestus Blastdoors";
+	opacity = 1
+	},
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wL" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wM" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wN" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wO" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wP" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"wQ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"wR" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wS" = (
+/obj/machinery/button/door{
+	id = "Syndicate_Hephaestus_Blastdoors";
+	name = "Syndicate Hephaestus Blastdoors Button";
+	pixel_x = 0;
+	pixel_y = 0;
+	req_access_txt = "150"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wT" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"wU" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wV" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"wW" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"wX" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"wY" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"wZ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"xa" = (
+/obj/structure/sign/securearea,
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xb" = (
+/obj/machinery/button/door{
+	id = "Syndicate_Hephaestus_Blastdoors2";
+	name = "Syndicate Hephaestus Blastdoors Button";
+	pixel_x = 0;
+	pixel_y = 0;
+	req_access_txt = "150"
+	},
+/turf/closed/wall/mineral/iron{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xc" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xd" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/syndicate/hephaestus/maintenance)
+"xe" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/syndicate/hephaestus/maintenance)
+"xf" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xg" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xh" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xi" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xj" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xk" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xl" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xm" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xn" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xo" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xp" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xq" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xr" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xs" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
+"xt" = (
+/obj/docking_port/stationary{
+	area_type = /area/lavaland/surface/outdoors;
+	dir = 4;
+	dwidth = 4;
+	height = 5;
+	id = "syndicate_lavaland_hephaestus";
+	name = "Lavaland: Hephaestus";
+	turf_type = /turf/open/floor/plating/asteroid/basalt/lava_land_surface;
+	width = 9
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"xu" = (
+/turf/open/floor/plating{
+	baseturf = /turf/open/floor/plating/asteroid/airless
+	},
+/area/lavaland/surface/outdoors)
 
 (1,1,1) = {"
 aa
@@ -19068,7 +25545,7 @@ aD
 aD
 aD
 aD
-ip
+aD
 aD
 aD
 aD
@@ -50999,18 +57476,18 @@ cl
 cl
 cl
 cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -51246,28 +57723,28 @@ cl
 cl
 cl
 cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -51501,30 +57978,30 @@ cl
 cl
 cl
 cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -51758,30 +58235,30 @@ cl
 cl
 cl
 cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -52015,30 +58492,30 @@ cl
 cl
 cl
 cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+cH
+cH
+cH
 cl
 cl
 cl
@@ -52272,30 +58749,30 @@ cl
 cl
 cl
 cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+cH
+cH
+cH
 cl
 cl
 cl
@@ -52510,49 +58987,49 @@ aD
 aD
 aD
 aD
+aD
+aD
+bp
 bp
 aD
-bp
-bp
+aD
+aD
+aD
+aD
+cl
+cl
+cl
+cl
+cl
+cl
+cl
+cl
+cl
+cl
+cH
+cH
+cH
+cH
+cH
 aD
 aD
 aD
 aD
 aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+cH
+cH
+cH
 cl
 cl
 cl
@@ -52764,11 +59241,11 @@ aD
 aD
 aD
 aD
-bp
-bp
-bp
-bp
-bp
+aD
+az
+az
+aD
+aD
 bp
 bp
 bp
@@ -52786,31 +59263,31 @@ cl
 cl
 cl
 cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+cH
+cH
+cH
+cH
+cH
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -53021,11 +59498,11 @@ aD
 aD
 aD
 aD
-bp
-bp
-bp
-bp
-bp
+aD
+az
+az
+aD
+aD
 bp
 bp
 bp
@@ -53042,32 +59519,32 @@ cl
 cl
 cl
 cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+cH
+cH
+cH
+cH
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+eQ
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -53278,10 +59755,10 @@ aD
 aD
 aD
 aD
-bp
-bp
-bp
-bp
+az
+az
+az
+aD
 bp
 bp
 bp
@@ -53299,32 +59776,32 @@ cl
 cl
 cl
 cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+cH
+cH
+cH
+cH
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+eR
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -53535,11 +60012,11 @@ aD
 aD
 aD
 aD
-bp
-bp
-bp
-bp
-bp
+az
+az
+az
+aD
+aD
 bp
 bp
 bp
@@ -53556,32 +60033,32 @@ cl
 cl
 cl
 cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+cH
+cH
+cH
+cH
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -53792,6 +60269,10 @@ aD
 aD
 aD
 aD
+az
+az
+az
+aD
 bp
 bp
 bp
@@ -53802,44 +60283,40 @@ bp
 bp
 bp
 bp
+cl
+cl
+cl
+cl
+cl
+cl
+cl
+cH
+cH
+cH
+cH
 aD
 aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+cH
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -54048,6 +60525,10 @@ aD
 aD
 aD
 aD
+az
+az
+az
+az
 aD
 bp
 bp
@@ -54059,44 +60540,40 @@ bp
 bp
 bp
 bp
+bp
+bp
+bp
+cl
+cl
+cl
+cl
+cH
+cH
+cH
+cH
 aD
 aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+vt
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+cH
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -54302,59 +60779,59 @@ az
 aD
 aD
 aD
+az
+az
+az
+az
+az
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cl
+cH
+cH
+cH
+cH
+cH
 aD
 aD
 aD
 aD
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
 aD
 aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+cH
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -54555,63 +61032,63 @@ aa
 aa
 az
 az
-aH
-aD
+iq
 az
 az
+az
+az
+az
+az
+az
+az
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cH
+cH
+cH
+cH
+aD
+aD
+aD
+wj
+aD
+wP
 aD
 aD
 aD
 aD
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
 aD
 aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+aD
+aD
+aD
+aD
+cH
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -54816,60 +61293,60 @@ aa
 aa
 aa
 aa
-aH
+ir
+aa
+aa
+aa
+az
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cH
+cH
+cH
+aD
+vS
+wk
 aD
 aD
 aD
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
 aD
 aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cp
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+cH
+cH
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -55073,60 +61550,60 @@ aa
 aa
 aa
 aa
-az
+aa
+aa
+aa
+aa
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cH
+cH
+vu
+vT
+wl
+wA
+wQ
 aD
 aD
 aD
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
 aD
-cl
-cl
-cl
-cl
-cl
-cl
-cp
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+cH
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -55330,14 +61807,8 @@ aa
 aa
 aa
 aa
-az
-aD
-aD
-aD
-bp
-bp
-bp
-bp
+aa
+aa
 bp
 bp
 bp
@@ -55345,45 +61816,51 @@ bp
 bp
 bp
 aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+bp
+bp
+bp
+bp
+vv
+vU
+wm
+wB
+wR
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+aD
+aD
+aD
+aD
+cH
+cH
+cH
+cH
+cH
+cH
 cl
 cl
 cl
@@ -55587,14 +62064,8 @@ aa
 aa
 aa
 aa
-aD
-aD
-aD
-aD
-bp
-bp
-bp
-bp
+aa
+aa
 bp
 bp
 bp
@@ -55602,45 +62073,51 @@ bp
 bp
 bp
 aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+kW
+ly
+ma
+mC
+ne
+nD
+oc
+oB
+pa
+pz
+pY
+qz
+qZ
+rz
+rZ
+sz
+sZ
+aD
+bp
+bp
+bp
+bp
+vw
+vV
+wn
+wC
+wS
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+io
+in
+in
+cH
+cH
 cl
 cl
 cl
@@ -55846,58 +62323,58 @@ aD
 aD
 aD
 aD
+bp
+bp
+aD
 aD
 aD
 aD
 aD
-bp
-bp
-bp
-bp
-bp
-bp
-bp
-bp
+kX
+lz
+mb
+mD
+nf
+nE
+od
+oC
+pb
+pA
+pZ
+qA
+ra
+rA
+sa
+sA
+ta
 aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+vx
+vW
+wo
+wD
+wT
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cH
+cH
 cl
 cl
 cl
@@ -56103,11 +62580,40 @@ aD
 aD
 aD
 aD
+bp
+bp
+aD
+jc
+jw
+jW
+kw
+kY
+lA
+mc
+mE
+ng
+nF
+oe
+oD
+pc
+pB
+qa
+qB
+rb
+rB
+sb
+sB
+tb
 aD
 aD
 aD
 aD
 bp
+vy
+vX
+wp
+wE
+wU
 bp
 bp
 bp
@@ -56115,46 +62621,17 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cH
+cH
 cl
 cl
 cl
@@ -56360,58 +62837,58 @@ aD
 aD
 aD
 aD
+bp
+bp
 aD
+jd
+jx
+jX
+kx
+kZ
+lB
+md
+mF
+nh
+nG
+of
+oE
+pd
+pC
+qb
+qC
+rc
+rC
+sc
+sC
+tc
+tz
+tW
+ut
 aD
-aD
-aD
+bp
+vz
+vY
+wq
+wF
+wV
 bp
 bp
 bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cH
 cl
 cl
 cl
@@ -56617,58 +63094,58 @@ aD
 aD
 aD
 aD
-bc
-bc
+bp
+bp
 aD
+je
+jy
+jY
+ky
+la
+lC
+me
+mG
+ni
+nH
+og
+oF
+pe
+pD
+qc
+qD
+rd
+rD
+sd
+sD
+td
+tA
+tX
+uu
 aD
-aD
+bp
+vA
+vZ
+wr
+wG
+wW
 bp
 bp
 bp
 bp
-aD
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cH
 cl
 cl
 cl
@@ -56873,60 +63350,60 @@ aD
 aD
 aD
 aD
-az
-bc
-bc
-aD
-aD
 aD
 bp
-aD
 bp
 aD
+jf
+jz
+jZ
+kz
+lb
+lD
+mf
+mH
+nj
+nI
+oh
+oG
+pf
+pE
+qd
+qE
+re
+rE
+se
+sE
+te
+tB
+tY
+uv
 aD
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+vB
+wa
+ws
+wH
+wX
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -57131,59 +63608,59 @@ aD
 aD
 aD
 aD
-bc
-bc
-az
+bp
+bp
 aD
+jg
+jA
+ka
+kA
+lc
+lE
+mg
+mI
+nk
+nJ
+oi
+oH
+pg
+pF
+qe
+qF
+rf
+rF
+sf
+sF
+tf
+tC
+tZ
+uw
+aD
+bp
+vC
+wb
+wt
+wI
+wY
 bp
 bp
 bp
 bp
 bp
-aD
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -57386,61 +63863,61 @@ aD
 aD
 aD
 aD
+bp
+bp
+bp
+bp
 aD
+jh
+jB
+kb
+kB
+ld
+lF
+mh
+mJ
+nl
+nK
+oj
+oI
+ph
+pG
+qf
+qG
+rg
+rG
+sg
+sG
+tg
+tD
+ua
+ux
 aD
-aD
-az
-aD
-aD
+bp
+vD
+wc
+wu
+wJ
+wZ
 bp
 bp
 bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cp
 cl
 cl
 cl
@@ -57643,61 +64120,61 @@ aD
 aD
 aD
 aD
+bp
+bp
+bp
+bp
 aD
-aD
-aD
-aD
-aD
-aD
+ji
+jC
+kc
+kC
+le
+lG
+mi
+mK
+nm
+nL
+ok
+oJ
+pi
+pH
+qg
+qH
+rh
+rH
+sh
+sH
+th
+tE
+ub
+uy
+uQ
+vf
+vE
+wd
+wv
+wK
+xa
 bp
 bp
 bp
 bp
 bp
 bp
-aD
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cp
 cl
 cl
 cl
@@ -57899,9 +64376,43 @@ aa
 aC
 aD
 aD
+bp
+bp
+bp
+bp
+bp
 aD
-aD
-aD
+jj
+jD
+kd
+kD
+lf
+lH
+mj
+mL
+nn
+nM
+ol
+oK
+pj
+pI
+qh
+qI
+ri
+rI
+si
+sI
+ti
+tF
+uc
+uz
+uR
+vg
+vF
+we
+ww
+wL
+xb
 aD
 aD
 aD
@@ -57912,48 +64423,14 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -58156,13 +64633,47 @@ aa
 az
 aD
 aD
+bp
+bp
 aD
 aD
 aD
 aD
 aD
-aD
-aD
+jE
+ke
+kE
+lg
+lI
+mk
+mM
+no
+nN
+om
+oL
+pk
+pJ
+qi
+qJ
+rj
+rJ
+sj
+sJ
+tj
+tG
+ud
+uA
+uS
+vh
+vG
+wf
+wx
+wM
+xc
+xf
+xh
+xn
+xu
 bp
 bp
 bp
@@ -58170,47 +64681,13 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -58413,12 +64890,46 @@ aa
 az
 aD
 aD
+bp
+bp
 aD
-aD
-aD
-aD
-aD
-aD
+is
+iE
+iQ
+jk
+jF
+kf
+kF
+lh
+lJ
+ml
+mN
+np
+nO
+on
+oM
+pl
+pK
+qj
+qK
+rk
+rK
+sk
+sK
+tk
+tH
+ue
+uB
+uT
+vi
+vH
+wg
+wy
+wN
+xd
+xg
+xi
+xo
 aD
 bp
 bp
@@ -58427,47 +64938,13 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -58670,10 +65147,46 @@ az
 aD
 aD
 aD
+bp
+bp
 aD
+it
+iF
+iR
+jl
+jG
+kg
+kG
+li
+lK
+mm
+mO
+nq
+nP
+oo
+oN
+pm
+pL
+qk
+qL
+rl
+rL
+sl
+sL
+tl
+tI
+uf
+uC
+uU
+vj
+vI
+wh
+wz
+wO
+xe
 aD
-aD
-aD
+xj
+xp
 aD
 aD
 bp
@@ -58684,48 +65197,12 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+cp
 cl
 cl
 cl
@@ -58927,10 +65404,46 @@ aD
 aD
 aD
 aD
+bp
+bp
 aD
+iu
+iG
+iS
+jm
+jH
+kh
+kH
+lj
+lL
+mn
+mP
+nr
+nQ
+op
+oO
+pn
+pM
+ql
+qM
+rm
+rM
+sm
+sM
+tm
+tJ
+ug
+uD
+uV
+vk
+vJ
+wi
+bp
+bp
+bp
 aD
-aD
-aD
+xk
+xq
 aD
 aD
 bp
@@ -58941,48 +65454,12 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+cp
 cl
 cl
 cl
@@ -59184,9 +65661,46 @@ aD
 aD
 aD
 aD
+bp
+bp
 aD
+iv
+iH
+iT
+jn
+jI
+ki
+kI
+lk
+lM
+mo
+mQ
+ns
+nR
+oq
+oP
+po
+pN
+qm
+qN
+rn
+rN
+sn
+sN
+tn
+tK
+uh
+uE
+uW
+vl
+vK
 aD
+bp
+bp
+bp
 aD
+xl
+xr
 aD
 aD
 aD
@@ -59198,48 +65712,11 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+cp
 cl
 cl
 cl
@@ -59441,8 +65918,46 @@ aD
 aD
 aD
 aD
+bp
+bp
+aD
+iw
+iI
+iU
+jo
+jJ
+kj
+kJ
+ll
+lN
+mp
+mR
+nt
+nS
+or
+oQ
+pp
+pO
+qn
+qO
+ro
+rO
+so
+sO
+to
+tL
+ui
+uF
+uX
+vm
+vL
+aD
+bp
+bp
 aD
 aD
+xm
+xs
 aD
 aD
 aD
@@ -59455,48 +65970,10 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -59698,8 +66175,46 @@ bb
 aD
 aD
 aD
+bp
+bp
+aD
+ix
+iJ
+iV
+jp
+jK
+kk
+kK
+lm
+lO
+mq
+mS
+nu
+nT
+os
+oR
+pq
+pP
+qo
+qP
+rp
+rP
+sp
+sP
+tp
+tM
+uj
+uG
+uY
+vn
+vM
+aD
+bp
+bp
 aD
 aD
+aD
+xt
 aD
 aD
 aD
@@ -59712,48 +66227,10 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -59955,6 +66432,45 @@ az
 az
 aD
 aD
+bp
+bp
+aD
+iy
+iK
+iW
+jq
+jL
+kl
+kL
+ln
+lP
+mr
+mT
+nv
+nU
+ot
+oS
+pr
+pQ
+qp
+qQ
+rq
+rQ
+sq
+sQ
+tq
+tN
+uk
+uH
+uZ
+vo
+vN
+aD
+bp
+aD
+aD
+aD
+aD
 aD
 aD
 aD
@@ -59969,48 +66485,9 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+im
 cl
 cl
 cl
@@ -60211,7 +66688,46 @@ az
 bc
 bc
 bc
-bc
+aD
+bp
+bp
+aD
+iz
+iL
+iX
+jr
+jM
+km
+kM
+lo
+lQ
+ms
+mU
+nw
+nV
+ou
+oT
+ps
+pR
+qq
+qR
+rr
+rR
+sr
+sR
+tr
+tO
+ul
+uI
+va
+vp
+vO
+aD
+bp
+aD
+aD
+aD
+aD
 aD
 aD
 aD
@@ -60226,47 +66742,8 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cp
-cl
+bp
+bp
 cl
 cl
 cl
@@ -60468,8 +66945,47 @@ az
 bc
 bc
 bc
-bc
-az
+aD
+bp
+bp
+aD
+iA
+iM
+iY
+js
+jN
+kn
+kN
+lp
+lR
+mt
+mV
+nx
+nW
+ov
+oU
+pt
+pS
+qr
+qS
+rs
+rS
+ss
+sS
+ts
+tP
+um
+uJ
+vb
+vq
+vP
+aD
+bp
+aD
+aD
+aD
+aD
+aD
 aD
 aD
 aD
@@ -60483,48 +66999,9 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
 cl
 cl
 cl
@@ -60725,8 +67202,47 @@ az
 bc
 bc
 bc
-bc
-az
+aD
+bp
+bp
+aD
+iB
+iN
+iZ
+jt
+jO
+ko
+kO
+lq
+lS
+mu
+mW
+ny
+nX
+ow
+oV
+pu
+pT
+qs
+qT
+rt
+rT
+st
+sT
+tt
+tQ
+un
+uK
+vc
+vr
+vQ
+aD
+bp
+aD
+aD
+aD
+aD
+aD
 aD
 aD
 aD
@@ -60740,49 +67256,10 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -60982,8 +67459,47 @@ az
 bc
 bc
 bc
-bc
-az
+aD
+bp
+bp
+aD
+iC
+iO
+ja
+ju
+jP
+kp
+kP
+lr
+lT
+mv
+mX
+nz
+nY
+ox
+oW
+pv
+pU
+qt
+qU
+ru
+rU
+su
+sU
+tu
+tR
+uo
+uL
+vd
+vs
+vR
+aD
+bp
+aD
+aD
+aD
+aD
+aD
 aD
 aD
 aD
@@ -60997,50 +67513,11 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -61239,8 +67716,47 @@ az
 bc
 bc
 bc
-bc
-az
+aD
+bp
+bp
+aD
+iD
+iP
+jb
+jv
+jQ
+kq
+kQ
+ls
+lU
+mw
+mY
+nA
+nZ
+oy
+oX
+pw
+pV
+qu
+qV
+rv
+rV
+sv
+sV
+tv
+tS
+up
+uM
+ve
+aD
+aD
+aD
+bp
+bp
+aD
+aD
+aD
+aD
 aD
 aD
 aD
@@ -61254,51 +67770,12 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+cp
 cl
 cl
 cl
@@ -61496,8 +67973,46 @@ aB
 bc
 bc
 bc
-bc
-az
+aD
+bp
+bp
+aD
+aD
+aD
+aD
+aD
+jR
+kr
+kR
+lt
+lV
+mx
+mZ
+nB
+oa
+oz
+oY
+px
+pW
+qv
+qW
+rw
+rW
+sw
+sW
+tw
+tT
+uq
+uN
+aD
+aD
+bp
+bp
+bp
+bp
+aD
+aD
+aD
 aD
 aD
 aD
@@ -61511,51 +68026,13 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -61753,7 +68230,43 @@ aD
 bc
 bc
 bc
-bc
+aD
+bp
+bp
+bp
+bp
+bp
+bp
+aD
+jS
+ks
+kS
+lu
+lW
+my
+na
+nC
+ob
+oA
+oZ
+py
+pX
+qw
+qX
+rx
+rX
+sx
+sX
+tx
+tU
+ur
+uO
+aD
+bp
+bp
+bp
+bp
+bp
 aD
 aD
 aD
@@ -61767,51 +68280,15 @@ bp
 bp
 bp
 bp
-aD
-aD
-cp
-cp
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -62010,10 +68487,44 @@ aD
 bc
 bc
 bc
-bc
+aD
+bp
+bp
+bp
+bp
+bp
+bp
+aD
+jT
+kt
+kT
+lv
+lX
+mz
+nb
 aD
 aD
 aD
+aD
+aD
+aD
+qx
+qY
+ry
+rY
+sy
+sY
+ty
+tV
+us
+uP
+aD
+bp
+bp
+bp
+bp
+bp
+bp
 aD
 aD
 aD
@@ -62021,54 +68532,20 @@ aD
 aD
 bp
 bp
-aD
-aD
-aD
-cp
-cp
-cp
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cp
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -62268,6 +68745,31 @@ aD
 aD
 aD
 aD
+bp
+bp
+bp
+bp
+bp
+bp
+aD
+jU
+ku
+kU
+lw
+lY
+mA
+nc
+aD
+bp
+bp
+bp
+bp
+aD
+qy
+aD
+aD
+aD
+aD
 aD
 aD
 aD
@@ -62280,52 +68782,27 @@ bp
 bp
 bp
 bp
-aD
-cp
-cp
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -62525,9 +69002,25 @@ aD
 aD
 aD
 aD
+bp
+bp
+bp
+bp
+bp
+bp
 aD
+jV
+kv
+kV
+lx
+lZ
+mB
+nd
 aD
-aD
+bp
+bp
+bp
+bp
 aD
 aD
 aD
@@ -62537,52 +69030,36 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -62782,6 +69259,15 @@ aD
 aD
 aD
 aD
+bp
+bp
+bp
+bp
+bp
+bp
+aD
+aD
+aD
 aD
 aD
 aD
@@ -62796,52 +69282,43 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cp
 cl
 cl
 cl
@@ -63039,12 +69516,6 @@ aD
 aD
 aD
 aD
-aD
-aD
-aD
-aD
-aD
-aD
 bp
 bp
 bp
@@ -63054,51 +69525,57 @@ bp
 bp
 bp
 bp
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -63297,11 +69774,6 @@ aD
 aD
 aD
 aD
-aD
-aD
-aD
-aD
-aD
 bp
 bp
 bp
@@ -63312,50 +69784,55 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -63555,10 +70032,6 @@ aD
 aD
 aD
 aD
-aD
-aD
-aD
-aD
 bp
 bp
 bp
@@ -63569,50 +70042,54 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -63812,10 +70289,6 @@ aD
 aD
 aD
 aD
-aD
-aD
-aD
-aD
 bp
 bp
 bp
@@ -63826,50 +70299,54 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -64069,10 +70546,6 @@ az
 aD
 aD
 aD
-aD
-aD
-aD
-aD
 bp
 bp
 bp
@@ -64083,49 +70556,53 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -64335,55 +70812,55 @@ bp
 bp
 bp
 bp
-aD
 bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -64597,51 +71074,51 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -64849,57 +71326,57 @@ bp
 bp
 bp
 bp
-aD
 bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -65105,61 +71582,61 @@ bp
 bp
 bp
 bp
-aD
-aD
 bp
 bp
 bp
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cp
+im
 cl
 cl
 cl
@@ -65360,63 +71837,63 @@ aD
 aD
 aD
 bp
-aD
 bp
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -65620,60 +72097,60 @@ bp
 bp
 bp
 bp
-aD
-aD
-aD
-aD
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -65881,56 +72358,56 @@ bp
 bp
 bp
 bp
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -66138,58 +72615,58 @@ bp
 bp
 bp
 bp
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -66395,59 +72872,59 @@ bp
 bp
 bp
 bp
-aD
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -66652,59 +73129,59 @@ bp
 bp
 bp
 bp
-aD
-cp
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -66909,60 +73386,60 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -67166,60 +73643,60 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -67423,60 +73900,60 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cp
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -67680,60 +74157,60 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+cp
 cl
 cl
 cl
@@ -67937,59 +74414,59 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -68194,60 +74671,60 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -68451,62 +74928,62 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 cl
 cl
 cl
@@ -68708,64 +75185,64 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl
@@ -68965,65 +75442,65 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
+im
 cl
 cl
 cl
@@ -69222,65 +75699,65 @@ bp
 bp
 bp
 bp
-aD
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+im
 cl
 cl
 cl

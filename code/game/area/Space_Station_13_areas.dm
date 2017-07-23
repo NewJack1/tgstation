@@ -1461,7 +1461,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 
 
-// Syndicate Asteroid Base
+// Syndicate Asteroid Base "Bulldog-03"
 
 /area/syndicate/bar
 	name = "Syndicate Bar"
@@ -1535,6 +1535,58 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
  	name = "Syndicate Atmospherics"
  	icon_state = "atmos"
  	flags = NONE
+
+
+
+// Syndicate Lavaland Base "Hephaestus"
+
+/area/syndicate/hephaestus
+	has_gravity = 1
+	flags = NONE
+
+/area/syndicate/hephaestus/storage
+	name = "Hephaestus Storage"
+	icon_state = "storage_wing"
+
+/area/syndicate/hephaestus/hephaestus
+	name = "Hephaestus"
+	icon_state = "storage"
+
+/area/syndicate/hephaestus/airlock
+	name = "Hephaestus Airlock"
+	icon_state = "quart"
+
+/area/syndicate/hephaestus/power
+	name = "Hephaestus Power and Atmospherics Room"
+	icon_state = "engi_storage"
+
+/area/syndicate/hephaestus/hydroponics
+	name = "Hephaestus Hydroponics"
+	icon_state = "garden"
+
+/area/syndicate/hephaestus/armory
+	name = "Hephaestus Secure Storage"
+	icon_state = "armory"
+
+/area/syndicate/hephaestus/dorm
+	name = "Hephaestus Dormory"
+	icon_state = "crew_quarters"
+
+/area/syndicate/hephaestus/kitchen
+	name = "Hephaestus Kitchen"
+	icon_state = "kitchen"
+
+/area/syndicate/hephaestus/crusher
+	name = "Hephaestus Recycler"
+	icon_state = "storage"
+
+/area/syndicate/hephaestus/maintenance
+	name = "Hephaestus Maintenance"
+	icon_state = "mining"
+
+
+
+// Syndicate SCC Space Base
 
 /area/syndicate/SCC/control
 	name = "SCC Control"
