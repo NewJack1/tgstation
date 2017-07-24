@@ -3611,7 +3611,7 @@
 	},
 /obj/machinery/computer/shuttle/syndicate{
 	name = "syndicate pod terminal";
-	possible_destinations = "syndicate_lavaland_hephaestus";
+	possible_destinations = "syndicate_pod";
 	req_access = null;
 	req_access_txt = "150";
 	shuttleId = "syndicate_pod"
@@ -4695,23 +4695,23 @@
 	dir = 8
 	},
 /obj/structure/closet/firecloset,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_pod)
 "iE" = (
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_pod)
 "iF" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_pod)
 "iG" = (
 /obj/structure/table/reinforced,
 /obj/machinery/cell_charger,
 /obj/item/weapon/stock_parts/cell/high/plus,
 /obj/item/weapon/crowbar/red,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_pod)
 "iH" = (
 /obj/structure/grille,
@@ -4833,7 +4833,7 @@
 /obj/structure/chair/office/dark{
 	dir = 4
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_pod)
 "iT" = (
 /obj/machinery/computer/shuttle/syndicate{
@@ -4843,7 +4843,7 @@
 	req_access_txt = "150";
 	shuttleId = "syndicate_pod"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_pod)
 "iU" = (
 /obj/structure/cable{
@@ -4966,7 +4966,7 @@
 /obj/structure/chair{
 	dir = 1
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_pod)
 "jg" = (
 /obj/structure/table/reinforced,
@@ -4984,7 +4984,7 @@
 	pixel_y = -5;
 	req_access_txt = "150"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_pod)
 "jh" = (
 /obj/machinery/light{
@@ -10871,11 +10871,11 @@
 	pixel_y = 30;
 	req_access_txt = "158"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "tG" = (
 /obj/structure/chair,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "tH" = (
 /obj/structure/table/reinforced,
@@ -10888,7 +10888,7 @@
 	pixel_x = -3;
 	pixel_y = -3
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "tI" = (
 /turf/closed/wall/mineral/plastitanium,
@@ -10897,18 +10897,18 @@
 /obj/structure/table/reinforced,
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "tK" = (
 /obj/machinery/computer/crew/syndie,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "tL" = (
 /obj/machinery/computer/communications/syndicate,
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "tM" = (
 /turf/closed/wall/mineral/plastitanium,
@@ -10929,7 +10929,7 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/syndicate_hammer)
 "tP" = (
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "tQ" = (
 /turf/open/floor/plasteel/black,
@@ -10965,13 +10965,13 @@
 	pixel_y = 60;
 	req_access_txt = "158"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "tV" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/clipboard,
 /obj/item/toy/figure/syndie,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "tW" = (
 /obj/structure/grille,
@@ -11018,13 +11018,13 @@
 	pixel_y = -5;
 	req_access_txt = "158"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "ud" = (
 /obj/structure/chair/office/dark{
 	dir = 4
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "ue" = (
 /obj/machinery/computer/shuttle/syndicate{
@@ -11034,7 +11034,7 @@
 	req_access_txt = "158";
 	shuttleId = "syndicate_hammer"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "uf" = (
 /obj/structure/grille,
@@ -11061,7 +11061,7 @@
 /obj/structure/rack,
 /obj/item/weapon/storage/toolbox/syndicate,
 /obj/item/weapon/crowbar/red,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "ui" = (
 /turf/open/floor/plasteel/black,
@@ -11093,11 +11093,11 @@
 	pixel_y = -60;
 	req_access_txt = "158"
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "un" = (
 /obj/structure/table/reinforced,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "uo" = (
 /obj/structure/grille,
@@ -11118,7 +11118,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "ur" = (
 /turf/open/floor/plasteel/black,
@@ -11132,18 +11132,18 @@
 "uu" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/fancy/donut_box,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "uv" = (
 /obj/machinery/computer/med_data/syndie,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "uw" = (
 /obj/machinery/computer/camera_advanced,
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "ux" = (
 /turf/closed/wall/mineral/plastitanium,
@@ -11238,7 +11238,7 @@
 	dir = 8
 	},
 /obj/structure/closet/emcloset,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_pod)
 "uK" = (
 /obj/structure/grille,

@@ -303,3 +303,32 @@
 	l_pocket = /obj/item/weapon/crowbar/red
 	id = /obj/item/weapon/card/id/syndicate/engineer
 	implants = list(/obj/item/weapon/implant/weapons_auth)
+
+/obj/effect/mob_spawn/human/lavaland_syndicate/miner
+	name = "Syndicate Miner Agent"
+	flavour_text = {"
+<b>Вы являетесь единственным шахтером синдиката, который работает в засекреченном исследовательском центре, разрабатывающем и исследующем биологическое оружие.</b>
+<b>Вы подчиняетесь агенту-связисту, имеющим доступ к общению с Командным Центром Синдиката.</b>
+<b>Выполняйте ваши основные задания, подчиняйтесь связисту. Кооперируйтесь с агентами соседних отделов. Будьте профессионалом своего дела.</b>
+
+<b>Задания:</b>
+1. Следить за состоянием базы синдиката "Гефест" на Лаваленде.
+2. Взять необходимое обмундирование для добычи ресурсов.
+3. Настроить и следить за состоянием шахтерского меха "Таракан".
+4. Используя все необходимое оборудование и "Таракана", добыть и переплавить руду. Доставить полученный ресурс на станцию "Бульдог-03".
+	"}
+	outfit = /datum/outfit/lavaland_syndicate/miner
+
+/datum/outfit/lavaland_syndicate/miner
+	name = "Syndicate Miner Agent"
+	r_hand = /obj/item/weapon/gun/ballistic/automatic/c20r/sc_c20r
+	uniform = /obj/item/clothing/under/rank/miner
+	belt = /obj/item/weapon/storage/belt/utility/full
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/combat
+	ears = /obj/item/device/radio/headset/syndicate/alt
+	back = /obj/item/weapon/storage/backpack
+	r_pocket = /obj/item/weapon/gun/ballistic/automatic/pistol
+	l_pocket = /obj/item/weapon/crowbar/red
+	id = /obj/item/weapon/card/id/syndicate/miner
+	implants = list(/obj/item/weapon/implant/weapons_auth)
