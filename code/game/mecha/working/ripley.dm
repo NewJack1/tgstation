@@ -71,6 +71,19 @@
 	max_equip = 5 // More armor, less tools
 	wreckage = /obj/structure/mecha_wreckage/ripley/firefighter
 
+/obj/mecha/working/ripley/syndicate_mining
+	desc = "Autonomous Power Loader Unit for Syndicate. This model is refitted with additional thermal protection."
+	name = "\improper APLU \"Cockroach\""
+	icon_state = "deathripley"
+	max_temperature = 65000
+	obj_integrity = 250
+	max_integrity = 250
+	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
+	lights_power = 7
+	armor = list(melee = 40, bullet = 30, laser = 30, energy = 30, bomb = 60, bio = 0, rad = 0, fire = 100, acid = 100)
+	max_equip = 6
+	wreckage = /obj/structure/mecha_wreckage/ripley/firefighter
+
 
 /obj/mecha/working/ripley/deathripley
 	desc = "OH SHIT IT'S THE DEATHSQUAD WE'RE ALL GONNA DIE"

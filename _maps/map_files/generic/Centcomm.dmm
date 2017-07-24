@@ -3637,7 +3637,7 @@
 /area/centcom/control)
 "kl" = (
 /turf/closed/indestructible/riveted,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "km" = (
 /obj/machinery/door/poddoor/shuttledock{
 	checkdir = 1;
@@ -3645,7 +3645,7 @@
 	turftype = /turf/open/floor/plating/asteroid/snow
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "kn" = (
 /turf/open/floor/plasteel/yellowsiding,
 /area/centcom/supply)
@@ -3690,7 +3690,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "kv" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/box/handcuffs,
@@ -3811,7 +3811,7 @@
 /area/centcom/control)
 "kI" = (
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "kJ" = (
 /turf/open/floor/plasteel/brown,
 /area/centcom/supply)
@@ -4211,11 +4211,10 @@
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
 "lH" = (
-/turf/closed/indestructible/fakeglass{
-	icon_state = "fakewindows";
-	dir = 1
-	},
-/area/syndicate_mothership/control)
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
 "lI" = (
 /obj/item/weapon/disk/data,
 /obj/effect/light_emitter{
@@ -5286,11 +5285,11 @@
 	},
 /area/centcom/control)
 "ol" = (
-/turf/closed/indestructible/fakeglass{
-	icon_state = "fakewindows2";
-	dir = 6
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
-/area/syndicate_mothership/control)
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
 "om" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Auxillary Dock";
@@ -5298,7 +5297,7 @@
 	req_access_txt = ""
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "on" = (
 /obj/structure/table/wood,
 /obj/machinery/recharger,
@@ -5496,18 +5495,18 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "oI" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "oJ" = (
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "oK" = (
 /obj/structure/table/wood,
 /obj/item/weapon/folder/red,
@@ -5726,19 +5725,19 @@
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pm" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pn" = (
 /obj/machinery/vending/cola,
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "po" = (
 /obj/machinery/vending/cigarette{
 	products = list(/obj/item/weapon/storage/fancy/cigarettes/cigpack_syndicate = 7, /obj/item/weapon/storage/fancy/cigarettes/cigpack_uplift = 3, /obj/item/weapon/storage/fancy/cigarettes/cigpack_robust = 2, /obj/item/weapon/storage/fancy/cigarettes/cigpack_carp = 3, /obj/item/weapon/storage/fancy/cigarettes/cigpack_midori = 1, /obj/item/weapon/storage/box/matches = 10, /obj/item/weapon/lighter/greyscale = 4, /obj/item/weapon/storage/fancy/rollingpapers = 5)
@@ -5746,7 +5745,7 @@
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pp" = (
 /obj/structure/urinal{
 	pixel_y = 28
@@ -5754,7 +5753,7 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pq" = (
 /obj/item/weapon/soap/syndie,
 /obj/structure/mopbucket,
@@ -5764,7 +5763,7 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pr" = (
 /obj/structure/mirror{
 	pixel_x = 28
@@ -5773,7 +5772,7 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "ps" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Administrative Office";
@@ -5839,19 +5838,19 @@
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pA" = (
 /obj/structure/chair/stool,
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pB" = (
 /mob/living/simple_animal/hostile/carp/cayenne,
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pC" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Restroom";
@@ -5861,12 +5860,12 @@
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pD" = (
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pE" = (
 /obj/structure/mirror{
 	pixel_x = 28
@@ -5874,7 +5873,7 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "pF" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/book/manual/wiki/security_space_law,
@@ -6212,27 +6211,27 @@
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "qo" = (
 /obj/structure/table/wood,
 /obj/item/pizzabox,
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "qp" = (
 /obj/structure/chair/stool,
 /obj/effect/landmark/syndicate_spawn,
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "qq" = (
 /obj/machinery/computer/telecrystals/uplinker,
 /turf/open/floor/plasteel/podhatch{
 	dir = 9
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "qr" = (
 /obj/structure/toilet{
 	dir = 8
@@ -6249,16 +6248,16 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "qs" = (
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "qt" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "qu" = (
 /obj/machinery/computer/shuttle/white_ship,
 /obj/effect/turf_decal/stripes/line{
@@ -6608,7 +6607,7 @@
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "rh" = (
 /obj/structure/table/wood,
 /obj/item/weapon/reagent_containers/food/drinks/beer{
@@ -6623,13 +6622,13 @@
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "ri" = (
 /obj/machinery/computer/telecrystals/uplinker,
 /turf/open/floor/plasteel/podhatch{
 	dir = 8
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "rj" = (
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/airless,
@@ -6639,7 +6638,7 @@
 	dir = 6
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "rl" = (
 /turf/open/floor/plating/asteroid/snow/airless,
 /obj/machinery/porta_turret/syndicate/pod,
@@ -6672,7 +6671,7 @@
 	dir = 10
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "rq" = (
 /obj/machinery/computer/shuttle/ferry,
 /obj/effect/turf_decal/stripes/line{
@@ -6989,13 +6988,13 @@
 	name = "shuttle dock"
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "sa" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "sb" = (
 /obj/structure/chair{
 	dir = 4
@@ -7016,7 +7015,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "sf" = (
 /obj/item/weapon/clipboard,
 /obj/item/weapon/folder/red,
@@ -7203,7 +7202,7 @@
 	req_access_txt = "150"
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "sC" = (
 /turf/closed/indestructible/fakeglass{
 	icon_state = "fakewindows";
@@ -7220,13 +7219,13 @@
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "sE" = (
 /obj/machinery/computer/telecrystals/uplinker,
 /turf/open/floor/plasteel/podhatch{
 	dir = 10
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "sF" = (
 /obj/structure/chair{
 	dir = 1
@@ -7459,23 +7458,23 @@
 /obj/item/weapon/reagent_containers/food/drinks/bottle/rum,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "ti" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "tj" = (
 /obj/structure/table/wood,
 /obj/item/device/syndicatedetonator{
 	desc = "This gaudy button can be used to instantly detonate syndicate bombs that have been activated on the station. It is also fun to press."
 	},
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "tk" = (
 /obj/structure/table/wood,
 /obj/item/toy/nuke,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "tl" = (
 /obj/machinery/door/airlock/centcom{
 	aiControlDisabled = 1;
@@ -7767,11 +7766,11 @@
 /area/syndicate_mothership)
 "tS" = (
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "tT" = (
 /obj/effect/landmark/syndicate_spawn,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "tU" = (
 /obj/machinery/door/window{
 	base_state = "right";
@@ -7781,7 +7780,7 @@
 	req_access_txt = "151"
 	},
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "tV" = (
 /obj/structure/chair,
 /obj/machinery/light{
@@ -7959,7 +7958,7 @@
 /turf/open/floor/plasteel/podhatch{
 	dir = 5
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "uu" = (
 /obj/structure/sign/map/left{
 	pixel_y = -32
@@ -7971,7 +7970,7 @@
 	},
 /obj/item/weapon/reagent_containers/food/drinks/bottle/vodka,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "uv" = (
 /obj/structure/sign/map/right{
 	pixel_y = -32
@@ -7983,17 +7982,15 @@
 	},
 /obj/item/weapon/reagent_containers/food/drinks/bottle/gin,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "uw" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Equipment Room";
-	opacity = 1;
+/obj/machinery/door/airlock/external{
 	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "ux" = (
 /turf/open/floor/plating/asteroid/snow/airless,
 /obj/machinery/porta_turret/syndicate/pod,
@@ -8165,26 +8162,33 @@
 /turf/open/floor/carpet,
 /area/wizard_station)
 "uW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
 /turf/open/floor/plasteel/black,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "uX" = (
-/obj/machinery/mech_bay_recharge_port,
-/turf/open/floor/plating,
-/area/syndicate_mothership/control)
-"uY" = (
-/obj/machinery/light{
+/obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/mech_bay_recharge_floor,
-/area/syndicate_mothership/control)
-"uZ" = (
-/obj/machinery/computer/mech_bay_power_console,
-/turf/open/floor/plating,
-/area/syndicate_mothership/control)
-"va" = (
-/obj/machinery/vending/tool,
 /turf/open/floor/plasteel/black,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
+"uY" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"uZ" = (
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"va" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
 "vb" = (
 /obj/structure/closet/cardboard/metal,
 /turf/open/floor/plating/airless,
@@ -8194,7 +8198,7 @@
 	dir = 5
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "vd" = (
 /obj/machinery/door/airlock/centcom{
 	aiControlDisabled = 1;
@@ -8215,7 +8219,7 @@
 	dir = 9
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "vf" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -8293,7 +8297,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "vr" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -13419,7 +13423,7 @@
 "JE" = (
 /obj/machinery/light,
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "JF" = (
 /obj/machinery/light,
 /turf/open/floor/plating,
@@ -13429,7 +13433,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "JH" = (
 /obj/machinery/light{
 	dir = 4
@@ -13437,7 +13441,7 @@
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "JI" = (
 /obj/machinery/light{
 	dir = 8
@@ -13445,7 +13449,7 @@
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "JJ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
@@ -13454,7 +13458,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "JK" = (
 /obj/machinery/light/small,
 /turf/open/floor/plating,
@@ -13462,20 +13466,20 @@
 "JL" = (
 /obj/machinery/light,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "JM" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/bar{
 	dir = 2
 	},
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "JN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/machinery/light,
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate/SCC/control)
 "JO" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -14433,6 +14437,640 @@
 "Mi" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/centcom/evac)
+"Mj" = (
+/obj/machinery/door/airlock/external{
+	req_access_txt = "150"
+	},
+/turf/open/floor/plasteel/bar{
+	dir = 2
+	},
+/area/syndicate/SCC/control)
+"Mk" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Ml" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Mm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Mn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Mo" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Mp" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"Mq" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Mr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Ms" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"Mt" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Mu" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"Mv" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Mw" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Mx" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"My" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Mz" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"MA" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"MB" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"MC" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"MD" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"ME" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"MF" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"MG" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"MH" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MI" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MJ" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MK" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"ML" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MM" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MN" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"MP" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"MQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate_mothership)
+"MR" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"MS" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MT" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MU" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MV" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MW" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MX" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MY" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"MZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Na" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"Nb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate_mothership)
+"Nc" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Nd" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Ne" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Nf" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Ng" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Nh" = (
+/obj/machinery/door/airlock/external{
+	req_access_txt = "158"
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Ni" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Nj" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Nk" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Nl" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Nm" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Nn" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"No" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Np" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Nq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Nr" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"Ns" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Equipment Room";
+	opacity = 1;
+	req_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/syndicate_mothership)
+"Nt" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Nu" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Nv" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Nw" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Nx" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Ny" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Nz" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NA" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NB" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"NC" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"ND" = (
+/turf/open/floor/plasteel/black,
+/area/syndicate_mothership)
+"NE" = (
+/obj/machinery/mech_bay_recharge_port,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"NF" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mech_bay_recharge_floor,
+/area/syndicate/SCC/control)
+"NG" = (
+/obj/machinery/computer/mech_bay_power_console,
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"NH" = (
+/obj/machinery/vending/tool,
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"NI" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"NJ" = (
+/obj/docking_port/stationary{
+	area_type = /area/space;
+	dheight = 0;
+	dir = 4;
+	dwidth = 4;
+	height = 7;
+	id = "syndicate_SCC_hammer";
+	name = "Syndicate SCC Hammer";
+	turf_type = /turf/open/space;
+	width = 10
+	},
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NK" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NL" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NM" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NN" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NO" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NP" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"NR" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"NS" = (
+/turf/open/floor/plasteel/black,
+/area/syndicate_mothership)
+"NT" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"NU" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NV" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NW" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NX" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NY" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"NZ" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Oa" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Ob" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Oc" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/syndicate_mothership)
+"Od" = (
+/turf/open/floor/plasteel/black,
+/area/syndicate_mothership)
+"Oe" = (
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Of" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Og" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Oh" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Oi" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Oj" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Ok" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Ol" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Om" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"On" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Oo" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"Op" = (
+/obj/structure/closet/syndicate/personal,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate_mothership)
+"Oq" = (
+/obj/structure/closet/syndicate/personal,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Or" = (
+/obj/structure/closet/syndicate/personal,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Os" = (
+/obj/structure/closet/syndicate/personal,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Ot" = (
+/obj/structure/closet/syndicate/personal,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Ou" = (
+/obj/structure/table,
+/obj/item/weapon/gun/energy/ionrifle{
+	pin = /obj/item/device/firing_pin
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/black,
+/area/syndicate/SCC/control)
+"Ov" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"Ow" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Ox" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Oy" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"Oz" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OA" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OB" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OC" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"OE" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"OF" = (
+/turf/closed/indestructible/riveted,
+/area/syndicate_mothership)
+"OG" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"OH" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OI" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OJ" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OK" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OL" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OM" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"ON" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"OP" = (
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"OQ" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OR" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OS" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OT" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OU" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OV" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OW" = (
+/turf/open/floor/plating,
+/area/shuttle/syndicate_hammer)
+"OX" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"OY" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
+"OZ" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/SCC/control)
 
 (1,1,1) = {"
 aa
@@ -29766,9 +30404,9 @@ pk
 pk
 pk
 pk
-rd
-mg
-mA
+lH
+lH
+lH
 pk
 pk
 pk
@@ -30023,7 +30661,7 @@ pk
 pk
 pk
 Kl
-re
+lH
 kI
 sB
 tg
@@ -30280,9 +30918,9 @@ Kl
 Kl
 Kl
 Kl
-re
+lH
 kI
-sC
+lH
 pk
 pk
 pk
@@ -30537,9 +31175,9 @@ hq
 mz
 hq
 Kl
-re
+lH
 kI
-re
+lH
 pk
 pk
 pk
@@ -30794,9 +31432,9 @@ hq
 hq
 hq
 Kl
-re
+lH
 kI
-re
+lH
 Kl
 Kl
 Kl
@@ -31051,9 +31689,9 @@ hq
 hq
 hq
 Kl
-re
+lH
 kI
-re
+lH
 Kl
 hq
 Lw
@@ -31308,9 +31946,9 @@ Kl
 Kl
 Lx
 Kl
-rf
+lH
 kI
-rf
+lH
 Kl
 Lx
 Kl
@@ -32331,7 +32969,7 @@ Kl
 Kl
 Kl
 Kl
-ol
+lH
 oI
 oJ
 pA
@@ -32857,18 +33495,18 @@ tk
 tU
 uv
 kl
-Kl
-Kj
-Lw
-Kl
-Kl
-hq
-hq
-hq
-hq
-hq
-hq
-hm
+Mp
+Ms
+Mu
+MF
+MP
+Na
+Nr
+NC
+NR
+Oc
+Oo
+OE
 aa
 aa
 aa
@@ -33096,8 +33734,8 @@ kI
 kl
 kl
 lH
-mg
-mA
+lH
+lH
 kl
 kl
 kl
@@ -33114,18 +33752,18 @@ oJ
 oJ
 kl
 kl
-kl
+uW
 ol
-kl
-kl
-hm
-hm
-hm
-hm
-hm
-hm
-hm
-hm
+Mv
+ol
+MQ
+Nb
+Ns
+ND
+NS
+Od
+Op
+OF
 aa
 aa
 aa
@@ -33371,18 +34009,18 @@ oJ
 oJ
 uw
 uW
-uW
-uW
-wk
+uY
+uZ
+uZ
+uZ
+uZ
+Nc
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+uZ
+uZ
+uZ
+Oq
+kl
 aa
 aa
 aa
@@ -33627,19 +34265,19 @@ sE
 oJ
 JM
 kl
-uW
-uW
-uW
-wk
+Mo
+uZ
+uZ
+uZ
+uZ
+uZ
+Nd
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+NE
+uZ
+uZ
+Or
+kl
 aa
 aa
 aa
@@ -33880,23 +34518,23 @@ pC
 kl
 kl
 kl
-sC
-sB
-sC
+kl
+Mj
+kl
 kl
 uX
-uW
-uW
-wk
+uZ
+uZ
+uZ
+uZ
+uZ
+Ne
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+NF
+uZ
+uZ
+Os
+kl
 aa
 aa
 aa
@@ -34137,23 +34775,23 @@ pD
 pD
 kl
 kl
-re
+kl
 kI
-re
-kl
+lH
+Ml
 uY
-uW
-uW
-wk
+uZ
+uZ
+uZ
+uZ
+uZ
+Nf
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+NG
+uZ
+uZ
+Ot
+kl
 aa
 aa
 aa
@@ -34394,23 +35032,23 @@ pD
 qr
 kl
 kl
-re
+kl
 kI
-re
-kl
+lH
+Mm
 uZ
-uW
-uW
-wk
+Mq
+Mt
+va
+va
+va
+Ng
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+NH
+uZ
+Oe
+Ou
+kl
 aa
 aa
 aa
@@ -34645,32 +35283,32 @@ hq
 ln
 hq
 Ko
-ol
+lH
 pr
 pE
 kl
 kl
 kl
-re
+kl
 kI
-re
-kl
+lH
+Mn
 va
-uW
-vP
-wl
+Mr
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+kl
+kl
+kl
+Nh
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
 aa
 aa
 aa
@@ -34908,26 +35546,26 @@ kl
 kl
 kl
 kl
-re
+kl
+Mk
+kl
+kl
+kl
+kl
+kl
 kI
-re
+kI
+kI
+kI
+kI
+kI
+kI
+kI
+kI
+kI
+kI
+kI
 kl
-kl
-kl
-kl
-kl
-kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -35165,26 +35803,26 @@ kl
 qs
 qs
 qs
-re
+lH
 kI
-re
+lH
 qs
 qs
 qs
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+kI
+kI
+kI
+kI
+kI
+kI
+kI
+kI
+kI
+kI
+kI
+kI
+kl
 aa
 aa
 aa
@@ -35420,28 +36058,28 @@ hm
 aa
 kl
 qs
-rj
+qs
 sa
-re
+lH
 sB
-re
+lH
 sa
-vb
+qs
 qs
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Mw
+MG
+MR
+Ni
+Nt
+NI
+NT
+Of
+Ov
+OG
+OP
+OY
+kl
 aa
 aa
 aa
@@ -35686,19 +36324,19 @@ ux
 vc
 qs
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Mx
+MH
+MS
+Nj
+Nu
+NJ
+NU
+Og
+Ow
+OH
+OQ
+ku
+kl
 aa
 aa
 aa
@@ -35943,19 +36581,19 @@ rm
 ux
 vq
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+My
+MI
+MT
+Nk
+Nv
+NK
+NV
+Oh
+Ox
+OI
+OR
+ku
+kl
 aa
 aa
 aa
@@ -36200,19 +36838,19 @@ sb
 rm
 JN
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Mz
+MJ
+MU
+Nl
+Nw
+NL
+NW
+Oi
+Oy
+OJ
+OS
+ku
+kl
 aa
 aa
 aa
@@ -36457,19 +37095,19 @@ sc
 vd
 vq
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+MA
+MK
+MV
+Nm
+Nx
+NM
+NX
+Oj
+Oz
+OK
+OT
+ku
+kl
 aa
 aa
 aa
@@ -36714,19 +37352,19 @@ sd
 rm
 vq
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+MB
+ML
+MW
+Nn
+Ny
+NN
+NY
+Ok
+OA
+OL
+OU
+ku
+kl
 aa
 aa
 aa
@@ -36971,19 +37609,19 @@ rm
 uy
 vq
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+MC
+MM
+MX
+No
+Nz
+NO
+NZ
+Ol
+OB
+OM
+OV
+ku
+kl
 aa
 aa
 aa
@@ -37228,19 +37866,19 @@ uy
 ve
 qs
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+MD
+MN
+MY
+Np
+NA
+NP
+Oa
+Om
+OC
+ON
+OW
+ku
+kl
 aa
 aa
 aa
@@ -37485,19 +38123,19 @@ se
 qs
 qs
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ME
+MO
+MZ
+Nq
+NB
+NQ
+Ob
+On
+OD
+OO
+OX
+OZ
+kl
 aa
 aa
 aa
@@ -37742,19 +38380,19 @@ kl
 kl
 kl
 kl
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
+kl
 aa
 aa
 aa

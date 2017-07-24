@@ -1588,6 +1588,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 // Syndicate SCC Space Base
 
+/area/syndicate/SCC
+	has_gravity = 1
+	flags = NONE
+
 /area/syndicate/SCC/control
 	name = "SCC Control"
 	icon_state = "syndie-control"

@@ -171,7 +171,7 @@ update_label("John Doe", "Clowny")
 
 /obj/item/weapon/card/id/syndicate/captain
 	name = "Syndicate Captain Card"
-	access = list(GLOB.access_syndicate, GLOB.access_syndicate_comms, GLOB.access_syndicate_hydroponics, GLOB.access_syndicate_chemistry, GLOB.access_syndicate_virology, GLOB.access_syndicate_engineering, GLOB.access_syndicate_APC, GLOB.access_syndicate_Captain)
+	access = list(GLOB.access_syndicate, GLOB.access_syndicate_leader, GLOB.access_syndicate_comms, GLOB.access_syndicate_hydroponics, GLOB.access_syndicate_chemistry, GLOB.access_syndicate_virology, GLOB.access_syndicate_engineering, GLOB.access_syndicate_APC, GLOB.access_syndicate_Captain)
 
 /obj/item/weapon/card/id/syndicate/Initialize()
 	..()
