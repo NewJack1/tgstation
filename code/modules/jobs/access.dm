@@ -90,6 +90,7 @@ GLOBAL_VAR_CONST(access_syndicate_comms, 155)
 GLOBAL_VAR_CONST(access_syndicate_engineering, 156)
 GLOBAL_VAR_CONST(access_syndicate_APC, 157)
 GLOBAL_VAR_CONST(access_syndicate_Captain, 158)
+GLOBAL_VAR_CONST(access_syndicate_Miner, 159)
 
 	//Away Missions or Ruins
 	/*For generic away-mission/ruin access. Why would normal crew have access to a long-abandoned derelict

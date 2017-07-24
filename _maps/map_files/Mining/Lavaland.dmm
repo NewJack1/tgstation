@@ -4286,8 +4286,8 @@
 /obj/machinery/mineral/ore_redemption{
 	input_dir = 1;
 	output_dir = 8;
-	req_access = list(150);
-	req_access_reclaim = 150
+	req_access = list(159);
+	req_access_reclaim = 159
 	},
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
@@ -4492,7 +4492,7 @@
 "jM" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Recycling Room";
-	req_access_txt = "150"
+	req_access_txt = "159"
 	},
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -4506,7 +4506,7 @@
 "jN" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Recycling Room";
-	req_access_txt = "150"
+	req_access_txt = "159"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -8417,7 +8417,7 @@
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/miner{
-	req_access = list(150)
+	req_access = list(159)
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -8468,7 +8468,10 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/machinery/suit_storage_unit/syndicate,
+/obj/machinery/suit_storage_unit/syndicate{
+	req_access_txt = "159";
+	req_one_access_txt = "159"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -9837,6 +9840,16 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "vF" = (
+/obj/item/mecha_parts/mecha_equipment/drill/diamonddrill,
+/obj/item/mecha_parts/mecha_equipment/hydraulic_clamp,
+/obj/item/mecha_parts/mecha_equipment/mining_scanner,
+/obj/item/mecha_parts/mecha_equipment/weapon/energy/plasma,
+/obj/structure/closet/crate/secure/weapon{
+	name = "mecha equipment crate";
+	req_access_txt = "159";
+	req_one_access_txt = "159"
+	},
+/obj/effect/turf_decal/delivery,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -10027,22 +10040,21 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/item/mecha_parts/mecha_equipment/drill/diamonddrill,
-/obj/structure/table,
-/obj/item/mecha_parts/mecha_equipment/hydraulic_clamp,
-/obj/item/mecha_parts/mecha_equipment/mining_scanner,
-/obj/item/mecha_parts/mecha_equipment/weapon/energy/plasma,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wj" = (
-/obj/machinery/mech_bay_recharge_port{
-	dir = 2
-	},
 /obj/structure/cable/yellow{
+	d1 = 2;
 	d2 = 8;
-	icon_state = "0-8"
+	icon_state = "2-8"
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 4;
+	id = "Syndi_Mecha";
+	name = "Syndi_Mecha";
+	req_access_txt = "159"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -10062,16 +10074,8 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "wm" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/hephaestus/maintenance)
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/shuttle/syndicate_pod)
 "wn" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -10222,9 +10226,19 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "wK" = (
-/obj/mecha/working/ripley/syndicate_mining,
-/turf/open/floor/mech_bay_recharge_floor{
-	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 4;
+	id = "Syndi_Mecha";
+	name = "Syndi_Mecha";
+	req_access_txt = "159"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
 "wL" = (
@@ -10458,7 +10472,7 @@
 	name = "Syndicate Hephaestus Blastdoors Button";
 	pixel_x = 0;
 	pixel_y = 0;
-	req_access_txt = "150"
+	req_access_txt = "159"
 	},
 /turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
@@ -10518,7 +10532,7 @@
 	name = "Syndicate Hephaestus Blastdoors Button";
 	pixel_x = 0;
 	pixel_y = 0;
-	req_access_txt = "150"
+	req_access_txt = "159"
 	},
 /turf/closed/wall/mineral/iron{
 	baseturf = /turf/open/floor/plating/asteroid/airless
@@ -10555,7 +10569,6 @@
 	name = "Inconspicuous Airlock";
 	req_access_txt = "150"
 	},
-/obj/structure/fans/tiny,
 /turf/open/floor/wood,
 /area/syndicate/hephaestus/maintenance)
 "xI" = (
@@ -10663,21 +10676,28 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "ya" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external{
+	glass = 1;
+	name = "Mining Shuttle Airlock";
+	opacity = 0;
+	req_access_txt = "150"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/maintenance)
 "yb" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
+/obj/docking_port/stationary{
+	area_type = /area/lavaland/surface/outdoors;
+	dir = 4;
+	dwidth = 4;
+	height = 5;
+	id = "syndicate_lavaland_hephaestus";
+	name = "Lavaland: Hephaestus";
+	turf_type = /turf/open/floor/plating/asteroid/basalt/lava_land_surface;
+	width = 9
 	},
-/turf/open/floor/plating{
-	baseturf = /turf/open/floor/plating/asteroid/airless
-	},
-/area/syndicate/hephaestus/maintenance)
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/shuttle/syndicate_pod)
 "yc" = (
 /turf/open/floor/plating{
 	baseturf = /turf/open/floor/plating/asteroid/airless
@@ -11307,10 +11327,71 @@
 	},
 /area/syndicate/hephaestus/hephaestus)
 "zW" = (
+/obj/effect/mob_spawn/human/lavaland_syndicate/miner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"zX" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
+"zY" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
+/area/syndicate/hephaestus/maintenance)
+"zZ" = (
+/obj/mecha/working/ripley/syndicate_mining{
+	internals_req_access = list(155,159);
+	maint_access = 159;
+	req_access_txt = "159";
+	req_one_access_txt = "159"
+	},
+/turf/open/floor/mech_bay_recharge_floor{
+	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
+	},
+/area/syndicate/hephaestus/maintenance)
+"Aa" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4";
+	d1 = 1;
+	d2 = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	layer = 2.9
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"Ab" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/maintenance)
+"Ac" = (
+/obj/machinery/computer/shuttle/syndicate{
+	name = "syndicate pod terminal";
+	possible_destinations = "syndicate_lavaland_hephaestus";
+	req_access = null;
+	req_access_txt = "150";
+	shuttleId = "syndicate_pod"
+	},
+/turf/open/floor/wood,
 /area/syndicate/hephaestus/maintenance)
 
 (1,1,1) = {"
@@ -65083,7 +65164,7 @@ vv
 uQ
 uQ
 uQ
-uQ
+vv
 aD
 bp
 bp
@@ -65326,12 +65407,12 @@ ix
 ix
 si
 sI
-sI
+zW
 rf
 uc
 uz
 uR
-zW
+zY
 vF
 vh
 vh
@@ -66102,7 +66183,7 @@ ix
 ix
 ix
 uU
-vj
+vh
 vI
 wi
 vh
@@ -66353,8 +66434,8 @@ qM
 rm
 pm
 sm
-sM
 tm
+zX
 tJ
 ug
 tJ
@@ -66363,18 +66444,18 @@ uV
 uQ
 wj
 wK
-xj
+Aa
 uQ
-xY
 xW
-yC
+yk
+yz
 uQ
 aD
-aD
-aD
-aD
-aD
-aD
+bp
+bp
+bp
+bp
+bp
 bp
 bp
 bp
@@ -66618,20 +66699,20 @@ qV
 qV
 qV
 qV
+xj
+zZ
+Ab
 uQ
-uQ
-uQ
-uQ
-xZ
-xH
-xZ
-uQ
-uQ
-uQ
-uQ
-uQ
+xW
+yk
+Ac
 uQ
 aD
+aD
+aD
+bp
+bp
+bp
 bp
 bp
 bp
@@ -66873,22 +66954,22 @@ qV
 ui
 uF
 uX
-vm
+uX
 qV
-wl
-wM
-xl
-wM
-wM
-wM
-wM
-wM
-wM
-xl
-wM
-zD
+uQ
+uQ
+uQ
+uQ
+ya
+xZ
+xZ
+uQ
+uQ
 uQ
 aD
+bp
+bp
+bp
 bp
 bp
 bp
@@ -67130,22 +67211,22 @@ qV
 uj
 uF
 uX
-vn
+uX
 qV
 wm
-vh
-xm
-xM
-xM
-xM
-yF
-xM
-xM
-xM
-zv
-zE
+wm
+wm
+wm
+yb
+wm
+wm
+wm
+wm
 uQ
 aD
+bp
+bp
+bp
 bp
 bp
 bp
@@ -67389,20 +67470,20 @@ qV
 qV
 qV
 qV
-wn
-vh
-xn
-vU
-vU
-vU
-vU
-vU
-vU
-vU
-zw
-zF
+wm
+wm
+wm
+wm
+wm
+wm
+wm
+wm
+wm
 uQ
 aD
+bp
+bp
+bp
 bp
 bp
 bp
@@ -67646,20 +67727,20 @@ uI
 qV
 vp
 qV
-wn
-vh
-xn
-vU
-vU
-vU
-vU
-vU
-vU
-vU
-zw
-zF
+wm
+wm
+wm
+wm
+wm
+wm
+wm
+wm
+wm
 uQ
 aD
+bp
+bp
+bp
 bp
 bp
 bp
@@ -67903,20 +67984,20 @@ uJ
 vb
 vq
 qV
-wn
-vh
-xn
-vU
-vU
-vU
-vU
-vU
-vU
-vU
-zw
-zF
+wm
+wm
+wm
+wm
+wm
+wm
+wm
+wm
+wm
 uQ
 aD
+bp
+bp
+bp
 bp
 bp
 bp
@@ -68161,19 +68242,19 @@ qV
 vr
 qV
 wm
-vh
-xq
-xQ
-xQ
-xQ
-xQ
-xQ
-xQ
-xQ
-zz
-zE
+wm
+wm
+wm
+wm
+wm
+wm
+wm
+wm
 uQ
 aD
+bp
+bp
+bp
 bp
 bp
 bp
@@ -68417,20 +68498,20 @@ uL
 qV
 qV
 qV
-wr
-wS
-xr
-wS
-wS
-wS
-wS
-wS
-wS
-xr
-wS
-zJ
 uQ
+uQ
+uQ
+uQ
+uQ
+uQ
+uQ
+uQ
+uQ
+vv
 aD
+bp
+bp
+bp
 bp
 bp
 bp
@@ -68673,21 +68754,21 @@ up
 qV
 qV
 aD
-qV
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
-uQ
 aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+aD
+bp
+bp
+bp
 bp
 bp
 bp
@@ -68930,21 +69011,21 @@ uq
 uN
 aD
 aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bp
 bp
 bp
 bp
