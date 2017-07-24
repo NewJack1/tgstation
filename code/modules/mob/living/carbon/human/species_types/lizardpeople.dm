@@ -20,6 +20,11 @@
 /datum/species/lizard/after_equip_job(datum/job/J, mob/living/carbon/human/H)
 	H.grant_language(/datum/language/draconic)
 
+/datum/species/tajaran/qualifies_for_rank(rank, list/features)
+	if(rank in GLOB.command_positions)
+		return 0
+	return 1
+
 /datum/species/lizard/random_name(gender,unique,lastname)
 	if(unique)
 		return random_unique_lizard_name(gender)

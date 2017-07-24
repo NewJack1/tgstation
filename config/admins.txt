@@ -8,8 +8,7 @@
 # NOTE: syntax was changed to allow hyphenation of ranknames, since spaces are stripped.      #
 ###############################################################################################
 ExecutiveCancer = Host
-NeinCat = Emperor
-Cryptman = Lead Admin
+Cryptman = Emperor
 RedKnightHero = Game Master
 Nano_xXx = Badmin
 Lady Rainicorn = Trial Admin
