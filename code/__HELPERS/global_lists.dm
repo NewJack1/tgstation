@@ -29,6 +29,11 @@
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/spines_animated, GLOB.animated_spines_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/legs, GLOB.legs_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/wings, GLOB.r_wings_list,roundstart = TRUE)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/shair, GLOB.hair_styles_skrell_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/thair, GLOB.hair_styles_tajaran_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tails_list_tajaran)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tails_animated/tajaran, GLOB.animated_tails_list_tajaran)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/ears/tajaran, GLOB.ears_tajaran_list)
 
 
 	//Species

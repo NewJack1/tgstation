@@ -284,6 +284,8 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["feature_lizard_frills"]			>> features["frills"]
 	S["feature_lizard_spines"]			>> features["spines"]
 	S["feature_lizard_body_markings"]	>> features["body_markings"]
+	S["feature_tajaran_tail"]			>> features["tail_tajaran"]
+	S["feature_tajaran_ears"]			>> features["ears_tajaran"]
 	S["feature_lizard_legs"]			>> features["legs"]
 	if(!config.mutant_humans)
 		features["tail_human"] = "none"
@@ -354,6 +356,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	features["snout"]	= sanitize_inlist(features["snout"], GLOB.snouts_list)
 	features["horns"] 	= sanitize_inlist(features["horns"], GLOB.horns_list)
 	features["ears"]	= sanitize_inlist(features["ears"], GLOB.ears_list, "None")
+	features["ears_tajaran"]	= sanitize_inlist(features["ears_tajaran"], GLOB.ears_tajaran_list, "Default")
 	features["frills"] 	= sanitize_inlist(features["frills"], GLOB.frills_list)
 	features["spines"] 	= sanitize_inlist(features["spines"], GLOB.spines_list)
 	features["body_markings"] 	= sanitize_inlist(features["body_markings"], GLOB.body_markings_list)
@@ -407,6 +410,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["feature_lizard_snout"]			<< features["snout"]
 	S["feature_lizard_horns"]			<< features["horns"]
 	S["feature_human_ears"]				<< features["ears"]
+	S["feature_tajaran_ears"]			<< features["ears_tajaran"]
 	S["feature_lizard_frills"]			<< features["frills"]
 	S["feature_lizard_spines"]			<< features["spines"]
 	S["feature_lizard_body_markings"]	<< features["body_markings"]
