@@ -51,6 +51,9 @@
 /////////
 //TAILS//
 /////////
+/datum/sprite_accessory/tails/tajaran
+	icon = 'icons/mob/red_mutant_bodyparts.dmi'
+	color_src = MUTCOLORS
 
 /datum/sprite_accessory/tails/tajaran/default
 	name = "Default"
@@ -65,6 +68,9 @@
 ////////
 //EARS//
 ////////
+/datum/sprite_accessory/ears/tajaran
+	icon = 'icons/mob/red_mutant_bodyparts.dmi'
+	color_src = MUTCOLORS
 
 /datum/sprite_accessory/ears/tajaran/default
 	name = "Default"
