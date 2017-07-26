@@ -14,6 +14,7 @@
 
 // BEGIN_INCLUDE
 #include "_maps\basemap.dm"
+#include "_maps\lazarusstation.dm"
 #include "_maps\pubbystation.dm"
 #include "code\_compile_options.dm"
 #include "code\hub.dm"
@@ -597,6 +598,7 @@
 #include "code\game\machinery\computer\robot.dm"
 #include "code\game\machinery\computer\security.dm"
 #include "code\game\machinery\computer\station_alert.dm"
+#include "code\game\machinery\computer\syndie_communication.dm"
 #include "code\game\machinery\computer\telecrystalconsoles.dm"
 #include "code\game\machinery\doors\airlock.dm"
 #include "code\game\machinery\doors\airlock_electronics.dm"

@@ -205,6 +205,10 @@
 	origin_tech = "programming=3;magnets=3"
 	var/lastTimeUsed = 0
 
+/obj/item/weapon/circuitboard/computer/communications/syndicate
+	name = "Syndicate Communications (Computer Board)"
+	build_path = /obj/machinery/computer/communications/syndicate
+
 /obj/item/weapon/circuitboard/computer/card
 	name = "ID Console (Computer Board)"
 	build_path = /obj/machinery/computer/card

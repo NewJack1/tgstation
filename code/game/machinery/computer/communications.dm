@@ -684,38 +684,3 @@
 /obj/machinery/computer/communications/proc/overrideCooldown()
 	var/obj/item/weapon/circuitboard/computer/communications/CM = circuit
 	CM.lastTimeUsed = 0
-
-// The syndicate communications computer
-/obj/machinery/computer/communications/syndicate
-	name = "syndicate communications console"
-	desc = "A console used for syndicate announcements and emergencies."
-	icon_screen = "tcboss"
-	icon_keyboard = "tech_key"
-	req_access = list(GLOB.access_syndicate_comms)
-	circuit = /obj/item/weapon/circuitboard/computer/communications
-	var/authenticated_syndicate = 0
-	var/auth_id_syndicate = "Unknown" //Who is currently logged in?
-	var/currmsg_syndicate = 0
-	var/message_cooldown_syndicate = 0
-	var/ai_message_cooldown_syndicate = 0
-	var/const/STATE_DEFAULT_syndicate = 1
-
-
-	var/stat_msg1_syndicate
-	var/stat_msg2_syndicate
-
-	light_color = LIGHT_COLOR_BLUE
-
-/obj/machinery/computer/communications/syndicate/proc/checkCCcooldown_syndicate()
-	var/obj/item/weapon/circuitboard/computer/communications/CM = circuit
-	if(CM.lastTimeUsed + 600 > world.time)
-		return FALSE
-	return TRUE
-
-/obj/machinery/computer/communications/syndicate/Topic(href, href_list)
-	if(..())
-		return
-	usr.set_machine(src)
-
-	if(!href_list["operation"])
-		return
