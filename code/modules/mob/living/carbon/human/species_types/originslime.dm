@@ -11,7 +11,7 @@
 	punchdamagehigh = 0.1
 	punchstunthreshold = 0.1
 	species_traits = list(MUTCOLORS, EYECOLOR, HAIR, FACEHAIR, NOBLOOD, VIRUSIMMUNE, TOXINLOVER, RADIMMUNE, EASYDISMEMBER, NOBREATH) // Всё ещё чувствуют боль.
-	say_mod = "говорит"
+	say_mod = "булькает"
 	hair_color = "mutcolor"
 	hair_alpha = 150
 	ignored_by = list(/mob/living/simple_animal/slime)
@@ -35,3 +35,6 @@
 	if(H.blood_volume < BLOOD_VOLUME_OKAY)
 		if(prob(5))
 			to_chat(H, "<span class='danger'>You feel drained!</span>")
+
+/datum/species/originslime/after_equip_job(datum/job/J, mob/living/carbon/human/H)
+	H.grant_language(/datum/language/slime)

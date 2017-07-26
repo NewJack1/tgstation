@@ -19,6 +19,16 @@
 
 /obj/item/stack/medical/attack(mob/living/M, mob/user)
 
+	if(isoriginslime(M))
+		if(!istype(src, /obj/item/stack/medical/slimely_extract))
+			to_chat(user, "<span class='danger'>\ [M] is slime, you cannot help it!</span>")
+			return
+
+	if(istype(src, /obj/item/stack/medical/slimely_extract))
+		if(!isoriginslime(M))
+			to_chat(user, "<span class='danger'>\ You can not use it</span>")
+			return
+
 	if(M.stat == 2)
 		var/t_him = "it"
 		if(M.gender == MALE)
@@ -101,7 +111,17 @@
 
 	use(1)
 
-
+/obj/item/stack/medical/slimely_extract
+	name = "Slimely extract"
+	singular_name = "slimely_extract"
+	desc = "A theraputic gel designed to treat blunt-force trauma."
+	icon_state = "brutepack"
+	heal_brute = 40
+	heal_burn = 40
+	stop_bleeding = 1800
+	origin_tech = "biotech=2"
+	self_delay = 20
+	max_amount = 12
 
 /obj/item/stack/medical/bruise_pack
 	name = "bruise pack"

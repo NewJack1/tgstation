@@ -117,6 +117,16 @@
 	glass_desc = "The father of all refreshments."
 	shot_glass_icon_state = "shotglassclear"
 
+
+/datum/reagent/water/on_mob_life(mob/living/M)
+	if(isoriginslime(M))
+		if(M.nutrition < 400)
+			M.nutrition += 5
+	..()
+	. = 1
+
+
+
 /*
  *	Water reaction to turf
  */

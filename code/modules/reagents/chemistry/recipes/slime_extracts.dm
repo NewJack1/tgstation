@@ -40,6 +40,18 @@
 	required_container = /obj/item/slime_extract/grey
 	required_other = 1
 
+/datum/chemical_reaction/slime/slimely_extract
+	name = "Slimely extract"
+	id = "m_slimely"
+	required_reagents = list("slimejelly" = 1)
+	required_container = /obj/item/slime_extract/grey
+	required_other = 1
+
+/datum/chemical_reaction/slime/slimely_extract/on_reaction(datum/reagents/holder)
+	for(var/i in 1 to 3)
+		new /obj/item/stack/medical/slimely_extract(get_turf(holder.my_atom))
+	..()
+
 /datum/chemical_reaction/slime/slimemonkey/on_reaction(datum/reagents/holder)
 	for(var/i in 1 to 3)
 		new /obj/item/weapon/reagent_containers/food/snacks/monkeycube(get_turf(holder.my_atom))

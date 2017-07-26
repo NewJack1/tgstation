@@ -10074,9 +10074,9 @@
 	},
 /area/syndicate/hephaestus/maintenance)
 "wm" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/shuttle/syndicate_pod)
-"wn" = (
+/obj/machinery/light{
+	dir = 1
+	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -10084,6 +10084,9 @@
 	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
+"wn" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/shuttle/syndicate_pod)
 "wo" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -67213,15 +67216,15 @@ uF
 uX
 uX
 qV
-wm
-wm
-wm
-wm
+wU
+wn
+wn
+wn
 yb
-wm
-wm
-wm
-wm
+wn
+wn
+wn
+wn
 uQ
 aD
 bp
@@ -67470,15 +67473,15 @@ qV
 qV
 qV
 qV
-wm
-wm
-wm
-wm
-wm
-wm
-wm
-wm
-wm
+wn
+wn
+wn
+wn
+wn
+wn
+wn
+wn
+wn
 uQ
 aD
 bp
@@ -67727,15 +67730,15 @@ uI
 qV
 vp
 qV
-wm
-wm
-wm
-wm
-wm
-wm
-wm
-wm
-wm
+wn
+wn
+wn
+wn
+wn
+wn
+wn
+wn
+wn
 uQ
 aD
 bp
@@ -67984,15 +67987,15 @@ uJ
 vb
 vq
 qV
-wm
-wm
-wm
-wm
-wm
-wm
-wm
-wm
-wm
+wn
+wn
+wn
+wn
+wn
+wn
+wn
+wn
+wn
 uQ
 aD
 bp
@@ -68241,15 +68244,15 @@ uK
 qV
 vr
 qV
-wm
-wm
-wm
-wm
-wm
-wm
-wm
-wm
-wm
+wU
+wn
+wn
+wn
+wn
+wn
+wn
+wn
+wn
 uQ
 aD
 bp
