@@ -36,16 +36,5 @@
 		if(prob(5))
 			to_chat(H, "<span class='danger'>You feel drained!</span>")
 
-/datum/species/originslime/random_name(gender,unique,lastname)
-	if(unique)
-		return random_unique_originslime_name(gender)
-
-	var/randname = originslime_name(gender)
-
-	if(lastname)
-		randname += " [lastname]"
-
-	return randname
-
 /datum/species/originslime/after_equip_job(datum/job/J, mob/living/carbon/human/H)
 	H.grant_language(/datum/language/slime)
