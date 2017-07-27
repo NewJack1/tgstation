@@ -6,6 +6,12 @@
 	else
 		return "[pick(GLOB.lizard_names_female)]-[pick(GLOB.lizard_names_female)]"
 
+/proc/originslime_name(gender)
+	if(gender == MALE)
+		return "[pick(GLOB.originslime_names_male)][pick(GLOB.originslime_names_male)][pick(GLOB.originslime_names_male)] [pick(GLOB.originslime_names_male)][pick(GLOB.originslime_names_male)][pick(GLOB.originslime_names_male)] [pick(GLOB.originslime_names_male)][pick(GLOB.originslime_names_male)][pick(GLOB.originslime_names_male)]"
+	else
+		return "[pick(GLOB.originslime_names_female)][pick(GLOB.originslime_names_female)][pick(GLOB.originslime_names_female)] [pick(GLOB.originslime_names_female)][pick(GLOB.originslime_names_female)][pick(GLOB.originslime_names_female)] [pick(GLOB.originslime_names_female)][pick(GLOB.originslime_names_female)][pick(GLOB.originslime_names_female)]"
+
 /proc/plasmaman_name()
 	return "[pick(GLOB.plasmaman_names)] \Roman[rand(1,99)]"
 
