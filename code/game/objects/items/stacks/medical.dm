@@ -115,10 +115,9 @@
 	name = "Slimely extract"
 	singular_name = "slimely_extract"
 	desc = "A theraputic gel designed to treat blunt-force trauma."
-	icon_state = "brutepack"
+	icon_state = "slimepack"
 	heal_brute = 40
 	heal_burn = 40
-	stop_bleeding = 1800
 	origin_tech = "biotech=2"
 	self_delay = 20
 	max_amount = 12
