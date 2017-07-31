@@ -438,3 +438,8 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 			return .
 
 	. = ..()
+
+/mob/living/say_quote(input, list/spans)
+	if(get_custom_quote(input))
+		return ..(input, spans)
+	return ..()

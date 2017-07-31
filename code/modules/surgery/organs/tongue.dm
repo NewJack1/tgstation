@@ -51,8 +51,12 @@
 	var/regex/lizard_hiss = new("s+", "g")
 	var/regex/lizard_hiSS = new("S+", "g")
 	if(copytext(message, 1, 2) != "*")
+		var/begin = get_custom_quote(message)
+		var/quote = copytext(message, 1, begin)
 		message = lizard_hiss.Replace(message, "sss")
 		message = lizard_hiSS.Replace(message, "SSS")
+		message = copytext(message, begin)
+		message = quote + message
 	return message
 
 /obj/item/organ/tongue/fly
@@ -66,8 +70,12 @@
 	var/regex/fly_buzz = new("z+", "g")
 	var/regex/fly_buZZ = new("Z+", "g")
 	if(copytext(message, 1, 2) != "*")
+		var/begin = get_custom_quote(message)
+		var/quote = copytext(message, 1, begin)
+		message = copytext(message, begin)
 		message = fly_buzz.Replace(message, "zzz")
 		message = fly_buZZ.Replace(message, "ZZZ")
+		message = quote + message
 	return message
 
 /obj/item/organ/tongue/abductor
