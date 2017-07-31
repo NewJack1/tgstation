@@ -11330,26 +11330,18 @@
 	},
 /area/syndicate/hephaestus/hephaestus)
 "zW" = (
-/obj/effect/mob_spawn/human/lavaland_syndicate/miner{
-	dir = 4
-	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
-/area/syndicate/hephaestus/hephaestus)
-"zX" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/hephaestus/hephaestus)
-"zY" = (
+"zX" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
-"zZ" = (
+"zY" = (
 /obj/mecha/working/ripley/syndicate_mining{
 	internals_req_access = list(155,159);
 	maint_access = 159;
@@ -11360,7 +11352,7 @@
 	baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface
 	},
 /area/syndicate/hephaestus/maintenance)
-"Aa" = (
+"zZ" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4";
 	d1 = 1;
@@ -11374,7 +11366,7 @@
 	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
-"Ab" = (
+"Aa" = (
 /obj/machinery/mech_bay_recharge_port{
 	dir = 1
 	},
@@ -11386,7 +11378,7 @@
 	dir = 5
 	},
 /area/syndicate/hephaestus/maintenance)
-"Ac" = (
+"Ab" = (
 /obj/machinery/computer/shuttle/syndicate{
 	name = "syndicate pod terminal";
 	possible_destinations = "syndicate_lavaland_hephaestus";
@@ -65410,12 +65402,12 @@ ix
 ix
 si
 sI
-zW
+sI
 rf
 uc
 uz
 uR
-zY
+zX
 vF
 vh
 vh
@@ -66438,7 +66430,7 @@ rm
 pm
 sm
 tm
-zX
+zW
 tJ
 ug
 tJ
@@ -66447,7 +66439,7 @@ uV
 uQ
 wj
 wK
-Aa
+zZ
 uQ
 xW
 yk
@@ -66703,12 +66695,12 @@ qV
 qV
 qV
 xj
-zZ
-Ab
+zY
+Aa
 uQ
 xW
 yk
-Ac
+Ab
 uQ
 aD
 aD

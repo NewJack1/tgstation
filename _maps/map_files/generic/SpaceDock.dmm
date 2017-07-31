@@ -1573,7 +1573,6 @@
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/chemistry)
 "di" = (
-/obj/effect/mob_spawn/human/lavaland_syndicate/chemist,
 /turf/open/floor/plasteel/podhatch{
 	dir = 6
 	},
@@ -1972,9 +1971,6 @@
 /turf/open/floor/plasteel/black,
 /area/syndicate/chemistry)
 "dU" = (
-/obj/effect/mob_spawn/human/lavaland_syndicate/chemist{
-	dir = 1
-	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 9
 	},
@@ -2755,9 +2751,6 @@
 "fs" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
-	},
-/obj/effect/mob_spawn/human/lavaland_syndicate/engineer{
-	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plasteel/vault{
@@ -4182,10 +4175,6 @@
 /turf/open/floor/carpet,
 /area/syndicate/communications_room)
 "hK" = (
-/obj/effect/mob_spawn/human/lavaland_syndicate/comms{
-	dir = 8;
-	icon_state = "sleeper_s"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -5458,9 +5447,6 @@
 /turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
 "kh" = (
-/obj/effect/mob_spawn/human/lavaland_syndicate/botanist{
-	dir = 1
-	},
 /turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
 "ki" = (
@@ -10929,7 +10915,7 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/syndicate_hammer)
 "tP" = (
-/turf/open/floor/mineral/plastitanium/brig,
+/turf/open/floor/plasteel/black,
 /area/shuttle/syndicate_hammer)
 "tQ" = (
 /turf/open/floor/plasteel/black,
@@ -11252,6 +11238,33 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/syndicate_pod)
+"uL" = (
+/turf/open/floor/mineral/plastitanium/brig,
+/area/shuttle/syndicate_hammer)
+"uM" = (
+/turf/open/floor/mineral/plastitanium/brig,
+/area/shuttle/syndicate_hammer)
+"uN" = (
+/turf/open/floor/mineral/plastitanium/brig,
+/area/shuttle/syndicate_hammer)
+"uO" = (
+/turf/open/floor/mineral/plastitanium/brig,
+/area/shuttle/syndicate_hammer)
+"uP" = (
+/turf/open/floor/mineral/plastitanium/brig,
+/area/shuttle/syndicate_hammer)
+"uQ" = (
+/turf/open/floor/mineral/plastitanium/brig,
+/area/shuttle/syndicate_hammer)
+"uR" = (
+/turf/open/floor/mineral/plastitanium/brig,
+/area/shuttle/syndicate_hammer)
+"uS" = (
+/turf/open/floor/mineral/plastitanium/brig,
+/area/shuttle/syndicate_hammer)
+"uT" = (
+/turf/open/floor/mineral/plastitanium/brig,
+/area/shuttle/syndicate_hammer)
 
 (1,1,1) = {"
 aa
@@ -50190,7 +50203,7 @@ bZ
 cq
 aj
 cW
-ds
+dq
 dG
 ee
 eH
@@ -53014,7 +53027,7 @@ aa
 aa
 tu
 tF
-tP
+uL
 tu
 uh
 uq
@@ -53271,10 +53284,10 @@ aa
 aa
 tv
 tG
-tP
+uM
 tu
-tP
-tP
+uP
+uS
 tu
 ei
 ei
@@ -53528,10 +53541,10 @@ aa
 aa
 tv
 tH
-tP
+uN
 tS
-tP
-tP
+uQ
+uT
 dK
 gW
 hs
@@ -54042,9 +54055,9 @@ aa
 aa
 ty
 tJ
-tP
+uO
 uc
-tP
+uR
 uu
 uB
 aa
