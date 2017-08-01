@@ -14,7 +14,8 @@
 
 // BEGIN_INCLUDE
 #include "_maps\basemap.dm"
-#include "_maps\map_files\Cerestation\cerestation.dmm"
+#include "_maps\omegastation.dm"
+#include "_maps\map_files\OmegaStation\OmegaStation.dmm"
 #include "code\_compile_options.dm"
 #include "code\hub.dm"
 #include "code\world.dm"
