@@ -68,6 +68,20 @@ JSON на выходе - строго ASCII, строки закодированы в Unicode, все Unicode-символ
 /proc/russian_text2html(t)
 	return replacetext(t, "&#255;", "&#x044f;")
 
+//Ради ебучих голосований
+/proc/sanitize_cp_unicode(t)
+	t = replacetext(t, "&#255;", "&#1103;")
+	return t
+
+/proc/sanitize_unicode_cp(t)
+	t = replacetext(t, "&#1103;", "&#255;")
+	return t
+
+/proc/sanitize_unicode(t)
+	t = replacetext(t, "я", "&#1103;")
+	return t
+
+
 // Срезает макросы, меняет "я" на код И эскейпит HTML-символы.
 // Никогда не пропускайте текст через эту функцию больше чем один раз, на выходе будет каша.
 /proc/rhtml_encode(t)

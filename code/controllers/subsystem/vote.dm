@@ -85,18 +85,21 @@ SUBSYSTEM_DEF(vote)
 	if(winners.len > 0)
 		if(question)
 			text += "<b>[question]</b>"
+			question = copytext(rhtml_encode(question), 1, MAX_MESSAGE_LEN)
 		else
 			text += "<b>[capitalize(mode)] Vote</b>"
 		for(var/i=1,i<=choices.len,i++)
 			var/votes = choices[choices[i]]
 			if(!votes)
 				votes = 0
+			choices[i] = copytext(rhtml_encode(choices[i]), 1, MAX_MESSAGE_LEN)
 			text += "\n<b>[choices[i]]:</b> [votes]"
 		if(mode != "custom")
 			if(winners.len > 1)
 				text = "\n<b>Vote Tied Between:</b>"
 				for(var/option in winners)
 					text += "\n\t[option]"
+					option = copytext(rhtml_encode(option), 1, MAX_MESSAGE_LEN)
 			. = pick(winners)
 			text += "\n<b>Vote Result: [.]</b>"
 		else
@@ -171,13 +174,14 @@ SUBSYSTEM_DEF(vote)
 				choices.Add("Restart Round","Continue Playing")
 			if("gamemode")
 				choices.Add(config.votable_modes)
-				world << sound('sound/ambience/vote.ogg')
 			if("custom")
 				question = stripped_input(usr,"What is the vote for?")
+				question = copytext(sanitize_unicode(question), 1, MAX_MESSAGE_LEN)
 				if(!question)
 					return 0
-				for(var/i=1,i<=10,i++)
+				for(var/i=1,i<=100,i++)
 					var/option = capitalize(stripped_input(usr,"Please enter an option or hit cancel to finish"))
+					option = copytext(sanitize_unicode(option), 1, MAX_MESSAGE_LEN)
 					if(!option || mode || !usr.client)
 						break
 					choices.Add(option)
@@ -189,7 +193,9 @@ SUBSYSTEM_DEF(vote)
 		started_time = world.time
 		var/text = "[capitalize(mode)] vote started by [initiator]."
 		if(mode == "custom")
+			question = copytext(sanitize_unicode_cp(question), 1, MAX_MESSAGE_LEN)
 			text += "\n[question]"
+			question = copytext(sanitize_cp_unicode(question), 1, MAX_MESSAGE_LEN)
 		log_vote(text)
 		to_chat(world, "\n<font color='purple'><b>[text]</b>\nType <b>vote</b> or click <a href='?src=\ref[src]'>here</a> to place your votes.\nYou have [config.vote_period/10] seconds to vote.</font>")
 		time_remaining = round(config.vote_period/10)

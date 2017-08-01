@@ -37,7 +37,7 @@
 	return t
 
 //Removes a few problematic characters
-/proc/sanitize_simple(t,list/repl_chars = list("ÿ"="____255_"))
+/proc/sanitize_simple(t,list/repl_chars = list("\n"="#","\t"="#","y"="&#255;"))
 	for(var/char in repl_chars)
 		var/index = findtext(t, char)
 		while(index)
@@ -71,8 +71,8 @@
 		switch(text2ascii(text,i))
 			if(62,60,92,47)
 				return			//rejects the text if it contains these bad characters: <, >, \ or /
-			if(127 to 255)
-				return			//rejects weird letters like ï¿½
+		//	if(127 to 255)
+		//		return			//rejects weird letters like ï¿½
 			if(0 to 31)
 				return			//more weird stuff
 			if(32)
