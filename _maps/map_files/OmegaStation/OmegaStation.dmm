@@ -2382,6 +2382,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "aeg" = (
@@ -2412,6 +2413,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "aei" = (
@@ -2423,6 +2425,7 @@
 	id = "cargounload";
 	name = "supply dock unloading door"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "aej" = (
@@ -2887,6 +2890,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "aeX" = (
@@ -2912,6 +2916,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "aeZ" = (
@@ -2920,6 +2925,7 @@
 	req_access_txt = "31"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "afa" = (
@@ -3848,6 +3854,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "agC" = (
@@ -4366,6 +4373,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "ahr" = (
@@ -4404,6 +4412,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "aht" = (
@@ -4415,6 +4424,7 @@
 	dir = 4;
 	id = "cargoload"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "ahu" = (
@@ -9557,6 +9567,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/white,
 /area/shuttle/mining)
 "apq" = (
@@ -16568,6 +16579,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/white,
 /area/shuttle/escape)
 "aBk" = (
@@ -17721,6 +17733,7 @@
 	turf_type = /turf/open/space;
 	width = 30
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "aDk" = (
@@ -21291,6 +21304,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/white,
 /area/shuttle/escape)
 "aJf" = (
@@ -21474,6 +21488,7 @@
 	req_access_txt = "24"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/fans/tiny,
 /turf/open/floor/engine,
 /area/engine/supermatter)
 "aJw" = (
@@ -22837,6 +22852,7 @@
 	name = "Supermatter Chamber";
 	req_access_txt = "24"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/engine,
 /area/engine/supermatter)
 "aLS" = (
@@ -36294,11 +36310,11 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "bki" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/fans/tiny,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
@@ -36309,6 +36325,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "bkk" = (
@@ -36338,6 +36355,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel/white,
 /area/shuttle/arrival)
 "bkn" = (
@@ -36955,7 +36973,6 @@
 	},
 /area/chapel/main)
 "blF" = (
-/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/chapel/main)
 "blG" = (
@@ -36988,6 +37005,7 @@
 	id = "chapelmassdoor";
 	name = "Chapel Launcher Door"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/chapel/main)
 "blJ" = (
@@ -37084,7 +37102,7 @@
 	name = "\improper Departure Lounge"
 	})
 "bmb" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit{
 	name = "\improper Departure Lounge"
@@ -39184,6 +39202,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "btl" = (
@@ -39194,6 +39213,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "btm" = (
@@ -40062,6 +40082,7 @@
 /area/shuttle/transport)
 "bvW" = (
 /obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
 /turf/open/floor/pod/dark,
 /area/shuttle/transport)
 "bvX" = (
@@ -40200,6 +40221,7 @@
 	turf_type = /turf/open/space;
 	width = 5
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/pod/light,
 /area/shuttle/transport)
 "bwA" = (
@@ -40279,6 +40301,7 @@
 /area/shuttle/transport)
 "bwQ" = (
 /obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
 /turf/open/floor/pod/light,
 /area/shuttle/transport)
 "bwR" = (
@@ -40477,6 +40500,20 @@
 /obj/machinery/atmospherics/pipe/simple/general/visible,
 /turf/open/floor/plasteel/caution,
 /area/engine/engineering)
+"bxv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/external{
+	name = "Mining Dock Airlock";
+	req_access = null;
+	req_access_txt = "48"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plasteel,
+/area/quartermaster/miningdock)
 
 (1,1,1) = {"
 aaa
@@ -90174,7 +90211,7 @@ aaa
 aaa
 amD
 amD
-apm
+bxv
 amD
 amD
 aaa
