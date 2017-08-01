@@ -7,7 +7,5 @@
 Код сервера:			https://github.com/NeinCat/tgstation
 Дискорд-сервер:                 https://discord.gg/q8zgKYn
 
-<span style="color: #ff0000;"><big>У игроков есть возможность начать игру на базе Синдиката.<big></span>
-
 <span style="color: #0000ff;">Есть интересующий вопрос? Спроси Администратора (F1)!</span>
 

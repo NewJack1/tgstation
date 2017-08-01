@@ -88,11 +88,31 @@ GLOBAL_LIST_INIT(freqtospan, list(
 	if(!input)
 		input = "..."
 
+	var/check = 0
+	var/begin = copytext(input, 1, 2)
+	if(begin == "!")
+		var/space = findtext(input, "!", 3)
+		if(!space)
+			space = length(input) + 1
+		check = 1
+		begin = copytext(input, 2, space)
+		input = copytext(input, space + 1, length(input) + 1)
+
 	if(copytext(input, length(input) - 1) == "!!")
 		spans |= SPAN_YELL
 
 	var/spanned = attach_spans(input, spans)
-	return "[say_mod(input, message_mode)], \"[spanned]\""
+	if(check)
+		return "[begin]"
+	else
+		return "[say_mod(input, message_mode)], \"[spanned]\""
+
+/atom/movable/proc/get_custom_quote(input)
+	var/begin = findtext(input, "!", 3)
+	if(copytext(input, 1, 2) == "!" && begin)
+		return begin
+	else
+		return 0
 
 /atom/movable/proc/lang_treat(atom/movable/speaker, datum/language/language, raw_message, list/spans, message_mode)
 	if(has_language(language))

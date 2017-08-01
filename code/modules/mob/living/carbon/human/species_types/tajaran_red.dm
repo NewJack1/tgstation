@@ -21,18 +21,10 @@
 /obj/item/organ/tongue/tajaran
 	say_mod = "ìóğëû÷èò"
 
-///obj/item/organ/tongue/tajaran/TongueSpeech(var/message)
-//	var/regex/tajaran_rrr = new("ğ+", "g")
-//	var/regex/tajaran_rRR = new("Ğ+", "g")
-//	var/regex/tajaran_rAr = new("r+", "g")
-//	var/regex/tajaran_rAR = new("R+", "g")
-//	if(copytext(message, 1, 2) != "*")
-//		var/begin = get_custom_quote(message)
-//		var/quote = copytext(message, 1, begin)
-//		message = copytext(message, begin)
-//		message = tajaran_rrr.Replace(message, "ğğğ")
-//		message = tajaran_rRR.Replace(message, "ĞĞĞ")
-//		message = tajaran_rAr.Replace(message, "rrr")
-//		message = tajaran_rAR.Replace(message, "RRR")
-//		message = quote + message
-//	return message
+/obj/item/organ/tongue/tajaran/TongueSpeech(var/message)
+	if(copytext(message, 1, 2) != "*")
+		var/begin = get_custom_quote(message)
+		var/quote = copytext(message, 1, begin)
+		message = copytext(message, begin)
+		message = quote + message
+	return message
