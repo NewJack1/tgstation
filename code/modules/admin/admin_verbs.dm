@@ -69,6 +69,7 @@ GLOBAL_LIST_INIT(admin_verbs_admin, world.AVerbsAdmin())
 	/client/proc/toggleprayers,
 	/client/proc/toggleadminhelpsound,
 	/client/proc/respawn_character,
+	/client/verb/show_sywhitelist,
 	/client/verb/add_to_sywhitelist,
 	/client/verb/delete_from_sywhitelist
 	)
