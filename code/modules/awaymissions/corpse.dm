@@ -34,11 +34,22 @@
 	if(jobban_isbanned(user, banType))
 		to_chat(user, "<span class='warning'>You are jobanned!</span>")
 		return
-	var/ghost_role = alert("Are you sure? (Warning, You can no longer be cloned!)",,"Yes","No")
-	if(ghost_role == "No" || !loc)
-		return
-	log_game("[user.ckey] became [mob_name]")
-	create(ckey = user.ckey)
+	if(assignedrole == "Lavaland Syndicate")
+		if(insywl(user.ckey))
+			var/ghost_role = alert("Are you sure? (Warning, You can no longer be cloned!)",,"Yes","No")
+			if(ghost_role == "No" || !loc)
+				return
+			log_game("[user.ckey] became [mob_name]")
+			create(ckey = user.ckey)
+			return
+		else
+			return
+	else
+		var/ghost_role = alert("Are you sure? (Warning, You can no longer be cloned!)",,"Yes","No")
+		if(ghost_role == "No" || !loc)
+			return
+		log_game("[user.ckey] became [mob_name]")
+		create(ckey = user.ckey)
 
 /obj/effect/mob_spawn/Initialize(mapload)
 	. = ..()
