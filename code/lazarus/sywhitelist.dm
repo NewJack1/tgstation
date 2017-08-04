@@ -35,6 +35,42 @@
 	else
 		return
 
+/client/verb/show_sywhitelist()
+	set category = "Admin"
+	set name = "Show Syndicate Whitelist"
+	var/datum/DBQuery/query_sywhitelist_show = SSdbcore.NewQuery("SELECT ckey FROM whitelist")
+	query_sywhitelist_show.Execute()
+	var/dat = "<h1>Syndicate Members</h1><hr>"
+	dat += {"<!DOCTYPE html>
+	<html>
+	<head>
+	<style>
+	body {
+		background: #111;
+		color: #ccc;
+		font-family: sans-serif;
+		font-size: 8pt;
+	}
+	table {
+		background: #222;
+		width: 570px;
+	}
+	tr {
+		background: #1a1a1a;
+	}
+	td {
+		padding: 3px 10px
+	}
+	</style>
+	</head>
+	<table align="center" width="600">"}
+	dat += "<tr><td>ckey</td></tr>"
+	while(query_sywhitelist_show.NextRow())
+		dat += "<tr><td>[query_sywhitelist_show.item[1]]</td></tr>"
+	dat += "</table>"
+	var/datum/browser/popup_sywhitelist = new(usr, sanitize_russian("Syndicate Whitelist"), sanitize_russian("Syndicate Whitelist"), 600, 800)
+	popup_sywhitelist.set_content(sanitize_russian(dat))
+	popup_sywhitelist.open()
 /proc/insywl(syckey)
 	var/ckey
 	var/datum/DBQuery/query_sywhitelist_check = SSdbcore.NewQuery("SELECT * FROM whitelist WHERE (ckey = '[syckey]')")
