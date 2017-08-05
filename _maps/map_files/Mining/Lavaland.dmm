@@ -6639,7 +6639,7 @@
 "ow" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Secure Storage";
-	req_access_txt = "155"
+	req_access_txt = "159"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -6906,7 +6906,7 @@
 "oV" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Secure Storage";
-	req_access_txt = "155"
+	req_access_txt = "159"
 	},
 /obj/machinery/atmospherics/pipe/simple/supplymain/hidden{
 	dir = 4
@@ -11388,6 +11388,14 @@
 	},
 /turf/open/floor/wood,
 /area/syndicate/hephaestus/maintenance)
+"Ac" = (
+/obj/effect/mob_spawn/human/lavaland_syndicate/miner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/hephaestus/hephaestus)
 
 (1,1,1) = {"
 aa
@@ -65402,7 +65410,7 @@ ix
 ix
 si
 sI
-sI
+Ac
 rf
 uc
 uz
