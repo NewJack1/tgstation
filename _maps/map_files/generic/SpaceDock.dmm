@@ -1440,6 +1440,9 @@
 	pixel_y = 23;
 	req_access = list(157)
 	},
+/obj/item/stack/sheet/mineral/silver{
+	amount = 30
+	},
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/virology)
 "cU" = (
@@ -1461,6 +1464,7 @@
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment,
+/obj/item/weapon/book/manual/wiki/infections,
 /turf/open/floor/plasteel/podhatch,
 /area/syndicate/virology)
 "cW" = (
@@ -1626,10 +1630,6 @@
 /area/syndicate/primary_central)
 "do" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/book/manual/wiki/infections,
-/obj/item/stack/sheet/mineral/silver{
-	amount = 30
-	},
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
@@ -1982,7 +1982,6 @@
 	},
 /area/syndicate/chemistry)
 "dW" = (
-/obj/machinery/chem_heater,
 /turf/open/floor/plasteel/podhatch{
 	dir = 5
 	},
@@ -2209,6 +2208,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/effect/mob_spawn/human/lavaland_syndicate/engineer,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2300,13 +2300,13 @@
 	},
 /area/syndicate/chemistry)
 "ex" = (
-/obj/machinery/chem_master,
 /obj/structure/sign/deathsposal{
 	pixel_y = -35
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/podhatch{
 	dir = 8
 	},
@@ -2329,7 +2329,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/chem_dispenser/syndicate,
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
@@ -4366,6 +4366,9 @@
 	pixel_x = -24
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/mob_spawn/human/lavaland_syndicate/comms{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/syndicate/communications_room)
 "ib" = (
@@ -5447,6 +5450,9 @@
 /turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
 "kh" = (
+/obj/effect/mob_spawn/human/lavaland_syndicate/botanist{
+	dir = 1
+	},
 /turf/open/floor/plasteel/green/side,
 /area/syndicate/hydroponics)
 "ki" = (
@@ -11265,6 +11271,14 @@
 "uT" = (
 /turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
+"uU" = (
+/obj/effect/mob_spawn/human/lavaland_syndicate/chemist{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/chemistry)
 
 (1,1,1) = {"
 aa
@@ -46608,7 +46622,7 @@ cI
 dg
 dy
 dS
-dz
+uU
 fc
 fx
 fU
@@ -50203,7 +50217,7 @@ bZ
 cq
 aj
 cW
-dq
+ds
 dG
 ee
 eH
@@ -53284,10 +53298,10 @@ aa
 aa
 tv
 tG
-uM
+uL
 tu
-uP
-uS
+uL
+uL
 tu
 ei
 ei
@@ -53541,10 +53555,10 @@ aa
 aa
 tv
 tH
-uN
+uL
 tS
-uQ
-uT
+uL
+uL
 dK
 gW
 hs
@@ -54055,9 +54069,9 @@ aa
 aa
 ty
 tJ
-uO
+uL
 uc
-uR
+uL
 uu
 uB
 aa
