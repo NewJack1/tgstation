@@ -1,22 +1,22 @@
-/mob/living/carbon/proc/dream()
-	set waitfor = 0
-	var/list/dreams = GLOB.dream_strings.Copy()
-	for(var/obj/item/weapon/bedsheet/sheet in loc)
-		dreams += sheet.dream_messages
-	var/list/dream_images = list()
-	for(var/i in 1 to rand(3, rand(5, 10)))
-		dream_images += pick_n_take(dreams)
-		dreaming++
-	for(var/i in 1 to dream_images.len)
-		addtimer(CALLBACK(src, .proc/experience_dream, dream_images[i]), ((i - 1) * rand(30,60)))
-	return 1
+GLOBAL_LIST_INIT(globalDreamMessages,world.file2list("strings/dreamthings.txt"))
+
 
 /mob/living/carbon/proc/handle_dreams()
-	if(prob(5) && !dreaming)
-		dream()
-
-/mob/living/carbon/proc/experience_dream(dream_image)
-	dreaming--
-	if(stat != UNCONSCIOUS || InCritical())
+	if(InCritical())
 		return
-	to_chat(src, "<span class='notice'><i>... [dream_image] ...</i></span>")
+	var/list/dreams = list()
+	for(var/obj/item/weapon/bedsheet/bedsheet in range(0,src))
+		if(bedsheet.loc != loc) // bedsheets in your backpack don't give you dreams.
+			continue
+		dreams += bedsheet.dreamMessage
+		if(bedsheet.dreamSound && prob(10))
+			playsound_local(get_turf(src), bedsheet.dreamSound, rand(40,100))
+	if(!length(dreams))
+		dreams = GLOB.globalDreamMessages
+	show_dream("<span class='notice'><i>... [pick(dreams)] ...</i></span>")
+	for(var/i in 1 to rand(1, rand(2,6)))
+		addtimer(CALLBACK(src, .proc/show_dream, "<span class='notice'><i>... [pick(dreams)] ...</i></span>"),40*i+rand(0,30))
+
+/mob/living/carbon/proc/show_dream(message)
+	if(!InCritical() && stat == UNCONSCIOUS)
+		to_chat(src, message)
