@@ -51208,47 +51208,46 @@
 /turf/open/floor/plating,
 /area/maintenance/department/chapel/monastery)
 "cgB" = (
-/obj/item/weapon/twohanded/required/kirbyplants{
-	icon_state = "plant-22"
-	},
 /obj/item/device/radio/intercom{
 	dir = 0;
 	name = "Station Intercom (General)";
 	pixel_y = 26
 	},
-/turf/open/floor/plasteel/black,
+/obj/structure/sign/deathsposal{
+	pixel_x = -33
+	},
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/library)
 "cgC" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/carpet,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/library)
 "cgD" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/cable{
 	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/carpet,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/library)
 "cgE" = (
-/obj/item/weapon/twohanded/required/kirbyplants{
-	icon_state = "plant-22"
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
 	},
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "Library APC";
-	pixel_x = 24
-	},
-/obj/machinery/airalarm{
-	pixel_y = 22
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/black,
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/wood,
 /area/library)
 "cgF" = (
 /obj/structure/grille,
@@ -51413,27 +51412,37 @@
 	dir = 8
 	},
 /obj/machinery/photocopier,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/wood,
 /area/library)
 "cgX" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/carpet,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/floor/wood,
 /area/library)
 "cgY" = (
-/obj/item/weapon/storage/bag/books,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/black,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/wood,
 /area/library)
 "cgZ" = (
-/obj/structure/bookcase/random/religion,
-/turf/open/floor/plasteel/black,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/floor/wood,
 /area/library)
 "cha" = (
-/obj/structure/bookcase/random/religion,
-/obj/effect/decal/cleanable/cobweb{
-	icon_state = "cobweb2"
-	},
-/turf/open/floor/plasteel/black,
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/wood,
 /area/library)
 "chb" = (
 /obj/structure/grille,
@@ -51530,37 +51539,39 @@
 /turf/open/floor/plating,
 /area/maintenance/department/chapel/monastery)
 "chm" = (
-/obj/structure/chair/comfy/brown,
-/turf/open/floor/plasteel/black,
+/obj/machinery/holopad,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -27
+	},
+/turf/open/floor/wood,
 /area/library)
 "chn" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 5
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
 	},
-/turf/open/floor/carpet,
+/turf/open/floor/wood,
 /area/library)
 "cho" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/turf/open/floor/carpet,
+/turf/open/floor/wood,
 /area/library)
 "chp" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
 	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/wood,
 /area/library)
 "chq" = (
 /turf/open/floor/plasteel/black,
 /area/library)
 "chr" = (
-/obj/machinery/light/small{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
 	},
-/turf/open/floor/plasteel/black,
+/turf/open/floor/wood,
 /area/library)
 "chs" = (
 /obj/machinery/camera/emp_proof{
@@ -51661,30 +51672,28 @@
 /area/maintenance/department/chapel/monastery)
 "chE" = (
 /obj/structure/table/wood,
-/obj/item/weapon/folder/yellow,
-/obj/item/weapon/pen,
-/obj/machinery/camera{
-	c_tag = "Monastery Library";
-	dir = 4;
-	network = list("SS13","Monastery")
+/obj/item/device/flashlight/lamp/green{
+	pixel_x = 1;
+	pixel_y = 5
 	},
-/turf/open/floor/plasteel/black,
+/obj/machinery/newscaster{
+	pixel_x = -30
+	},
+/turf/open/floor/wood,
 /area/library)
 "chF" = (
 /turf/open/floor/carpet,
 /area/library)
 "chG" = (
-/obj/machinery/bookbinder,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/black,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
 /area/library)
 "chH" = (
-/obj/structure/bookcase/random/reference,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/wood,
 /area/library)
 "chI" = (
-/obj/structure/bookcase/random/nonfiction,
-/turf/open/floor/plasteel/black,
+/obj/structure/displaycase/trophy,
+/turf/open/floor/wood,
 /area/library)
 "chJ" = (
 /obj/structure/bookcase/random/fiction,
@@ -51748,24 +51757,29 @@
 /turf/closed/wall,
 /area/maintenance/department/chapel/monastery)
 "chS" = (
-/obj/structure/chair/comfy/brown{
-	buildstackamount = 0;
-	dir = 1
-	},
-/turf/open/floor/plasteel/black,
+/obj/machinery/computer/libraryconsole/bookmanagement,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
 /area/library)
 "chT" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 5
-	},
-/turf/open/floor/carpet,
-/area/library)
-"chU" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 8
 	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/black,
+/obj/machinery/door/window/northright{
+	base_state = "left";
+	dir = 4;
+	icon_state = "left";
+	name = "Library Desk Door";
+	pixel_x = 3;
+	req_access_txt = "37"
+	},
+/turf/open/floor/wood,
+/area/library)
+"chU" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/library)
 "chV" = (
 /obj/structure/sign/securearea,
@@ -51776,21 +51790,16 @@
 	dir = 8
 	},
 /obj/machinery/libraryscanner,
-/turf/open/floor/plasteel/black,
+/turf/open/floor/wood,
 /area/library)
 "chX" = (
-/obj/machinery/newscaster{
-	pixel_x = -32;
-	pixel_y = -32
-	},
-/turf/open/floor/carpet,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/wood,
 /area/library)
 "chY" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/turf/open/floor/plasteel/black,
+/obj/structure/table/wood,
+/obj/item/device/paicard,
+/turf/open/floor/wood,
 /area/library)
 "chZ" = (
 /obj/structure/bookcase/random/adult,
@@ -51809,20 +51818,16 @@
 	name = "Monastery Asteroid"
 	})
 "cic" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole/bookmanagement,
-/turf/open/floor/plasteel/black,
+/obj/machinery/door/morgue{
+	name = "Private Study";
+	req_access_txt = "37"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/engine/cult,
 /area/library)
 "cid" = (
-/obj/structure/table/wood,
-/obj/item/weapon/paper_bin{
-	layer = 2.9;
-	pixel_x = -2;
-	pixel_y = 4
-	},
-/obj/item/weapon/pen,
-/obj/item/weapon/barcodescanner,
-/turf/open/floor/plasteel/black,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall,
 /area/library)
 "cie" = (
 /obj/structure/sign/deathsposal,
@@ -52766,6 +52771,382 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"ckp" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/turf/closed/wall,
+/area/library)
+"ckq" = (
+/obj/machinery/vending/coffee,
+/obj/machinery/newscaster{
+	pixel_y = 32
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckr" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/bookcase/random/religion,
+/turf/open/floor/wood,
+/area/library)
+"cks" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckt" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/bookbinder,
+/turf/open/floor/wood,
+/area/library)
+"cku" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/airalarm{
+	pixel_y = 22
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckv" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckw" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "Library APC";
+	pixel_x = 24
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/effect/decal/cleanable/cobweb{
+	icon_state = "cobweb2"
+	},
+/obj/machinery/newscaster{
+	pixel_y = 32
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckx" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/wood,
+/area/library)
+"cky" = (
+/obj/structure/bookcase/random/religion,
+/turf/open/floor/wood,
+/area/library)
+"ckz" = (
+/turf/open/floor/wood,
+/area/library)
+"ckA" = (
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/carpet,
+/area/library)
+"ckB" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 24
+	},
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/carpet,
+/area/library)
+"ckC" = (
+/turf/open/floor/wood,
+/area/library)
+"ckD" = (
+/obj/structure/chair/comfy/brown{
+	color = "#c45c57";
+	dir = 4;
+	icon_state = "comfychair"
+	},
+/turf/open/floor/carpet,
+/area/library)
+"ckE" = (
+/obj/structure/table/wood,
+/obj/item/weapon/folder,
+/obj/item/weapon/folder,
+/obj/item/weapon/pen,
+/turf/open/floor/wood,
+/area/library)
+"ckF" = (
+/obj/structure/table/wood,
+/obj/item/weapon/storage/crayons,
+/turf/open/floor/carpet,
+/area/library)
+"ckG" = (
+/obj/structure/table/wood,
+/obj/item/weapon/paper_bin{
+	layer = 2.9
+	},
+/obj/item/weapon/pen,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/wood,
+/area/library)
+"ckH" = (
+/obj/structure/table/wood,
+/obj/item/weapon/pen/red,
+/obj/item/weapon/pen/blue{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/wood,
+/area/library)
+"ckI" = (
+/obj/structure/chair/comfy/brown{
+	color = "#c45c57";
+	dir = 4;
+	icon_state = "comfychair"
+	},
+/turf/open/floor/carpet,
+/area/library)
+"ckJ" = (
+/obj/machinery/camera/autoname{
+	dir = 1;
+	network = list("SS13")
+	},
+/obj/item/weapon/storage/pill_bottle/dice,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/library)
+"ckK" = (
+/obj/structure/table/wood,
+/obj/machinery/light,
+/obj/item/toy/cards/deck/cas/black{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/toy/cards/deck{
+	pixel_x = 2;
+	pixel_y = 7
+	},
+/obj/item/toy/cards/deck/cas{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/machinery/newscaster{
+	pixel_x = 33
+	},
+/turf/open/floor/carpet,
+/area/library)
+"ckL" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/effect/landmark/start/librarian,
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckM" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckN" = (
+/obj/structure/chair/comfy/brown{
+	buildstackamount = 0;
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/library)
+"ckO" = (
+/obj/structure/chair/comfy/brown{
+	buildstackamount = 0;
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/library)
+"ckP" = (
+/obj/item/weapon/folder,
+/obj/item/weapon/folder,
+/obj/machinery/camera/autoname{
+	dir = 1;
+	network = list("SS13")
+	},
+/obj/structure/table/wood,
+/obj/item/device/taperecorder,
+/obj/item/device/tape,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/wood,
+/area/library)
+"ckQ" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckR" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckS" = (
+/obj/structure/bookcase/random/nonfiction,
+/turf/open/floor/wood,
+/area/library)
+"ckT" = (
+/obj/structure/bookcase/random/reference,
+/turf/open/floor/wood,
+/area/library)
+"ckU" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckV" = (
+/obj/effect/decal/cleanable/cobweb,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/open/floor/engine/cult,
+/area/library)
+"ckW" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/engine/cult,
+/area/library)
+"ckX" = (
+/obj/effect/landmark/blobstart,
+/obj/structure/closet/wardrobe/curator,
+/turf/open/floor/engine/cult,
+/area/library)
+"ckY" = (
+/obj/machinery/newscaster{
+	pixel_x = -30
+	},
+/turf/open/floor/wood,
+/area/library)
+"ckZ" = (
+/obj/structure/bookcase/random/nonfiction,
+/turf/open/floor/wood,
+/area/library)
+"cla" = (
+/obj/structure/bookcase/random/reference,
+/turf/open/floor/wood,
+/area/library)
+"clb" = (
+/obj/machinery/newscaster{
+	pixel_x = 33
+	},
+/turf/open/floor/wood,
+/area/library)
+"clc" = (
+/obj/structure/bookcase{
+	name = "Forbidden Knowledge"
+	},
+/turf/open/floor/engine/cult,
+/area/library)
+"cld" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/turf/open/floor/engine/cult,
+/area/library)
+"cle" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/turf/open/floor/engine/cult,
+/area/library)
+"clf" = (
+/obj/structure/destructible/cult/tome,
+/obj/machinery/newscaster{
+	pixel_x = -30
+	},
+/obj/item/clothing/under/suit_jacket/red,
+/obj/item/weapon/book/codex_gigas,
+/turf/open/floor/engine/cult,
+/area/library)
+"clg" = (
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/engine/cult,
+/area/library)
+"clh" = (
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_x = 30
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/open/floor/engine/cult,
+/area/library)
+"cli" = (
+/obj/structure/bookcase/random/adult,
+/turf/open/floor/wood,
+/area/library)
+"clj" = (
+/obj/structure/bookcase/random/adult,
+/turf/open/floor/wood,
+/area/library)
+"clk" = (
+/obj/structure/table/wood,
+/obj/item/weapon/paper_bin{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/item/weapon/pen/invisible,
+/turf/open/floor/engine/cult,
+/area/library)
+"cll" = (
+/obj/item/device/taperecorder,
+/obj/item/device/camera,
+/obj/item/device/radio/intercom{
+	pixel_y = -25
+	},
+/obj/structure/table/wood,
+/turf/open/floor/engine/cult,
+/area/library)
+"clm" = (
+/turf/open/floor/engine/cult,
+/area/library)
+"cln" = (
+/obj/structure/mineral_door/wood,
+/turf/open/floor/wood,
+/area/library)
+"clo" = (
+/obj/item/device/radio/intercom{
+	pixel_y = -25
+	},
+/turf/open/floor/wood,
+/area/library)
+"clp" = (
+/obj/machinery/light/small,
+/turf/open/floor/wood,
+/area/library)
 
 (1,1,1) = {"
 aaa
@@ -69151,7 +69532,7 @@ ccr
 ccr
 ccr
 ccr
-ccr
+aaa
 aaa
 aaa
 aaa
@@ -69409,7 +69790,7 @@ ccr
 ccr
 ccr
 ccr
-ccr
+aaa
 aaa
 aaa
 aaa
@@ -69666,7 +70047,7 @@ ccr
 ccr
 ccr
 ccr
-ccr
+aaa
 aaa
 aaa
 aaa
@@ -70178,10 +70559,10 @@ chS
 chW
 cgc
 cgc
-ccr
-ccr
-ccr
-aaa
+cgc
+cgc
+cgc
+cgc
 aaa
 aaa
 aaa
@@ -70428,17 +70809,17 @@ cbP
 cfH
 cgd
 cgC
-cgC
+ckx
 chn
-chF
-chF
+ckG
+ckL
 chX
 cic
+ckV
+clc
+clf
+clk
 cgc
-ccr
-ccr
-ccr
-ccr
 aaa
 aaa
 aaa
@@ -70687,15 +71068,15 @@ cge
 cgD
 cgX
 cho
-cgX
+ckH
 chT
-chF
+ckP
 cid
+ckW
+cld
+clg
+cll
 cgc
-ccr
-ccr
-ccr
-ccr
 aaa
 aaa
 aaa
@@ -70947,12 +71328,12 @@ chp
 chG
 chU
 chY
-cie
 cgc
-ccr
-ccr
-ccr
-ccr
+ckX
+cle
+clh
+clm
+cgc
 aaa
 aaa
 aaa
@@ -71198,18 +71579,18 @@ bZY
 cdO
 cbk
 cgg
-cgc
+ckq
 cgZ
-chq
+chp
 chH
-chq
-chZ
+chU
+chH
 cgc
-ccr
-ccr
-ccr
-ccr
-ccr
+cgc
+cgc
+cgc
+cln
+cgc
 aaa
 aaa
 aaa
@@ -71454,19 +71835,19 @@ bUo
 bUo
 cfn
 cej
-bVl
-cgc
-cgZ
-chq
+ckp
+ckr
+cky
+chp
 chI
-chq
-chZ
+chU
+chH
+ckR
+ckY
 cgc
-ccr
-ccr
-ccr
-ccr
-ccr
+cli
+clo
+cgc
 aaa
 aaa
 aaa
@@ -71711,19 +72092,19 @@ bUp
 ceU
 cdQ
 cfJ
-bUp
 cgc
+cks
 cha
 chr
-chJ
-chr
-chZ
+chI
+ckM
+chH
+ckS
+ckZ
 cgc
-ccr
-ccr
-ccr
-ccr
-ccr
+clj
+clp
+cgc
 aaa
 aaa
 aaa
@@ -71968,19 +72349,19 @@ bUp
 cdm
 cdR
 cel
-bUp
+cgc
+ckt
+ckz
+ckC
+chH
+chH
+chH
+ckT
+cla
 cgc
 cgc
 cgc
 cgc
-cgc
-cgc
-cgc
-cgc
-ccr
-ccr
-ccr
-ccr
 aaa
 aaa
 aaa
@@ -72225,16 +72606,16 @@ bUp
 ceV
 cdS
 cfK
-bUp
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
+cgc
+cku
+chF
+ckD
+ckI
+chF
+chH
+ckU
+clb
+cgc
 ccr
 ccr
 aaa
@@ -72482,18 +72863,18 @@ bUp
 bUp
 cdT
 bUp
-bUp
+cgc
+ckv
+ckA
+ckE
+ckJ
+ckN
+ckQ
+cgc
+cgc
+cgc
 ccr
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
+aaa
 aaa
 aaa
 aaa
@@ -72739,14 +73120,14 @@ bUp
 ceW
 cdU
 cfL
-bUp
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
+cgc
+ckw
+ckB
+ckF
+ckK
+ckO
+chH
+cgc
 ccr
 ccr
 ccr
@@ -72996,14 +73377,14 @@ bUp
 bUp
 bUp
 bUp
-bUp
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
-ccr
+cgc
+cgc
+cgc
+cgc
+cgc
+cgc
+cgc
+cgc
 ccr
 ccr
 ccr

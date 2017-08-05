@@ -18,5 +18,4 @@
 	access += GLOB.access_crematorium
 	minimal_access += GLOB.access_crematorium
 
-MAP_REMOVE_JOB(curator)
 MAP_REMOVE_JOB(lawyer)
