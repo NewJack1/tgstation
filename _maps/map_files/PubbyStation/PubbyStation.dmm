@@ -51248,7 +51248,6 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
-/obj/structure/bookcase/random/fiction,
 /turf/open/floor/wood,
 /area/library)
 "cgF" = (
@@ -51431,7 +51430,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/bookcase/random/fiction,
 /turf/open/floor/wood,
 /area/library)
 "cgZ" = (
@@ -51761,6 +51759,10 @@
 "chS" = (
 /obj/machinery/computer/libraryconsole/bookmanagement,
 /obj/structure/table/wood,
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/library)
 "chT" = (
@@ -51788,9 +51790,6 @@
 /turf/closed/wall/r_wall,
 /area/space)
 "chW" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
 /obj/machinery/libraryscanner,
 /turf/open/floor/wood,
 /area/library)
@@ -52798,7 +52797,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/bookcase/random/religion,
 /turf/open/floor/wood,
 /area/library)
 "cks" = (
@@ -52863,7 +52861,6 @@
 /turf/open/floor/wood,
 /area/library)
 "cky" = (
-/obj/structure/bookcase/random/religion,
 /turf/open/floor/wood,
 /area/library)
 "ckz" = (
@@ -52878,6 +52875,9 @@
 	pixel_x = 24
 	},
 /obj/structure/chair/comfy/brown,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/carpet,
 /area/library)
 "ckC" = (
@@ -52941,7 +52941,6 @@
 /area/library)
 "ckK" = (
 /obj/structure/table/wood,
-/obj/machinery/light,
 /obj/item/toy/cards/deck/cas/black{
 	pixel_x = -2;
 	pixel_y = 6
@@ -52985,6 +52984,9 @@
 	buildstackamount = 0;
 	dir = 1
 	},
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/carpet,
 /area/library)
 "ckP" = (
@@ -53014,138 +53016,158 @@
 /turf/open/floor/wood,
 /area/library)
 "ckS" = (
-/obj/structure/bookcase/random/nonfiction,
-/turf/open/floor/wood,
-/area/library)
-"ckT" = (
-/obj/structure/bookcase/random/reference,
-/turf/open/floor/wood,
-/area/library)
-"ckU" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/wood,
 /area/library)
-"ckV" = (
+"ckT" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
 	},
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
 /area/library)
-"ckW" = (
+"ckU" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
 /area/library)
-"ckX" = (
+"ckV" = (
 /obj/effect/landmark/blobstart,
 /obj/structure/closet/wardrobe/curator,
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
 /area/library)
-"ckY" = (
+"ckW" = (
 /obj/machinery/newscaster{
 	pixel_x = -30
 	},
-/turf/open/floor/wood,
-/area/library)
-"ckZ" = (
 /obj/structure/bookcase/random/nonfiction,
 /turf/open/floor/wood,
 /area/library)
-"cla" = (
+"ckX" = (
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/wood,
+/area/library)
+"ckY" = (
 /obj/structure/bookcase/random/reference,
 /turf/open/floor/wood,
 /area/library)
-"clb" = (
+"ckZ" = (
 /obj/machinery/newscaster{
 	pixel_x = 33
 	},
+/obj/structure/bookcase/random/religion,
 /turf/open/floor/wood,
 /area/library)
-"clc" = (
+"cla" = (
 /obj/structure/bookcase{
 	name = "Forbidden Knowledge"
 	},
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
 /area/library)
-"cld" = (
+"clb" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 5
 	},
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
 /area/library)
-"cle" = (
+"clc" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
 	},
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
 /area/library)
-"clf" = (
+"cld" = (
 /obj/structure/destructible/cult/tome,
 /obj/machinery/newscaster{
 	pixel_x = -30
 	},
 /obj/item/clothing/under/suit_jacket/red,
 /obj/item/weapon/book/codex_gigas,
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
 /area/library)
-"clg" = (
+"cle" = (
 /obj/structure/chair/comfy/brown,
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
 /area/library)
-"clh" = (
+"clf" = (
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_x = 30
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
+/area/library)
+"clg" = (
+/obj/structure/bookcase/random/adult,
+/turf/open/floor/wood,
+/area/library)
+"clh" = (
+/obj/structure/bookcase/random/adult,
+/turf/open/floor/wood,
 /area/library)
 "cli" = (
-/obj/structure/bookcase/random/adult,
-/turf/open/floor/wood,
-/area/library)
-"clj" = (
-/obj/structure/bookcase/random/adult,
-/turf/open/floor/wood,
-/area/library)
-"clk" = (
 /obj/structure/table/wood,
 /obj/item/weapon/paper_bin{
 	pixel_x = -3;
 	pixel_y = 7
 	},
 /obj/item/weapon/pen/invisible,
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
 /area/library)
-"cll" = (
+"clj" = (
 /obj/item/device/taperecorder,
 /obj/item/device/camera,
 /obj/item/device/radio/intercom{
 	pixel_y = -25
 	},
 /obj/structure/table/wood,
-/turf/open/floor/engine/cult,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
+/area/library)
+"clk" = (
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
+/area/library)
+"cll" = (
+/obj/structure/mineral_door/wood,
+/turf/open/floor/carpet{
+	icon_state = "carpetsymbol"
+	},
 /area/library)
 "clm" = (
-/turf/open/floor/engine/cult,
-/area/library)
-"cln" = (
-/obj/structure/mineral_door/wood,
-/turf/open/floor/wood,
-/area/library)
-"clo" = (
 /obj/item/device/radio/intercom{
 	pixel_y = -25
 	},
 /turf/open/floor/wood,
 /area/library)
-"clp" = (
+"cln" = (
 /obj/machinery/light/small,
 /turf/open/floor/wood,
 /area/library)
@@ -70817,10 +70839,10 @@ ckG
 ckL
 chX
 cic
-ckV
-clc
-clf
-clk
+ckT
+cla
+cld
+cli
 cgc
 aaa
 aaa
@@ -71074,10 +71096,10 @@ ckH
 chT
 ckP
 cid
-ckW
-cld
-clg
-cll
+ckU
+clb
+cle
+clj
 cgc
 aaa
 aaa
@@ -71331,10 +71353,10 @@ chG
 chU
 chY
 cgc
-ckX
-cle
-clh
-clm
+ckV
+clc
+clf
+clk
 cgc
 aaa
 aaa
@@ -71591,7 +71613,7 @@ cgc
 cgc
 cgc
 cgc
-cln
+cll
 cgc
 aaa
 aaa
@@ -71845,10 +71867,10 @@ chI
 chU
 chH
 ckR
-ckY
+ckW
 cgc
-cli
-clo
+clg
+clm
 cgc
 aaa
 aaa
@@ -72101,11 +72123,11 @@ chr
 chI
 ckM
 chH
-ckS
-ckZ
+chH
+ckX
 cgc
-clj
-clp
+clh
+cln
 cgc
 aaa
 aaa
@@ -72358,8 +72380,8 @@ ckC
 chH
 chH
 chH
-ckT
-cla
+chH
+ckY
 cgc
 cgc
 cgc
@@ -72615,8 +72637,8 @@ ckD
 ckI
 chF
 chH
-ckU
-clb
+ckS
+ckZ
 cgc
 ccr
 ccr
@@ -92119,7 +92141,7 @@ bRF
 bSy
 bRF
 bUk
-bHr
+bLZ
 bHr
 bHr
 bHr

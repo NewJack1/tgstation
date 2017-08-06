@@ -122,17 +122,16 @@
 /turf/open/floor/wood,
 /area/syndicate/bar)
 "av" = (
-/obj/structure/rack{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "minibar_right";
-	name = "skeletal minibar"
-	},
-/obj/item/weapon/book/manual/nuclear,
 /obj/machinery/airalarm{
 	frequency = 1439;
 	locked = 0;
 	pixel_y = 23;
 	req_access = list(157)
+	},
+/obj/structure/table/wood,
+/obj/item/weapon/storage/box/drinkingglasses,
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/open/floor/wood,
 /area/syndicate/bar)
@@ -179,30 +178,6 @@
 	},
 /area/syndicate/shooting_gallery)
 "aD" = (
-/obj/structure/closet/crate{
-	icon_state = "crateopen";
-	opened = 1
-	},
-/obj/item/stack/sheet/glass{
-	amount = 50
-	},
-/obj/item/stack/sheet/glass{
-	amount = 50
-	},
-/obj/item/stack/sheet/glass{
-	amount = 50
-	},
-/obj/item/stack/sheet/plastic/five,
-/obj/item/stack/sheet/plastic/five,
-/obj/item/stack/sheet/mineral/plastitanium{
-	amount = 30
-	},
-/obj/item/stack/sheet/mineral/plastitanium{
-	amount = 30
-	},
-/obj/item/stack/rods{
-	amount = 50
-	},
 /turf/open/floor/plasteel/podhatch/corner,
 /area/syndicate/storage)
 "aE" = (
@@ -325,16 +300,38 @@
 	},
 /area/syndicate/shooting_gallery)
 "aS" = (
-/obj/structure/reagent_dispensers/watertank,
+/obj/structure/closet/crate{
+	icon_state = "crateopen";
+	opened = 1
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass{
+	amount = 50
+	},
+/obj/item/stack/sheet/plastic/five,
+/obj/item/stack/sheet/plastic/five,
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 30
+	},
+/obj/item/stack/sheet/mineral/plastitanium{
+	amount = 30
+	},
+/obj/item/stack/rods{
+	amount = 50
+	},
+/obj/item/weapon/storage/box/monkeycubes,
+/obj/item/weapon/storage/box/monkeycubes,
+/obj/item/weapon/storage/box/monkeycubes,
+/obj/item/weapon/storage/box/monkeycubes,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/podhatch{
-	dir = 4
-	},
+/turf/open/floor/plasteel/podhatch/corner,
 /area/syndicate/storage)
 "aT" = (
 /obj/structure/cable{
@@ -427,10 +424,10 @@
 	},
 /area/syndicate/shooting_gallery)
 "bf" = (
-/obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plasteel/podhatch{
 	dir = 4
 	},
@@ -664,8 +661,9 @@
 /area/syndicate/solars)
 "bF" = (
 /obj/item/weapon/bombcore/large/underwall,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/mineral/plastitanium,
-/area/syndicate/solars)
+/area/syndicate/storage_tech)
 "bG" = (
 /obj/machinery/light{
 	dir = 8
@@ -924,13 +922,26 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/sleeproom)
 "ca" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 8
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -943,6 +954,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 8
@@ -1148,6 +1164,7 @@
 	icon_state = "plant-21";
 	layer = 4.1
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -1485,27 +1502,24 @@
 /turf/open/floor/plating,
 /area/syndicate/virology)
 "cY" = (
-/obj/machinery/light/small{
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
 	},
-/mob/living/carbon/monkey,
-/turf/open/floor/plasteel/vault{
-	dir = 8
-	},
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "cZ" = (
-/obj/structure/bed/roller,
-/turf/open/floor/plasteel/vault{
-	dir = 8
-	},
+/mob/living/carbon/monkey,
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "da" = (
-/obj/machinery/light/small{
-	dir = 1
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 8
-	},
+/obj/effect/decal/cleanable/deadcockroach,
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "db" = (
 /mob/living/carbon/monkey,
@@ -1667,15 +1681,13 @@
 	name = "Monkey1";
 	req_access_txt = "154"
 	},
-/turf/open/floor/plasteel/black,
+/mob/living/carbon/monkey,
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "du" = (
-/obj/machinery/door/window/brigdoor{
-	id = "Monkey2";
-	name = "Monkey2";
-	req_access_txt = "154"
-	},
-/turf/open/floor/plasteel/black,
+/obj/structure/window/reinforced,
+/mob/living/carbon/monkey,
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "dv" = (
 /obj/structure/lattice,
@@ -1840,6 +1852,7 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/virology)
 "dJ" = (
@@ -2078,24 +2091,26 @@
 "ef" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
-	id = "Monkey3";
-	name = "Monkey3";
+	id = "Monkey2";
+	name = "Monkey2";
 	req_access_txt = "154"
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
-	},
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "eg" = (
-/obj/machinery/door/window/brigdoor{
+/obj/structure/window/reinforced{
 	dir = 1;
-	id = "Monkey4";
-	name = "Monkey4";
-	req_access_txt = "154"
+	pixel_y = 1
 	},
-/turf/open/floor/plasteel/vault{
-	dir = 5
+/obj/structure/table/glass,
+/obj/item/weapon/folder/white{
+	pixel_y = 4
 	},
+/obj/item/weapon/pen/red,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "eh" = (
 /obj/structure/disposalpipe/segment,
@@ -2182,7 +2197,16 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/obj/machinery/vending/tool,
+/obj/structure/table,
+/obj/machinery/button/door{
+	id = "engineer_tools";
+	name = "Syndicate Engineer Tools Blast Doors Button";
+	normaldoorcontrol = 0;
+	pixel_x = 0;
+	pixel_y = 0;
+	req_access_txt = "156";
+	specialfunctions = 1
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2208,7 +2232,12 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/effect/mob_spawn/human/lavaland_syndicate/engineer,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2230,15 +2259,10 @@
 	dir = 5
 	},
 /obj/structure/table,
-/obj/machinery/button/door{
-	id = "engineer_tools";
-	name = "Syndicate Engineer Tools Blast Doors Button";
-	normaldoorcontrol = 0;
-	pixel_x = 0;
-	pixel_y = 0;
-	req_access_txt = "156";
-	specialfunctions = 1
+/obj/item/weapon/paper_bin{
+	layer = 2.9
 	},
+/obj/item/weapon/pen,
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2423,17 +2447,14 @@
 	},
 /area/syndicate/virology)
 "eI" = (
-/obj/machinery/light/small,
-/turf/open/floor/plasteel/vault{
-	dir = 8
-	},
+/obj/machinery/vending/medical,
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "eJ" = (
-/obj/structure/bed/roller,
-/mob/living/carbon/monkey,
-/turf/open/floor/plasteel/vault{
-	dir = 8
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
 	},
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "eK" = (
 /turf/open/space/basic,
@@ -2582,12 +2603,42 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/solars)
 "eZ" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -2611,6 +2662,16 @@
 	dir = 8;
 	pixel_x = 24;
 	req_access = list(157)
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -2699,6 +2760,7 @@
 /area/syndicate/virology)
 "fk" = (
 /obj/structure/sign/securearea,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/virology)
 "fl" = (
@@ -2867,9 +2929,7 @@
 	},
 /area/syndicate/primary_central)
 "fD" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/plasteel/podhatch{
 	dir = 5
 	},
@@ -3635,10 +3695,12 @@
 	},
 /area/syndicate/solars)
 "gJ" = (
-/obj/machinery/power/smes,
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
+	},
+/obj/machinery/power/smes{
+	charge = 5e+006
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -5812,8 +5874,11 @@
 	dir = 4;
 	pixel_x = 11
 	},
-/obj/machinery/light/small{
-	dir = 1
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -5834,6 +5899,9 @@
 	name = "Shower Room";
 	req_access_txt = "150"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
@@ -5848,6 +5916,9 @@
 	pixel_y = -25;
 	req_access_txt = "150";
 	specialfunctions = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -7826,13 +7897,23 @@
 /area/syndicate/sleeproom)
 "ow" = (
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
 	},
 /area/syndicate/sleeproom)
 "ox" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -7841,6 +7922,11 @@
 "oy" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -8538,7 +8624,9 @@
 /turf/open/space/basic,
 /area/syndicate/solars)
 "pL" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/shooting_gallery)
 "pM" = (
@@ -10840,6 +10928,7 @@
 "tC" = (
 /obj/item/weapon/bombcore/large/underwall,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/mineral/plastitanium,
 /area/syndicate/sleeproom)
 "tD" = (
@@ -11184,18 +11273,28 @@
 	},
 /area/shuttle/syndicate_hammer)
 "uE" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plating,
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 1
+	},
+/obj/structure/table/glass,
+/obj/item/weapon/reagent_containers/dropper,
+/obj/item/weapon/reagent_containers/syringe,
+/obj/item/weapon/reagent_containers/glass/beaker,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 1
+	},
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "uF" = (
-/obj/structure/bed/roller,
 /obj/structure/disposalpipe/segment,
-/mob/living/carbon/monkey,
-/turf/open/floor/plasteel/vault{
-	dir = 8
+/obj/structure/bed,
+/obj/item/weapon/bedsheet/medical,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
 	},
+/turf/open/floor/plasteel/freezer,
 /area/syndicate/virology)
 "uG" = (
 /obj/machinery/light{
@@ -11272,6 +11371,1432 @@
 /turf/open/floor/mineral/plastitanium/brig,
 /area/shuttle/syndicate_hammer)
 "uU" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"uV" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"uW" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"uX" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"uY" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"uZ" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"va" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vb" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vc" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vd" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"ve" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vf" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vg" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vh" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vi" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vj" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vk" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vl" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vm" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vn" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vo" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vp" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vq" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vr" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vs" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vt" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vu" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vv" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vw" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vx" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vy" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vz" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vA" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "Syndicate Maintenance";
+	pixel_y = 24;
+	req_access = list(157);
+	req_access_txt = "0";
+	req_one_access = null
+	},
+/obj/structure/cable{
+	icon_state = "0-2";
+	d2 = 2
+	},
+/obj/effect/decal/cleanable/cobweb,
+/obj/machinery/space_heater,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vB" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vC" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 2;
+	name = "2maintenance loot spawner"
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vD" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 2;
+	name = "2maintenance loot spawner"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vE" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vF" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vG" = (
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vH" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vI" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"vJ" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vK" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vL" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vM" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vN" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vO" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vP" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vQ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vR" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vS" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vT" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/effect/decal/cleanable/cobweb{
+	icon_state = "cobweb2"
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vU" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vV" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vW" = (
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vX" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vY" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"vZ" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wa" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wb" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wc" = (
+/obj/effect/decal/cleanable/cobweb{
+	icon_state = "cobweb2"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wd" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"we" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"wf" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wg" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wh" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wi" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wj" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wk" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wl" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wm" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wn" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/grille/broken,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wo" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wp" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wq" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wr" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"ws" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"wt" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wu" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wv" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"ww" = (
+/obj/machinery/light/small,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wx" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wy" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wz" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/grille/broken,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wA" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wB" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wC" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wD" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wE" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wF" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wG" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wH" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wI" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance{
+	lootcount = 2;
+	name = "2maintenance loot spawner"
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wJ" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"wK" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wL" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wM" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/light/small,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wN" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wO" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wP" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wQ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wR" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wS" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"wT" = (
+/obj/machinery/light/small{
+	brightness = 3;
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wU" = (
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wV" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wW" = (
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wX" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Syndicate Bar Maintenance";
+	req_access_txt = "0";
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/syndicate/bar)
+"wY" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/space_heater,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"wZ" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"xa" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"xb" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xc" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xd" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Syndicate Tech Storage Maintenance";
+	req_access_txt = "0";
+	req_one_access_txt = "156"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/syndicate/engineering_rest)
+"xe" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xf" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xg" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xh" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Syndicate Shooting Room Maintenance";
+	req_access_txt = "0";
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/syndicate/shooting_gallery)
+"xi" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Syndicate Storage Maintenance";
+	req_access_txt = "0";
+	req_one_access_txt = "150"
+	},
+/turf/open/floor/plating,
+/area/syndicate/storage)
+"xj" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"xk" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"xl" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/maintenance)
+"xm" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_restroom";
+	name = "Syndicate Engineer RestRoom Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/syndicate/engineering_rest)
+"xn" = (
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xo" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xp" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/airalarm{
+	frequency = 1439;
+	locked = 0;
+	pixel_y = 23;
+	req_access = list(157)
+	},
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xq" = (
+/obj/structure/bookcase/random,
+/obj/item/weapon/book/manual/wiki/engineering_construction,
+/obj/item/weapon/book/manual/wiki/engineering_guide,
+/obj/item/weapon/book/manual/wiki/engineering_hacking,
+/obj/item/weapon/book/manual/engineering_singularity_safety,
+/obj/item/weapon/book/manual/engineering_particle_accelerator,
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xr" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xs" = (
+/obj/item/weapon/reagent_containers/glass/bucket,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"xt" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"xu" = (
+/obj/structure/mopbucket,
+/obj/item/weapon/mop,
+/obj/effect/decal/cleanable/cobweb{
+	icon_state = "cobweb2"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"xv" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_restroom";
+	name = "Syndicate Engineer RestRoom Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/syndicate/engineering_rest)
+"xw" = (
+/obj/structure/table/wood,
+/obj/machinery/button/door{
+	id = "engineer_restroom";
+	name = "Syndicate Engineer RestRoom Blast Doors Button";
+	normaldoorcontrol = 0;
+	pixel_x = 0;
+	pixel_y = 0;
+	req_access_txt = "156";
+	specialfunctions = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xx" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xy" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xz" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "Syndicate Engineering RestRoom APC";
+	pixel_x = 26;
+	req_access = list(157)
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xA" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xB" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"xC" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"xD" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating,
+/area/syndicate/maintenance)
+"xE" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_restroom";
+	name = "Syndicate Engineer RestRoom Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/syndicate/engineering_rest)
+"xF" = (
+/obj/effect/mob_spawn/human/lavaland_syndicate/engineer{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xG" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xH" = (
+/obj/structure/chair/comfy/brown{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xI" = (
+/obj/structure/table/wood,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/syndicate/engineering_rest)
+"xJ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xK" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Syndicate Toilet Maintenance";
+	req_access_txt = "0";
+	req_one_access_txt = "150"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/syndicate/sleeproom)
+"xL" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xM" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xN" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Engineering Room";
+	req_access_txt = "156"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/syndicate/engineering_rest)
+"xO" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xP" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xQ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/engineering_rest)
+"xR" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tech_storage";
+	name = "Syndicate Engineer Tech Storage Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/syndicate/storage_tech)
+"xS" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
+/area/syndicate/storage_tech)
+"xT" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 5
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"xU" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"xV" = (
+/obj/structure/table,
+/obj/machinery/button/door{
+	id = "engineer_tech_storage";
+	name = "Syndicate Engineer Tech Storage Blast Doors Button";
+	normaldoorcontrol = 0;
+	pixel_x = 0;
+	pixel_y = 0;
+	req_access_txt = "156";
+	specialfunctions = 1
+	},
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
+/area/syndicate/storage_tech)
+"xW" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 10
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"xX" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tech_storage";
+	name = "Syndicate Engineer Tech Storage Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/syndicate/storage_tech)
+"xY" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
+/area/syndicate/storage_tech)
+"xZ" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"ya" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yb" = (
+/obj/structure/table,
+/obj/item/weapon/electronics/airlock,
+/obj/item/weapon/electronics/airlock,
+/obj/item/weapon/electronics/apc,
+/obj/item/weapon/stock_parts/cell/high/plus,
+/obj/item/weapon/stock_parts/cell/high/plus,
+/obj/item/stack/cable_coil,
+/obj/machinery/cell_charger,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
+/area/syndicate/storage_tech)
+"yc" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/storage_tech)
+"yd" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tech_storage";
+	name = "Syndicate Engineer Tech Storage Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/syndicate/storage_tech)
+"ye" = (
+/obj/machinery/vending/tool,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
+/area/syndicate/storage_tech)
+"yf" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yg" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yh" = (
+/obj/structure/table,
+/obj/item/weapon/airlock_painter{
+	pixel_y = 3
+	},
+/obj/item/device/flashlight,
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "Syndicate Tech Storage APC";
+	pixel_x = 26;
+	req_access = list(157)
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
+/area/syndicate/storage_tech)
+"yi" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/storage_tech)
+"yj" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"yk" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tech_storage";
+	name = "Syndicate Engineer Tech Storage Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/syndicate/storage_tech)
+"yl" = (
+/obj/machinery/vending/engivend,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
+/area/syndicate/storage_tech)
+"ym" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yn" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yo" = (
+/obj/structure/table,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/weapon/storage/belt/utility,
+/obj/item/clothing/glasses/meson,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
+/area/syndicate/storage_tech)
+"yp" = (
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/storage_tech)
+"yq" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"yr" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/sleeproom)
+"ys" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tech_storage";
+	name = "Syndicate Engineer Tech Storage Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/syndicate/storage_tech)
+"yt" = (
+/obj/structure/closet/wardrobe/engineering_yellow,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
+/area/syndicate/storage_tech)
+"yu" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yv" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yw" = (
+/obj/structure/table,
+/obj/item/weapon/storage/toolbox/mechanical{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/toolbox/mechanical{
+	pixel_x = -2
+	},
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list(157)
+	},
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
+/area/syndicate/storage_tech)
+"yx" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/storage_tech)
+"yy" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/freezer,
+/area/syndicate/virology)
+"yz" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/virology)
+"yA" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tech_storage";
+	name = "Syndicate Engineer Tech Storage Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/syndicate/storage_tech)
+"yB" = (
+/obj/structure/closet/secure_closet/engineering_personal,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
+/area/syndicate/storage_tech)
+"yC" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yD" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yE" = (
+/obj/structure/table,
+/obj/item/weapon/storage/toolbox/electrical{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/toolbox/electrical{
+	pixel_x = -2
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
+/area/syndicate/storage_tech)
+"yF" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/storage_tech)
+"yG" = (
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel/freezer,
+/area/syndicate/virology)
+"yH" = (
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel/freezer,
+/area/syndicate/virology)
+"yI" = (
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel/freezer,
+/area/syndicate/virology)
+"yJ" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/virology)
+"yK" = (
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/obj/machinery/door/poddoor{
+	density = 0;
+	icon_state = "open";
+	id = "engineer_tech_storage";
+	name = "Syndicate Engineer Tech Storage Blast Door";
+	opacity = 0
+	},
+/turf/open/floor/plating,
+/area/syndicate/storage_tech)
+"yL" = (
+/obj/structure/closet/secure_closet/engineering_welding,
+/turf/open/floor/plasteel/podhatch{
+	dir = 4
+	},
+/area/syndicate/storage_tech)
+"yM" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yN" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/syndicate/storage_tech)
+"yO" = (
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/item/clothing/mask/gas{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/turf/open/floor/plasteel/podhatch{
+	dir = 8
+	},
+/area/syndicate/storage_tech)
+"yP" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/storage_tech)
+"yQ" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Engineering Room";
+	req_access_txt = "156"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plasteel/vault{
+	dir = 8
+	},
+/area/syndicate/storage_tech)
+"yR" = (
+/obj/item/weapon/bombcore/large/underwall,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/solars)
+"yS" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/plasteel/freezer,
+/area/syndicate/virology)
+"yT" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	pixel_y = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/table/glass,
+/obj/item/weapon/book/manual/wiki/infections,
+/obj/item/weapon/hand_labeler,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/item/weapon/storage/box/monkeycubes,
+/obj/item/weapon/storage/box/monkeycubes,
+/turf/open/floor/plasteel/freezer,
+/area/syndicate/virology)
+"yU" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 9
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/virology)
+"yV" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/solars)
+"yW" = (
 /obj/effect/mob_spawn/human/lavaland_syndicate/chemist{
 	dir = 4
 	},
@@ -11279,6 +12804,40 @@
 	dir = 5
 	},
 /area/syndicate/chemistry)
+"yX" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/freezer,
+/area/syndicate/virology)
+"yY" = (
+/obj/machinery/door/window/brigdoor{
+	dir = 4;
+	id = "Monkey3";
+	name = "Monkey3";
+	req_access_txt = "154"
+	},
+/obj/machinery/light,
+/turf/open/floor/plasteel/freezer,
+/area/syndicate/virology)
+"yZ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/plasteel/freezer,
+/area/syndicate/virology)
+"za" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 5
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/solars)
+"zb" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/closed/wall/mineral/plastitanium,
+/area/syndicate/virology)
+"zc" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/turf/open/floor/plasteel/podhatch{
+	dir = 1
+	},
+/area/syndicate/primary_central)
 
 (1,1,1) = {"
 aa
@@ -37389,7 +38948,7 @@ am
 ad
 ac
 ad
-af
+ac
 ac
 ac
 ac
@@ -41759,7 +43318,7 @@ ad
 ac
 ac
 ac
-af
+ac
 ac
 ad
 ac
@@ -43528,16 +45087,16 @@ ac
 am
 aa
 aa
-mH
 aa
 aa
 aa
 aa
-mH
 aa
 aa
 aa
-mG
+aa
+aa
+am
 pC
 eV
 pC
@@ -43783,18 +45342,18 @@ ac
 ac
 ac
 am
-mG
-mG
-nD
-mG
-mG
-mG
-mG
 am
-mG
-oU
-mG
-mG
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
 pC
 eW
 pC
@@ -44035,22 +45594,22 @@ aa
 aa
 aa
 ac
-ad
-ac
-ad
-ac
-bd
-dN
-bd
-bd
-bd
-bd
-bd
-bd
-bd
-bd
-bd
-bd
+uU
+vz
+we
+wJ
+xb
+xm
+xv
+xE
+xL
+xR
+xX
+yd
+yk
+ys
+yA
+yK
 dN
 pC
 eV
@@ -44292,22 +45851,22 @@ aa
 aa
 aa
 ac
-ad
-ac
-ac
-ac
-bd
-aa
-aa
-mH
-aa
-aa
-aa
-aa
-mH
-aa
-aa
-aa
+uV
+vA
+wf
+wK
+xc
+xn
+xw
+xF
+xM
+xS
+xY
+ye
+yl
+yt
+yB
+yL
 bd
 ep
 eX
@@ -44549,23 +46108,23 @@ aa
 aa
 aa
 ad
-ad
-ac
-ac
-ad
+uW
+vB
+wg
+wL
+xd
+xo
+xx
+xG
+xN
+xT
+xZ
+yf
+ym
+yu
+yC
+yM
 bd
-aa
-aa
-mH
-aa
-aa
-aa
-aa
-mH
-aa
-aa
-aa
-dO
 eq
 eY
 ft
@@ -44806,23 +46365,23 @@ aa
 aa
 aa
 ad
-ac
-ac
-ac
-ac
-bd
-aa
-aa
-mH
-aa
-aa
-aa
-aa
-mH
-aa
-aa
-aa
-bd
+uX
+vC
+wh
+wM
+xe
+xp
+xy
+xH
+xO
+xU
+ya
+yg
+yn
+yv
+yD
+yN
+yQ
 er
 eZ
 pX
@@ -44843,7 +46402,7 @@ sv
 sv
 rY
 gZ
-kF
+gZ
 gZ
 gZ
 gZ
@@ -45063,22 +46622,22 @@ aa
 aa
 aa
 ac
-ac
-ac
-ad
-ac
-bd
-mH
-mH
-mH
-mH
-mH
-mH
-mH
-mH
-mH
-mH
-mH
+uY
+vD
+wi
+wN
+xf
+xq
+xz
+xI
+xP
+xV
+yb
+yh
+yo
+yw
+yE
+yO
 bd
 es
 fa
@@ -45320,25 +46879,25 @@ aa
 aa
 aa
 ac
-ac
-ae
-ac
-ac
-ap
-ap
-ap
-bd
-bd
+uZ
+vE
+wj
+wO
+xg
+xr
+xA
+xJ
+xQ
 bF
-bd
-bd
-bd
-bd
-bd
-bd
-bF
-bd
-bd
+yc
+yi
+yp
+yx
+yF
+yP
+yR
+yV
+za
 fv
 fS
 bd
@@ -45576,12 +47135,12 @@ aa
 aa
 aa
 aa
-aa
 ac
-ac
-ad
-ad
-ap
+va
+vF
+wk
+wP
+xh
 aC
 aC
 aC
@@ -45616,7 +47175,7 @@ rY
 ac
 ad
 ac
-ad
+ac
 ac
 ac
 aa
@@ -45833,11 +47392,11 @@ aa
 aa
 aa
 aa
-aa
 ac
-ad
-ad
-ac
+vb
+vG
+wl
+wQ
 ap
 aC
 aQ
@@ -46090,11 +47649,11 @@ aa
 aa
 aa
 aa
-aa
 ac
-ac
-ac
-ac
+vc
+vH
+wm
+wR
 ap
 aC
 aR
@@ -46347,11 +47906,11 @@ aa
 aa
 aa
 aa
-aa
-ad
 ac
-ac
-ac
+vd
+vI
+wn
+wS
 ap
 ap
 ap
@@ -46387,7 +47946,7 @@ iY
 ac
 ad
 ac
-ad
+ac
 ac
 ad
 aa
@@ -46604,12 +48163,12 @@ aa
 aa
 aa
 aa
-aa
 ac
-ac
-ac
-ad
-ag
+ve
+vJ
+wo
+wT
+xi
 aD
 aS
 bf
@@ -46622,7 +48181,7 @@ cI
 dg
 dy
 dS
-uU
+yW
 fc
 fx
 fU
@@ -46644,7 +48203,7 @@ iY
 ac
 ac
 ad
-ad
+ac
 ac
 ad
 aa
@@ -46861,11 +48420,11 @@ aa
 aa
 aa
 aa
-aa
 ac
-ad
-ac
-ac
+vf
+vK
+wp
+wU
 aq
 aE
 aT
@@ -47119,10 +48678,10 @@ aa
 aa
 aa
 ac
-ad
-ad
-ac
-ac
+vg
+vL
+wq
+wV
 ag
 aF
 ni
@@ -47376,10 +48935,10 @@ aa
 aa
 aa
 ac
-ac
-ac
-ad
-ad
+vh
+vM
+wr
+wW
 ag
 ag
 ag
@@ -47415,7 +48974,7 @@ iY
 ad
 ad
 ad
-ac
+ad
 ac
 aa
 aa
@@ -47633,9 +49192,9 @@ aa
 aa
 aa
 ad
-ac
-ac
-ac
+vi
+vN
+ws
 ag
 ag
 aG
@@ -47671,8 +49230,8 @@ kb
 tf
 ac
 ac
-ac
-ac
+ad
+ad
 ac
 aa
 aa
@@ -47889,10 +49448,10 @@ aa
 aa
 aa
 aa
-ac
-ad
-ad
-ac
+af
+vj
+vO
+wt
 ah
 ar
 aH
@@ -47929,7 +49488,7 @@ tg
 ad
 ac
 ac
-ac
+ad
 ac
 aa
 aa
@@ -48147,9 +49706,9 @@ aa
 aa
 aa
 ac
-ac
-ad
-ac
+vk
+vP
+wu
 ah
 as
 aH
@@ -48168,7 +49727,7 @@ cO
 eA
 fx
 fU
-gr
+gq
 gq
 gq
 hC
@@ -48186,7 +49745,7 @@ tg
 ac
 ad
 ac
-ac
+ad
 ac
 aa
 aa
@@ -48404,9 +49963,9 @@ aa
 aa
 aa
 ad
-ad
-ad
-ac
+vl
+vQ
+wv
 ah
 at
 aH
@@ -48443,7 +50002,7 @@ tg
 ad
 ac
 ac
-ad
+ac
 ac
 aa
 aa
@@ -48661,9 +50220,9 @@ aa
 aa
 aa
 ac
-ac
-ad
-ad
+vm
+vR
+ww
 ai
 ah
 aI
@@ -48918,11 +50477,11 @@ aa
 aa
 aa
 ac
-ac
-ac
-ac
-ah
-au
+vn
+vS
+wx
+wX
+aH
 aJ
 aH
 bn
@@ -49175,9 +50734,9 @@ aa
 aa
 aa
 ac
-ad
-ac
-ad
+vo
+vT
+wy
 ah
 av
 aK
@@ -49214,7 +50773,7 @@ tg
 ac
 ac
 ac
-ad
+ac
 ac
 ac
 aa
@@ -49432,9 +50991,9 @@ aa
 aa
 aa
 ac
-ac
-ac
-ac
+vp
+vU
+wz
 mc
 mj
 mj
@@ -49689,9 +51248,9 @@ aa
 aa
 aa
 ad
-ac
-ad
-ac
+vq
+vV
+wA
 md
 aw
 aL
@@ -49946,9 +51505,9 @@ aa
 aa
 aa
 ac
-ac
-ac
-ac
+vr
+vW
+wB
 me
 ax
 aM
@@ -50203,9 +51762,9 @@ aa
 aa
 aa
 ad
-ad
-ac
-ad
+vs
+vX
+wC
 mf
 aj
 aN
@@ -50242,7 +51801,7 @@ lU
 ac
 ac
 ad
-ad
+ac
 ac
 ac
 aa
@@ -50460,9 +52019,9 @@ aa
 aa
 aa
 ad
-ad
-ad
-ac
+vt
+vY
+wD
 me
 ax
 aM
@@ -50499,7 +52058,7 @@ lU
 ad
 ac
 ac
-ad
+ac
 ac
 aa
 aa
@@ -50717,9 +52276,9 @@ aa
 aa
 aa
 ac
-ac
-ac
-ac
+vu
+vZ
+wE
 mf
 az
 aL
@@ -50729,7 +52288,7 @@ bA
 aj
 ox
 cs
-aj
+yq
 cY
 dt
 dG
@@ -50974,9 +52533,9 @@ aa
 aa
 aa
 ac
-ac
-ad
-ac
+vv
+wa
+wF
 mi
 mj
 mj
@@ -50988,12 +52547,12 @@ cb
 aj
 aj
 cZ
-cX
+yG
 dG
-cX
-eJ
+yS
+yX
 fk
-fx
+zc
 qi
 gx
 gT
@@ -51230,25 +52789,25 @@ aa
 aa
 aa
 aa
-aa
 ac
-ac
-ac
-ac
-ad
-ac
-ac
-aj
+vw
+wb
+wG
+wY
+xj
+xs
+xB
+xK
 kU
 ca
 oy
 ct
 aj
-cX
-cX
+yy
+yH
 dG
-cX
-cX
+yT
+yY
 cR
 pZ
 ge
@@ -51269,7 +52828,7 @@ lR
 lU
 ac
 ad
-ac
+ad
 ac
 ac
 aa
@@ -51487,14 +53046,14 @@ aa
 aa
 aa
 aa
-aa
 ac
-ac
-ad
-ac
-ac
-ac
-ad
+vx
+wc
+wH
+wZ
+xk
+xt
+xC
 aj
 aj
 kW
@@ -51505,8 +53064,8 @@ da
 du
 dG
 eg
-eI
-cR
+yZ
+zb
 fD
 gf
 gz
@@ -51745,13 +53304,13 @@ aa
 aa
 aa
 aa
-aa
-ac
-ac
-ac
-ad
-ac
-ad
+vy
+wd
+wI
+xa
+xl
+xu
+xD
 aj
 kV
 kX
@@ -51759,7 +53318,7 @@ aj
 kZ
 aj
 eJ
-cX
+yI
 dH
 uE
 uF
@@ -51782,8 +53341,8 @@ lh
 lh
 mb
 ac
-ad
-ad
+ac
+ac
 ac
 ad
 ac
@@ -52011,14 +53570,14 @@ kS
 to
 cA
 cA
-cA
+xW
 tC
-cA
-cA
-eh
-eh
+yj
+yr
+yz
+yJ
 dI
-cR
+yU
 cR
 cR
 fF
@@ -54831,7 +56390,7 @@ aa
 aa
 ac
 ad
-ad
+ae
 ad
 ac
 cE
@@ -56895,7 +58454,7 @@ ac
 ac
 ac
 ac
-ac
+af
 ad
 ac
 ac
