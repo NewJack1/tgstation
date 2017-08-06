@@ -18,9 +18,16 @@ LINEN BINS
 	w_class = WEIGHT_CLASS_TINY
 	item_color = "white"
 	resistance_flags = FLAMMABLE
+	var/comfort = 0.5
+	var/dreamSound
+	var/dreamMessage
 
 	dog_fashion = /datum/dog_fashion/head/ghost
 	var/list/dream_messages = list("white")
+
+/obj/item/weapon/bedsheet/Initialize()
+	. = ..()
+	dreamMessage = list()
 
 /obj/item/weapon/bedsheet/attack(mob/living/M, mob/user)
 	if(!attempt_initiate_surgery(src, M, user))
@@ -345,3 +352,61 @@ LINEN BINS
 
 
 	add_fingerprint(user)
+
+/obj/item/weapon/bedsheet/patriot/Initialize()
+	.=..()
+	dreamMessage = list("Америка", "Свобода", "Фейерверки", "Лысые орлы")
+
+/obj/item/weapon/bedsheet/mime/Initialize()
+	.=..()
+	dreamMessage = list("Тишина", "Ничтожество", "Пустота", "...")
+
+/obj/item/weapon/bedsheet/clown/Initialize()
+	.=..()
+	dreamMessage = list("Хонк", "Хохот", "Разыграть кого-то", "Скользкий пол", "Банановый пирог", "ХООООООНК", "Весёлый", "Шутки", "Банан")
+	dreamSound = 'sound/items/bikehorn.ogg'
+
+/obj/item/weapon/bedsheet/captain/Initialize()
+	.=..()
+	dreamMessage = list("Авторитет", "Порабощение", "Лидерство", "Презервативы")
+
+/obj/item/weapon/bedsheet/rd/Initialize()
+	.=..()
+	dreamMessage = list("Взрывы", "Эксперименты", "НАУКА!", "Ксенобиология")
+
+/obj/item/weapon/bedsheet/rd/royal_cape/Initialize()
+	.=..()
+	dreamMessage = list("Да, конечно, делай что хочешь")
+
+/obj/item/weapon/bedsheet/cmo/Initialize()
+	.=..()
+	dreamMessage = list("Заболевание", "Медицина", "Инъекции", "Вакцины", "Криопробирки", "Слиперы", "Рантайм")
+
+/obj/item/weapon/bedsheet/hos/Initialize()
+	.=..()
+	dreamMessage = list("Космо-закон", "Хармбатон", "Лишение свободы", "Серые набегатели", "Гулаг", "Наручники", "Тазер")
+
+/obj/item/weapon/bedsheet/hop/Initialize()
+	.=..()
+	dreamMessage = list("Ian", "Назначения", "Полный доступ", "ID карты")
+
+/obj/item/weapon/bedsheet/ce/Initialize()
+	.=..()
+	dreamMessage = list("Poly", "Сингулярность", "Разгерматизация", "Суперматерия", "Электроника", "Тесла", "Изоляционные перчатки")
+
+/obj/item/weapon/bedsheet/qm/Initialize()
+	.=..()
+	dreamMessage = list("Бюрократия", "Ящики", "Доставка", "Шаттл", "Коробки", "Сладкие карготехи")
+
+/obj/item/weapon/bedsheet/syndie/Initialize()
+	.=..()
+	dreamMessage = list("Get dat fukkin disk", "Телекристалы", "Die Gloriously", "Powersink", "Емаг", "E-sword")
+
+/obj/item/weapon/bedsheet/cult/Initialize()
+	.=..()
+	dreamMessage = list("Nar-sie", "Runes", "Arcane Tome", "<span class='narsie'>NAR-SIE HAS RISEN</span>")
+	dreamSound = 'sound/hallucinations/im_here1.ogg'
+
+/obj/item/weapon/bedsheet/wiz/Initialize()
+	.=..()
+	dreamMessage = list("EI NATH!", "Hocus Pocus", "Casting magic missile at the darkness", "Beards", "Staff", "Robe and wizard hat", "Sandals", "UNLIMITED POWER!")
