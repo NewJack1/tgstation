@@ -45710,7 +45710,9 @@
 /turf/open/floor/plating,
 /area/engine/atmos)
 "bUl" = (
-/obj/item/weapon/restraints/handcuffs/fake/kinky,
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 4
+	},
 /turf/open/space,
 /area/space)
 "bUm" = (
@@ -91736,7 +91738,7 @@ bRF
 bSy
 bRF
 bUk
-bVi
+bHr
 bHr
 bHr
 bHr
