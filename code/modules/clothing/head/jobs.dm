@@ -7,6 +7,7 @@
 	desc = "The commander in chef's head wear."
 	strip_delay = 10
 	equip_delay_other = 10
+	dynamic_hair_suffix = ""
 	dog_fashion = /datum/dog_fashion/head/chef
 
 /obj/item/clothing/head/chefhat/suicide_act(mob/user)
@@ -62,6 +63,7 @@
 	item_state = "cage"
 	worn_x_dimension = 64
 	worn_y_dimension = 64
+	dynamic_hair_suffix = ""
 
 
 /obj/item/clothing/head/witchunter_hat
@@ -70,6 +72,11 @@
 	icon_state = "witchhunterhat"
 	item_state = "witchhunterhat"
 	flags_cover = HEADCOVERSEYES
+	heat_protection = HEAD
+	max_heat_protection_temperature = FIRE_HELM_MAX_TEMP_PROTECT
+	cold_protection = HEAD
+	min_cold_protection_temperature = FIRE_HELM_MIN_TEMP_PROTECT
+	armor = list(melee = 25, bullet = 15, laser = 25, energy = 10, bomb = 25, bio = 0, rad = 0, fire = 0, acid = 50)
 
 //Detective
 /obj/item/clothing/head/fedora/det_hat
@@ -99,6 +106,7 @@
 	desc = "A beret, a mime's favorite headwear."
 	icon_state = "beret"
 	dog_fashion = /datum/dog_fashion/head/beret
+	dynamic_hair_suffix = ""
 
 /obj/item/clothing/head/beret/black
 	name = "black beret"
@@ -118,6 +126,7 @@
 	icon_state = "hoscap"
 	armor = list(melee = 40, bullet = 30, laser = 25, energy = 10, bomb = 25, bio = 10, rad = 0, fire = 50, acid = 60)
 	strip_delay = 80
+	dynamic_hair_suffix = ""
 
 /obj/item/clothing/head/HoS/syndicate
 	name = "syndicate cap"
