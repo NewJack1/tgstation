@@ -2,7 +2,7 @@
 	name = "Anomaly: Energetic Flux"
 	typepath = /datum/round_event/anomaly
 
-	min_players = 1
+	min_players = 0
 	max_occurrences = 0 //This one probably shouldn't occur! It'd work, but it wouldn't be very fun.
 	weight = 15
 
