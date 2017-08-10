@@ -4,10 +4,10 @@
 	weight = 35
 
 /datum/round_event/vent_clog
-	announceWhen	= 1
-	startWhen		= 5
-	endWhen			= 35
-	var/interval 	= 2
+	announceWhen	= 0
+	startWhen		= 0
+	endWhen			= 0
+	var/interval 	= 0
 	var/list/vents  = list()
 	var/list/gunk = list("water","carbon","flour","radium","toxin","cleaner","nutriment","condensedcapsaicin","mushroomhallucinogen","lube",
 								 "plantbgone","banana","charcoal","space_drugs","morphine","holywater","ethanol","hot_coco","sacid")
